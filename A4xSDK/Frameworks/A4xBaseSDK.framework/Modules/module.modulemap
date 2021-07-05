@@ -1,0 +1,11 @@
+framework module A4xBaseSDK {
+  umbrella header "A4xBaseSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module A4xBaseSDK.Swift {
+    header "A4xBaseSDK-Swift.h"
+    requires objc
+}

@@ -1,0 +1,11 @@
+framework module A4xWebRTCSDK {
+  umbrella header "A4xWebRTCSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module A4xWebRTCSDK.Swift {
+    header "A4xWebRTCSDK-Swift.h"
+    requires objc
+}

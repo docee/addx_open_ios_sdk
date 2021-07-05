@@ -1,0 +1,2652 @@
+/* 
+Localizable.strings
+
+Created by kzhi on 2020/4/11.
+Copyright © 2020 CocoaPods. All rights reserved.
+*/
+"about" = "关于%@";
+
+"about_evaeye" = "关于%@";
+
+"about_vicoo" = "关于%@";
+
+"accept" = "接受";
+
+"account_had_been_bind" = "账户已被绑定";
+
+"account_no_registered" = "账户没有注册";
+
+"account_settings" = "账号设置";
+
+"action_tracing_open" = "检测到有任何移动时，摄像机将跟随拍摄";
+
+"action_tracking" = "移动追踪";
+
+"activity_zone_tips" = "添加提醒区域后，摄像机仍会录制所有视频，但只会为您推送提醒区域内的异常活动。";
+
+"activity_zones" = "提醒区域";
+
+"add_activity_zone" = "添加提醒区域";
+
+"add_camera_again" = "添加摄像机";
+
+"add_camera_now" = "立即添加";
+
+"add_device_long_press" = "长按电源键以开机";
+
+"add_device_plugin" = "插电开机";
+
+"add_device_power_des_key_point" = "长按";
+
+"add_device_power_double_des" = "当您听到“扫描二维码”后，即可进行下一步。";
+
+"add_device_power_title" = "请打开您的摄像机";
+
+"add_device_push_button" = "按键开机";
+
+"add_new_camera" = "添加新摄像机";
+
+"add_new_camera_now" = "立即添加新摄像机！";
+
+"add_new_device" = "添加新摄像机";
+
+"add_new_device_b" = "智能云台";
+
+"add_new_device_g" = "智能电池";
+
+"add_other_error" = "其他问题/听不到任何提示音";
+
+"add_preset_scuess" = "预设位置添加成功";
+
+"add_sleep" = "添加";
+
+"add_sleep_plan" = "添加休眠计划";
+
+"add_timeout" = "添加摄像机超时";
+
+"address" = "地址";
+
+"address1_placeholder" = "街道地址";
+
+"address2_placeholder" = "详细地址，如公寓、门牌号等";
+
+"admin" = "管理员";
+
+"admin_info" = "管理员信息";
+
+"admin_sharing_in_same_country" = "摄像机管理员和分享用户的账号需在同一国家，不可跨国家分享。";
+
+"admin_wakeup_camera" = "如有需要，请联系管理员唤醒摄像机";
+
+"advanced_info" = "高级设置";
+
+"agree" = "同意";
+
+"agree_and_continue" = "同意并继续";
+
+"ai_car" = "车辆";
+
+"ai_filter" = "分类识别";
+
+"ai_filter_des" = "分类识别开启后，视频将分析出画面内容，目前主要的识别类目包括人、宠物、车辆和包裹。";
+
+"ai_filter_des2" = "分类识别开启后，视频将分析出画面内容，目前主要的识别类目包括人、宠物。";
+
+"ai_pet" = "宠物";
+
+"alarm_no" = "警铃音量不能设置为10以下";
+
+"alarm_on" = "开启";
+
+"alarm_playing" = "摄像机正在报警";
+
+"alarm_volume" = "警铃声音量";
+
+"alerdy_move_location" = "摄像机位置已移至%@";
+
+"alert" = "报警";
+
+"alert_buttom" = "报警铃声";
+
+"alignqr" = "将二维码放入框内，即可自动扫描";
+
+"all_alerts" = "全部运动";
+
+"all_device" = "全部摄像机";
+
+"all_screen" = "全部画面";
+
+"allow" = "允许";
+
+"allow_bluetooth_permission" = "允许“蓝牙”权限";
+
+"allow_bluetooth_permission_button" = "允许蓝牙权限";
+
+"allow_camera_permission" = "允许手机摄像头权限，扫描机身二维码";
+
+"allow_libary" = "请在手机设置中打开访问照片权限";
+
+"allow_location_permission" = "允许位置权限";
+
+"allow_location_permission_for_camera" = "允许位置权限，自动获取当前Wi-Fi名称并配置给摄像机（推荐）或手动输入Wi-Fi名称（区分大小写）";
+
+"allow_location_permission_get_wifi" = "允许位置权限，自动获取手机当前Wi-Fi名称";
+
+"allow_location_permission_title" = "允许“位置”权限";
+
+"allowa_camera_permission" = "开启摄像头权限";
+
+"already_ignore" = "已经忽略";
+
+"already_long_press" = "已长按Reset键";
+
+"already_register" = "邮箱已被注册，请直接登录";
+
+"alter_location" = "修改位置";
+
+"and" = "和";
+
+"anti_flicker" = "抗频闪";
+
+"anti_flicker_setting" = "抗频闪";
+
+"anti_flicker_tips" = "抗频闪开启后，摄像机将中和掉交流电的频闪，解决画面的闪烁情况。";
+
+"apayment_success" = "%@支付成功";
+
+"apaymntt_fail" = "%@支付失败";
+
+"app_build_info" = "Build Info";
+
+"app_is_update_to_date" = "APP已更新为最新版本";
+
+"app_name" = "@string/appName";
+
+"app_transfer_content" = "<![CDATA[ <font>\u3000\u3000为配合相关政策规定 ，以便给中国地区用户提供更好的服务，VicoHome App将在<font color=\"#5AC4A7\">%@</font>变更为<strong>全橙看家</strong>App。</font><br /> <font>\u3000\u3000请您及时下载安装<strong>全橙看家</strong>，您可通过原VicoHome账号直接登录<strong>全橙看家</strong>，您的所有摄像机信息和智能服务状态都会被保留并可继续使用。</font><br /> <font>\u3000\u3000到期日之后，VicoHome APP将无法正常使用。<u><font color=\"#007AFF\"> 了解详情 >></font></u></font><br />]]>";
+
+"app_transfer_content_logout" = "<![CDATA[ <font>\u3000\u3000为配合相关政策规定 ，以便给中国地区用户提供更好的服务，VicoHome App已于<font color=\"#5AC4A7\">%@</font>变更为<strong>全橙看家</strong>App。</font><br /> <font>\u3000\u3000现在VicoHome APP已无法正常使用，请您及时下载安装<strong>全橙看家</strong>。您可通过原VicoHome账号直接登录<strong>全橙看家</strong>，您的所有摄像机信息和智能服务状态都会被保留并可继续使用。<u><font color=\"#007AFF\"> 了解详情 >></font></u></font><br />]]>";
+
+"app_update" = "App 更新";
+
+"app_version" = "版本信息";
+
+"apple_cancle" = "支付已取消";
+
+"apple_reject" = "当前手机不支持购买";
+
+"audio_setting" = "声音设置";
+
+"auto" = "自动";
+
+"auto_sleep" = "定时休眠";
+
+"auto_sleep_prompt" = "定时休眠开启后，摄像机将在规定时间内自动进入休眠模式。";
+
+"available_2_4g_are_follows" = "附近可用的2.4GHz Wi-Fi网络如下";
+
+"available_fireware" = "可用固件";
+
+"awareness_service" = "智能服务";
+
+"awarenessbasic" = "%@智能基础版";
+
+"awarenessplus" = "%@智能高级版";
+
+"awarenesspro" = "%@智能专业版";
+
+"back_door" = "后院";
+
+"batter_low_upgrade" = "电量低，无法完成升级。请充电至20%以上电量后再重新升级。";
+
+"battery_camera" = "电池摄像机";
+
+"battery_camera_tips" = "请长按开机键，直到听到摄像机发出提示音";
+
+"battery_issue" = "电池问题/硬件问题";
+
+"battery_level" = "电池电量";
+
+"bed_room" = "卧室";
+
+"before_offline" = "(离线前)";
+
+"bind_111" = "开机后，当听到扫描提示音或亮起闪烁灯光时，将二维码至于摄像机前方15-30cm左右进行扫描。如果未进入扫描状态，则双击电源键之后扫描二维码，听到扫描成功提示音即完成扫描。";
+
+"bind_device_b0_step0_desc" = "摄像机完成转动之后，即可进行下一步";
+
+"bind_device_delete" = "删除此网络";
+
+"bind_device_g_step0_desc" = "当您听到开机声音之后，即可进行下一步。";
+
+"bind_device_guide" = "按机身引导开启摄像机";
+
+"bind_device_guide_confirm" = "确认摄像机发出提示音或看到指示灯闪烁";
+
+"bind_device_k0_step0_desc" = "当您听到开机声音之后，即可进行下一步。";
+
+"bind_device_save_wifi" = "连接成功后记住Wi-Fi名称和密码";
+
+"bind_device_saved" = "已保存Wi-Fi";
+
+"bind_device_scan" = "将二维码置于摄像机前方15-25cm左右进行扫描，听到扫描成功提示音后完成扫描";
+
+"bind_device_scan_failed" = "连接不成功，请点击这里";
+
+"bind_device_scan_failed_2" = "联系客服";
+
+"bind_device_skip" = "连接成功后，将自动跳转到下一步";
+
+"bind_result_scuess" = "%@ (%@) 邀请您查看摄像机";
+
+"bind_result_scuess_check" = "请在主页的“共享摄像机”目录下查看它。";
+
+"bind_step_wifi_finish" = "已填写Wi-Fi信息";
+
+"bluetooth_permission" = "允许蓝牙权限，快速绑定摄像机";
+
+"bluetooth_system_center" = "在系统控制中心中开启“蓝牙”";
+
+"bluetooth_tips1" = "1 在设置中找到%@";
+
+"bluetooth_tips2" = "2 允许%@访问蓝牙";
+
+"build_env" = "BuildENV";
+
+"buy" = "购买";
+
+"buy_desc" = "*智能服务的功能只在摄像机管理员权限中生效，被分享的用户将跟随该摄像机的管理员权限对其进行使用。";
+
+"camera" = "摄像机";
+
+"camera_alarm" = "警铃";
+
+"camera_alarm_tips" = "当您开启“警铃”功能时，摄像机将在检测到运动后自动响起警报。";
+
+"camera_alarm_white_tips" = "当您开启“摄像机警铃”或“闪光灯”功能时，摄像机将在检测到运动后自动开始报警。";
+
+"camera_deleted" = "此摄像机已被删除";
+
+"camera_is_offline" = "摄像机处于离线状态";
+
+"camera_line_busy" = "摄像机正在语音，请稍后重试";
+
+"camera_location" = "您想在什么地方使用此摄像机?";
+
+"camera_not_activated" = "摄像机未认证，请联系零售商";
+
+"camera_not_activated_short" = "摄像机未认证";
+
+"camera_off" = "摄像机已关机，请开机";
+
+"camera_off_low_battery" = "摄像机于%@因低电量关机，请及时充电";
+
+"camera_offline_desc" = "请尝试重启您的路由器。如若无法解决，请尝试重新为摄像机配置网络。";
+
+"camera_permission" = "开启摄像机权限";
+
+"camera_permission_tips" = "在系统“设置”中开启权限，允许手机扫描二维码";
+
+"camera_poor_network" = "摄像机离线，请检查摄像机的开机状态和网络连接状态";
+
+"camera_poor_network_short" = "摄像机离线";
+
+"camera_serial_number" = "摄像机序列号";
+
+"camera_sleep" = "摄像机正在休眠";
+
+"camera_sleep_open" = "摄像机将在明天%@开启";
+
+"camera_wake_up" = "唤醒";
+
+"camera_white_tips" = "报警闪光灯开启后，摄像机将在运动检测触发时自动亮起闪光。";
+
+"camera_will_not_record" = "摄像机将不会录像、报警与发送通知。";
+
+"can_move_this_location" = "可移动至以下位置";
+
+"can_not_find_camera_qr_code" = "找不到机身二维码？";
+
+"can_not_find_qr_code" = "找不到管理员二维码？";
+
+"can_not_find_reset" = "找不到Reset键？";
+
+"can_not_get_ssid" = "无法获取Wi-Fi名称，请为手机更换Wi-Fi或者手动输入Wi-Fi";
+
+"can_not_get_ssid_short" = "无法获取Wi-Fi名称";
+
+"can_not_power_up" = "无法开机？";
+
+"cancel" = "取消";
+
+"cancel_setup" = "取消";
+
+"cannot_receive_code" = "收不到验证码？";
+
+"cannot_receive_code_reason_bold1" = "请前往接收邮箱的垃圾箱中查看。";
+
+"cannot_receive_code_reason_bold2" = "Gmail、Yahoo等国际通用邮箱";
+
+"cannot_receive_code_reason1" = "点击确认发送验证码之后，您的邮箱将在60秒之内收到验证码邮件。";
+
+"cannot_receive_code_reason2" = "如网络状况不稳定，请耐心等待至多5分钟。";
+
+"cannot_receive_code_reason3" = "如5分钟之后仍未收到验证码，<![CDATA[<b>请前往接收邮箱的垃圾箱中查看。</b>]]>";
+
+"cannot_receive_code_reason4" = "如在垃圾箱中也未查找到验证码邮件，可能是因为我们无法向您的当前邮箱发送验证码，请更换至可正常使用的<![CDATA[<b>Gmail、Yahoo等国际通用邮箱</b>]]>以正常接收验证邮件。";
+
+"cannot_receive_code_reason5" = "如5分钟之后仍未收到验证码，请前往接收邮箱的垃圾箱中查看。";
+
+"cannot_receive_code_reason6" = "如在垃圾箱中也未查找到验证码邮件，可能是因为我们无法向您的当前邮箱发送验证码，请更换至可正常使用的Gmail、Yahoo等国际通用邮箱以正常接收验证邮件。";
+
+"cannot_switch" = "录像中无法切换分辨率";
+
+"cannot_take_screenshot" = "录像中无法拍照";
+
+"change" = "去修改";
+
+"change_binding_email" = "账号已被注册，请更换邮箱";
+
+"change_binding_phone" = "账号已被注册，请更换号码";
+
+"change_email" = "更改邮箱";
+
+"change_net_device_power_des" = "请双击按钮，当LED指示灯闪烁为蓝色时，摄像机即进入联网模式";
+
+"change_net_device_power_des_key_point" = "双击";
+
+"change_not_save" = "是否要保存已修改信息？";
+
+"change_notification" = "您的%@将于%@变更为%@";
+
+"change_password" = "修改密码";
+
+"change_password_failed" = "更改密码失败，请重试";
+
+"change_password_success" = "更改密码成功";
+
+"change_password_tips" = "为保证账户安全，密码需由至少8个字符组成，并至少包含一个大写字母和小写字母。";
+
+"change_phone" = "更改手机号";
+
+"change_statement_1" = "我们发布了Vicoo的升级版%@，并将停止为原Vicoo App提供更新。为保证摄像机的正常使用，请尽快安装%@ App，相信它会带给您更好的使用体验。";
+
+"change_statement_2" = "您只需要点击下方的“去下载”按钮跳转到谷歌商店或者直接在谷歌商店搜索并安装“%@”，再登录您的Vicoo账号即可（请放心，您在Vicoo的所有信息，包括您添加的摄像机、您的设置、您的录像等会被完整地迁移到%@）。";
+
+"change_statement_2_email" = "您只需要点击下方的“去下载”按钮跳转到应用宝或者直接在应用宝搜索并安装“%@”，再重新注册账号即可使用，如有任何问题请联系support@vicoo.tech。";
+
+"change_statement_5" = "我们非常期待在%@与您共同开展一段新的旅途，欢迎您的任何反馈！";
+
+"change_wifi" = "更换Wi-Fi";
+
+"change_wifi_network" = "修改Wi-Fi设置";
+
+"changed_not_saved" = "是否要保存已修改信息？";
+
+"charging" = "正在充电";
+
+"charging_completed" = "充电完成";
+
+"check_email_sample" = "xx@xx.xx";
+
+"check_for_update_version" = "检查固件更新";
+
+"check_inbox_des" = "我们刚刚向您的邮箱 %@ 发送了验证码。";
+
+"check_net_config" = "请检查您的网络连接并重试";
+
+"check_requirements" = "您输入的密码格式不正确";
+
+"check_update_version" = "检查更新";
+
+"check_wifi_0" = "请将摄像机放置在需要安装摄像机的位置，检查Wi-Fi信号的强度";
+
+"check_wifi_1" = "正在检测Wi-Fi信号强度…";
+
+"check_wifi_2" = "确认您的Wi-Fi信号强度：";
+
+"check_wifi_3" = "建议在当前位置安装摄像机";
+
+"check_wifi_4" = "不建议在当前位置安装摄像机";
+
+"check_wifi_no" = "当前位置没有Wi-Fi信号，请将摄像机移动至无线路由器旁边。";
+
+"check_your_inbox" = "验证码";
+
+"choose" = "选择";
+
+"choose_camera_type" = "使用手机扫描机身二维码获得摄像机型号，机身二维码常见于外壳内或胶塞下。此二维码包含序列号和产品型号信息，一般旁边有以“S/N”开头的字符串。";
+
+"choose_error_msg" = "请选择您听到的错误提示语音";
+
+"choose_firmware_update" = "选择固件升级";
+
+"choose_location" = "为了更好的体验，请为您的摄像机选择一个位置";
+
+"choose_other_wifi" = "选择其他Wi-Fi";
+
+"choose_question_type" = "请在以下问题类型中做出选择";
+
+"city" = "城市";
+
+"clear_cache" = "清除缓存";
+
+"clear_cache_des" = "缓存是使用过程中产生的临时数据，清除缓存不会影响应用的正常使用。";
+
+"clear_cache_not_affect_download_media" = "清除缓存不会影响应用的正常使用";
+
+"close" = "关闭";
+
+"close_led" = "关";
+
+"close_motion_detection_tip" = "产品功能优化之后去除掉了录制视频开关项，为不影响您的使用习惯，暂时关闭了运动检测开关，如有需要请重新开启。";
+
+"cloud_area" = "提醒区域";
+
+"cloud_service_buy" = "立即开通";
+
+"cloud_size_change" = "云存储空间降低为%@（总容量不大于%@GB）";
+
+"cloud_storage_params" = "<![CDATA[<font color=#333333\">%1$d日</font><br><font color=\"#999999\">(≤%2$dGB)</font>]]>\"";
+
+"cloud_strorage" = "云存储";
+
+"common_format" = "格式化SD卡";
+
+"common_service" = "普通服务";
+
+"config_night_mode" = "夜视模式";
+
+"confirm" = "确认";
+
+"confirm_camera_on" = "确认已开机";
+
+"confirm_model_number" = "用手机扫描机身二维码，确认摄像机型号";
+
+"confirm_new_password" = "确认新密码";
+
+"confirm_open" = "继续开启";
+
+"confirm_password" = "确认密码";
+
+"confirm_scan_state" = "确认摄像机进入扫描状态";
+
+"confirm_scan_state_directions" = "摄像机一般会自动进入扫描状态，此时会响起扫描提示音或亮起闪烁灯光。如一直未进入扫描状态，则需双击电源键使摄像机进入到扫描状态。";
+
+"confirm_scanning_sound" = "确认摄像机是否正在发出连续的待绑定提示音";
+
+"confirm_speaker_1" = "确认要关闭扬声器吗?";
+
+"confirm_speaker_2" = "摄像机将不会再发出任何声音提醒";
+
+"confirm_speaker_open" = "当您开启“扬声器”功能时，摄像机将会及时给与声音反馈，以便您更清楚的了解此时摄像机的状态。";
+
+"congratulation_add_camera" = "恭喜您完成注册\n请添加摄像机";
+
+"connect_error_ap_1" = "请检查您是否选择或输入了正确的Wi-Fi名称。";
+
+"connect_error_ap_2" = "请将摄像机放置于Wi-Fi路由器附近并确保路由器已接通电源。";
+
+"connect_error_ap_3" = "目前摄像机暂不支持5G网络及企业级Wi-Fi。";
+
+"connect_error_failed_1" = "请检查您的路由器是否连接上可用的网络。";
+
+"connect_error_failed_2" = "请尝试重启路由器后进行重新连接。";
+
+"connect_error_failed_3" = "请尝试更换其他Wi-Fi。";
+
+"connect_error_ip" = "听到“获取IP超时”提示音";
+
+"connect_error_ip_1" = "您的路由器连接的摄像机数量过多导致无法继续添加，请删除部分非常用的摄像机以清除租期已满的未连接摄像机，您可能需要与路由器管理员进行联系。";
+
+"connect_error_ip_2" = "请尝试重启路由器后进行重新连接。";
+
+"connect_error_ip_3" = "请尝试更换其他Wi-Fi。";
+
+"connect_error_method" = "请确保您的Wi-Fi网络不是企业级网络连接方式，摄像机仅支持WPA-2以下安全级别的网络。";
+
+"connect_error_no_voice" = "听到“云服务连接失败”提示音";
+
+"connect_error_other" = "听到“认证方式错误”提示音";
+
+"connect_error_password_1" = "请确保您输入的Wi-Fi密码正确，并注意区分大小写。";
+
+"connect_error_password_2" = "目前摄像机暂不支持5G网络及企业级Wi-Fi。";
+
+"connect_error_wifi" = "听到“密码错误”提示音";
+
+"connect_error_wifi_net" = "听到“AP不存在”提示音";
+
+"connect_find_device" = "搜索到摄像机";
+
+"connect_heard_failed" = "已听到失败提示";
+
+"connect_initialize" = "初始化摄像机";
+
+"connect_no_wifi" = "找不到Wi-Fi信息？";
+
+"connect_register" = "注册到云服务";
+
+"connect_server" = "正在连接服务器…";
+
+"connect_sever_timeout" = "连接服务器超时";
+
+"connect_success" = "连接成功";
+
+"connect_to_wifi" = "连接摄像机到Wi-Fi";
+
+"connect_wifi" = "连接Wi-Fi";
+
+"connect_wifi_no_voice_error" = "没有听到任何提示音";
+
+"connect_wifi_tips" = "请选择2.4GHz Wi-Fi并输入密码，目前暂不支持5GHz Wi-Fi和企业级认证Wi-Fi。了解更多 >>";
+
+"connect_wifi_unkonw_error" = "听到“其他错误”提示音";
+
+"connecting" = "连接中…";
+
+"connection_failed" = "连接失败";
+
+"contact_admin_set_az" = "联系管理员设置提醒区域";
+
+"copyright" = "Copyright © 2021 Photon Sail Tech All rights reserved";
+
+"country" = "国家";
+
+"country_region" = "国家/地区";
+
+"coupon" = "优惠券";
+
+"coupon_expire" = "优惠券已过期";
+
+"coupon_used" = "优惠券已被使用";
+
+"create_location" = "创建新位置";
+
+"create_new_password" = "设置新密码";
+
+"create_your_account" = "设置密码";
+
+"crying_detection" = "哭声检测";
+
+"crying_detection_high" = "若摄像机距离婴儿的位置比较远，例如3m以上 ,建议使用高灵敏度";
+
+"crying_detection_low" = "若摄像机距离婴儿的位置比较近，例如1m左右，建议使用低灵敏度";
+
+"crying_detection_mid" = "若摄像机距离婴儿的位置稍远，例如2-3m 左右,建议使用中灵敏度。";
+
+"crying_detection_on" = "开启“哭声检测”功能时，在房间内检测到有婴儿啼哭声时将会及时推送消息给您。";
+
+"crying_tag" = "哭声";
+
+"current_location" = "当前位置:%@";
+
+"data_acquisition_failed" = "数据获取失败，请重启APP";
+
+"day" = "%d日";
+
+"default_common" = "默认";
+
+"delete" = "删除";
+
+"delete_account" = "注销账号";
+
+"delete_account_failed" = "账号注销失败，请重试";
+
+"delete_location_desc" = "确认要删除此位置吗？";
+
+"delete_notice_content_0" = "因账号注销后将无法恢复，当您提交注销申请之前，为保证您的账号安全，请先确认以下信息:";
+
+"delete_notice_content_1" = "近期没有发生盗号，异地登录等非正常行为。且注销账号是本人因个人需要操作。";
+
+"delete_notice_content_2" = "如果您是相关摄像机的管理员，注销后您将失去此摄像机的观看和设置权利；如果您是相关摄像机的分享者，注销后您将失去此摄像机的观看权利。";
+
+"delete_notice_content_3" = "与本账号相关的个人信息，和所有相册信息将永久删除，无法恢复。";
+
+"delete_notice_content_4_ios" = "因%@智能服务属于第三方扣费，所以您的账号注销和自动扣费不相关。为免除多余扣费，请取消自动扣费。";
+
+"delete_notice_content_4_ios_link" = "取消自动扣费";
+
+"delete_notice_title_0" = "账号注销须知";
+
+"delete_notice_title_1" = "1.账号处于安全状态";
+
+"delete_notice_title_2" = "2.不再关注与此账号关联的摄像机";
+
+"delete_notice_title_3" = "3.所有个人信息数据将删除";
+
+"delete_notice_title_4" = "4.取消%@智能服务自动扣费功能";
+
+"delete_one_dialog_message" = "此内容将被彻底删除，您将无法撤回该操作。";
+
+"delete_sleep_time" = "确认要删除该休眠计划的时间吗？";
+
+"delete_success" = "删除成功";
+
+"delete_this_location" = "删除当前位置";
+
+"delete_wifi" = "确认要删除此网络吗？";
+
+"deselect_all" = "取消全选";
+
+"detail_location" = "详细位置";
+
+"detection_area" = "区域检测";
+
+"detection_parcel" = "包裹检测";
+
+"detection_parcel_desc" = "开启后，摄像机会在检测到包裹时，向您发送通知告知包裹情况。在这种模式下，会过滤到一些无用信息。";
+
+"detection_pedestrian" = "人形检测";
+
+"detection_person" = "人形检测";
+
+"detection_sensitivity" = "检测灵敏度";
+
+"device" = "摄像机";
+
+"device_already_bind_by_other" = "该摄像机已被其他账号绑定，请联系管理员";
+
+"device_auth_limitation" = "无权限操作此摄像机";
+
+"device_b0_default_name" = "%@智能云台摄像机";
+
+"device_b1_default_name" = "%@智能云台摄像机";
+
+"device_b2_default_name" = "%@智能云台摄像机";
+
+"device_bind_heared_common_voice" = "当您听到扫描二维码声音之后，即可进行下一步。";
+
+"device_default_name" = "%@智能摄像机";
+
+"device_g0_default_name" = "%@智能电池摄像机";
+
+"device_g1_default_name" = "%@智能电池摄像机";
+
+"device_g2_default_name" = "%@智能电池摄像机";
+
+"device_has_move_to" = "摄像机位置已移至%@";
+
+"device_info" = "摄像机信息";
+
+"device_installing" = "正在安装固件...";
+
+"device_ip" = "摄像机IP";
+
+"device_is_updating" = "正在升级固件…";
+
+"device_k0_default_name" = "%@智能卡片摄像机";
+
+"device_language" = "摄像机语音";
+
+"device_language_cn" = "汉语（汉语）";
+
+"device_language_en" = "English（英语）";
+
+"device_language_es" = "Español（西班牙语）";
+
+"device_language_fr" = "Français（法语）";
+
+"device_language_ge" = "Deutsche（德语）";
+
+"device_language_it" = "Italiano（意大利语）";
+
+"device_language_ja" = "日本語（日语）";
+
+"device_language_ru" = "Pусский（俄语）";
+
+"device_language_fi" = "Suomi（芬兰语）";
+
+"device_manager" = "摄像机管理";
+
+"device_name" = "摄像机名称";
+
+"device_name_invalid_tips" = "请输入有效的摄像机名称";
+
+"device_no_access" = "访问摄像机失败，请重试";
+
+"device_no_replied" = "网络环境差";
+
+"device_not_bound" = "设备未绑定";
+
+"device_offline" = "摄像机已离线";
+
+"device_other_device" = "不清楚我的摄像机属于哪类？";
+
+"device_restarted_update" = "更新过程中，摄像机可能会经过多次重启，请勿切断电源或关机";
+
+"device_s0_default_name" = "%@智能枪型摄像机";
+
+"device_settings" = "摄像机设置";
+
+"device_state" = "摄像机状态：%@";
+
+"device_state_ios" = "摄像机状态:";
+
+"device_unactivated" = "摄像机未激活，请联系销售商家";
+
+"device_update_scuess" = "固件已更新为最新版本";
+
+"dialog_message_cancel_share" = "<b>%@</b> 将不会再收到来自<b>%@</b> 的消息。";
+
+"dialog_message_del_multi_with_guest" = "您将无法撤回操作，其中 %d 个文件来自朋友的摄像机，无权限将其删除";
+
+"dialog_message_del_multi_without_guest" = "这些内容将被彻底删除，您将无法撤回操作。";
+
+"dialog_payment_cloud_content" = "延长至30日，高达5G的录像信息，打造最保险的资料库，使您不错过任何关键时刻。";
+
+"dialog_payment_ling_content" = "识别画面中的人、宠物和车辆，并分析其动作行为，做出更智能的推送信息。";
+
+"dialog_payment_ling_title" = "智能通知";
+
+"dialog_payment_title" = "%@智能高级版";
+
+"dialog_payment_zone_content" = "定义提醒区域，只推送精准位置的触发消息，过滤掉其余信息。";
+
+"dialog_title_del_multi" = "确认要删除 %d 个文件吗？";
+
+"dialog_title_del_one" = "确认要删除此内容吗？";
+
+"did_not_hear_scanning_sound" = "没有听到连续的待绑定提示音？";
+
+"ding_dong" = "“叮咚叮咚”";
+
+"disable" = "禁用";
+
+"disagree" = "不同意";
+
+"distance" = "15-25cm";
+
+"district_country" = "区/县";
+
+"do_alarm_tips" = "开启报警后，摄像机将发出报警声";
+
+"do_not_disturb" = "开启消息勿扰";
+
+"do_not_disturb_15min" = "15分钟内消息勿扰";
+
+"do_not_disturb_15min_describ" = "在15分钟内，您将不会收到任何运动检测消息，但所有的事件仍会被记录";
+
+"do_not_disturb_describ" = "在此期间，您将不会收到任何运动检测消息，但所有的事件仍会被记录";
+
+"do_not_update" = "暂不更新";
+
+"done" = "完成";
+
+"dont_say_green_light" = "没有看到蓝灯闪烁";
+
+"double_click_exit" = "再按一次退出%@";
+
+"double_click_power" = "双击电源键";
+
+"double_click_power_button" = "请双击电源键使摄像机进入扫描状态";
+
+"double_click_power_directions" = "摄像机开机后，双击电源键会响起提示音或亮起闪烁灯光，此时摄像机进入扫描状态。";
+
+"double_click_power_key" = "双击电源键进入扫描";
+
+"double_click_power_key_2" = "双击电源键，将二维码置于摄像机前方15-30cm左右";
+
+"double_click_power_key_reset" = "长按Reset键进入扫描";
+
+"double_click_power_key_reset_next" = "长按Reset键之后，即可进行下一步";
+
+"download" = "下载";
+
+"download_done" = "下载完成";
+
+"download_error" = "下载错误";
+
+"download_faild_and_try" = "下载文件失败，请重试";
+
+"download_file_fail_and_try" = "下载文件失败，请重试";
+
+"download_position" = "%d/%d 下载中...";
+
+"downloading_progress" = "%d%%";
+
+"downloading_progress2" = "正在下载...%d%%";
+
+"drop_out" = "退出";
+
+"duration_alarm" = "报警时长";
+
+"edit" = "编辑";
+
+"edit2" = "修改";
+
+"email" = "邮箱";
+
+"email_address" = "邮箱";
+
+"email_bind_success" = "邮箱绑定成功";
+
+"email_change_success" = "邮箱更换成功";
+
+"email_exists" = "账号已被注册，请直接登录";
+
+"email_invalid_tips" = "请输入正确格式的邮箱";
+
+"email_or_phone_number" = "手机号/邮箱";
+
+"email_phone_address" = "手机号/邮箱";
+
+"email_phone_number_invalid_tips" = "请输入正确格式的手机号/邮箱";
+
+"email_unregister_tips" = "该账号未在选定地区注册";
+
+"enabled" = "启用";
+
+"End" = "结束";
+
+"end_do_not_disturb" = "结束消息勿扰？";
+
+"enter_coupon" = "请输入优惠券编码";
+
+"enter_device_name" = "请输入摄像机名称";
+
+"enter_email_name" = "邮箱";
+
+"enter_password" = "密码";
+
+"enter_pwd_tips_for_del_account" = "注销账号之前，为保证您的账号安全，请输入密码进行身份校验。";
+
+"error_2002" = "无访问权限，请确认此摄像机是否在您的列表中";
+
+"error_2002_short" = "无访问权限";
+
+"error_2111" = "该摄像机已被其他账号绑定，请联系管理员";
+
+"error_3011" = "请求无效";
+
+"error_3012" = "请求已经过期";
+
+"error_3013" = "忽略该错误";
+
+"error_email_format" = "您输入的邮箱格式不正确";
+
+"error_message" = "出错了";
+
+"error_no_net" = "没有可用的网络连接";
+
+"error_no_register" = "该账号未注册，请重试";
+
+"error_password_input_format" = "您输入的密码格式不正确";
+
+"error_phone_email_format" = "您输入的手机号/邮箱格式不正确";
+
+"error_two_passwork_match" = "您输入的两次密码不相同";
+
+"error_unknown" = "未知的请求错误";
+
+"error_vaild_code" = "您输入的验证码有误";
+
+"expired_code" = "过期的二维码";
+
+"expired_notification" = "您的%@将于%@到期";
+
+"explore" = "探索";
+
+"faied_get_sdvideo" = "获取SD卡视频失败";
+
+"failed_get_infomation" = "获取信息失败 (%d)";
+
+"failed_information" = "获取信息失败";
+
+"failed_restore" = "恢复失败";
+
+"failed_to_add_location" = "预设位置设置失败，请重试";
+
+"failed_to_delete_and_try" = "删除失败，请重试";
+
+"failed_to_get_information_and_try" = "手机网络不可用，请检查手机网络连接";
+
+"feedback" = "意见反馈";
+
+"feedback_failed" = "抱歉，意见反馈失败，请重试";
+
+"feedback_submit_success" = "意见反馈成功，感谢您的参与！";
+
+"filter" = "筛选";
+
+"find_password_by_email" = "使用邮箱找回";
+
+"find_password_by_phone" = "使用手机号找回";
+
+"find_qrcode_way" = "机身二维码查找方法:";
+
+"fireware_is_downloading" = "固件正在下载…";
+
+"fireware_is_installing" = "固件正在安装…";
+
+"fireware_is_updating" = "固件正在更新，请稍后";
+
+"fireware_need_force_update_tips" = "为确保功能的正常使用，请升级至最新固件";
+
+"fireware_need_update_tips" = "发现新固件版本 %@，请立即更新获得最佳体验吧！";
+
+"fireware_update" = "固件更新";
+
+"fireware_update_failed" = "升级失败，请重试";
+
+"firmware_info" = "固件信息";
+
+"firmware_update_fail" = "固件升级失败，请重试";
+
+"firmware_update_timeout" = "固件升级超时，请重试";
+
+"firmware_upgraded_successfully" = "固件升级成功";
+
+"flash_light_item" = "报警闪光灯";
+
+"flicker_rate" = "频闪率";
+
+"follow_instruction_retry" = "请重新尝试";
+
+"follow_step_retry" = "请按照如下步骤重试";
+
+"for_battery_cameras" = "对于电池摄像机";
+
+"for_plugin_cameras" = "对于插电摄像机";
+
+"forbidden" = "不允许用户继续";
+
+"forck_update" = "发现新固件版本 %@，请立即更新获得最佳体验吧！";
+
+"forck_update_share" = "发现新固件版本 %@，请联系摄像机管理员进行升级";
+
+"forgot_password_" = "忘记密码？";
+
+"forgot_password_btn" = "忘记密码";
+
+"forgot_password_not_login_account" = "输入您想要绑定的手机号";
+
+"forgot_password_tips" = "请输入您需要重置密码的账号，我们将会发送验证码。";
+
+"format" = "格式化";
+
+"formatting_cannot_use" = "在格式化过程中，SD卡不能使用";
+
+"found_event1" = "共找到1个事件";
+
+"found_event2" = "共找到%@个事件";
+
+"free_30d" = "免费体验30天";
+
+"free_30d_plus" = "%@智能高级版免费体验";
+
+"free_info" = "免费7日云存储";
+
+"friday" = "五";
+
+"from_time" = "从";
+
+"front_door" = "门厅";
+
+"g4_change_wifi" = "当前手机没有连接Wi-Fi，请为手机连接Wi-Fi或手动输入Wi-Fi。";
+
+"g4_change_wifi_tips" = "当前手机没有连接Wi-Fi，请为手机连接Wi-Fi";
+
+"gallery" = "相册";
+
+"garden" = "花园";
+
+"get_cloud_size" = "%@云存储";
+
+"get_coupon_bottom" = "领取优惠券";
+
+"get_coupon_sec" = "恭喜您已获得“%@”%@个月的使用权限。在此期间，您可以使用以下服务：";
+
+"get_live_url_error" = "获取直播地址失败";
+
+"get_location_failed" = "获取位置失败";
+
+"get_location_static" = "自动获取当前所在位置";
+
+"get_new_pushes" = "第一时间获得消息通知";
+
+"get_now" = "立即领取";
+
+"get_phone_verify_code" = "发送验证码";
+
+"get_policy_desc" = "为了切实保护您的权益，我们依据最新的法律条规与监管政策要求做出以下更新：";
+
+"get_started" = "立即开始！";
+
+"get_use_permission" = "使用%@扫码，获得使用权限。";
+
+"Ghz2.4" = "2.4GHz";
+
+"Ghz5" = "5GHz";
+
+"gif_ad_1" = "更大云存储空间";
+
+"gif_ad_2" = "支持智能通知";
+
+"gif_ad_3" = "自定义提醒区域";
+
+"go_buy" = "去购买";
+
+"go_buy_2" = "去查看";
+
+"go_buy_plus" = "开通%@智能服务";
+
+"go_live" = "去看直播";
+
+"mtn_go_momo_or_wait" = "请您前往MoMo支付订单。如支付已完成，请耐心等待";
+
+"go_on" = "继续";
+
+"go_open" = "去开启";
+
+"go_set" = "去设置";
+
+"go_system_settings" = "前往系统设置 >>";
+
+"go_to_bind" = "去绑定";
+
+"go_to_buy" = "去购买";
+
+"go_to_see" = "去查看";
+
+"good" = "一般";
+
+"got_it" = "知道了";
+
+"grant_location_permission" = "允许定位权限";
+
+"guardian_read" = "(如您未满14周岁，您需要通知您的监护人共同阅读)";
+
+"guest" = "访客";
+
+"guest_request" = "访客请求";
+
+"guide_content_2" = "随时随地直播 双向语音互动";
+
+"guide_content_3" = "过滤数据 获取有效信息";
+
+"guide_content_4" = "免除多余干扰 只做专心看护";
+
+"guide_long_press_power_tips" = "当您听到“开机”之后，即可进行下一步。";
+
+"guide_long_press_power_tips_b0" = "当您听到提示音之后，即可进行下一步。";
+
+"guide_long_press_power_tips_g1" = "当您听到提示音之后，即可进行下一步。";
+
+"guide_long_press_power_tips_s0" = "确认连通电源之后，即可进行下一步。";
+
+"guide_title_1" = "摄像机管理";
+
+"guide_title_2" = "直播功能";
+
+"guide_title_3" = "智能通知";
+
+"h1" = "2小时";
+
+"h12" = "12小时";
+
+"handler_success" = "处理成功";
+
+"hao_to_invite" = "如何添加分享的摄像机？";
+
+"has_account_and_login" = "登录已有账号";
+
+"have_no_device" = "您尚未添加任何摄像机";
+
+"have_problem" = "遇到问题？";
+
+"hear_beep" = "听到了提示音或看到指示灯亮起";
+
+"hear_device_power_on" = "已听到 “开机”";
+
+"hear_device_power_on_b0" = "摄像机已完成转动";
+
+"hear_device_power_on_s0" = "已连通电源";
+
+"hear_device_voice" = "已听到声音";
+
+"heard_qr_code" = "已听到“二维码扫描完成”";
+
+"heard_scan_finished" = "已听到“扫描成功/完成”";
+
+"heard_scan_finished_other" = "已听到“扫描成功/完成”";
+
+"heard_scan_qr_code" = "已听到“扫描二维码”";
+
+"heard_scaning_sound" = "听到了连续的待绑定提示音";
+
+"help" = "帮助";
+
+"help_center" = "常见问题";
+
+"help_feedback" = "帮助与反馈";
+
+"help_guide" = "查看帮助 >>";
+
+"high" = "高";
+
+"hint_feedback" = "请填写10个字以上的问题表述以便我们提供更好的帮助";
+
+"hint_feedback_contact" = "选填，便于我们与你联系";
+
+"hold_qr_code_in_front" = "请将二维码置于摄像机前方";
+
+"hold_speak" = "按住说话";
+
+"home" = "主页";
+
+"hot" = "热门";
+
+"hot_country" = "热门国家";
+
+"how_to_add_friend_camera" = "进入APP主页点击右上角的“+”号，选择“添加好友的摄像机”。";
+
+"how_to_open_nightvision" = "“夜视设置->夜视模式”中选择“白光模式” >";
+
+"human_tracking" = "人形追踪";
+
+"human_tracking_2" = "检测到有人移动时，摄像机将跟随拍摄";
+
+"i_have_read_above_content" = "我已阅读并同意以上内容";
+
+"i_know" = "知道了";
+
+"id" = "ID";
+
+"if_storage_not_access" = "不允许访问手机存储空间，您将无法存储和备份摄像机信息。";
+
+"image_and_screen_shot" = "图片(选填、请提供问题截图)";
+
+"image_save_to_ablum" = "图片已保存到手机相册";
+
+"indicator" = "指示灯";
+
+"indicator_des" = "指示灯开启后，摄像机通过指示灯告知此时工作状态。";
+
+"Indoor_motion_alarm" = "（如室内使用，不建议开启此功能）";
+
+"infrared_des" = "红外照亮环境，呈现较为清晰的黑白画面";
+
+"input_email" = "邮箱";
+
+"input_email_new" = "新邮箱";
+
+"input_email_send" = "请输入您想要绑定的邮箱，我们将会发送验证码。";
+
+"input_email_you_bind" = "请输入您想要绑定的邮箱，我们将会发送验证码。";
+
+"input_need_verify_code" = "验证码";
+
+"input_new_email" = "请输入您想要绑定的新邮箱，我们将会发送验证码。";
+
+"input_new_phone" = "请输入您想要绑定的新手机号，我们将会发送验证码。";
+
+"input_phone_number_new" = "输入新手机号";
+
+"input_phone_number_simple" = "输入手机号";
+
+"input_phone_number_you_bind" = "请输入您想要绑定的手机号，我们将会发送验证码。";
+
+"input_phone_send" = "请输入您想要绑定的手机号，我们将会发送验证码。";
+
+"install_bracket_1" = "安装支架";
+
+"install_bracket_2" = "固定摄像机在您需要的位置，您可以直接将摄像机放置在平面，或是通过螺丝将包装内支架固定在墙面、天花板上，再将摄像机拧至已固定好的底座上。";
+
+"Install_on_shelf" = "您可以将摄像机放置在搁板或其他平面上使用，或是安装至墙壁、天花板上使用。";
+
+"install_the_camera" = "安装摄像机";
+
+"installation_guide" = "安装说明";
+
+"installation_settings" = "安装设置";
+
+"installation_suggestions" = "安装建议";
+
+"installing" = "正在安装…";
+
+"intelligent_recognition" = "智能识别";
+
+"invalid_request" = "请求无效";
+
+"invite" = "摄像机分享";
+
+"invite_info_des" = "被邀请者需下载并安装%@。";
+
+"invite_info_des_key_point" = "%@ app";
+
+"invite_title_des" = "被邀请者可查看直播以及回放文件";
+
+"invited_join_device" = "邀请您查看摄像机";
+
+"ios.answer_bot.cell.text.inactivity_get_in_touch_message" = "Chat with us or leave us a message";
+
+"ios.answer_bot.text.label.ask_a_question" = "Please describe your issue and tell us your camera model first. (You can find your camera model on the label affixed to the camera. Or you can take off the shell of the camera or open the rubber cover of the camera to find your camera model. The camera model is G0, CGXX(for example CG1), CBXX(for example CB1), JXJ-FA01, etc. )";
+
+"ios.answer_bot.text.label.disabled" = "Welcome to Camera Binding Help Center! Online staff service open hours: Singapore time 10AM-10PM (PST 6PM-6AM). Please describe your issue and tell us your camera model first. (You can find your camera model on the label affixed to the camera. Or you can take off the shell of the camera or open the rubber cover of the camera to find your camera model. The camera model is G0, CGXX(for example CG1), CBXX(for example CB1), JXJ-FA01, etc. )";
+
+"ios.answer_bot.text.label.hi" = "Welcome to Camera Binding Help Center! Online staff service open hours: Singapore time 10AM-10PM (PST 6PM-6AM).";
+
+"ios.conversation.ui.chat.handover.message.selection" = "Tansfer to staff service";
+
+"ios.conversation.ui.chat.welcome_message.handover" = "OK. I will find someone who can help with your query.";
+
+"ios.ZDKRequests.createRequest.leaveAMessage.title" = "Leave a message";
+
+"is_heard_scan_qr_code" = "是否听到“扫描二维码”？";
+
+"is_last_location" = "已经是最后一个位置了";
+
+"is_listen_qr_code" = "是否听到“扫描二维码”？";
+
+"issue_1" = "请确认设备是否进入扫描状态（发出连续的扫描提示音）";
+
+"issue_2" = "请将设备尽量靠近路由器";
+
+"join_device_timeout" = "请检查您的网络连接并重试";
+
+"join_friend_device" = "添加好友的摄像机";
+
+"join_new_device" = "查看好友的摄像机";
+
+"keep_router" = "请保持摄像机与路由器处于较近的距离";
+
+"language" = "APP语言";
+
+"later" = "暂不升级";
+
+"latest_version" = "最新版本";
+
+"learn_how_use" = "学习如何使用";
+
+"learn_more" = "了解详情 >>";
+
+"learn_more_2" = "了解更多 >>";
+
+"level_sensitivity" = "%@灵敏度";
+
+"library" = "相册";
+
+"library_feedback_failed" = "抱歉，问题反馈失败，请稍后重试";
+
+"library_feedback_not_complete" = "问题反馈未完成，是否要放弃提交？";
+
+"library_feedback_success" = "问题反馈成功，感谢您的参与！";
+
+"library_no_tag" = "请在以下选项中选出您要反馈的问题（可多选）：";
+
+"library_tag_contains" = "视频分析结果如有错误，请在以下选项中选出您要反馈的问题（可多选）：";
+
+"light_setting" = "灯光设置";
+
+"like_device_name" = "给您的摄像机取个名字";
+
+"live" = "Live";
+
+"live_alarm" = "%@触发了摄像机警报";
+
+"live_feed" = "查看直播";
+
+"live_issue" = "直播&播放/设备离线问题";
+
+"live_network_timeout" = "直播连接失败";
+
+"live_not_start" = "直播未开始";
+
+"live_play" = "直播放送中";
+
+"live_play_finish" = "SD卡录像播放完成";
+
+"live_resolution" = "%@切换了分辨率";
+
+"live_stream_error" = "直播异常";
+
+"live_stream_timeout" = "直播超时";
+
+"live_viewers_limit" = "直播观看人数已达上限，请稍后重试";
+
+"live_white_light" = "%@开启了白光灯";
+
+"livingroom" = "客厅";
+
+"load_message_error" = "视频加载失败";
+
+"load_more_title" = "下拉刷新";
+
+"loading" = "加载中...";
+
+"loading_failed" = "加载失败";
+
+"locating" = "定位中...";
+
+"location" = "位置";
+
+"location_2" = "定位";
+
+"location_address_des" = "国家省份/地区城市区/县";
+
+"location_create_success" = "位置创建成功";
+
+"location_error" = "位置信息错误";
+
+"location_management" = "位置管理";
+
+"location_name" = "位置名称";
+
+"location_name_error" = "名称格式错误";
+
+"location_name_exist" = "已存在相同的位置名称，请修改并重试";
+
+"location_name_required" = "请输入位置名称";
+
+"location_not_" = "位置名称不能为空";
+
+"location_not_save" = "是否保存当前位置信息";
+
+"location_permission" = "开启定位权限";
+
+"location_permission_help_adding" = "允许位置权限，辅助摄像机绑定";
+
+"location_permission_tips" = "在系统“设置”中开启权限，自动获取附近的Wi-Fi";
+
+"location_permission_word" = "需要允许“位置信息”的使用权限，以帮助您自动填写手机连接的Wi-Fi。";
+
+"location_save_success" = "位置保存成功";
+
+"location_selection" = "位置选择";
+
+"location_service" = "定位服务";
+
+"location_setting" = "使用位置";
+
+"log_in_tips" = "欢迎来到%@";
+
+"login_expired" = "登录过期，请重新登录";
+
+"login_other_device" = "账号已在其他手机端登录，如非本人操作，建议您重新登录后修改密码。";
+
+"login_verify_code" = "验证码";
+
+"login_way_password" = "账号密码登录";
+
+"login_way_verify_code" = "手机号验证码登录";
+
+"logout" = "退出登录";
+
+"logout_des" = "确认要退出登录吗？";
+
+"long_press_reboot" = "长按小孔中断电按钮3s，重启摄像机";
+
+"long_press_reboot_directions" = "找到断电按钮小孔，用工具长按3s，将摄像机重启。如未重启，需长按电源3s开机，直到听到开机声音或者看到灯光亮起。";
+
+"long_press_reset_button" = "请长按Reset键3秒使摄像机进入扫描状态";
+
+"long_press_the_power_key_b0" = "连接电源以开机";
+
+"loss_aifunction" = "失去所有的AI功能（提醒区域、智能通知）";
+
+"low" = "低";
+
+"low_battery_warning" = "%@处于低电量状态，请尽快充电";
+
+"mac_address" = "Mac地址";
+
+"mail_phone_register_des" = "请输入您的手机号/邮箱，我们将会发送验证码。";
+
+"mail_registered" = "该邮箱已被注册，请直接登录";
+
+"make_sure_cemera_on" = "请长按开机键或接通电源，直到听到摄像机发出提示音或者看到指示灯亮起";
+
+"manual_f" = "手动拍摄";
+
+"manual_input" = "手动输入";
+
+"mark" = "标记";
+
+"marked_cancle" = "取消标记成功";
+
+"marked_f" = "标记";
+
+"marked_fail" = "标记文件失败，请重试";
+
+"marked_success" = "标记成功";
+
+"may_be_connection" = "无法连接到摄像机，请检查网络连接。";
+
+"mcu_version" = "MCU 版本号";
+
+"medium" = "中";
+
+"membership_expire" = "将于%@变更为%@套餐，如有需要请自行在相册中下载视频内容。";
+
+"membership_tip" = "%@已到期，您将在%@失去AI功能，云存储套餐变更为7日回看，如有需要请通过购买获得新的套餐包。";
+
+"microphone" = "麦克风";
+
+"microphone_permission" = "开启麦克风权限";
+
+"microphone_permission_tips" = "在系统“设置”中开启权限，允许语音通话时使用麦克风";
+
+"migration_statement_1" = "APP变更声明";
+
+"migration_statement_2_1" = "为配合相关政策规定 ，以便给中国地区用户提供更好的服务，VicoHome App将在%@变更为全橙看家App。";
+
+"migration_statement_2_2" = "请您及时下载安装全橙看家，您可通过原VicoHome账号直接登录全橙看家，您的所有摄像机信息和智能服务状态都会被保留并可继续使用。";
+
+"migration_statement_2_3" = "到期日之后，VicoHome APP将无法正常使用。了解详情 >>";
+
+"migration_statement_3" = "对您造成的不便我们深表歉意，全橙看家为您安全守航！";
+
+"migration_statement_3_android" = "<![CDATA[对您造成的不便我们深表歉意，<strong>全橙看家</strong>为您安全守航！]]>";
+
+"migration_statement_5" = "下次再说";
+
+"migration_statement_6_1" = "为配合相关政策规定 ，以便给中国地区用户提供更好的服务，VicoHome App已于%@变更为全橙看家App。";
+
+"migration_statement_6_2" = "现在VicoHome APP已无法正常使用，请您及时下载安装全橙看家。您可通过原VicoHome账号直接登录全橙看家，您的所有摄像机信息和智能服务状态都会被保留并可继续使用。了解详情 >>";
+
+"migration_statement_7" = "为配合相关政策规定 ，以便给中国地区用户提供更好的服务，VicoHome App将在%@变更为全橙看家App。请下载全橙看家重新注册账号，十分感谢您的配合。";
+
+"migration_statement_7_android" = "<![CDATA[为配合相关政策规定 ，以便给中国地区用户提供更好的服务，VicoHome App将在<font color=\"#5AC4A7\">%@</font>变更为<strong>全橙看家</strong>App。请下载<strong>全橙看家</strong>重新注册账号，十分感谢您的配合。]]>";
+
+"min30" = "30分钟";
+
+"mine" = "我的";
+
+"missed" = "未读";
+
+"model_number" = "摄像机型号";
+
+"momo_payment" = "MoMo支付";
+
+"mtn_momo_payment_title" = "通过您的MoMo帐户为Askari支付%@。输入手机号：";
+
+"monday" = "一";
+
+"month_1" = "一月";
+
+"month_10" = "十月";
+
+"month_11" = "十一月";
+
+"month_12" = "十二月";
+
+"month_2" = "二月";
+
+"month_3" = "三月";
+
+"month_4" = "四月";
+
+"month_5" = "五月";
+
+"month_6" = "六月";
+
+"month_7" = "七月";
+
+"month_8" = "八月";
+
+"month_9" = "九月";
+
+"more" = "更多";
+
+"more_data" = "加载更多数据";
+
+"more_event" = "还有%@个事件";
+
+"more_info" = "更多信息";
+
+"more_pre_location" = "最多只能设置%d个预设位置";
+
+"more_selection" = "更多选项";
+
+"motion_alarm" = "检测到运动后，摄像机将自动响起警报";
+
+"motion_detection" = "运动检测";
+
+"motion_detection_des" = "运动检测开启后，摄像机可被运动的物体触发并录制视频，帮您时刻检测环境变化。";
+
+"motion_issue" = "运动检测问题";
+
+"motion_sport_auto_is_open" = "运动跟踪已开启，摇杆功能暂不能使用";
+
+"motion_tracking" = "运动追踪";
+
+"motion_tracking_open" = "运动追踪开启后，摄像机将在检测到运动后自动跟随录像。";
+
+"move_app_name" = "全橙看家";
+
+"mtn_mpesa_payment" = "M-PESA支付";
+
+"my_device" = "我的摄像机";
+
+"my_house" = "我的家";
+
+"n_device_use_this_location" = "有%d个摄像机占用此位置，请更改占用摄像机的位置";
+
+"name_required" = "输入名称";
+
+"nest_day" = "次日";
+
+"network_error" = "网络异常";
+
+"network_error_our_server" = "连接超时";
+
+"network_low" = "网络环境差，请重试";
+
+"network_name" = "Wi-Fi名称";
+
+"network_timeout" = "网络连接超时";
+
+"network_unavailable_and_try" = "没有可用的网络连接，请重试";
+
+"new_bind_device_name" = "设置摄像机名称及使用位置";
+
+"new_device" = "新摄像机";
+
+"new_email" = "新邮箱";
+
+"new_feature" = "新功能：";
+
+"new_location" = "新建位置";
+
+"new_password" = "新密码";
+
+"new_phone" = "新手机号";
+
+"new_version" = "新版本：";
+
+"next" = "下一步";
+
+"next_format" = "本格式化任务将在当前任务之后进行";
+
+"night_mode_red" = "红外模式";
+
+"night_mode_white" = "白光模式";
+
+"night_version" = "夜视";
+
+"night_version_setting" = "夜视设置";
+
+"night_version_tips" = "夜视开启后，摄像机将支持夜间观看，提升摄像机在黑暗环境下的拍摄性能。";
+
+"no" = "否";
+
+"no_access" = "无此相机的访问权限，请重新绑定或申请权限";
+
+"no_camera" = "没有可用摄像机";
+
+"no_camera_auth" = "无摄像头开启权限，请在系统中开启后重试 >>";
+
+"no_item_selected" = "没有选中任何内容";
+
+"no_locations" = "暂无位置信息";
+
+"no_network" = "没有网络";
+
+"no_network_cannot_set" = "摄像机离线，暂不能设置";
+
+"no_password" = "未填写密码";
+
+"no_plan" = "普通服务";
+
+"no_position" = "暂无预设位置，请联系管理员进行添加";
+
+"no_qr_code" = "未识别出二维码信息，请重试";
+
+"no_response" = "摄像机未响应";
+
+"no_resumable_order" = "无可恢复的记录";
+
+"no_select_timezone" = "未选择任何时区";
+
+"no_supper_5g" = "您的Wi-Fi可能为摄像机无法支持的5GHz Wi-Fi，请再次确认是否使用的是2.4GHz Wi-Fi";
+
+"no_tip" = "今日不再提醒";
+
+"no_wifi_nearby" = "附近没有可用的Wi-Fi网络";
+
+"no_wifi_signal" = "无";
+
+"nodata_libary_tip" = "本日没有更多内容";
+
+"nodata_no_wifi_tip" = "没有可用的网络连接";
+
+"nodata_tip" = "没有更多数据";
+
+"noProduct" = "商品已下架";
+
+"not_allow" = "不允许";
+
+"not_found" = "页面不存在或存在其他问题";
+
+"not_hear_scan_qr_code" = "扫描二维码失败";
+
+"not_logged_in" = "用户没有登录";
+
+"not_open" = "未开启";
+
+"not_open_now" = "暂不开启";
+
+"not_show_tips_any_more" = "不再提示";
+
+"not_support_5g" = "目前仅支持2.4GHz Wi-Fi";
+
+"not_use" = "未使用";
+
+"notication_no_end" = "该事件未结束，请稍后在相册中查看完整视频";
+
+"notification_des" = "通知开启后，摄像机将为您推送触发录像，告知当前环境的中的异常活动。";
+
+"notification_des_tips" = "摄像机在检测到运动时可以通知您，请选择您希望接受的通知类型。";
+
+"notification_detection_people" = "人";
+
+"notification_no_item_choose" = "未选中任何识别对象，分类识别功能将失效，请至少选择一项。";
+
+"notification_push" = "消息推送";
+
+"notification_scuess_offline" = "摄像机在线后设置会生效";
+
+"notification_sec" = "到期后您将：";
+
+"notification_setting" = "通知设置";
+
+"notification_setting_tips" = "摄像机在检测到运动时可以通知您，请选择您希望接受的通知类型。";
+
+"notification_to_choose_item" = "去选择";
+
+"notification_warm_des" = "摄像机在检测到任何运动时都会向您发送通知。 在这种模式下，通知会被快速的发送至您的手机上，但频率可能过高。";
+
+"notifications" = "通知";
+
+"notifications_permission" = "开启推送权限";
+
+"num_new_message" = "新消息";
+
+"number_az" = "%@个提醒区域";
+
+"office" = "办公室";
+
+"offline" = "离线";
+
+"offline_reconnect" = "摄像机已离线，请将摄像机重新联网";
+
+"ok" = "好的";
+
+"old_password" = "旧密码";
+
+"one_az" = "1个提醒区域";
+
+"online" = "在线";
+
+"open_bluetooth" = "开启蓝牙可更快绑定摄像机";
+
+"open_bluetooth_bonding" = "打开蓝牙允许“%@”连接，快速绑定摄像机";
+
+"open_bluetooth_help_adding" = "当前手机蓝牙关闭，开启蓝牙可更快的绑定摄像机";
+
+"open_fail_retry" = "设置失败，请重试";
+
+"open_led" = "开";
+
+"open_location_Info" = "开启“位置信息”以帮助您自动填写手机连接的Wi-Fi。";
+
+"open_location_service" = "开启定位服务";
+
+"open_location_wifi" = "通过定位服务自动获得手机当前Wi-Fi名称（推荐）或手动输入Wi-Fi名称（区分大小写）";
+
+"open_location_wifi_link" = "前往系统设置 >>";
+
+"open_smart" = "开启%@智能服务";
+
+"open_wifi" = "开启Wi-Fi";
+
+"open_WiFi_word" = "开启“Wi-Fi”以帮助您搜索到附近可用的网络 。";
+
+"opened" = "已开启";
+
+"options_include" = "服务包括";
+
+"or" = "或";
+
+"ota_failed_low_power" = "电量低，无法完成升级，请充电至20%以上电量后再重新升级";
+
+"other" = "其他";
+
+"other_error_with_code" = "系统内部错误";
+
+"other_errors" = "系统内部错误";
+
+"other_payment_not_detected" = "未检测到%@，请先确认支付通道正常可用，再重新购买。";
+
+"other_plans" = "其他套餐";
+
+"other_plans_des" = "当前套餐到期后若不继续购买，将会自动为您变更为下一个套餐。";
+
+"others" = "其他";
+
+"p_location" = "定位";
+
+"package_detained" = "滞留包裹";
+
+"package_down" = "包裹被放下";
+
+"package_guide" = "如何让包裹检测更准确？";
+
+"package_guide_five" = "请不要忘记在通知设置 / 分类识别中勾选包裹。";
+
+"package_guide_four" = "勾选包裹";
+
+"package_guide_four_tips" = "请确保包裹可以在摄像机视图上清晰可见，且不被其他物体遮挡。";
+
+"package_guide_one" = "摄像机的位置和距离";
+
+"package_guide_three" = "摄像机视图";
+
+"package_guide_two" = "建议将您的摄像机放置在大概2.5m高的位置，使其倾斜，以便能够清晰的看到您的家门口以及包裹所在的区域。\n同时摄像机与包裹之间的距离尽量不超过3m。";
+
+"package_scenes" = "目前包裹的识别准确率欠佳，功能持续优化中。建议在离地面约2.1m，斜下视角的标准场景中使用。";
+
+"package_tag" = "包裹 (Beta)";
+
+"package_tips" = "摄像机将在检测到包裹被拿起和包裹被放下时，向您推送消息。";
+
+"package_up" = "包裹被拿起";
+
+"page_expired" = "页面已过期，请重试";
+
+"password" = "密码";
+
+"password_code_error" = "您输入的密码或验证码有误";
+
+"password_incorrect" = "密码不正确，请确认密码";
+
+"password_or_code_invalid" = "请输入正确的格式";
+
+"password_setting_tips" = "为保证账户安全，密码需由至少8个字符组成，并至少包含一个大写字母和小写字母。";
+
+"pay_attention_data" = "当前为非Wi-Fi环境，请注意流量消耗";
+
+"pay_scuess" = "购买智能服务成功！请前往个人中心查看功能权限";
+
+"payment_auto_pay" = "连续包月";
+
+"payment_choose_buy_time" = "选择时长";
+
+"payment_choose_vip_item_first" = "请先选择条目";
+
+"payment_cloud_save" = "智能服务";
+
+"payment_current_vip" = "当前为%@套餐";
+
+"payment_download_it" = "去下载";
+
+"payment_generate_order" = "提交订单";
+
+"payment_know_it" = "知道了";
+
+"payment_pay" = "支付订单";
+
+"payment_pay_cancel" = "取消";
+
+"payment_pay_failed" = "支付失败，请重试";
+
+"payment_pay_failed_totally" = "支付失败";
+
+"payment_pay_success" = "支付成功";
+
+"payment_play_store_fail" = "支付失败，请前往Play Store检查您的登录状态";
+
+"payment_please_choose_time" = "请选择购买时长";
+
+"payment_price" = "<![CDATA[<font><big>%@%.2f</big></font><font><small>元</small></font>]]>";
+
+"payment_product_already_paid" = "您已购买了智能服务，请勿重复购买";
+
+"payment_product_not_exist" = "此商品不存在";
+
+"payment_to_buy" = "去续订";
+
+"payment_user_cancel" = "已取消";
+
+"payment_verifying" = "%@正在校验…";
+
+"payment_vip_update" = "升级";
+
+"pem_des" = "观看直播，查看回放";
+
+"permission" = "用户权限";
+
+"permission_dialog_message_get_camera" = "不允许访问摄像头，您将无法使用扫描二维码功能";
+
+"permission_dialog_message_get_location" = "不允许访问位置，您将无法自动获取当前手机连接的Wi-Fi";
+
+"permission_dialog_message_get_mircrophone" = "不允许访问麦克风,您将无法使用语音通话功能";
+
+"permission_dialog_message_get_storage" = "不允许访问手机存储空间，您将无法使用软件";
+
+"permission_dialog_title" = "%@想要访问您的%@";
+
+"permission_name_camera" = "摄像机";
+
+"permission_name_microphone" = "麦克风";
+
+"person" = "人";
+
+"person_alerts" = "人形运动";
+
+"person_alter_tips" = "摄像机只会在检测到人形运动时向您发送通知。在这种模式下，通知的频率会降低，但可能会有一定的延迟。";
+
+"pet" = "宠物";
+
+"phone_already_register" = "手机号已被注册，请直接登录";
+
+"phone_no_net" = "手机无网络连接";
+
+"phone_number" = "手机号";
+
+"phone_number_bind_success" = "手机号绑定成功";
+
+"phone_number_change_success" = "手机号更换成功";
+
+"phone_number_invalid_tips" = "请输入正确格式的手机号";
+
+"phone_weak_network" = "手机网络不可用，请检查手机网络连接";
+
+"phone_weak_network_short" = "手机网络不可用";
+
+"photos" = "照片";
+
+"photos_permission" = "开启照片权限";
+
+"photos_permission_tips" = "在系统“设置”中开启权限，允许媒体文件存储至手机";
+
+"plan_basic" = "基础版";
+
+"plan_common" = "普通版";
+
+"plan_expires" = "套餐于%@过期";
+
+"plan_no" = "普通版";
+
+"plan_plus" = "高级版";
+
+"plan_pro" = "专业版";
+
+"playback_is_living_now" = "直播中";
+
+"playback_video" = "查看回放视频";
+
+"player_error" = "视频播放错误";
+
+"please_install_playstore" = "需安装Play Store完成支付";
+
+"please_open_location_service" = "请打开系统设置中的“定位服务”";
+
+"please_open_permission" = "请打开悬浮窗开关";
+
+"please_pay_vip_first" = "使用此功能需购买智能服务";
+
+"please_pay_vip_first_2" = "获得智能服务，使用此功能";
+
+"please_read_policy_and_agree" = "请您认真阅读，点击“同意并继续”即表示您已阅读并同意全部条款。";
+
+"please_reinput_password" = "确认密码";
+
+"please_retry" = "重试";
+
+"please_scan_qr_code_first" = "请先扫描二维码信息";
+
+"please_select" = "请选择";
+
+"please_turn_on_motion_detection" = "使用此功能需开启运动检测";
+
+"please_turn_on_wifi_setting" = "请在手机设置中打开Wi-Fi功能";
+
+"plugin_camera" = "插电摄像机";
+
+"plugin_camera_tips" = "请接通电源，直到听到摄像机发出提示音并完成转动";
+
+"position_deleted" = "位置已删除，可添加新位置";
+
+"position_tips" = "将常看的位置设置为预设位置，您可以随时一键定位到您常看的位置上";
+
+"postal_code" = "邮政编码";
+
+"pre_location_max_5" = "最多只能设置5个预设位置";
+
+"pre_position_add" = "新建预设位置";
+
+"preset_location" = "预设位置";
+
+"privacy_policy" = "隐私政策";
+
+"privacy_policy_2" = "隐私政策";
+
+"problem_and_feedback" = "问题和意见";
+
+"prompt" = "提示";
+
+"prompt_volume" = "语音音量";
+
+"province_region" = "省份/地区";
+
+"push_group_tips" = "还有%u条通知";
+
+"push_permission" = "开启通知权限";
+
+"pwd_error" = "您输入的密码有误";
+
+"qr_code_not_found" = "未识别出二维码信息，请重试";
+
+"qr_expire" = "二维码将在%@过期";
+
+"qr_scurss" = "二维码扫描完成";
+
+"qrcode_way1" = "请旋转机身，查看机身外壳上是否贴有二维码。";
+
+"qrcode_way2" = "如在机身外壳上未找到二维码，请拆开机身胶塞，查看胶塞下是否贴有二维码。";
+
+"qrcode_way3" = "如在机身外壳和胶塞处均未找到二维码，请拆卸活动外壳，查看内部机身及活动外壳上是否贴有二维码。";
+
+"question_reply" = "问题反馈";
+
+"question_type" = "问题类型";
+
+"questions_contact" = "联系方式";
+
+"questions_pictures" = "图片（选填，请提供问题截图）";
+
+"questions_statement_error" = "请填写10个字以上的问题表述";
+
+"quick_connect" = "快速连接";
+
+"quick_connect_tips" = "检测到%@个可以一键快速连接的摄像机\n请点击开始连接";
+
+"ratio_720p" = "标清";
+
+"ratio_auto" = "自动";
+
+"reach_max_live_num" = "已达到同时直播的最大摄像机数量";
+
+"receive_fail" = "领取失败，请重试";
+
+"receive_scuess" = "领取成功，开始使用！";
+
+"reconnect" = "重新连接";
+
+"reconnect_camera" = "尝试重新连接";
+
+"reconnect_wifi_camera" = "重新联网";
+
+"record_failed" = "录像失败，请重试";
+
+"record_success" = "已保存到手机相册";
+
+"record_video" = "录制视频";
+
+"record_video_tips" = "当您开启“录制视频”功能时，摄摄像机将在检测到运动后自动开始录像。";
+
+"reference_instruction_power" = "电源键位置请参考说明书";
+
+"reference_instruction_reboot" = "断电按钮小孔位置请参考说明书";
+
+"refresh" = "刷新";
+
+"registrationsharing" = "注册国家将影响摄像机分享，分享双方的账号需在同一国家才能使用此功能，请谨慎选择。";
+
+"reject" = "拒绝";
+
+"reject_audio" = "请在手机设置中打开麦克风权限";
+
+"release_stop" = "松开停止";
+
+"remember_password" = "记住密码";
+
+"remove_device" = "删除摄像机";
+
+"remove_device_des" = "您将不会再收到来自该摄像机的任何消息";
+
+"remove_device_success" = "摄像机删除成功";
+
+"remove_device_title" = "确认要删除该摄像机吗？";
+
+"remove_share_device_des" = "%@ 将不会再收到来自 %@ 的消息";
+
+"remove_share_device_title" = "确认要移除此账号吗？";
+
+"renewal_clause" = "-付款：确认购买并付款后记入iTunes账户;\n-取消续订：如需取消续订，请在当前订阅周期到期前24小时以前，手动在iTunes/Apple ID设置管理中关闭自动续费功能，到期24小时内取消，将会收取订阅费用;\n-续费：iTunes账户会在到期前24小时内扣费，扣费成功后订阅周期顺延一个订阅周期;\n-购买即同意隐私政策、智能服务协议及连续订阅服务协议。";
+
+"renewal_clause_key_clause" = "连续订阅服务协议";
+
+"renewal_clause_key_terms" = "智能服务协议";
+
+"renewal_download_tips" = "如有需要请续订智能服务或进入相册下载视频";
+
+"replace_wifi" = "更换Wi-Fi";
+
+"replay" = "回放";
+
+"request_error" = "请求错误";
+
+"request_expired" = "请求已过期，请重试";
+
+"request_frequent" = "请求过于频繁，请稍后重试";
+
+"request_permission_title" = "等待授权";
+
+"request_timeout_and_try" = "请求超时，请重试";
+
+"resend_after_tip" = "%ds后重新发送";
+
+"resend_after_tip_ios" = "%@%@后重新发送";
+
+"resent_verification_code" = "重新发送";
+
+"reset" = "重置";
+
+"reset_password_success" = "重置密码成功";
+
+"resign_in" = "重新登录";
+
+"restore_purchase_record" = "恢复购买记录";
+
+"restore_successfully" = "恢复成功";
+
+"retry" = "重试";
+
+"retry2" = "刷新重试";
+
+"root_warning_title" = "手机已Root，继续使用可能存在安全风险。";
+
+"rotate_image" = "视频翻转";
+
+"rotate_image_open" = "打开“视频翻转”功能，运动检测的灵敏度可能会受到影响";
+
+"same_email" = "不能和之前的邮箱一致，请更换邮箱";
+
+"same_phone" = "不能和之前的手机号一致，请更换号码";
+
+"saturday" = "六";
+
+"save" = "保存";
+
+"save_album" = "保存到手机相册";
+
+"save_failed_and_try" = "保存失败，请重试";
+
+"save_gb" = "(≤%dGB)";
+
+"save_to_evaeye_album" = "已保存到手机相册";
+
+"saved_success" = "保存成功";
+
+"say_green_light" = "看到蓝灯闪烁";
+
+"scan_camera_qr_code" = "扫描机身二维码";
+
+"scan_camera_way" = "使用扫码绑定";
+
+"scan_info_des" = "打开管理员的APP摄像机设置/分享/摄像机分享";
+
+"scan_info_title" = "二维码信息可在以下路径找到";
+
+"scan_no_qr_button" = "没有听到“扫描二维码”";
+
+"scan_QR_code" = "用摄像机扫描二维码";
+
+"scan_qr_code_des" = "将二维码置于摄像机前方15-30cm左右";
+
+"scan_qr_code_directions" = "听到扫描提示音或亮起闪烁灯光后，将二维码至于摄像机前方15-30cm左右进行扫描，听到扫描成功提示音后完成扫描。";
+
+"scan_QR_code_directions" = "将二维码置于摄像机前方15-30cm左右进行扫描，听到扫描成功提示音后完成扫描。";
+
+"scan_qr_code_failed" = "无法完成扫描？";
+
+"scan_qr_code_notice_title1" = "确认摄像机已经开机并在扫码状态";
+
+"scan_qr_code_notice_title2" = "调整摄像机与二维码之间的距离";
+
+"scan_qr_code_notice1" = "扫码时指示灯应处于蓝色灯光闪烁状态，若当前为其他指示灯状态，请在开机后双击电源按钮，摄像机将进入蓝灯闪烁的扫码状态。";
+
+"scan_qr_code_notice2" = "将摄像机置于二维码前方15-30cm处，如长时间未扫描成功，请前后稍做移动，操作方法请参考前一页图例。";
+
+"scan_qr_code_title" = "用摄像机扫描二维码";
+
+"scan_qrcode_by_phone" = "用手机扫描二维码";
+
+"scan_the_qr_code" = "扫描二维码连接摄像机";
+
+"scene" = "场景设置";
+
+"schedule_time" = "时间设置";
+
+"screenshot_sharing" = "截图分享";
+
+"screenshots" = "截屏";
+
+"sd_card" = "SD卡";
+
+"sd_card_format_failed" = "SD卡格式化失败，请重试";
+
+"sd_card_format_remind" = "此SD卡上的数据将被删除， 是否确认要格式化？";
+
+"sd_card_format_success" = "SD卡格式化成功";
+
+"sd_card_formating" = "SD卡正在格式化...";
+
+"sd_card_formatting" = "检测到有正在进行的格式化任务，请稍后重试";
+
+"sd_card_not_exist" = "未检测到SD卡";
+
+"sd_error" = "SD卡格式不正确，格式化";
+
+"sd_error_format_sure" = "检测到插入SD卡，但格式不正确，需格式化之后才能使用。";
+
+"sd_format_error" = "格式不正确";
+
+"sd_is_formatting" = "SD卡正在格式化，请稍后";
+
+"sd_management" = "SD卡管理";
+
+"sd_no_data_date" = "该时间段暂无视频";
+
+"sd_strorage" = "SD卡";
+
+"sd_supper" = "不支持SD卡";
+
+"sdcard_7_24" = "SD卡视频";
+
+"sdcard_has_no_video" = "SD卡暂无视频";
+
+"sdcard_need_format" = "SD卡格式不正确";
+
+"sdcard_need_format_shared" = "SD卡格式不正确，请联系管理员进行格式化";
+
+"sdcard_no_more_video" = "SD卡无更多内容";
+
+"SDcard_video_viewers_limit" = "SD卡录像观看人数已达上限，请稍后重试";
+
+"sdvideo_error" = "播放SD卡视频异常";
+
+"sdvideo_timeout" = "播放SD卡视频超时";
+
+"search" = "搜索";
+
+"search_buletooth" = "正在扫描附近的蓝牙设备";
+
+"seconds" = "秒";
+
+"selcet_spot_2" = "选择合适的安装位置，请将摄像机安装在视野无遮挡的 环境中，并在无线网络的覆盖范围内。";
+
+"select_all" = "全选";
+
+"select_camera" = "选择要添加的摄像机";
+
+"select_district" = "区/县";
+
+"select_items" = "选择内容";
+
+"select_network" = "选择网络";
+
+"select_one_ai" = "*至少在以下项目中选择一项进行检测";
+
+"select_spot_1" = "选择合适的安装位置";
+
+"select_street" = "街道";
+
+"select_terms" = "请查看并勾选用户协议和隐私政策";
+
+"select_wifi_title" = "为摄像机选择Wi-Fi";
+
+"send_log" = "如果您遇到画面无法播放的情况，请上传播放器日志帮助我们找到问题";
+
+"send_log_tips" = "（此处不涉及到任何播放数据，请放心使用）";
+
+"sendingcode" = "正在发送验证码";
+
+"sensitivity_level" = "环境光灵敏度";
+
+"sent_alarm_failed" = "报警失败，请重试";
+
+"sent_alarm_successfully" = "报警成功";
+
+"sepvalue" = "—";
+
+"serial_number" = "序列号";
+
+"server_error" = "连接异常";
+
+"service_ai_notify_desc" = "识别画面中的人、宠物和车辆，并分析其动作行为，做出更智能的推送信息。";
+
+"service_area_desc" = "定义提醒区域，只推送精准位置的触发消息，过滤掉其余信息。";
+
+"service_center" = "客服中心";
+
+"service_cloud_desc" = "延长至最高达60日，不超过10GB的录像信息(3种服务套餐可供选择)，打造最保险的资料库，使您不错过任何关键时刻。";
+
+"service_detail" = "服务详情";
+
+"set" = "设置";
+
+"set_az" = "设置提醒区域";
+
+"setup_success" = "设置成功";
+
+"share" = "分享";
+
+"share_error" = "分享失败，请重试";
+
+"share_scan_qr_content" = "请扫描摄像机管理员的二维码";
+
+"share_to" = "分享给：";
+
+"shared_by" = "共享自";
+
+"shared_by_" = "分享自%@";
+
+"shared_devices" = "共享摄像机";
+
+"shared_invalid_qr_code" = "无效的二维码，请重试";
+
+"shared_qr_code_expired" = "无效的二维码，请重试";
+
+"shared_self_error" = "此摄像机已在您的列表中";
+
+"sharing" = "分享中";
+
+"shot_fail" = "拍照失败";
+
+"shot_success" = "已保存到手机相册";
+
+"sign_in" = "登录";
+
+"sign_in_little" = "登录";
+
+"sign_up" = "注册新账号";
+
+"sign_up_register" = "注册";
+
+"sign_up_tips" = "请输入您的邮箱，我们将会发送验证码。";
+
+"sign_up_tips_phone_email" = "请输入您的手机号/邮箱，我们将会发送验证码。";
+
+"signal_strength" = "Wi-Fi强度";
+
+"siren_des" = "报警铃声开启后，摄像机将在运动检测出发时自动响起警报铃声。";
+
+"size" = "文件大小：";
+
+"skip" = "跳过";
+
+"sleep" = "低功耗";
+
+"sleep_end_time" = "休眠结束时间";
+
+"sleep_mode" = "休眠";
+
+"sleep_period" = "休眠时段";
+
+"sleep_period_etting" = "设置一个时间段，让摄像机自动进入休眠状态";
+
+"sleep_plan" = "休眠计划";
+
+"sleep_prompt" = "摄像机进入休眠模式后，将无法实时查看监控区域，并且运动检测、对讲、报警等功能也会暂停使用。";
+
+"sleep_setting" = "休眠设置";
+
+"sleep_start" = "启用日期";
+
+"sleep_start_time" = "休眠开始时间";
+
+"sleep_time" = "休眠时段";
+
+"sleep_tips" = "摄像机正在休眠，需唤醒后再进行设置";
+
+"sleep_work_time" = "工作时段";
+
+"sleeping" = "休眠中";
+
+"smart_common_contrast" = "普通服务 VS 智能服务";
+
+"smart_service_desc" = "智能服务功能介绍";
+
+"sound" = "声音";
+
+"sound_setting" = "声音设置";
+
+"source" = "存储位置";
+
+"speaker" = "扬声器";
+
+"speaker_volume" = "扬声器音量";
+
+"split_screen" = "分屏显示";
+
+"sport_auto" = "运动跟踪";
+
+"status_led" = "录像指示灯";
+
+"stay_this_page" = "留在此页";
+
+"storage" = "存储空间";
+
+"storage_space_access" = "开启存储空间使用权限";
+
+"street_address_1" = "街道地址";
+
+"street_address_1_place_holder" = "街道地址";
+
+"street_address_2" = "详细地址（选填）";
+
+"street_address_2_place_holder" = "详细地址，如公寓、门牌号等";
+
+"strong" = "强";
+
+"submit" = "提交";
+
+"submit_deletion" = "申请注销";
+
+"sunday" = "日";
+
+"supper_net_work" = "该摄像机目前仅支持2.4GHz Wi-Fi，您当前所用网络为5GHz Wi-Fi";
+
+"sure_to_cancel_share" = "确认要移除此账号吗？";
+
+"sure_to_clear_cache" = "确认要清除缓存吗?";
+
+"sure_to_delete_location" = "确认删除该地址吗?";
+
+"sure_to_delete_zone" = "确认要删除该提醒区域吗?";
+
+"sure_to_drop_out" = "是否确认退出添加摄像机过程？";
+
+"sure_to_log_out" = "确认要退出登录吗？";
+
+"sure_to_remove_device" = "确认删除此摄像机吗？";
+
+"sure_to_turn_alarm_on" = "确认要触发警报吗?";
+
+"sure_to_turn_off_detection" = "确认要关闭运动检测功能吗？";
+
+"system_album_name" = "%@";
+
+"system_error_try_again" = "系统繁忙，请重试";
+
+"system_maintenance" = "连接异常";
+
+"system_update" = "系统更新";
+
+"system_version" = "系统版本";
+
+"terminated_day" = "%@ 到期";
+
+"terminated_format" = "yyyy.MM.dd";
+
+"thursday" = "四";
+
+"time_zone" = "时区";
+
+"timer_unit" = "打开时间工具";
+
+"tip_bind_device_alert_des" = "有%d个摄像机占用此位置，请更改占用摄像机的位置";
+
+"tips_ssid_empty" = "请输入正确的Wi-Fi名称";
+
+"tips_wifi_password_empty" = "请输入正确的密码";
+
+"to_coninue_please_check_internet" = "请确保您的手机连接到了有效的网络";
+
+"to_get_phone_wifi" = "获得手机当前Wi-Fi";
+
+"to_get_wifi_list_nearby" = "获得附近Wi-Fi列表";
+
+"to_time" = "至";
+
+"toast_add_zone_total_3" = "最多可添加3个提醒区域";
+
+"toast_change_language" = "语言切换成功";
+
+"toast_del_all_are_guest" = "只有管理员能够删除这些内容";
+
+"toast_del_one_is_guest" = "只有管理员能够删除此内容";
+
+"toast_network_unavailable_and_try" = "没有可用的网络连接，请重试";
+
+"toast_zone_not_playing" = "未开始播放";
+
+"today" = "今天";
+
+"total_event1" = "本日共有1个事件";
+
+"total_event2" = "本日共有%@个事件";
+
+"tracking_guide" = "同时，我们还支持人形追踪。";
+
+"tracking_guide_2" = "去设置人形追踪 >>";
+
+"tracking_mode" = "追踪模式";
+
+"troubleshooting_issue" = "排除以下问题后重试或使用扫码绑定";
+
+"troubleshooting_issue2" = "排除以下问题后重试";
+
+"try_later" = "稍后尝试";
+
+"tuesday" = "二";
+
+"turn_alern" = "确认要触发摄像机警报吗？";
+
+"turn_on_camera" = "开启摄像机";
+
+"turn_on_camera_directions" = "长按电源键3s，直到听到开机提示音或者看到灯光亮起。";
+
+"turn_on_camera_scanQR" = "将摄像机开机并扫描二维码";
+
+"turn_on_location_services" = "打开“定位服务”允许“VicoHome”使用您的位置";
+
+"turn_on_location_services_get_wifi" = "开启定位服务，自动获得手机当前Wi-Fi名称";
+
+"turn_on_location_services_title" = "在“设置-隐私”中，开启“定位服务”";
+
+"turned_on_donot_disturb" = "已开启消息勿扰";
+
+"udp_awake_failed" = "摄像机离线";
+
+"unable_to_load_image" = "无法加载图像";
+
+"unauthorized" = "用户必须通过身份验证才能继续";
+
+"unavailable_before_upgrade" = "固件升级完成前摄像机暂不可用";
+
+"understanc_agree" = "我已阅读并同意";
+
+"unheard_scan_qr_code" = "未听到“扫描二维码”";
+
+"unknown_error_ios" = "系统内部错误";
+
+"unkonw_error" = "系统内部错误";
+
+"update" = "立即更新";
+
+"update_device_name_scuess" = "摄像机名称修改成功";
+
+"update_location_scuess" = "位置更新成功";
+
+"update_now" = "现在更新";
+
+"update_the_latest_version" = "检测到最新固件版本 %@";
+
+"update_time_string" = "上次更新 %@at %@";
+
+"update_timezone_scuess" = "修改时区成功";
+
+"update_user_name_success" = "用户名修改成功";
+
+"updating" = "更新中...";
+
+"upgrage_to_plan" = "%@升级%@";
+
+"uploaded_fail" = "上传失败，请重试";
+
+"uploaded_success" = "上传成功";
+
+"use_app_scan" = "请使用%@ APP扫描下方二维码添加摄像机";
+
+"user_account_in_protection" = "智能服务已失效，请重新购买";
+
+"user_agreement" = "用户协议";
+
+"user_guide_4" = "提醒区域";
+
+"user_guide_desc_1" = "方便管理多台摄像机";
+
+"user_guide_package" = "使用指导";
+
+"user_name" = "用户名";
+
+"Username_inuse" = "您输入的用户名已被占用";
+
+"username_noncompliance" = "您输入的用户名格式不正确";
+
+"value_added_services" = "智能服务";
+
+"vehicle" = "车辆";
+
+"vehicle_approaching" = "车辆驶来";
+
+"vehicle_leaving" = "车辆驶离";
+
+"vehicle_parked" = "车辆停滞";
+
+"verificatio_code_require" = "密码错误多次，需输入验证码";
+
+"verification_code_expired" = "验证码已过期";
+
+"verification_code_not_right" = "验证码不正确";
+
+"verification_code_sent_tips" = "我们刚刚向您的邮箱 %@ 发送了验证码。";
+
+"verification_error_max_times" = "请求过于频繁，请稍后重试";
+
+"verificting_error" = "订单核实中，请稍后";
+
+"verify_code" = "验证码";
+
+"verify_identity_desc_1" = "绑定之前，需输入密码校验用户的身份信息。";
+
+"verify_network" = "连接Wi-Fi网络";
+
+"verify_network_des" = "目前仅支持2.4GHz Wi-Fi，连接后即可进行下一步";
+
+"verify_send_code" = "我们刚刚向您的手机号 %@ 发送了验证码。";
+
+"verify_user_info" = "校验身份";
+
+"verify_user_rebind" = "重新绑定之前，需输入密码校验用户的身份信息。";
+
+"vicoo_policy" = "用户协议 & 隐私政策";
+
+"video_duration" = "视频时长";
+
+"video_feedback_agree" = "我同意将反馈问题和原视频内容(包含所有的个人信息)反馈给%@，帮助他们进行数据的二次分析。相关法律文件请参看隐私政策。";
+
+"video_feedback_cell_other" = "其他，点击填写错误描述";
+
+"video_feedback_check" = "请查看并勾选相关条款";
+
+"video_hb" = "高清";
+
+"video_max_below_20m" = "视频应该在20M以内";
+
+"video_over_day" = "该视频已过期";
+
+"video_resolution" = "视频分辨率";
+
+"video_resolution_1080p" = "高清";
+
+"video_resolution_720p" = "标清";
+
+"video_saved_to_ablum" = "录像已保存到手机相册";
+
+"video_saving" = "视频正在保存…";
+
+"video_smooth" = "流畅";
+
+"video_tag" = "视频标签";
+
+"videolist_error" = "获取视频列表异常";
+
+"videolist_timeout" = "获取视频列表超时";
+
+"vip_activity_zone_warning" = "智能服务功能";
+
+"voice_talk_failed_and_retry" = "语音失败,请重试";
+
+"volume" = "警铃音量";
+
+"wait_for_permission_tips" = "您的申请已经发送给管理员，请等待审核";
+
+"wakeup_camera" = "唤醒摄像机";
+
+"weak" = "弱";
+
+"weak_wifi_notation" = "当前摄像机的Wi-Fi强度较弱，建议更换位置或更换Wi-Fi";
+
+"wednesday" = "三";
+
+"where_is_qrcode" = "摄像机机身上的二维码位于贴纸上，常见于外壳内或胶塞下。此二维码包含序列号和产品型号信息，一般旁边有以“S/N”开头的字符串。";
+
+"while_using" = "使用期间";
+
+"white_light" = "白光灯";
+
+"white_tips" = "如果您需要的夜晚的白光照明功能，请前往";
+
+"whitelight_des" = "白光照亮环境，尽量还原夜晚的彩色画面";
+
+"wifi_channel" = "信道号";
+
+"wifi_confim" = "请再次确认您的Wi-Fi名称和密码是否正确（注意区分大小写）";
+
+"wifi_connect" = "选择 Wi-Fi";
+
+"wifi_issue" = "Wi-Fi设置问题";
+
+"wifi_name" = "Wi-Fi名称:";
+
+"wifi_password" = "密码:";
+
+"wifi_scanning" = "Wi-Fi搜索中";
+
+"wifi_setting" = "Wi-Fi设置";
+
+"wifi_state" = "Wi-Fi强度： %@";
+
+"wifi_state_ios" = "Wi-Fi强度:";
+
+"wifi_tips" = "提示";
+
+"wlan_enable_play" = "当前为非Wi-Fi环境，是否要继续使用？";
+
+"wrong_az_tips" = "*抱歉，系统检测到以下提醒区域存在问题，可能会导致检测不准确，请删除后重新添加";
+
+"wrong_code" = "二维码不正确";
+
+"yes" = "是";
+
+"zone_1" = "区域1";
+
+"zone_2" = "区域2";
+
+"zone_3" = "区域3";
+
+"zone_with_args" = "区域 %@";
+
+"keep_phone_camera_close" = "摄像机正在连接中，请保持摄像机和手机在较近距离";
+
+"reconnect_wifi" = "请在手机系统设置中重新连接之前的Wi-Fi，操作完成后回到此页面查看摄像机的绑定结果";
+
+"reconnect_wifi_button" = "重新连接Wi-Fi";
+
+"select_camera_add" = "选择要添加的摄像机";
+

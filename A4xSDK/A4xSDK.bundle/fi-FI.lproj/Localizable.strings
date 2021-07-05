@@ -1,0 +1,2630 @@
+/* 
+Localizable.strings
+
+Created by kzhi on 2020/4/11.
+Copyright © 2020 CocoaPods. All rights reserved.
+*/
+"about" = "Tietoja %@";
+
+"about_evaeye" = "Tietoja %@";
+
+"about_vicoo" = "Tietoja %@";
+
+"accept" = "Hyväksy";
+
+"account_had_been_bind" = "Käyttäjätili on jo olemassa";
+
+"account_no_registered" = "Käyttäjätiliä ei ole rekisteröity.";
+
+"account_settings" = "Tilin asetukset";
+
+"action_tracing_open" = "Kun kamera on havainnut liikettä, se alkaa automaattisesti seurata liikkuvaa kohdetta.";
+
+"action_tracking" = "Toiminnan tunnistus";
+
+"activity_zone_tips" = "Jos lisäät tarkkailualueita, kamera lähettää sinulle ilmoituksia vain tarkkailualueella tapahtuvasta toiminnasta. Kamera kuitenkin tallentaa videon mikäli se havaitsee liikettä missä tahansa kuva-alueella.";
+
+"activity_zones" = "Tarkkailualue";
+
+"add_activity_zone" = "Lisää tarkkailualue";
+
+"add_camera_again" = "Lisää kamera";
+
+"add_camera_now" = "Lisää kamera nyt";
+
+"add_device_long_press" = "Paina virtapainiketta pitkään käynnistääksesi";
+
+"add_device_plugin" = "Lisäosa";
+
+"add_device_power_des_key_point" = "Pitkä painallus";
+
+"add_device_power_double_des" = "Kun kuulet äänen \"Scan QR code\", voit jatkaa seuraavaan vaiheeseen.";
+
+"add_device_power_title" = "Laita kamera päälle";
+
+"add_device_push_button" = "Painonappi";
+
+"add_new_camera" = "Lisää uusi kamera";
+
+"add_new_camera_now" = "Lisää uusi kamera nyt!";
+
+"add_new_device" = "Lisää uusi kamera";
+
+"add_new_device_b" = "Älykäs PTZ-kamera";
+
+"add_new_device_g" = "Älykäs akkukamera";
+
+"add_other_error" = "Muu ongelma / Ei ääntä";
+
+"add_preset_scuess" = "Suunta lisätty";
+
+"add_sleep" = "lisää";
+
+"add_sleep_plan" = "Lisää lepotila-aikataulu";
+
+"add_timeout" = "Lisää kameran aikakatkaisu";
+
+"address" = "Osoite";
+
+"address1_placeholder" = "Kadun nimi ja numero";
+
+"address2_placeholder" = "Lisärivi";
+
+"admin" = "Ylläpito";
+
+"admin_info" = "Ylläpitotietoja";
+
+"admin_sharing_in_same_country" = "Kameran pääkäyttäjän sekä käyttäjän, jolle kamera jaetaan, pitää olla rekisteröitynyt samasta maasta. Kameroita ei voi jakaa eri maihin rekisteröityneiden käyttäjien välillä.";
+
+"admin_wakeup_camera" = "Tarvittaessa ota yhteyttä pääkäyttäjään kameran käynnistämiseksi.";
+
+"advanced_info" = "Edistyneet asetukset";
+
+"agree" = "Hyväksy";
+
+"agree_and_continue" = "Hyväksy ja jatka";
+
+"ai_car" = "Ajoneuvo";
+
+"ai_filter" = "Luokittelu";
+
+"ai_filter_des" = "kun luokittelu on käytössä, kamera analysoi videomateriaalia ja tunnistaa siitä erillaisia kohteita. Tällä hetkellä kamera kykenee tunnistamaan ihmishahmon, lemmikin, ajoneuvon ja paketin.";
+
+"ai_filter_des2" = "kun luokittelu on käytössä, kamera analysoi videomateriaalia ja tunnistaa siitä erillaisia kohteita. Tällä hetkellä kamera kykenee tunnistamaan ihmishahmon ja lemmikin.";
+
+"ai_pet" = "Lemmikki";
+
+"alarm_no" = "Äänenvoimakkuutta ei voi asettaa alle 10";
+
+"alarm_on" = "Laita päälle";
+
+"alarm_playing" = "Hälytys on päällä";
+
+"alarm_volume" = "Hälytysäänen voimakkuus";
+
+"alerdy_move_location" = "Kamera on jo siirretty paikkaan %@";
+
+"alert" = "Aktivoi hälytys";
+
+"alert_buttom" = "Hälytyssireeni";
+
+"alignqr" = "Kohdista QR-koodi kehyksen sisään";
+
+"all_alerts" = "Kaikki liike";
+
+"all_device" = "Kaikki kamerat";
+
+"all_screen" = "Koko näyttö";
+
+"allow" = "Salli";
+
+"allow_bluetooth_permission" = "Salli Bluetoothin käyttö";
+
+"allow_bluetooth_permission_button" = "Salli Bluetoothin käyttö";
+
+"allow_camera_permission" = "Salli sovelluksen pääsy puhelimesi kameraan ja skannaa kameran QR-koodi.";
+
+"allow_libary" = "Salli puhelimen astuksista pääsy kuviin";
+
+"allow_location_permission" = "Salli sijaintitiedot";
+
+"allow_location_permission_for_camera" = "Salli sijaintipalvelu jotta langattoman verkon asetukset voidaan hakea automaattisesti, tai syötä Wi-Fi -asetukset manuaalisesti.";
+
+"allow_location_permission_get_wifi" = "Salli sijaintipalvelu jotta langattoman verkon asetukset voidaan hakea automaattisesti.";
+
+"allow_location_permission_title" = "Salli sijaintitiedot";
+
+"allowa_camera_permission" = "Salli kameran käyttö";
+
+"already_ignore" = "Hylätty";
+
+"already_long_press" = "Painoin reset-nappia";
+
+"already_register" = "Sähköposti ID on rekisteröity, yritä sen sijaan kirjautua";
+
+"alter_location" = "Muuta sijaintia";
+
+"and" = "ja";
+
+"anti_flicker" = "Välkkymisen esto";
+
+"anti_flicker_setting" = "Välkkymisen esto";
+
+"anti_flicker_tips" = "Kun välkkymisen esto on päällä, kamera pyrkii estämään verkkovirran aiheuttamaa häiriövälkkymistä videossa.";
+
+"apayment_success" = "%@ maksu onnistui";
+
+"apaymntt_fail" = "%@ maksu epäonnistui";
+
+"app_build_info" = "Versiotietoja";
+
+"app_is_update_to_date" = "Sinulla on jo viimeisin versio.";
+
+"app_name" = "@string/appName";
+
+"app_update" = "Sovelluksen päivitys";
+
+"app_version" = "Sovelluksen versio";
+
+"apple_cancle" = "Maksu keskeytetty.";
+
+"apple_reject" = "Tämä puhelin ei tue ostoksia.";
+
+"audio_setting" = "Ääniasetukset";
+
+"auto" = "Automaattinen";
+
+"auto_sleep" = "Ajastus";
+
+"auto_sleep_prompt" = "Jos ajastus on päällä, kamera menee lepotilaan määrättyinä aikoina.";
+
+"available_2_4g_are_follows" = "Käytettävissä olevat 2.4 GHz langattomat verkot.";
+
+"available_fireware" = "Saatavilla oleva laiteohjelmisto";
+
+"awareness_service" = "Awareness Palvelu";
+
+"awarenessbasic" = "%@ Awareness Basic";
+
+"awarenessplus" = "%@ Awareness Plus";
+
+"awarenesspro" = "%@ Awareness Pro";
+
+"back_door" = "Takaovi";
+
+"batter_low_upgrade" = "Akun varaus on liian matala. Akun varaustaso pitää olla vähintää 20 % ennen päivittämistä.";
+
+"battery_camera" = "Akkukäyttöinen kamera";
+
+"battery_camera_tips" = "Paina kameran power-nappia pitkään (3s) kunnes kuulet äänimerkin.";
+
+"battery_issue" = "Akku- tai laitteisto-ongelma";
+
+"battery_level" = "Akku";
+
+"bed_room" = "Makuuhuone";
+
+"before_offline" = "(ennen yhteyden katkeamista)";
+
+"bind_111" = "Kun kuulet skannausäänen tai näet merkkivalon vilkkuvan, voit skannata QR-koodin viemällä koodin 15 - 30 cm päähän kameran linssistä. Jos ääntä ei kuulu tai merkkivalo ei välky, paina power-nappia kaksi kertaa. Kamera imoittaa merkkivalolla kun skannaus on onnistunut.";
+
+"bind_device_b0_step0_desc" = "Kun kameran pyöriminen lakkaa, voit jatkaa seuraavaan vaiheeseen.";
+
+"bind_device_delete" = "Poista tämä verkko";
+
+"bind_device_g_step0_desc" = "Kun kuulet käynnistymisäänen, voit jatkaa seuraavaan vaiheeseen.";
+
+"bind_device_guide" = "Laita kamera päälle käyttöohjeen mukaisesti";
+
+"bind_device_guide_confirm" = "Varmista että kamerasta kuuluu ääni tai merkkivalo vilkkuu";
+
+"bind_device_k0_step0_desc" = "Kun kuulet käynnistymisäänen, voit jatkaa seuraavaan vaiheeseen.";
+
+"bind_device_save_wifi" = "Muista Wi-Fi verkon nimi ja salasana yhdistämisen jälkeen.";
+
+"bind_device_saved" = "Wi-Fi yhteys tallennettu";
+
+"bind_device_scan" = "Aseta QR-koodi 15 - 30 cm päähän kameran linssistä. Skannaus on valmis kun kuulet skannaus onnistunut -merkkiäänen.";
+
+"bind_device_scan_failed" = "Yhdistäminen epäonnistui, klikkaa tästä";
+
+"bind_device_scan_failed_2" = "Ota yhteys asiakastukeen";
+
+"bind_device_skip" = "Kun yhteys on muodostettu, siirrytään automaattisesti seuraavaan vaiheeseen.";
+
+"bind_result_scuess" = "%@ (%@) kutsui sinut katselemaan kameran kuvaa.";
+
+"bind_result_scuess_check" = "Tarkista jaettujen kameroiden listasta";
+
+"bind_step_wifi_finish" = "Täytin langattomen verkon tiedot";
+
+"bluetooth_permission" = "Pikayhdistäminen edellyttää Bluetoothin käyttön sallimisen";
+
+"bluetooth_system_center" = "Laita Bluetooth päälle järjestelmäasetuksista.";
+
+"bluetooth_tips1" = "1 Etsi %@ asetuksista";
+
+"bluetooth_tips2" = "2 Salli %@ käyttää Bluetoothia";
+
+"build_env" = "Käännösympäristö";
+
+"buy" = "Osta";
+
+"buy_desc" = "* %@ Awareness-tilaus tulee voimaan vain kameran järjestelmänvalvojan oikeuksilla, ja jaetut käyttäjät käyttävät sitä järjestelmänvalvojan oikeuksilla.";
+
+"camera" = "Kamera";
+
+"camera_alarm" = "Hälytys";
+
+"camera_alarm_tips" = "Kun otat \"Hälytys\" ominaisuuden käyttöön, kamera hälyttää kun se havaitsee liikettä.";
+
+"camera_alarm_white_tips" = "Kun otat \"Hälytys\" tai \"Salamavalo\" ominaisuuden käyttöön, kamera hälyttää kun se havaitsee liikettä.";
+
+"camera_deleted" = "Kamera on poistettu.";
+
+"camera_is_offline" = "Kamera on offline-tilassa";
+
+"camera_line_busy" = "Kamera on ylikuormitettu, yritä myöhemmin uudelleen.";
+
+"camera_location" = "Minne haluat sijoittaa tämän kameran?";
+
+"camera_not_activated" = "Tunnistamaton kamera, ota yhteyttä jälleenmyyjääsi.";
+
+"camera_not_activated_short" = "Tunnistamaton kamera";
+
+"camera_off" = "Kamera ei ole päällä, käynnistä se nyt.";
+
+"camera_off_low_battery" = "Kamera on sammunut %@ koska akkun varaus oli matala. Lataa akku.";
+
+"camera_offline_desc" = "Kokeile käynnistää langaton tukiasemasi tai reitittimesi uudelleen. Jos se ei auta, yritä uudelleen yhdistämistä langattomaan verkkoon.";
+
+"camera_permission" = "Salli pääsy kameraan";
+
+"camera_permission_tips" = "Salli kameran käyttö puhelimen asetuksista voidaksesi skannata QR-koodin.";
+
+"camera_poor_network" = "Kamera on offline-tilassa. Tarkista että se on päällä ja että se on yhdistetty langattomaan verkkoon.";
+
+"camera_poor_network_short" = "Kamera on offline-tilassa";
+
+"camera_serial_number" = "Kameran sarjanumero";
+
+"camera_sleep" = "Kamera on lepotilassa";
+
+"camera_sleep_open" = "Kamera lähtee päälle huomenna klo %@";
+
+"camera_wake_up" = "Päälle";
+
+"camera_white_tips" = "Jos hälytysvalo on päällä, kameran valo syttyy automaattisesti jos se havaitsee liikettä.";
+
+"camera_will_not_record" = "Kamera ei tallenna, hälytä eikä sen ilmoituksia näytetä.";
+
+"can_move_this_location" = "Siirrä seuraavaan sijaintiin";
+
+"can_not_find_camera_qr_code" = "Etkö löydä QR-koodia kameran rungosta?";
+
+"can_not_find_qr_code" = "En löydä pääkäyttäjän QR-koodia?";
+
+"can_not_find_reset" = "En löydä reset-painiketta?";
+
+"can_not_get_ssid" = "Langattoman verkon nimeä (SSID) ei voida hakea. Laita Wi-Fi päälle tai syötä verkon nimi (SSID) käsin.";
+
+"can_not_get_ssid_short" = "Wi-Fi -verkon nimeä (SSID) ei saatu";
+
+"can_not_power_up" = "Etkö saa kameraa päälle?";
+
+"cancel" = "Peruuta";
+
+"cancel_setup" = "Peruuta";
+
+"cannot_receive_code" = "Etkö saanut vahvistuskoodia?";
+
+"cannot_receive_code_reason_bold1" = "tarkista onko se roskaposteissa.";
+
+"cannot_receive_code_reason_bold2" = "Tunnetun sähköpostipalvelun sähköpostiosoite, kuten Gmail tai Yahoo";
+
+"cannot_receive_code_reason1" = "Kun olet vahvistanut varmistuskoodin lähettämisen, saat koodin sähköpostiisi minuutin kuluessa.";
+
+"cannot_receive_code_reason2" = "Jos verkkoyhteys on hidas tai epävakaa, odota kärsivällisesti vähintään viisi minuuttia.";
+
+"cannot_receive_code_reason3" = "Jos et saa varmistuskoodia viiden minuutin kuluessa, <![CDATA[<b>tarkista myös roskapostilaatikko</b>]]>.";
+
+"cannot_receive_code_reason4" = "Jos varmistuskoodia ei löydy roskaposteistakaan, voi olla että emme voi lähettää sähköpostia sinun nykyiseen sähköpostiosoitteeseen. Varminta on, jos sinulla on käytössä jonkin tunnetun sähköpostipalvelun sähköpostiosoite, kuten Gmail tai Yahoo.";
+
+"cannot_receive_code_reason5" = "Jos et saa varmistuskoodia viiden minuutin kuluessa, tarkista myös roskapostilaatikko.";
+
+"cannot_receive_code_reason6" = "Jos varmistuskoodia ei löydy roskaposteistakaan, voi olla että emme voi lähettää sähköpostia sinun nykyiseen sähköpostiosoitteeseen. Varminta on, jos sinulla on käytössä jonkin tunnetun sähköpostipalvelun sähköpostiosoite, kuten Gmail tai Yahoo.";
+
+"cannot_switch" = "Resoluutiota ei voi vaihtaa kesken tallennuksen.";
+
+"cannot_take_screenshot" = "Kuvia ei voi ottaa kesken tallennuksen.";
+
+"change" = "Muuta nyt";
+
+"change_binding_email" = "Tämä käyttäjätili on jo olemassa. Käytä toista sähköpostiosoitetta.";
+
+"change_binding_phone" = "Tämä käyttäjätili on jo olemassa. Käytä toista puhelinnumeroa.";
+
+"change_email" = "Vaihda sähköposti ID";
+
+"change_net_device_power_des" = "Paina kameran nappia kahdesti päästäksesi Internet-yhteys tilaan. Kun LED-valo alkaa välkkyä sinisenä, olet valmis.";
+
+"change_net_device_power_des_key_point" = "Tuplaklikkaus";
+
+"change_not_save" = "Haluatko vaihtaa salasanasi?";
+
+"change_notification" = "%@-tilauksesi taso muuttuu tasolle %@ %@ päivän jälkeen.";
+
+"change_password" = "Vaihda salasana";
+
+"change_password_failed" = "Salasanan vaihtaminen epäonnistui, yritä uudelleen.";
+
+"change_password_success" = "Salasana on vaihdettu.";
+
+"change_password_tips" = "Salasanassa tulee olla vähintään yksi iso ja yksi pieni kirjain sekä yksi numero. Salasanan pitää myös olla vähintää 8 merkkiä pitkä.";
+
+"change_phone" = "Muuta puhelinnumeroa";
+
+"change_statement_1" = "ilosina ilmoitamme että olemme julkaisseet uuden %@ sovelluksen, joka on päivitetty versio Vicoo-sovelluksesta. Vanhaa Vicoo-sovellusta ei enään päivitetä. Ota uusi %@ sovelluksemme käyttöön, ja me uskomme että se antaa sinulle entistä paremman käyttökokemuksen.";
+
+"change_statement_2" = "Paina vain \"Lataa tästä\" nappia alapuolella ja sinut ohjataan suoraan Play-kauppaan. Voit myös etsiä sovellusta \"%@\" Play-kaupasta. Asennuksen jälkeen kirjaudu Vicoo-tilillesi käyttääksesi sovellusta. Ensimmäisellä käyttökerralla varmista että kaikki tietosi ovat oikein (kamerat, data ja asetuksesi).";
+
+"change_statement_2_email" = "Paina vain \"Lataa tästä\" nappia alapuolella ja sinut ohjataan suoraan sovelluskauppaan. Voit myös etsiä sovellusta \"%@\" sovelluskaupasta. Asennuksen jälkeen rekisteröi tilisi uudelleen käyttääksesi sovellusta. Jos sinulla on jotain kysyttävää, ota yhteys osoitteeseen support@vicoo.tech.";
+
+"change_statement_5" = "Emme malta odottaa että alat käyttämään uutta %@ sovellustamme. Olet aina tervetullut antamaan meille mitä tahansa palautetta!";
+
+"change_wifi" = "Vaihda langaton verkko";
+
+"change_wifi_network" = "Vaihda langatonta verkkoa";
+
+"changed_not_saved" = "Muutoksia ei ole tallennettu. Tallennetaanko muutokset nyt?";
+
+"charging" = "Ladataan";
+
+"charging_completed" = "Lataus valmis";
+
+"check_email_sample" = "xx@xx.xx";
+
+"check_for_update_version" = "Tarkista laiteohjelmistojen päivitykset";
+
+"check_inbox_des" = "Lähetimme juuri varmistuskoodin sähköposti ID:lle %@, kirjoita se täsmälleen.";
+
+"check_net_config" = "Tarkista verkon toimivuus ja yritä uudelleen.";
+
+"check_requirements" = "Salasana ei kelpaa.";
+
+"check_update_version" = "Tarkista päivitykset";
+
+"check_wifi_0" = "Vie kamera siihen paikkaan johon haluat asentaa kameran ja tarkista langattoman verkon signaalin voimakkuus.";
+
+"check_wifi_1" = "Tarkista langattoman verkon voimakkuus…";
+
+"check_wifi_2" = "Vahvista langattoman verkon signaalinvoimakkuus:";
+
+"check_wifi_3" = "Kameran nykyinen asennuspaikka on hyvä.";
+
+"check_wifi_4" = "Kameran nykyinen asennuspaikka ei ole hyvä.";
+
+"check_wifi_no" = "Nykyisessä asennuspaikassa ei ole langatonta verkkoa. Siirrä kameraa tai langattoman verkon tukiasemaa.";
+
+"check_your_inbox" = "Varmistuskoodi";
+
+"choose" = "Valitse";
+
+"choose_camera_type" = "Skannaa matkapuhelimella kameran rungosta QR-koodi oikean kameran liittämiseksi. QR-koodi löytyy usein kameran kotelosta tai kumisen suojan alta. Tämä QR-koodi sisältää kameran sarjanumeron ja tuotemallitiedot, ja yleensä sen vieressä on teksti joka alkaa merkeillä \"S/N\".";
+
+"choose_error_msg" = "Valitse kuulemasi virheilmoitus";
+
+"choose_firmware_update" = "Valitse laiteohjelmisto";
+
+"choose_location" = "Hallitaksesi kameroita paremmin, valitse sijainti";
+
+"choose_other_wifi" = "Valitse toinen langaton verkko";
+
+"choose_question_type" = "Valitse seuraavista kysymyksen tyypeistä";
+
+"city" = "Kaupunki";
+
+"clear_cache" = "Tyhjennä välimuisti";
+
+"clear_cache_des" = "Välimuistiin on tallennettu käytönaikaisia tietoja. Välimuistin tyhjentäminen ei vaikuta ohjelman käyttöön.";
+
+"clear_cache_not_affect_download_media" = "Välimuistin tyhjentäminen ei vaikuta ominaisuuden %@ toimintaan.";
+
+"close" = "Suljettu";
+
+"close_led" = "Pois";
+
+"close_motion_detection_tip" = "Kun toiminto on optimoitu, videotallennuskytkin poistetaan. Liiketunnistuskytkin on väliaikaisesti pois päältä, jotta se ei vaikuta käyttötottumuksiin. Käynnistä se tarvittaessa uudelleen.";
+
+"cloud_area" = "Tarkkailualue";
+
+"cloud_service_buy" = "Tilaa nyt";
+
+"cloud_size_change" = "Pilvitallennusarkistosi lyhenee %@ päivään (max. %@GB)";
+
+"cloud_storage_params" = "<![CDATA[<font color=#333333\">%1$d päivää</font><br><font color=\"#999999\">(≤%2$dGB)</font>]]>\"";
+
+"cloud_strorage" = "Pilvitallennus";
+
+"common_format" = "Alusta muistikortti";
+
+"common_service" = "Ei tilausta";
+
+"config_night_mode" = "Yökuvaustila";
+
+"confirm" = "Vahvista";
+
+"confirm_camera_on" = "Varmista että kamera on päällä";
+
+"confirm_model_number" = "Skannaa QR-koodi puhelimellasi jotta kameran sarjanumero voidaan vahvistaa";
+
+"confirm_new_password" = "Vahvista uusi salasana";
+
+"confirm_open" = "Vahvista";
+
+"confirm_password" = "Vahvista salasana";
+
+"confirm_scan_state" = "Varmista että kamera on skannaustilassa";
+
+"confirm_scan_state_directions" = "Kamera menee skannaustilaan automaattisesti ja siitä kuuluu skannauksen merkkiääni tai merkkivalo alkaa vilkkumaan. Jos kamera ei mene skannaustilaan, paina power-nappia kaksi kertaa aktivoidaksesi skannaustilan.";
+
+"confirm_scanning_sound" = "Varmista että kamerasta kuuluu piippaava skannausääni";
+
+"confirm_speaker_1" = "Oletko varma että haluat ottaa kaiuttimet pois käytöstä?";
+
+"confirm_speaker_2" = "Kamerasta ei enään kuulu äänimerkkejä";
+
+"confirm_speaker_open" = "Kun laitat kameran kaiuttimet päälle, kamera antaa toisinaan äänimerkkejä tiedottaakseen toimintatilastaan.";
+
+"congratulation_add_camera" = "Onneksi olkoon\nLisää nyt kamera";
+
+"connect_error_ap_1" = "Tarkista että valitsit oikean langattoman verkon (SSID)";
+
+"connect_error_ap_2" = "Aseta kamera reitittimen lähelle ja varmista että reitittimen virtalähde on kytketty";
+
+"connect_error_ap_3" = "Toistaiseksi 5 GHz Wi-Fi ei ole tuettu.";
+
+"connect_error_failed_1" = "Tarkista että reititin on kytketty toimivaan verkkoon.";
+
+"connect_error_failed_2" = "Käynnistä reititin uudelleen ja yritä sen jälkeen yhdistää uudelleen.";
+
+"connect_error_failed_3" = "Kokeile toista langatonta verkkoa.";
+
+"connect_error_ip" = "Kuulin \"Retrieving IP timeout\"";
+
+"connect_error_ip_1" = "Reitittimeen on liitetty liian monta kameraa, et voi enään lisätä siihen kameroita. Sinun pitää poistaa reitittimestä käyttämättömiä kameroita ennen kuin voit lisätä uusia.";
+
+"connect_error_ip_2" = "Käynnistä reititin uudelleen ja yritä sen jälkeen yhdistää uudelleen.";
+
+"connect_error_ip_3" = "Kokeile toista langatonta verkkoa.";
+
+"connect_error_method" = "Kamera tukee vain WPA-2 -salausta, tai heikompaa.";
+
+"connect_error_no_voice" = "Kuulin \"Cloud service connection fail\"";
+
+"connect_error_other" = "Kuulin \"Authentication error\"";
+
+"connect_error_password_1" = "Tarkista että kirjoitit langattoman verkon salasanan oikein.";
+
+"connect_error_password_2" = "Toistaiseksi 5 GHz Wi-Fi ei ole tuettu.";
+
+"connect_error_wifi" = "kuulin \"Wi-Fi password error\"";
+
+"connect_error_wifi_net" = "Kuulin \"Wi-Fi SSID not found\"";
+
+"connect_find_device" = "Kamera löydetty";
+
+"connect_heard_failed" = "Kuulin virheviestin.";
+
+"connect_initialize" = "Ota kamera käyttöön";
+
+"connect_no_wifi" = "Langattoman verkon tietoja ei löydy?";
+
+"connect_register" = "Rekisteröi pilvipalvelu";
+
+"connect_server" = "Yhdistetään palvelimeen...";
+
+"connect_sever_timeout" = "Yhteys palvelimeen aikakatkaistiin";
+
+"connect_success" = "Yhteys muodostettu";
+
+"connect_to_wifi" = "Liitä kamera Wi-Fi verkkoon";
+
+"connect_wifi" = "Yhdistä langattomaan verkkoon";
+
+"connect_wifi_no_voice_error" = "En kuullut mitään.";
+
+"connect_wifi_tips" = "Anna kamerassa käytettävän langattoman verkon nimi (SSID) ja salasana. Vain 2,4 GHz Wi-Fi -verkko on tuettu. Ymmärrä enemmän >>";
+
+"connect_wifi_unkonw_error" = "Kuulin \"Other error\".";
+
+"connecting" = "Yhdistetään…";
+
+"connection_failed" = "Yhdistäminen epäonnistui";
+
+"contact_admin_set_az" = "Ota yhteyttä pääkäyttäjään tarkkailualueen asettamiseksi";
+
+"copyright" = "Copyright © 2021 Photon Sail Tech Kaikki oikeudet pidätetään";
+
+"country" = "Maa";
+
+"country_region" = "Maa/Alue";
+
+"coupon" = "Kuponki";
+
+"coupon_expire" = "Kuponki on vanhentunut.";
+
+"coupon_used" = "Kuponki on jo käytetty.";
+
+"create_location" = "Lisää uusi sijainti";
+
+"create_new_password" = "Aseta uusi salasana";
+
+"create_your_account" = "Aseta salasana";
+
+"crying_detection" = "Itkuhälytin";
+
+"crying_detection_high" = "Jos kamera on kauempana vauvasta kuin kolme metriä, on suositeltavaa käyttää herkkyystasoa Korkea.";
+
+"crying_detection_low" = "Jos kamera on lähellä vauvaa, metrin tai lähempänä, herkkyystaso Matala on yleensä sopiva.";
+
+"crying_detection_mid" = "Jos kamera on kahden - kolmen metrin päässä vauvasta, keskitason voimakkuus on yleensä sopiva.";
+
+"crying_detection_on" = "Kun itkuhälytin-toiminto on laitettu päälle, saat ilmoituksen kun kamera tunnistaa itkua.";
+
+"crying_tag" = "Itkee";
+
+"current_location" = "Nykyinen sijainti: %@";
+
+"data_acquisition_failed" = "Tiedonkeruu epäonnistui, käynnistä sovellus uudelleen.";
+
+"day" = "%d päivää";
+
+"default_common" = "Oletus";
+
+"delete" = "Poista";
+
+"delete_account" = "Poista käyttäjätili";
+
+"delete_account_failed" = "Käyttäjätilin poistaminen epäonnistui, yritä uudelleen.";
+
+"delete_location_desc" = "Haluatko varmasti poistaa tämän sijainnin?";
+
+"delete_notice_content_0" = "Koska käyttäjätiliä ei voida palauttaa postamisen jälkeen, turvallisuutesi vuoksi varmista ennen tietojen lähettämistä että alla olevat tiedot ovat oikein.";
+
+"delete_notice_content_1" = "Käyttäjätilillä ei ole havaittu epätavallista toimintaa, ja vain sinä itse voit poistaa käyttäjätilisi.";
+
+"delete_notice_content_2" = "Jos olet kameran pääkäyttäjä, menetät laitteen katselu- ja hallintaoikeudet kameran poistamisen jälkeen. Jos kamera on jaettu sinulle, et voi poistamisen jälkeen enään katsella kameran kuvaa.";
+
+"delete_notice_content_3" = "Kaikki henkilökohtaiset tietosi, mm. albumitiedot, menetetään pysyvästi eikä niitä voida palauttaa.";
+
+"delete_notice_content_4_ios" = "Koska %@ Awareness käyttää kolmannen osapuolen maksupalvelua, tilin poistaminen ei lopeta toistuvia maksuja. Muista peruuttaa myös tilauksen automaattinen uusiminen.";
+
+"delete_notice_content_4_ios_link" = "Keskeytä tilauksen automaattinen uusiminen";
+
+"delete_notice_title_0" = "Tilin poistoilmoitus";
+
+"delete_notice_title_1" = "1. Käyttäjätili on suojattu";
+
+"delete_notice_title_2" = "2. Tähän tiliin liitettyjä kameroita ei voi enään seurata";
+
+"delete_notice_title_3" = "3. Kaikki henkilökohtainen tieto tuhotaan";
+
+"delete_notice_title_4" = "4. Keskeytä tilauksen %@ Awareness automaattinen uusiminen";
+
+"delete_one_dialog_message" = "Tämä poistetaan välittömästi. Et voi palauttaa tietoja poiston jälkeen.";
+
+"delete_sleep_time" = "Haluatko varmasti poistaa lepotilan ajastuksen?";
+
+"delete_success" = "Poistettu";
+
+"delete_this_location" = "Sijainti on poistettu";
+
+"delete_wifi" = "Haluatko varmasti poistaa tämän verkon tiedot?";
+
+"deselect_all" = "Poista valinnat";
+
+"detail_location" = "Tarkka osoite";
+
+"detection_area" = "Alueen tunnistus";
+
+"detection_parcel" = "Paketin tunnistus";
+
+"detection_parcel_desc" = "Kamera lähettää ilmoituksen kun paketti on tunnistettu.";
+
+"detection_pedestrian" = "Henkilön tunnistus";
+
+"detection_person" = "Henkilön tunnistus";
+
+"detection_sensitivity" = "Tunnistuksen herkkyys";
+
+"device" = "Kamera";
+
+"device_already_bind_by_other" = "Kamera on jo liitetty toiseen käyttäjätiliin. Ota yhteys pääkäyttäjään.";
+
+"device_auth_limitation" = "Ei oikeuksia käyttää tätä kameraa.";
+
+"device_b0_default_name" = "%@ Smart PTZ-kamera";
+
+"device_b1_default_name" = "%@ Smart PTZ-kamera";
+
+"device_b2_default_name" = "%@ Smart PTZ-kamera";
+
+"device_bind_heared_common_voice" = "Kun kuulet skannausäänen, voit edetä seuraavaan vaiheeseen.";
+
+"device_default_name" = "%@ Smart-kamera";
+
+"device_g0_default_name" = "%@ Smart Battery-kamera";
+
+"device_g1_default_name" = "%@ Smart Battery-kamera";
+
+"device_g2_default_name" = "%@ Smart Battery-kamera";
+
+"device_has_move_to" = "Kamera on siirretty paikkaan %@";
+
+"device_info" = "Kameran tietoja";
+
+"device_installing" = "Laiteohjelmistoa asennetaan…";
+
+"device_ip" = "Kameran IP";
+
+"device_is_updating" = "Laiteohjelmistoa päivitetään…";
+
+"device_k0_default_name" = "%@ Smart Card-kamera";
+
+"device_language" = "Puhekieli";
+
+"device_language_cn" = "汉语(Kiinalainen)";
+
+"device_language_en" = "English(Englannin kieli)";
+
+"device_language_es" = "Español(Espanja)";
+
+"device_language_fr" = "Français(Ranskan kieli)";
+
+"device_language_ge" = "Deutsche(Saksan kieli)";
+
+"device_language_it" = "Italiano(Italialainen)";
+
+"device_language_ja" = "日本語(Japanilainen)";
+
+"device_language_ru" = "Pусский(Venäjän kieli)";
+
+"device_language_fi" = "Suomi(Suomi)";
+
+"device_manager" = "Kameran hallinta";
+
+"device_name" = "Kameran nimi";
+
+"device_name_invalid_tips" = "Anna kelvollinen kameran nimi";
+
+"device_no_access" = "Kameraan ei saada yhteyttä, yritä uudelleen.";
+
+"device_no_replied" = "Verkkoyhteys on epävakaa.";
+
+"device_not_bound" = "Kameraa ei ole liitetty.";
+
+"device_offline" = "Kamera on offline-tilassa";
+
+"device_other_device" = "Etkö ole varma minkä kameran valitset?";
+
+"device_restarted_update" = "Päivitysprosessin aikana kamera saattaa käynnistyä itsestään useita kertoja. Älä katkaise kameran virtaa kesken päivityksen.";
+
+"device_s0_default_name" = "%@ Smart Box-kamera";
+
+"device_settings" = "Kameran asetukset";
+
+"device_state" = "Tila: %@";
+
+"device_state_ios" = "Tila:";
+
+"device_unactivated" = "Tunnistamaton laite, ota yhteys jälleenmyyjään.";
+
+"device_update_scuess" = "Laiteohjelmisto on ajantasalla.";
+
+"dialog_message_cancel_share" = "<b>%@</b> ei saa enään viestejä laitteesta <b>%@</b>.";
+
+"dialog_message_del_multi_with_guest" = "Et voi peruuttaa tätä toimintoa. %d kohdetta kaverin kamerasta ei voida poistaa.";
+
+"dialog_message_del_multi_without_guest" = "Nämä kohteet poistetaan välittömästi. Et voi peruuttaa tätä toimintoa.";
+
+"dialog_payment_cloud_content" = "Turvallista pilvitallennusta on jatkettu 30 päivää (max. 5 GB), nyt sinulta ei jää väliin yhtään tärkeää hetkeä.";
+
+"dialog_payment_ling_content" = "Tunnistaa videosta ihmiset, eläimet ja ajoneuvot, sekä analysoi niiden toimintaa jotta sinä saat älykkäitä ilmoituksia tapahtumista.";
+
+"dialog_payment_ling_title" = "Älykkäät ilmoitukset";
+
+"dialog_payment_title" = "%@ Awareness Plus";
+
+"dialog_payment_zone_content" = "Aseta tarkkailualue ja vastaanota ilmoituksia vain tältä tarkaan rajatulta alueelta. Kaikki muu informaatio kameran kuvausalueelta on suodatettu pois.";
+
+"dialog_title_del_multi" = "Vahvistatko %d kohteen poistamisen pilvipalvelusta?";
+
+"dialog_title_del_one" = "Vahvistatko tämän kohteen poistamisen?";
+
+"did_not_hear_scanning_sound" = "Etkö kuullut piippausääntä?";
+
+"ding_dong" = "\"Ding Dong Ding Dong\"";
+
+"disable" = "Poista käytöstä";
+
+"disagree" = "En hyväksy";
+
+"distance" = "15 - 30 cm";
+
+"district_country" = "Kaupunginosa/Lääni";
+
+"do_alarm_tips" = "Laita hälytys päälle ja kamera alkaa soimaan.";
+
+"do_not_disturb" = "Älä häiritse";
+
+"do_not_disturb_15min" = "Älä häiritse 15 minuuttiin";
+
+"do_not_disturb_15min_describ" = "Et saa ilmoituksia seuraavan 15 minuutin aikana, mutta tapahtumat kuitenkin tallennetaan.";
+
+"do_not_disturb_describ" = "Tänä aikana et saa yhtään ilmoitusta, mutta kaikki tapahtumat silti tallennetaan.";
+
+"do_not_update" = "Älä päivitä";
+
+"done" = "Valmis";
+
+"dont_say_green_light" = "En näe sinistä valoa.";
+
+"double_click_exit" = "Paina uudelleen poistuaksesi %@ -tilasta";
+
+"double_click_power" = "Paina power-nappia kahdesti";
+
+"double_click_power_button" = "Tuplaklikkaus power-nappia kahdesti päästäksesi skannaustilaan";
+
+"double_click_power_directions" = "Paina power-nappia kahdesti sen jälkeen kun kamera on käynnistynyt. Kamera on skannaustilassa kun kuulet skannausäänen tai näet sinisen merkkivalon vilkkuvan.";
+
+"double_click_power_key" = "Tuplaklikkaa nappia skannataksesi";
+
+"double_click_power_key_2" = "Pana nappia kahdesti ja laita QR-koodi puhelimesi kameran eteen, noin 15-30 cm päähän kameran linssistä.";
+
+"double_click_power_key_reset" = "Paina nappia pitkään skannataksesi";
+
+"double_click_power_key_reset_next" = "Kun olet painanut nappia pitkään, voit jatkaa seuraavaan vaiheeseen.";
+
+"download" = "Lataa";
+
+"download_done" = "Lataus valmis";
+
+"download_error" = "Latausvirhe";
+
+"download_faild_and_try" = "Latausvirhe, yritä uudelleen.";
+
+"download_file_fail_and_try" = "Latausvirhe, yritä uudelleen.";
+
+"download_position" = "%d/%d ladataan…";
+
+"downloading_progress" = "%d%%";
+
+"downloading_progress2" = "Ladataan… %d%%";
+
+"drop_out" = "Jätä väliin";
+
+"duration_alarm" = "hälytyksen kesto";
+
+"edit" = "Muokkaa";
+
+"edit2" = "Muokkaa";
+
+"email" = "Sähköposti";
+
+"email_address" = "Sähköposti ID";
+
+"email_bind_success" = "Sähköposti ID liitetty.";
+
+"email_change_success" = "Sähköposti ID vaihdettu.";
+
+"email_exists" = "Käyttäjätili on jo olemassa. Yritä kirjautua sisään.";
+
+"email_invalid_tips" = "Syötä kelvollinen sähköposti ID.";
+
+"email_or_phone_number" = "Puhelinnumero/Sähköposti ID";
+
+"email_phone_address" = "Puhelinnumero/Sähköposti ID";
+
+"email_phone_number_invalid_tips" = "Anna puhelinnumero/sähköposti ID kelvollisessa muodossa.";
+
+"email_unregister_tips" = "Tätä käyttäjätiliä ei ole rekisteröity valitsemassasi maassa.";
+
+"enabled" = "Päällä";
+
+"End" = "Lopeta";
+
+"end_do_not_disturb" = "Lopeta älä häiritse -tila?";
+
+"enter_coupon" = "Syötä kuponki koodisi";
+
+"enter_device_name" = "Anna kameran nimi";
+
+"enter_email_name" = "Sähköposti ID";
+
+"enter_password" = "Salasana";
+
+"enter_pwd_tips_for_del_account" = "Varmista henkilöllisyytesi salasanalla ennen käyttäjätilin poistamista.";
+
+"error_2002" = "Kameraan ei saada yhteyttä, varmista että kamera näkyy listalla.";
+
+"error_2002_short" = "Kameraan ei saada yhteyttä.";
+
+"error_2111" = "Kamera on jo lisätty toiselle käyttäjätilille. Ota yhteyttä pääkäyttäjään.";
+
+"error_3011" = "Virheellinen pyyntö.";
+
+"error_3012" = "Pyyntö on vanhentunut, yritä uudelleen.";
+
+"error_3013" = "Ohita virheilmoitus.";
+
+"error_email_format" = "Sähköposti ID:n muotoilu ei kelpaa.";
+
+"error_message" = "Virheilmoitus";
+
+"error_no_net" = "Verkkoyhteyttä ei ole saatavilla.";
+
+"error_no_register" = "Virheelliset kirjautumistiedot, yritä uudelleen.";
+
+"error_password_input_format" = "Salasanan muotoilu on virheellinen.";
+
+"error_phone_email_format" = "Puhelinnumeron / Sähköposti ID:n muotoilu ei kelpaa.";
+
+"error_two_passwork_match" = "Salasanat eivät täsmää.";
+
+"error_unknown" = "Tuntematon virhe";
+
+"error_vaild_code" = "Varmistuskoodi on väärä.";
+
+"expired_code" = "Vanhentunut QR-koodi";
+
+"expired_notification" = "%@-tilauksesi vanhenee %@ päivän päästä.";
+
+"explore" = "Tutki";
+
+"faied_get_sdvideo" = "Videon haku muistikortilta epäonnistui";
+
+"failed_get_infomation" = "Tietojen haku epäonnistui. (%d)";
+
+"failed_information" = "Tietojen haku epäonnistui.";
+
+"failed_restore" = "Palauttaminen epäonnistui.";
+
+"failed_to_add_location" = "Suunnan asettaminen epäonnistui, yritä uudelleen.";
+
+"failed_to_delete_and_try" = "Poistaminen epäonnistui, yritä uudelleen.";
+
+"failed_to_get_information_and_try" = "Puhelimen verkkoyhteys ei ole käytettävissä, tarkista verkkoyhteys.";
+
+"feedback" = "Palaute";
+
+"feedback_failed" = "Palautteen lähettäminen epäonnistui, yritä uudelleen.";
+
+"feedback_submit_success" = "Palaute on lähetetty, kiitoksia yhteydenotosta!";
+
+"filter" = "Suodata";
+
+"find_password_by_email" = "Nouda puhelinnumerolla";
+
+"find_password_by_phone" = "Nouda sähköposti ID:llä";
+
+"find_qrcode_way" = "Miten löydät QR-koodin kamerasta:";
+
+"fireware_is_downloading" = "Laiteohjelmistoa ladataan…";
+
+"fireware_is_installing" = "Laiteohjelmistoa asennetaan…";
+
+"fireware_is_updating" = "Laiteohjelmistoa päivitetään, odota hetki";
+
+"fireware_need_force_update_tips" = "Varmistaaksesi parhaan käyttökokemuksen, päivitä viimeisimpään versioon.";
+
+"fireware_need_update_tips" = "Laiteohjelmiston versio %@ saatavilla. Päivitä kamera parhaan käyttökokemuksen saavuttamiseksi!";
+
+"fireware_update" = "Laiteohjelmiston päivitys";
+
+"fireware_update_failed" = "Päivitys epäonnistui, yritä uudelleen.";
+
+"firmware_info" = "Laiteohjelmiston tietoja";
+
+"firmware_update_fail" = "Laiteohjelmiston päivitys epäonnistui, yritä uudelleen.";
+
+"firmware_update_timeout" = "Laiteohjelmiston päivitys aikakatkaistiin, yritä uudelleen.";
+
+"firmware_upgraded_successfully" = "Laiteohjelmisto on päivitetty";
+
+"flash_light_item" = "Hälytysvalo";
+
+"flicker_rate" = "välkkymistaajuus";
+
+"follow_instruction_retry" = "Seuraa ohjeita ja yritä uudeleen.";
+
+"follow_step_retry" = "Seuraa ohjeita ja yritä uudeleen.";
+
+"for_battery_cameras" = "Akkukäyttöisille kameroille";
+
+"for_plugin_cameras" = "Plug-in kameroille";
+
+"forbidden" = "Käyttäjän ei ole sallittua jatkaa";
+
+"forck_update" = "Laiteohjelmiston versio %@ saatavilla. Päivitä kamera parhaan käyttökokemuksen saavuttamiseksi!";
+
+"forck_update_share" = "Laiteohjelmiston versio %@ saatavilla. Ota yhteyttä kameran pääkäyttäjään!";
+
+"forgot_password_" = "Unohditko salasanan?";
+
+"forgot_password_btn" = "Unohditko salasanan";
+
+"forgot_password_not_login_account" = "Anna puhelinnumero jonka haluat liittää.";
+
+"forgot_password_tips" = "Anna sen käyttäjätilin tiedot jonka salasanan haluat resetoida.";
+
+"format" = "Alusta";
+
+"formatting_cannot_use" = "Muistikorttia ei voi käyttää alustuksen aikana.";
+
+"found_event1" = "Yksi tapahtuma löytyi.";
+
+"found_event2" = "%@ tapahtumaa löytyi.";
+
+"free_30d" = "Ilmainen kokeilujakso 30 päivän ajaksi";
+
+"free_30d_plus" = "%@ Awareness Plus ilmainen kokeilu";
+
+"free_info" = "ilmainen pilvitallennus seitsemän päivän ajaksi";
+
+"friday" = "P";
+
+"from_time" = "Alkaen";
+
+"front_door" = "Etuovi";
+
+"g4_change_wifi" = "puhelinta ei ole yhdistetty langattomaan verkkoon. Yhdistä puhelin langattomaan verkkoon tai syötä verkkoasetukset käsin.";
+
+"g4_change_wifi_tips" = "Puhelinta ei ole yhdistetty langattomaan verkkoon. Yhdistä puhelin langattomaan verkkoon.";
+
+"gallery" = "Kirjasto";
+
+"garden" = "Puutarha";
+
+"get_cloud_size" = "%@ Pilvitallennusarkisto";
+
+"get_coupon_bottom" = "Hae kuponki";
+
+"get_coupon_sec" = "Onneksi olkoon, olet saanut tilauksen \"%@\" %@ kuukauden ajaksi. Tilauksen voimassaoloaikana voit käyttää seuraavia palveluita:";
+
+"get_live_url_error" = "Livestriimin avaaminen epäonnistui.";
+
+"get_location_failed" = "Sijainnin haku epäonnistui.";
+
+"get_location_static" = "Hae sijainti automaattisesti puhelimestasi";
+
+"get_new_pushes" = "Näytä push-viestit niin pian kuin mahdollista";
+
+"get_now" = "Hae nyt";
+
+"get_phone_verify_code" = "Lähetä";
+
+"get_policy_desc" = "Suojellaksemme oikeuksiasi, olemme tehneet seuraavat muutokset:";
+
+"get_started" = "Aloita!";
+
+"get_use_permission" = "Käytä %@-sovellusta skannataksesi koodin oikeuksien saamiseksi.";
+
+"Ghz2.4" = "2.4 GHz";
+
+"Ghz5" = "5 GHz";
+
+"gif_ad_1" = "Ylimääräinen pilvitallennustila";
+
+"gif_ad_2" = "Älykkäät ilmoitukset";
+
+"gif_ad_3" = "Muokattu tarkkailualue";
+
+"go_buy" = "Osta nyt";
+
+"go_buy_2" = "Tarkista nyt";
+
+"go_buy_plus" = "Tilaa %@ Awareness";
+
+"go_live" = "Avaa livestriimi";
+
+"mtn_go_momo_or_wait" = "Mene MoMo-palveluun maksaaksesi tilauksen. Jos maksu on jo tehty, odota että se vahvistetaan.";
+
+"go_on" = "Jatka";
+
+"go_open" = "Avaa nyt";
+
+"go_set" = "Aseta nyt";
+
+"go_system_settings" = "Järjestelmäasetukset >>";
+
+"go_to_bind" = "Liitä nyt";
+
+"go_to_buy" = "Osta nyt";
+
+"go_to_see" = "Tarkista nyt";
+
+"good" = "Keskitaso";
+
+"got_it" = "Sain sen";
+
+"grant_location_permission" = "Salli paikannus";
+
+"guardian_read" = "(jos olet alle 14 vuotias, huoltajasi tulee lukea se)";
+
+"guest" = "Vierailija";
+
+"guest_request" = "Vierailijapyyntö";
+
+"guide_content_2" = "Livestriimi ja kaksisuuntainen ääni milloin tahansa";
+
+"guide_content_3" = "Suodata dataa löytääksesi haluamaasi tietoa";
+
+"guide_content_4" = "Eroon tarpeettomista häiriöistä";
+
+"guide_long_press_power_tips" = "Kun kuulet äänen \"power up\", voit siirtyä seuraavaan vaiheeseen.";
+
+"guide_long_press_power_tips_b0" = "Kun kuulet äänen, voit siirtyä seuraavaan vaiheeseen.";
+
+"guide_long_press_power_tips_g1" = "Kun kuulet äänen, voit siirtyä seuraavaan vaiheeseen.";
+
+"guide_long_press_power_tips_s0" = "Kun olet kytkenyt kameran, voit siirtyä seuraavaan vaiheeseen.";
+
+"guide_title_1" = "Kameran hallinta";
+
+"guide_title_2" = "Livestriimi";
+
+"guide_title_3" = "Älykkäät ilmoitukset";
+
+"h1" = "kaksi tuntia";
+
+"h12" = "12 tuntia";
+
+"handler_success" = "Käsitelty";
+
+"hao_to_invite" = "Kuinka lisään jaetun kameran?";
+
+"has_account_and_login" = "Kirjaudu sisään";
+
+"have_no_device" = "Et ole vielä lisännyt yhtään kameraa.";
+
+"have_problem" = "Onko ongelmia?";
+
+"hear_beep" = "Kuulen äänen tai näen merkkivalon palavan";
+
+"hear_device_power_on" = "Kuulin äänen \"Power up\".";
+
+"hear_device_power_on_b0" = "Kameran liike lakkasi.";
+
+"hear_device_power_on_s0" = "Kytkin kameran.";
+
+"hear_device_voice" = "Kuulin äänen.";
+
+"heard_qr_code" = "Kuulin äänen \"Scan success\"";
+
+"heard_scan_finished" = "Kuulin äänen \"Scan success/finished\"";
+
+"heard_scan_finished_other" = "Kuulin äänen \"Scan success\"";
+
+"heard_scan_qr_code" = "Kuulin äänen \"Scan QR code\"";
+
+"heard_scaning_sound" = "Kuulin piippausäänen";
+
+"help" = "Apua";
+
+"help_center" = "UKK";
+
+"help_feedback" = "Apu & Palaute";
+
+"help_guide" = "Avaa ohje >>";
+
+"high" = "Korkea";
+
+"hint_feedback" = "Kirjoita vähintään 10 sanan kuvaus jotta voimme auttaa paremmin.";
+
+"hint_feedback_contact" = "Vaihtoehtoisesti me otamme yhteyttä sinuun.";
+
+"hold_qr_code_in_front" = "Pidä QR-koodia kameran edessä";
+
+"hold_speak" = "Pidä ja puhu";
+
+"home" = "Koti";
+
+"hot" = "Kuuma";
+
+"hot_country" = "Kuuma maa";
+
+"how_to_add_friend_camera" = "Mene sovelluksen etusivulle ja paina oikeassa yläkulmassa olevaa \"+\" -merkkiä ja valitse \"Lisää kaverin kamera\".";
+
+"how_to_open_nightvision" = "\"Yökuvausasetukset -> Yökuvaustila\", ja valitse \"Valkosalaman tila\" >";
+
+"human_tracking" = "Humanoidin tunnistus";
+
+"human_tracking_2" = "Jos kamera tunnistaa liikkuvan ihmisen, se alkaa seurata liikettä.";
+
+"i_have_read_above_content" = "Olen lukenut ylläolevan sisällön ja hyväksyn sen ehdot.";
+
+"i_know" = "Sain sen";
+
+"id" = "ID";
+
+"if_storage_not_access" = "Jos pääsyä ei ole sallittu, et voi tallentaa ja varmuuskopioida kameran tietoja.";
+
+"image_and_screen_shot" = "Kuvat (vaihtoehtoisesti voit ladata näyttökuvan ongelmasta)";
+
+"image_save_to_ablum" = "Kuva on tallennettu puhelimen albumiin.";
+
+"indicator" = "Merkkivalo";
+
+"indicator_des" = "Jos merkkivalo on otettu käyttöön, kamera ilmaisee toimintatilansa merkkivalon avulla.";
+
+"Indoor_motion_alarm" = "(Vain sisäkäyttöön. Tämä toiminto ei ole suositeltava.)";
+
+"infrared_des" = "Infrapuna valaisee ympäristön jotta mustavalkokuva on tarkempi";
+
+"input_email" = "Sähköposti ID";
+
+"input_email_new" = "Uusi sähköposti ID";
+
+"input_email_send" = "Syötä sähköposti ID jonka haluat liittää ja me lähetämme sinulle varmistuskoodin.";
+
+"input_email_you_bind" = "Syötä sähköposti ID jonka haluat liittää ja me lähetämme sinulle varmistuskoodin.";
+
+"input_need_verify_code" = "Varmistuskoodi";
+
+"input_new_email" = "Syötä sähköposti ID jonka haluat liittää ja me lähetämme sinulle varmistuskoodin.";
+
+"input_new_phone" = "Syötä puhelinnumero jonka haluat liittää ja me lähetämme sinulle varmistuskoodin.";
+
+"input_phone_number_new" = "Syötä uusi puhelinnumero";
+
+"input_phone_number_simple" = "Syötä puhelinnumero";
+
+"input_phone_number_you_bind" = "Syötä puhelinnumero jonka haluat liittää ja me lähetämme sinulle varmistuskoodin.";
+
+"input_phone_send" = "Syötä puhelinnumero jonka haluat liittää ja me lähetämme sinulle varmistuskoodin.";
+
+"install_bracket_1" = "Asenna jalusta";
+
+"install_bracket_2" = "Voit sijoittaa kameran esimerkiksi hyllylle tai jollekin muulle tasolle. Voit myös ruuvata kiinnikken seinään ja sen jäkeen ruuvata kameran kiinnikkeeseen.";
+
+"Install_on_shelf" = "Voit sijoittaa kameran hyllylle tai muulle tasolle, tai voit asentaa sen seinälle.";
+
+"install_the_camera" = "Asenna kamera";
+
+"installation_guide" = "Asennusohje";
+
+"installation_settings" = "Asennusasetukset";
+
+"installation_suggestions" = "Asennusehdotukset";
+
+"installing" = "Asennetaan…";
+
+"intelligent_recognition" = "Älykäs tunnistus";
+
+"invalid_request" = "Virheellinen pyyntö";
+
+"invite" = "Kameran jakaminen";
+
+"invite_info_des" = "Kutsutun pitää ladata ja asentaa %@-sovellus.";
+
+"invite_info_des_key_point" = "%@ app";
+
+"invite_title_des" = "Katsele livestriimiä, toista videoklippejä.";
+
+"invited_join_device" = "kutsui sinut katsomaan kameran kuvaa.";
+
+"ios.answer_bot.cell.text.inactivity_get_in_touch_message" = "Chattaa meidän kanssamme tai jätä meille viesti";
+
+"ios.answer_bot.text.label.ask_a_question" = "Kuvaile ongelmasi ja kerro ensin kameramallisi. Löydät kameramallisi kameraan kiinnitetystä tarrasta. Tai voit ottaa kameran kuoren pois tai avaamalla kameran kumikannen löytääksesi kameramallisi. Kameramalli on G0, CGXX (esimerkiksi CG1), CBXX (esimerkiksi CB1), JXJ-FA01 jne.";
+
+"ios.answer_bot.text.label.disabled" = "Tervetuloa tukikeskukseen! Henkilöstö on tavoitettavissa Singaporen aikaan klo 10:00 - 22:00 (Klo 02:00 - 14:00 Suomen aikaan). Kuvaile ongelmasi ja kerro ensin kameramallisi. Löydät kameramallisi kameraan kiinnitetystä tarrasta. Tai voit ottaa kameran kuoren pois tai avaamalla kameran kumikannen löytääksesi kameramallisi. Kameramalli on G0, CGXX (esimerkiksi CG1), CBXX (esimerkiksi CB1), JXJ-FA01 jne.";
+
+"ios.answer_bot.text.label.hi" = "Tervetuloa tukikeskukseen! Henkilöstö on tavoitettavissa Singaporen aikaan klo 10:00 - 22:00 (Klo 02:00 - 14:00 Suomen aikaan).";
+
+"ios.conversation.ui.chat.handover.message.selection" = "Siirrä henkilökunnalle";
+
+"ios.conversation.ui.chat.welcome_message.handover" = "Ok. Etsin jonkun joka voi auttaa sinua.";
+
+"ios.ZDKRequests.createRequest.leaveAMessage.title" = "Jätä viesti";
+
+"is_heard_scan_qr_code" = "Kuulitko \"Scan QR code\"?";
+
+"is_last_location" = "Tämä on viimeisin sijainti.";
+
+"is_listen_qr_code" = "Kuulitko \"Scan QR code\"?";
+
+"issue_1" = "Tarkista että kamera on skannaustilassa (skannausääni kuuluu).";
+
+"issue_2" = "Pidä kamera reitittimen lähellä.";
+
+"join_device_timeout" = "Tarkista verkkoyhteys ja yritä uudelleen.";
+
+"join_friend_device" = "Lisää kaverisi kamera";
+
+"join_new_device" = "Pyydä pääsy kaverisi kameraan";
+
+"keep_router" = "Pidä reititin ja kamera lähekkäin";
+
+"language" = "Ohjelman kieli";
+
+"later" = "Älä päivitä";
+
+"latest_version" = "Ajantasalla";
+
+"learn_how_use" = "Opi käyttämään";
+
+"learn_more" = "Lue lisää >>";
+
+"learn_more_2" = "Ymmärrä enemmän >>";
+
+"level_sensitivity" = "%@ herkkyys";
+
+"library" = "Kirjasto";
+
+"library_feedback_failed" = "Pahoittelut, palautteen lähettäminen epäonnistui. Yritä uudelleen.";
+
+"library_feedback_not_complete" = "Palaute ei ole valmis, haluatko keskeyttää lähettämisen?";
+
+"library_feedback_success" = "Palaute lähetetty, kiitoksia!";
+
+"library_no_tag" = "Valitse seuraavista vaihtoehdoista raportoitavan asian aihe. Voit valita useita kohtia:";
+
+"library_tag_contains" = "Jos videoanalyysin tulos on väärä, valitse seuraavista vaihtoehdoista raportoitavan asian aihe. Voit valita useita kohtia:";
+
+"light_setting" = "Valaistusasetukset";
+
+"like_device_name" = "Miten haluat nimetä tämän %@ kameran?";
+
+"live" = "Live";
+
+"live_alarm" = "Kamera %@ aiheutti hälytyksen.";
+
+"live_feed" = "Livestriimi";
+
+"live_issue" = "Suoran näkymän virhe / offline-ongelma";
+
+"live_network_timeout" = "Livestriimin avaaminen epäonnistui.";
+
+"live_not_start" = "Livestriimi ei ole vielä alkanut.";
+
+"live_play" = "Livestriimi";
+
+"live_play_finish" = "Toistaminen muistikortilta valmis.";
+
+"live_resolution" = "%@ muuttunut tarkkuus";
+
+"live_stream_error" = "Livestriimin virhe";
+
+"live_stream_timeout" = "Livestriimin aikakatkaisu";
+
+"live_viewers_limit" = "Livestriimillä on maksimimäärä katsojia, yritä myöhemmin uudelleen.";
+
+"live_white_light" = "%@ valkosalama päällä";
+
+"livingroom" = "Olohuone";
+
+"load_message_error" = "Videon lataaminen epäonnistui.";
+
+"load_more_title" = "Vapauta päivittääksesi";
+
+"loading" = "Ladataan…";
+
+"loading_failed" = "Lataaminen ei onnistunut";
+
+"locating" = "Paikannetaan…";
+
+"location" = "Ladataan…";
+
+"location_2" = "Sijainti";
+
+"location_address_des" = "Maa/Alue\nOsavaltio/Maakunta\nKaupunki";
+
+"location_create_success" = "Sijainti luotu";
+
+"location_error" = "Sijainnin tiedoissa virhe";
+
+"location_management" = "Sijainnin hallinta";
+
+"location_name" = "Sijainnin nimi";
+
+"location_name_error" = "Sijainnin nimi on muotoiltu väärin.";
+
+"location_name_exist" = "Tämä sijainnin nimi on jo käytössä.";
+
+"location_name_required" = "Sijainnin nimi on pakollinen";
+
+"location_not_" = "Sijainnin nimi ei voi olla tyhjä.";
+
+"location_not_save" = "Tallennetaanko nykyiset sijaintitiedot?";
+
+"location_permission" = "Salli sijaintitieto";
+
+"location_permission_help_adding" = "Salli sijainnin käyttö puhelimen asetuksista helpottaaksesi kameran asentamista.";
+
+"location_permission_tips" = "Salli sijaintitieto puhelimen asetuksista saadaksesi lähellä olevat langattomat verkot.";
+
+"location_permission_word" = "Laita puhelimesi paikannuspalvelu päälle jotta langattoman verkon tiedot voidaan täyttää automaattisesti.";
+
+"location_save_success" = "Sijaintitieto tallennettu";
+
+"location_selection" = "Valitse sijainti";
+
+"location_service" = "Paikannuspalvelu";
+
+"location_setting" = "Sijainti";
+
+"log_in_tips" = "Tervetuloa ohjelmaan %@";
+
+"login_expired" = "Kirjautumisesi on vanhentunut, kirjaudu uudelleen.";
+
+"login_other_device" = "Käyttäjätililläsi on kirjauduttu sisään toisella puhelimella. Jos epäilet väärinkäyttöä, vaihda salasanasi.";
+
+"login_verify_code" = "Varmistuskoodi";
+
+"login_way_password" = "Kirjautuminen salasanalla";
+
+"login_way_verify_code" = "Kirjautuminen varmistuskoodilla";
+
+"logout" = "Kirjaudu ulos";
+
+"logout_des" = "Haluatko varmasti kirjautua ulos?";
+
+"long_press_reboot" = "paina reset-nappia kolme sekuntia ja käynnistä kamera uudelleen";
+
+"long_press_reboot_directions" = "Etsi kameran reset-painikkeen reikä, paina nappia vähintään kolme sekuntia käynnistääksesi kameran uudelleen. Jos kamera ei käynnisty uudelleen, paina power-nappia vähintään kolme sekuntia kunnes kuulet merkkiäänen tai merkkivalo alkaa palamaan.";
+
+"long_press_reset_button" = "Pitkä painallus reset-nappia kolme sekuntia päästäksesi skannaustilaan";
+
+"long_press_the_power_key_b0" = "Liitä virtalähde käynnistääksesi";
+
+"loss_aifunction" = "Tekoälytoiminnot eivät enään ole käytettävissäsi (Tarkkailualueet ja älykkäät ilmoitukset)";
+
+"low" = "Matala";
+
+"low_battery_warning" = "Kameran %@ akun varaus on matala, lataa akku.";
+
+"mac_address" = "MAC-osoite";
+
+"mail_phone_register_des" = "Kirjoita puhelinnumero/ sähköposti ID, ja sinulle lähetetään varmistuskoodi.";
+
+"mail_registered" = "Käyttäjätili tällä sähköpostiosoitteella on jo rekisteröity. Yritä kirjautua sisään.";
+
+"make_sure_cemera_on" = "Kytke virtalähde kameraan, tai paina virtanappia kunnes kuulet äänimerkin tai merkkivalo alkaa palamaan.";
+
+"manual_f" = "Manuaalinen";
+
+"manual_input" = "Määrittele itse";
+
+"mark" = "Merkitse";
+
+"marked_cancle" = "Merkintä keskeytetty";
+
+"marked_f" = "Merkitse";
+
+"marked_fail" = "Merkintä epäonnistui, yritä uudelleen";
+
+"marked_success" = "Merkintä onnistui.";
+
+"may_be_connection" = "Kameraan ei saada yhteyttä, tarkista verkkoyhteys.";
+
+"mcu_version" = "MCU:n versio";
+
+"medium" = "Keskitaso";
+
+"membership_expire" = "Tilauksesi muutetaan% @ -tilaukseksi % @. Halutessasi lataa videosisältö itsellesi.";
+
+"membership_tip" = "%@ on päättynyt. Käytössäsi ei enään ole tekoälytoimintoja ja pilvitallennus arkisto muuttuu 7 päivän mittaiseksi %@. Voit halutessasi päivittää %@ Awareness-tilauksesi.";
+
+"microphone" = "Mikrofoni";
+
+"microphone_permission" = "Salli pääsy mikrofoniin";
+
+"microphone_permission_tips" = "Salli puhelimen asetuksista pääsy mikrofoniin soittaaksesi äänipuheluita.";
+
+"migration_statement_1" = "Sovelluksen vaihtoilmoitus";
+
+"migration_statement_2_3" = "Tilauksen päättymisen jälkeen VicoHome APP ei ole käytettävissä. Lue lisää >>";
+
+"migration_statement_5" = "Muistuta minua seuraavalla kerralla";
+
+"min30" = "30 minuuttia";
+
+"mine" = "Käyttäjä";
+
+"missed" = "Lukematon";
+
+"model_number" = "Mallinumero";
+
+"momo_payment" = "MoMo Pay";
+
+"mtn_momo_payment_title" = "Askari haluaa veloittaa %@ MoMo-tililtäsi. Anna puhelinnumerosi:";
+
+"monday" = "M";
+
+"month_1" = "Tam";
+
+"month_10" = "Lok";
+
+"month_11" = "Mar";
+
+"month_12" = "Jou";
+
+"month_2" = "Hel";
+
+"month_3" = "Maa";
+
+"month_4" = "Huh";
+
+"month_5" = "Tou";
+
+"month_6" = "Kes";
+
+"month_7" = "Hei";
+
+"month_8" = "Elo";
+
+"month_9" = "Syy";
+
+"more" = "Lisää";
+
+"more_data" = "Lataa lisää";
+
+"more_event" = "%@ tapahtumaa lisää";
+
+"more_info" = "Lisää tietoja";
+
+"more_pre_location" = "Vain %d asentoa voidaan lisätä.";
+
+"more_selection" = "Lisää vaihtoehtoja";
+
+"motion_alarm" = "Kun liike havaitaan, kamera antaa automaattisesti hälytyksen.";
+
+"motion_detection" = "Liiketunnistus";
+
+"motion_detection_des" = "Kun liiketunnistus on otettu käyttöön, kamera voidaan asettaa tallentamaan videota kun se havaitsee liikettä. Näin voit tarkkailla ympäristön muutoksia milloin tahansa.";
+
+"motion_issue" = "Liikkeentunnistuskysymys";
+
+"motion_sport_auto_is_open" = "Manuaaliohjaus ei ole mahdollista silloin kun kohteen seuranta on käytössä.";
+
+"motion_tracking" = "Liiketunnistus";
+
+"motion_tracking_open" = "Kun liikkeentunnistus on päällä, kamera tallentaa havaitsemastaan liikkeestä videon automaattisesti.";
+
+"mtn_mpesa_payment" = "M-PESA Pay";
+
+"my_device" = "Kamerani";
+
+"my_house" = "Kotini";
+
+"n_device_use_this_location" = "%d kameraa valvoo tätä paikkaa. Vaihda valvovan kameran sijaintia.";
+
+"name_required" = "Anna nimi";
+
+"nest_day" = "Seuraava päivä";
+
+"network_error" = "Verkkoyhteysvirhe";
+
+"network_error_our_server" = "Palvelinyhteys aikakatkaistiin";
+
+"network_low" = "Verkkoyhteys on epävakaa.";
+
+"network_name" = "Langattoman verkon nimi (SSID)";
+
+"network_timeout" = "Verkkoyhteys aikakatkaistiin.";
+
+"network_unavailable_and_try" = "Ei verkkoyhteyttä, yritä uudelleen.";
+
+"new_bind_device_name" = "Aseta kameran nimi ja sijainti";
+
+"new_device" = "Uusi kamera";
+
+"new_email" = "Uusi sähköposti ID";
+
+"new_feature" = "Uusi ominaisuus:";
+
+"new_location" = "Uusi sijainti";
+
+"new_password" = "Uusi salasana";
+
+"new_phone" = "Uusi puhelinnumero";
+
+"new_version" = "Uusi versio:";
+
+"next" = "Seuraava vaihe";
+
+"next_format" = "Tämä alustustoiminto suoritetaan nykyisen toiminnon jälkeen.";
+
+"night_mode_red" = "Infrapuna-tila";
+
+"night_mode_white" = "Valkosalama-tila";
+
+"night_version" = "Yökuvaus";
+
+"night_version_setting" = "Yökuvausasetukset";
+
+"night_version_tips" = "Kun yökuvaus on päällä, kameran yökuvausominaisuudet otetaan käyttöön pimeissä olosuhteissa.";
+
+"no" = "Ei";
+
+"no_access" = "Ei pääsyä tähän kameraan. Lisää se uudeleen tai pyydä pääkäyttäjältä lupa käyttää sitä.";
+
+"no_camera" = "Ei kameroita";
+
+"no_camera_auth" = "Ei oikeutta käyttää kameraa. Salli kameran käyttö ja yritä uudestaan.";
+
+"no_item_selected" = "Ei valintoja";
+
+"no_locations" = "Ei sijaintitietoa";
+
+"no_network" = "Ei verkkoyhteyttä";
+
+"no_network_cannot_set" = "Kamera on offline-tilassa eikä sitä voida nyt asettaa.";
+
+"no_password" = "Salasanaa ei ole täytetty";
+
+"no_plan" = "Ei tilausta";
+
+"no_position" = "Paikkaa ei ole asetettu, pyydä pääkäyttäjää lisäämään.";
+
+"no_qr_code" = "QR-koodia ei löytynyt, yritä uudelleen.";
+
+"no_response" = "Kamera ei vastaa";
+
+"no_resumable_order" = "Ei jatkettavia tilauksia";
+
+"no_select_timezone" = "Aikavyöhykettä ei ole valittu.";
+
+"no_supper_5g" = "Langaton verkkosi saattaa toimia 5 GHz taajuudella, ja kamera ei tue sitä. Varmista että saatavilla on 2,4 GHz langaton verkko.";
+
+"no_tip" = "Älä enään näytä tätä tänään";
+
+"no_wifi_nearby" = "Lähistöllä ei ole langatonta verkkoa käytettävissä.";
+
+"no_wifi_signal" = "Ei signaalia";
+
+"nodata_libary_tip" = "Ei dataa tälle päivälle.";
+
+"nodata_no_wifi_tip" = "Verkkoyhteys ei ole käytettävissä.";
+
+"nodata_tip" = "Ei dataa";
+
+"noProduct" = "Tämä on poistettu.";
+
+"not_allow" = "Ei sallittu";
+
+"not_found" = "Tätä sivua ei ole olemassa, tai siinä on joku ongelma.";
+
+"not_hear_scan_qr_code" = "En kuullut ääntä \"Scan QR code\".";
+
+"not_logged_in" = "Et ole kirjautunut sisään";
+
+"not_open" = "Pois";
+
+"not_open_now" = "Älä avaa";
+
+"not_show_tips_any_more" = "Älä näytä uudestaan";
+
+"not_support_5g" = "Tämä kamera tukee vain 2,4 GHz:n Wi-Fi:ä. Nykyinen verkkosi toimii 5 GHz taajuudella.";
+
+"not_use" = "Ei tarkkailualuetta";
+
+"notication_no_end" = "Ilmoituksen tapahtuma ei ole vielä ohi, voit arkistosta katsoa sen loppuun myöhemmin.";
+
+"notification_des" = "Kun ilmoitukset on käytössä, kamera lähettää sinulle ilmoituksia epänormaaleista tapahtumista.";
+
+"notification_des_tips" = "Kamerasi voi ilmoittaa sinulle kun se havaitsee jotain toimintaa. Valitse ne ilmoitukset jotka haluat vastaanottaa.";
+
+"notification_detection_people" = "Henkilö";
+
+"notification_no_item_choose" = "Jos luokiteltavaa kohdetta ei ole valittu, tämä toiminto ei toimi. Valitse vähintään yksi kohde.";
+
+"notification_push" = "Push-ilmoitukset";
+
+"notification_scuess_offline" = "Vaikuttaa silloin kun kamera on online-tilassa.";
+
+"notification_sec" = "Sen jälkeen:";
+
+"notification_setting" = "Ilmoitusasetukset";
+
+"notification_setting_tips" = "Kamerasi voi ilmoittaa sinulle kun se havaitsee liikettä. Valitse ne ilmoitukset jotka haluat vastaanottaa.";
+
+"notification_to_choose_item" = "Valitse nyt";
+
+"notification_warm_des" = "Kamera lähettää ilmoituksen aina kun se havaitsee liikettä. Tässä toimintatilassa suodattamattomat ilmoitukset tulevat puhelimeesi nopeasti, mutta ilmoituksia voi tulla paljon.";
+
+"notifications" = "Ilmoitukset";
+
+"notifications_permission" = "Salli ilmoitukset";
+
+"num_new_message" = "Uusi viesti";
+
+"number_az" = "%@ tarkkailualuetta";
+
+"office" = "Toimisto";
+
+"offline" = "Offline-tila";
+
+"offline_reconnect" = "Kamera on offline-tilassa, yhdistä se uudelleen.";
+
+"ok" = "OK";
+
+"old_password" = "Vanha salasana";
+
+"one_az" = "Yksi tarkkailualue";
+
+"online" = "Online-tila";
+
+"open_bluetooth" = "Laita Bluetooth päälle nopeuttaaksesi asennusta.";
+
+"open_bluetooth_bonding" = "Pikayhdistäminen edellyttää että \"%@\" saa käyttää Bluetoothia";
+
+"open_bluetooth_help_adding" = "Puhelimen Bluetooth ei ole päällä. Laita Bluetooth päälle nopeuttaaksesi asennusta.";
+
+"open_fail_retry" = "Asettaminen epäonnistui, yritä uudelleen.";
+
+"open_led" = "Päällä";
+
+"open_location_Info" = "Laita puhelimesi paikannuspalvelu päälle jotta langattoman verkon tiedot voidaan täyttää automaattisesti.";
+
+"open_location_service" = "Avaa paikannuspalvelut";
+
+"open_location_wifi" = "Hae nykyisen langattoman verkon tiedot puhelimen paikannuspalvelusta tai syötä tiedot käsin.";
+
+"open_location_wifi_link" = "Mene järjestelmän asetuksiin >>";
+
+"open_smart" = "Kokeile tilausta %@ Awareness";
+
+"open_wifi" = "Avaa Wi-Fi";
+
+"open_WiFi_word" = "Laita puhelimesi Wi-Fi päälle jotta voidaan etsiä käytettävissä olevat langattomat verkot.";
+
+"opened" = "Päällä";
+
+"options_include" = "sisältää";
+
+"or" = "tai";
+
+"ota_failed_low_power" = "Akun varaus on liian matala, päivitys ei onnistu. Lataa akku vähintään 20% varaustasoon ja aloita päivitys uudelleen.";
+
+"other" = "Muu";
+
+"other_error_with_code" = "Järjestelmävirhe";
+
+"other_errors" = "Järjestelmävirhe";
+
+"other_payment_not_detected" = "%@ maksua ei löydy. Varmista että maksutapa on käytettävissä ennen kuin yrität uudeleen.";
+
+"other_plans" = "Muu %@ Awareness";
+
+"other_plans_des" = "Jos et jatka nykyistä %@ Awareness tilausta kun se vanhenee, tilauksesi muutetaan automaattisesti seuraavalle tasolle.";
+
+"others" = "Muut";
+
+"p_location" = "Etsi sijainti";
+
+"package_detained" = "Paketti on jumissa";
+
+"package_down" = "Paketti toimitettu";
+
+"package_guide" = "Kuinka saan paketin tunnistuksesta vielä tarkemman?";
+
+"package_guide_five" = "Älä unohda valita pakettia Ilmoitusasetuksista / Luokittelusta.";
+
+"package_guide_four" = "Valitse paketti";
+
+"package_guide_four_tips" = "Varmista että paketti on selvästi näkyvissä eikä paketin ja kameran välissä ole mitään esteitä jotka peittävät näkyvyyttä.";
+
+"package_guide_one" = "Kameran sijainti ja etäisyys";
+
+"package_guide_three" = "Kameran kuvakulma";
+
+"package_guide_two" = "Suosittelemme että asennat kameran noin 20 cm korkeudelle ja suuntaat sen siten että sisääntulo, sekä alue jolle paketti toimitetaan, näkyy selvästi. \nKameran ja paketin etäisyys ei saisi olla yli 25 cm.";
+
+"package_scenes" = "Paketin tunnistaminen ei ole vielä kovin hyvä, ja ominaisuutta kehitetään jatkuvasti. Suosittelemme käyttämään tavallisia kuvausasetuksia, noin kahdesta metristä alaviistoon suuntautuvan kuvakulman kanssa.";
+
+"package_tag" = "Paketti (beta)";
+
+"package_tips" = "Kun kamera havaitsee että paketti on noudettu tai jätetty, se lähettää sinulle ilmoituksen.";
+
+"package_up" = "Paketti noudettu";
+
+"page_expired" = "Sivun tiedot ovat vanhentuneet, lataa sivu uudelleen.";
+
+"password" = "Salasana";
+
+"password_code_error" = "Salasana tai varmistuskoodi on väärä.";
+
+"password_incorrect" = "Salasana ei kelpaa, varmista salasana.";
+
+"password_or_code_invalid" = "Tarkista muotoiluvaatimukset.";
+
+"password_setting_tips" = "Salasanassa pitää olla vähintään yksi iso ja yksi pieni kirjain, ja sen tulee olla vähintään kahdeksan merkkiä pitkä.";
+
+"pay_attention_data" = "Huomio datankäyttö jos Wi-Fi ei ole käytettävissä.";
+
+"pay_scuess" = "%@ Awareness maksettu. Tarkista henkilökohtaisista asetuksista toimintojen oikeudet.";
+
+"payment_auto_pay" = "Automaattinen tilaus";
+
+"payment_choose_buy_time" = "Valitse kesto";
+
+"payment_choose_vip_item_first" = "Valitse ensin";
+
+"payment_cloud_save" = "%@ Awareness";
+
+"payment_current_vip" = "%@";
+
+"payment_download_it" = "Lataa nyt";
+
+"payment_generate_order" = "Maksa";
+
+"payment_know_it" = "OK";
+
+"payment_pay" = "Maksa tilaus";
+
+"payment_pay_cancel" = "Keskeytä";
+
+"payment_pay_failed" = "Maksu epäonnistui, yritä uudeleen.";
+
+"payment_pay_failed_totally" = "Maksu epäonnistui";
+
+"payment_pay_success" = "Maksu onnistui";
+
+"payment_play_store_fail" = "Maksu epäonnistui, tarkista että olet kirjautunut Play-kauppaan.";
+
+"payment_please_choose_time" = "Valitse käyttötapa";
+
+"payment_price" = "<![CDATA[<font><small>%@</small></font> <font><big>%.2f</big></font>]]>";
+
+"payment_product_already_paid" = "Olet jo tilannut palvelun %@ Awareness, älä tilaa sitä uudelleen.";
+
+"payment_product_not_exist" = "Tätä kohdetta ei ole";
+
+"payment_to_buy" = "Maksa nyt";
+
+"payment_user_cancel" = "Keskeytetty";
+
+"payment_verifying" = "%@ vahvistetaan…";
+
+"payment_vip_update" = "Päivitä";
+
+"pem_des" = "Katsele livestriimiä ja toista videoklippejä";
+
+"permission" = "Lupa";
+
+"permission_dialog_message_get_camera" = "Jos käyttöä ei ole sallittu, et voi skannata QR-koodia.";
+
+"permission_dialog_message_get_location" = "Jos käyttöä ei ole sallittu, et voi automaattisesti täyttää Wi-Fi asetuksia.";
+
+"permission_dialog_message_get_mircrophone" = "Jos käyttöä ei ole sallittu, et voi käyttää VicoHome äänipuheluita.";
+
+"permission_dialog_message_get_storage" = "Tallennustilan käyttö on sallittava, muuten ohjelmaa ei voi käyttää.";
+
+"permission_dialog_title" = "%@ haluaa käyttää %@.";
+
+"permission_name_camera" = "Kamera";
+
+"permission_name_microphone" = "Mikrofoni";
+
+"person" = "Henkilö";
+
+"person_alerts" = "Henkilö";
+
+"person_alter_tips" = "Saat vain \"Ihminen havaittu\" ilmoituksia. Ilmoitus on tarkka, mutta sen saapuminen voi kestää hetken aikaa.";
+
+"pet" = "Lemmikki";
+
+"phone_already_register" = "Puhelinnumero on jo rekisteröity. Yritä kirjautua sisään.";
+
+"phone_no_net" = "Puhelimessasi ei ole verkkoyhteyttä";
+
+"phone_number" = "Puhelinnumero";
+
+"phone_number_bind_success" = "Puhelinnumero on liitetty.";
+
+"phone_number_change_success" = "Puhelinnumero on vaihdettu.";
+
+"phone_number_invalid_tips" = "Anna puhelinnumero oikeassa muodossa.";
+
+"phone_weak_network" = "Puhelimen verkkoyhteys ei ole käytettävissä, tarkista verkkoyhteys.";
+
+"phone_weak_network_short" = "Puhelimen verkkoyhteys ei ole käytettävissä.";
+
+"photos" = "Kuvat";
+
+"photos_permission" = "Salli pääsy kuviin";
+
+"photos_permission_tips" = "Salli pääsy laitteen kuviin puhelimen asetuksista tallentaaksesi kuvia.";
+
+"plan_basic" = "Perustaso";
+
+"plan_common" = "Ei tilausta";
+
+"plan_expires" = "Vanhenee %d";
+
+"plan_no" = "Ei tilausta";
+
+"plan_plus" = "Plus";
+
+"plan_pro" = "Pro";
+
+"playback_is_living_now" = "Livestream";
+
+"playback_video" = "Videon toisto";
+
+"player_error" = "Livevideon toistovirhe";
+
+"please_install_playstore" = "Play-kauppa vaaditaan ostamiseen.";
+
+"please_open_location_service" = "Avaa Sijaintipalvelut puhelimen asetuksista.";
+
+"please_open_permission" = "Laita päälle ikkuna-ikkunassa näyttö.";
+
+"please_pay_vip_first" = "Käyttääksesi tätä ominaisuutta, sinun pitää ottaa Awareness-palvelu käyttöön";
+
+"please_pay_vip_first_2" = "Hanki tietoisuuspalvelu käyttääksesi tätä toimintoa";
+
+"please_read_policy_and_agree" = "Lue se huolella ja jos hyväksyt kaikki sen ehdot, paina \"Hyväksy ja Jatka\"";
+
+"please_reinput_password" = "Vahvista salasana";
+
+"please_retry" = "Yritä uudelleen";
+
+"please_scan_qr_code_first" = "Skannaa ensin QR-koodi";
+
+"please_select" = "Valitse";
+
+"please_turn_on_motion_detection" = "Käyttääksesi tätä ominaisuutta, sinun pitää ottaa liikkeentunnistus käyttöön.";
+
+"please_turn_on_wifi_setting" = "Laita Wi-Fi päälle puhelimen asetuksista";
+
+"plugin_camera" = "Plug-in kamera";
+
+"plugin_camera_tips" = "Liitä kameran virtalähde ja odota kunnes kamerasta kuuluu äänimerkki ja kameran pyörimisliike loppuu.";
+
+"position_deleted" = "Poistettu. Uusi sijainti voidaan nyt asettaa.";
+
+"position_tips" = "Aseta usein käytetyt kuvauskulmat jotta voit myöhemmin katsella näitä kuvauskulmia yhdellä napin painalluksella";
+
+"postal_code" = "Postinumero";
+
+"pre_location_max_5" = "Vain viisi paikkaa voidaan asettaa.";
+
+"pre_position_add" = "Uusi paikka";
+
+"preset_location" = "Paikka";
+
+"privacy_policy" = "Tietosuojakäytäntö";
+
+"privacy_policy_2" = "Tietosuojakäytäntö";
+
+"problem_and_feedback" = "Kysymyksiä ja kommentteja";
+
+"prompt" = "Kehote";
+
+"prompt_volume" = "Äänenvoimakkuus";
+
+"province_region" = "Osavaltio/Maakunta/Alue";
+
+"push_group_tips" = "%u ilmoitusta lisää";
+
+"push_permission" = "Salli ilmoitukset";
+
+"pwd_error" = "Salasana ei kelpaa";
+
+"qr_code_not_found" = "QR-koodia ei löytynyt, yritä uudelleen.";
+
+"qr_expire" = "QR-koodi vanhenee %@";
+
+"qr_scurss" = "Skannau onnistui.";
+
+"qrcode_way1" = "Tarkista ensin löytyykö QR-koodi kameran rungosta.";
+
+"qrcode_way2" = "Jos QR-koodia ei näy kameran rungossa, poista kameran suojakumi ja katso onko koodi sen alla.";
+
+"qrcode_way3" = "Jos QR-koodia ei näy kameran rungossa, poista säädettävä suoja ja katso onko koodi sen alla.";
+
+"question_reply" = "Lähetä palautetta";
+
+"question_type" = "Kysymyksen tyyppi";
+
+"questions_contact" = "Ota yhteyttä";
+
+"questions_pictures" = "Kuvat (voit myös ladata kuvakaappauksen ongelmasta)";
+
+"questions_statement_error" = "Kirjoita vähintään 10 sanan kuvaus.";
+
+"quick_connect" = "Pikayhdistäminen";
+
+"quick_connect_tips" = "%@ kameraa jotka voidaan pikaliittää, paina aloittaaksesi.";
+
+"ratio_720p" = "Muistikortti";
+
+"ratio_auto" = "Auto";
+
+"reach_max_live_num" = "Maksimiäärä livestriimejä on auki.";
+
+"receive_fail" = "Haku epäonnistui, yritä uudelleen.";
+
+"receive_scuess" = "Haku onnistui, voit aloittaa käytön nyt!";
+
+"reconnect" = "Yhdistä uudelleen";
+
+"reconnect_camera" = "Yhdistä kameraan uudestaan";
+
+"reconnect_wifi_camera" = "Yhdistä langaton verkko uudelleen";
+
+"record_failed" = "Tallennus epäonnistui, yritä uudelleen.";
+
+"record_success" = "Tallenna puhelimen albumiin.";
+
+"record_video" = "Tallenna video";
+
+"record_video_tips" = "Tallennustoiminto tallentaa automaattisesti videota kun kamera havaitsee liikettä.";
+
+"reference_instruction_power" = "Katso kameran käyttöohjekirjasta power-napin sijainti.";
+
+"reference_instruction_reboot" = "Katso kameran käyttöohjekirjasta reset-napin sijainti.";
+
+"refresh" = "Päivitä";
+
+"registrationsharing" = "Jos haluat jakaa kameran, varmista, että sekä kameran järjestelmänvalvoja että jaettu käyttäjä on rekisteröity samassa maassa.";
+
+"reject" = "Hylkää";
+
+"reject_audio" = "Salli mikrofonin käyttö puhelimen asetuksista.";
+
+"release_stop" = "Vapauta lopettaaksesi";
+
+"remember_password" = "Muista salasana";
+
+"remove_device" = "Poista kamera";
+
+"remove_device_des" = "Tästä kamerasta ei enään vastaanoteta mitään dataa.";
+
+"remove_device_success" = "Kamera on poistettu.";
+
+"remove_device_title" = "Haluatko varmasti poistaa tämän kameran?";
+
+"remove_share_device_des" = "%@ ei enään vastaanota dataa kamerasta %@.";
+
+"remove_share_device_title" = "Oletko varma että haluat poistaa käyttäjätilin?";
+
+"renewal_clause" = "-Maksaminen: Vahvista ostos ja maksa se iTunes tililtäsi.\n-Keskeyttäminen: Sinun tulee ottaa automaattinen veloitus pois päältä iTunes/Apple ID asetuksistasi vähintään 24 tuntia ennen tilausjakson päättymistä. Jos perumishetkellä tilausjakson päättymisee";
+
+"renewal_clause_key_clause" = "Tilauspalvelusopimus";
+
+"renewal_clause_key_terms" = "Awareness Palvelusopimus";
+
+"renewal_download_tips" = "Tarvittaessa uusi tilauksesi tai lataa videot arkistosta itsellesi.";
+
+"replace_wifi" = "Vaihda langaton verkko";
+
+"replay" = "Toista uudelleen";
+
+"request_error" = "pyyntövirhe";
+
+"request_expired" = "Pyyntö on vanhentunut, yritä uudelleen.";
+
+"request_frequent" = "Liian monta pyyntöä, yritä myöhemmin uudelleen.";
+
+"request_permission_title" = "Odotetaan oikeuksia";
+
+"request_timeout_and_try" = "Pyyntö aikakatkaistiin, yritä uudelleen.";
+
+"resend_after_tip" = "Uudelleenlähetys %d s jälkeen";
+
+"resend_after_tip_ios" = "Uudelleenlähetys %@%@ s jälkeen";
+
+"resent_verification_code" = "Uudelleenlähetys";
+
+"reset" = "Resetoi";
+
+"reset_password_success" = "Salasanasi on resetoitu.";
+
+"resign_in" = "Kirjaudu sisään";
+
+"restore_purchase_record" = "Palauta ostotilaus";
+
+"restore_successfully" = "Palauttaminen onnistui.";
+
+"retry" = "Yritä uudelleen";
+
+"retry2" = "Yritä uudelleen";
+
+"root_warning_title" = "Rootatussa puhelimessa voi helposti olla tietoturvariskejä.";
+
+"rotate_image" = "Käännä kuvaa";
+
+"rotate_image_open" = "Jos laitat kuvankäännön päälle, liiketunnistuksen herkkyys saattaa kärsiä.";
+
+"same_email" = "Vaihda toinen sähköposti-ID";
+
+"same_phone" = "Vaihda toinen puhelinnumero.";
+
+"saturday" = "L";
+
+"save" = "Tallenna";
+
+"save_album" = "Tallenna puhelimen albumiin";
+
+"save_failed_and_try" = "Tallennus epäonnistui, yritä uudelleen.";
+
+"save_gb" = "(≤%dGB)";
+
+"save_to_evaeye_album" = "Tallenna puhelimen albumiin.";
+
+"saved_success" = "Tallennettu";
+
+"say_green_light" = "Näen sinisen valon";
+
+"scan_camera_qr_code" = "Skannaa QR-koodi kameran rungosta";
+
+"scan_camera_way" = "Lisää skannaamalla";
+
+"scan_info_des" = "Avaa pääkäyttäjän sovelluksesta Kameran asetukset / Jaa / Kameran jakaminen";
+
+"scan_info_title" = "QR-koodi löytyy polusta";
+
+"scan_no_qr_button" = "En kuule ääntä \"Scan QR code\".";
+
+"scan_QR_code" = "Skannaa QR-koodi kameralla";
+
+"scan_qr_code_des" = "Aseta QR-koodi 15 - 30 cm päähän puhelimesi kamerasta.";
+
+"scan_qr_code_directions" = "Aseta QR-koodi 15 - 30 cm päähän kameran linssistä kun olet kuullut skannausäänen tai kun merkkivalo vilkkuu. Skannaus on valmis kun kuulet merkkiäänen vaihtuvan.";
+
+"scan_QR_code_directions" = "Aseta QR-koodi 15 - 30 cm päähän kameran linssistä. Skannaus on valmis kun kuulet merkkiäänen vaihtuvan.";
+
+"scan_qr_code_failed" = "Etkö voi jatkaa skannausta?";
+
+"scan_qr_code_notice_title1" = "Varmista että kamera on päällä ja skannaustilassa";
+
+"scan_qr_code_notice_title2" = "Muuta QR-koodin etäisyyttä kameran linssistä";
+
+"scan_qr_code_notice1" = "Sininen merkkivalo vilkkuu kun koodia skannataan. Jos merkkivalo ei vilku sinisenä, paina virtanappia kahdesti kameran uudelleenkäynnistyksen jälkeen jotta pääset skannaustilaan.";
+
+"scan_qr_code_notice2" = "Aseta QR-koodi 15 - 30 cm päähän kamerasta. Jos koodin skannausääntä ei kuulu, liikuttele sitä hitaasti edestakaisin kameran edessä. Katso kuvaa edellisellä sivulla.";
+
+"scan_qr_code_title" = "Skannaa QR-koodi kameralla";
+
+"scan_qrcode_by_phone" = "Skannaa QR-koodi puhelimellasi";
+
+"scan_the_qr_code" = "Skannaa QR-koodi yhdistääksesi";
+
+"scene" = "Kuvausasetukset";
+
+"schedule_time" = "Ajastusasetukset";
+
+"screenshot_sharing" = "Näyttökuvan jakaminen";
+
+"screenshots" = "Näyttö";
+
+"sd_card" = "Muistikortti";
+
+"sd_card_format_failed" = "Alustus epäonnistui, yritä uudelleen.";
+
+"sd_card_format_remind" = "Kaikki tiedot menetetään, haluatko varmasti jatkaa?";
+
+"sd_card_format_success" = "Alustus onnistui.";
+
+"sd_card_formating" = "Muistikorttia alustetaan…";
+
+"sd_card_formatting" = "Alustus on käynnissä, yritä myöhemmin uudelleen.";
+
+"sd_card_not_exist" = "Muistikorttia ei löydetty";
+
+"sd_error" = "Muistikortin tiedostojärjestelmä ei kelpaa, alusta kortti.";
+
+"sd_error_format_sure" = "Muistikortin tiedostojärjestelmä ei kelpaa. Muistikortti on alustettava enen kuin sitä voidaan käyttää.";
+
+"sd_format_error" = "Tiedostojärjestelmä ei kelpaa.";
+
+"sd_is_formatting" = "Muistikorttia alustetaan, odota hetki.";
+
+"sd_management" = "Muistikortti";
+
+"sd_no_data_date" = "Ei videoita tällä hetkellä.";
+
+"sd_strorage" = "Muistikortti";
+
+"sd_supper" = "Muistikorttia ei tueta";
+
+"sdcard_7_24" = "Muistikortin videot";
+
+"sdcard_has_no_video" = "Ei videoita muistikortilla";
+
+"sdcard_need_format" = "Tämän muistikortin tiedostojärjestelmää ei tueta";
+
+"sdcard_need_format_shared" = "Muistikortin tiedostojärjestelmä ei kelpaa, pyydä pääkäyttäjää alustamaan kortti uudelleen.";
+
+"sdcard_no_more_video" = "Ei enempää videoita muistikortilla.";
+
+"SDcard_video_viewers_limit" = "Maksimimäärä muistikorttivideoiden katselijoita, yritä myöhemmin uudelleen.";
+
+"sdvideo_error" = "Videon toistossa muistikortilta tapahtui virhe";
+
+"sdvideo_timeout" = "Videon toisto muistikortilta aikakatkaistiin";
+
+"search" = "Etsi";
+
+"search_buletooth" = "Etsitään lähellä olevia Bluetooth-laitteita";
+
+"seconds" = "s";
+
+"selcet_spot_2" = "Valitse kameralle hyvä paikka. Sijoita se sellaiseen kohtaan jossa kameran näkymää ei rajoita mikään, ja jossa on hyvä Wi-Fi kuuluvuus.";
+
+"select_all" = "Valitse kaikki";
+
+"select_camera" = "Valitsee lisättävä kamera";
+
+"select_district" = "Kaupunki";
+
+"select_items" = "Valitse kohteet";
+
+"select_network" = "Valitse verkko";
+
+"select_one_ai" = "* Valitse vähintään yksi testikohde tekoälylle.";
+
+"select_spot_1" = "Valitse kameralle hyvä paikka";
+
+"select_street" = "Katu";
+
+"select_terms" = "Valitse Käyttöehdot (User Agreement) ja Tietosuojakäytännöt (Privacy Policy).";
+
+"select_wifi_title" = "Valitse kameran käyttämä langaton verkko";
+
+"send_log" = "Jos törmäät sellaiseen ongelmaan että livestriimiä ei voida toistaa, lähetä soittimen logi meille jotta voimme selvittää ongelman.";
+
+"send_log_tips" = "(Tässä ei ole tietoja)";
+
+"sendingcode" = "Lähetetään varmistuskoodia";
+
+"sensitivity_level" = "Valoisuusaste";
+
+"sent_alarm_failed" = "Hälytyksen lähettäminen epäonnistui, yritä uudelleen.";
+
+"sent_alarm_successfully" = "Hälytys on annettu.";
+
+"sepvalue" = "—";
+
+"serial_number" = "Sarjanumero";
+
+"server_error" = "Palvelinvirhe";
+
+"service_ai_notify_desc" = "Tunnistaa videosta ihmiset, eläimet ja ajoneuvot, sekä analysoi niiden toimintaa jotta sinä saat älykkäitä ilmoituksia tapahtumista.";
+
+"service_area_desc" = "Aseta tarkkailualue ja vastaanota ilmoituksia vain tältä tarkaan rajatulta alueelta. Kaikki muu informaatio kameran kuvausalueelta on suodatettu pois.";
+
+"service_center" = "Palvelukeskus";
+
+"service_cloud_desc" = "Jotta yksikään tärkeä tapahtuma ei jäisi huomaamatta,  videoidesi turvallisen pilvitallennustilan palvelusopimus on jatkettavissa jopa 60 päivään ja 10 Gb:iin (kolme eri palvelutasoa).";
+
+"service_detail" = "Valinnaiset yksityiskohdat";
+
+"set" = "Aseta";
+
+"set_az" = "Aseta tarkkailualue";
+
+"setup_success" = "Asettaminen onnistui";
+
+"share" = "Jaa";
+
+"share_error" = "Jakaminen ei onnistunut, yritä uudelleen.";
+
+"share_scan_qr_content" = "Skannaa albumin QR-koodi.";
+
+"share_to" = "Jaettu:";
+
+"shared_by" = "Jakaja:";
+
+"shared_by_" = "Jakaja %@";
+
+"shared_devices" = "Jaetut kamerat";
+
+"shared_invalid_qr_code" = "Virheellinen QR-koodi, yritä uudelleen.";
+
+"shared_qr_code_expired" = "Virheellinen QR-koodi, yritä uudelleen.";
+
+"shared_self_error" = "Tämä kamera on jo listallasi.";
+
+"sharing" = "Jakaminen";
+
+"shot_fail" = "Kuvaus epäonnistui.";
+
+"shot_success" = "Tallenna puhelimen albumiin.";
+
+"sign_in" = "Kirjaudu sisään";
+
+"sign_in_little" = "Kirjaudu sisään";
+
+"sign_up" = "Rekisteröi uusi käyttäjätili";
+
+"sign_up_register" = "Rekisteröidy";
+
+"sign_up_tips" = "Anna sähköposti-ID:si, ja sinulle lähetetään vahvistuskoodi.";
+
+"sign_up_tips_phone_email" = "Anna puhelinnumero tai sähköposti-ID, ja sinulle lähetetään vahvistuskoodi.";
+
+"signal_strength" = "Wi-Fi voimakkuus";
+
+"siren_des" = "Jos hälytyssireeni on päällä, kameran hälytyssireeni lähtee automaattisesti päälle kun se havaitsee liikettä.";
+
+"size" = "Koko?";
+
+"skip" = "Ohita";
+
+"sleep" = "Virransäästö";
+
+"sleep_end_time" = "Loppuaika";
+
+"sleep_mode" = "Lepotila";
+
+"sleep_period" = "Lepotilajakso";
+
+"sleep_period_etting" = "Aseta aikajakso jolloin kamera on automaattisesti lepotilassa";
+
+"sleep_plan" = "Lepotila-aikataulu";
+
+"sleep_prompt" = "Kun kamera on lepotilassa, mikään sen toiminto ei ole päällä, eikä se näin ollen tallenna mitään eikä lähetä ilmoituksia.";
+
+"sleep_setting" = "Lepotila-asetukset";
+
+"sleep_start" = "Aktivointipäivämäärä";
+
+"sleep_start_time" = "Alkuaika";
+
+"sleep_time" = "Lepotila-aika";
+
+"sleep_tips" = "Kamera on lepotilassa, se pitää käynnistää ennen asettamista";
+
+"sleep_work_time" = "Toiminta-aika";
+
+"sleeping" = "Lepotilassa";
+
+"smart_common_contrast" = "Ei tilausta Vs. %@ Awareness";
+
+"smart_service_desc" = "%@ Awareness esittely";
+
+"sound" = "Ääni";
+
+"sound_setting" = "Ääniasetukset";
+
+"source" = "Lähde";
+
+"speaker" = "Kaiutin";
+
+"speaker_volume" = "Käiuttimen äänentaso";
+
+"split_screen" = "Jaettu näyttö";
+
+"sport_auto" = "Liiketunnistus";
+
+"status_led" = "Merkkivalo";
+
+"stay_this_page" = "Pysy tällä sivulla";
+
+"storage" = "Tallennustila";
+
+"storage_space_access" = "Salli pääsy tallennustilaan";
+
+"street_address_1" = "Katuosoite, postinumero, c/o.";
+
+"street_address_1_place_holder" = "Katuosoite, postinumero, c/o.";
+
+"street_address_2" = "Lisärivi";
+
+"street_address_2_place_holder" = "Lisärivi, esim. talon tai huoneiston numero.";
+
+"strong" = "Vahva";
+
+"submit" = "Lähetä";
+
+"submit_deletion" = "Lähetä poisto";
+
+"sunday" = "S";
+
+"supper_net_work" = "Tämä kamera tukee vain 2,4 GHz:n Wi-Fi:ä. Nykyinen verkkosi toimii 5 GHz taajuudella.";
+
+"sure_to_cancel_share" = "Vahvistatko käyttäjätilin poistamisen?";
+
+"sure_to_clear_cache" = "Vahvistatko välimuistin tyhjentämisen?";
+
+"sure_to_delete_location" = "Vahvistatko tämän osoitteen poistamisen?";
+
+"sure_to_delete_zone" = "Vahvistatko tämän tarkkailualueen poistamisen?";
+
+"sure_to_drop_out" = "Haluatko varmasti jättää lisäämisen väliin?";
+
+"sure_to_log_out" = "Vahvistatko uloskirjautumisen?";
+
+"sure_to_remove_device" = "Vahvistatko tämän kameran poistamisen?";
+
+"sure_to_turn_alarm_on" = "Vahvistatko hälytysten päälle laittamisen?";
+
+"sure_to_turn_off_detection" = "Vahvistatko liiketunnistuksen laittamisen pois päältä?";
+
+"system_album_name" = "%@";
+
+"system_error_try_again" = "Järjestelmä on kuormittunut, yritä uudelleen.";
+
+"system_maintenance" = "Palvelinvirhe";
+
+"system_update" = "Järjestelmäpäivitys";
+
+"system_version" = "Järjestelmän versio";
+
+"terminated_day" = "%@ saakka";
+
+"terminated_format" = "dd.MM.yyyy";
+
+"thursday" = "T";
+
+"time_zone" = "Aikavyöhyke";
+
+"timer_unit" = "Ajastimen yksikkö";
+
+"tip_bind_device_alert_des" = "%d kameraa valvoo tätä paikkaa. Vaihda valvovan kameran sijaintia.";
+
+"tips_ssid_empty" = "Anna langattoman verkon nimi (SSID).";
+
+"tips_wifi_password_empty" = "Anna salasana.";
+
+"to_coninue_please_check_internet" = "Varmista että puhelimesi on yhdistetty verkkoon.";
+
+"to_get_phone_wifi" = "Käytä puhelimesi käyttämän langattoman verkon asetuksia";
+
+"to_get_wifi_list_nearby" = "Listaa käytettävissä olevat langattomat verkot";
+
+"to_time" = "Päättyen";
+
+"toast_add_zone_total_3" = "Vain kolme tarkkailualuetta voidaan määritellä.";
+
+"toast_change_language" = "Kieli vaihdettu.";
+
+"toast_del_all_are_guest" = "Vain pääkäyttäjä voi poistaa nämä kohteet.";
+
+"toast_del_one_is_guest" = "Vain pääkäyttäjä voi poistaa tämän kohteen.";
+
+"toast_network_unavailable_and_try" = "Ei verkkoa saatavilla, yritä uudelleen.";
+
+"toast_zone_not_playing" = "Toisto ei ole päällä";
+
+"today" = "tänään";
+
+"total_event1" = "Tälle päivälle on yksi tapahtuma.";
+
+"total_event2" = "Tälle päivälle on %@ tapahtumaa.";
+
+"tracking_guide" = "Samaan aikaan tuetaan humanoidien tunnistusta";
+
+"tracking_guide_2" = "Aseta humanoidien tunnistus >>";
+
+"tracking_mode" = "Seurantatila";
+
+"troubleshooting_issue" = "Selvitä seuraavat ongelmat ja yritä uudelleen, tai käytä skannausmenetelmää";
+
+"troubleshooting_issue2" = "kokeile uudelleen sen jälkeen kun olet tarkistanut alla olevat asiat";
+
+"try_later" = "Yritä myöhemmin uudelleen";
+
+"tuesday" = "T";
+
+"turn_alern" = "Haluatko varmasti laittaa hälytyksen päälle?";
+
+"turn_on_camera" = "Laita kamera päälle";
+
+"turn_on_camera_directions" = "Paina power-nappia pitkään, kunnes kuulet äänimerkin tai merkkivalo syttyy palamaan.";
+
+"turn_on_camera_scanQR" = "Laita kamera päälle ja skannaa QR-koodi";
+
+"turn_on_location_services" = "Laita Sijaintipalvelu päälle jotta Vico-Home voi käyttää sijaintiasi";
+
+"turn_on_location_services_get_wifi" = "Laita sijaintipalvelu päälle jotta langattoman verkon asetukset voidaan hakea automaattisesti.";
+
+"turn_on_location_services_title" = "Laita sijaintipalvelu päälle yksityisyys-asetuksista";
+
+"turned_on_donot_disturb" = "Älä häiritse -tila on päällä";
+
+"udp_awake_failed" = "Tämä kamera on offline-tilassa.";
+
+"unable_to_load_image" = "Kuvan lataaminen ei onnistu";
+
+"unauthorized" = "Käyttäjän pitää tunnistautua jatkaakseen";
+
+"unavailable_before_upgrade" = "Kamera ei ole käytettävissä ennen kuin laiteohjelmiston päivitys on valmis.";
+
+"understanc_agree" = "Olen ymmärtänyt seuraavat ehdot ja hyväksyn ne";
+
+"unheard_scan_qr_code" = "En kuule ääntä \"Scan QR code\".";
+
+"unknown_error_ios" = "Järjestelmävirhe";
+
+"unkonw_error" = "Järjestelmävirhe";
+
+"update" = "Päivitä";
+
+"update_device_name_scuess" = "Kameran nimi on päivitetty.";
+
+"update_location_scuess" = "Kameran paikka on päivitetty.";
+
+"update_now" = "Päivitä nyt";
+
+"update_the_latest_version" = "Päivitä viimeisimpään %@ -versioon";
+
+"update_time_string" = "Viimeisin päivitys %@, %@";
+
+"update_timezone_scuess" = "Aikavyöhyke on päivitetty";
+
+"update_user_name_success" = "Käyttäjän nimi on päivitetty.";
+
+"updating" = "Päivitetään…";
+
+"upgrage_to_plan" = "%@ päivitetty %@";
+
+"uploaded_fail" = "Lataaminen epäonnistui, yritä uudelleen.";
+
+"uploaded_success" = "Lataus onnistui.";
+
+"use_app_scan" = "Käytä %@-sovellusta skannataksesi alla olevan QR-koodin kameran lisäämiseksi.";
+
+"user_account_in_protection" = "%@ Awareness on päättynyt, osta uudelleen.";
+
+"user_agreement" = "Käyttöehdot";
+
+"user_guide_4" = "Tarkkailualue";
+
+"user_guide_desc_1" = "Hallitse useita kameroita helposti";
+
+"user_guide_package" = "Käyttöohjeet";
+
+"user_name" = "Käyttäjän nimi";
+
+"Username_inuse" = "Käyttäjänimi on jo käytössä.";
+
+"username_noncompliance" = "Käyttäjätunnus on rikkominen.";
+
+"value_added_services" = "%@ Awareness";
+
+"vehicle" = "Ajoneuvo";
+
+"vehicle_approaching" = "Ajoneuvo lähestyy";
+
+"vehicle_leaving" = "Ajoneuvo poistuu";
+
+"vehicle_parked" = "Ajoneuvo parkeerattu";
+
+"verificatio_code_require" = "Vahvistuskoodi vaaditaan liian monen epäonnistuneen kirjautumisyrityksen jälkeen.";
+
+"verification_code_expired" = "Varmistuskoodi on vanhentunut.";
+
+"verification_code_not_right" = "Varmistuskoodi ei kelpaa.";
+
+"verification_code_sent_tips" = "Sähköposti-ID:llesi on juuri lähetetty vahvistuskoodi.";
+
+"verification_error_max_times" = "Liian monta pyyntöä, yritä myöhemmin uudelleen.";
+
+"verificting_error" = "Tilaustasi vahvistetaan, ole hyvä ja odota";
+
+"verify_code" = "Varmistuskoodi";
+
+"verify_identity_desc_1" = "Ennen liittämistä sinun tulee antaa salasanasi tunnistautuaksesi.";
+
+"verify_network" = "Yhdistä langattomaan verkkoon";
+
+"verify_network_des" = "Tällä hetkellä tuetaan vain 2,4 Ghz Wi-Fi-verkkoa. Yhdistämisen jälkeen voit jatkaa seuraavaan vaiheeseen.";
+
+"verify_send_code" = "Puhelinnumeroosi %@ on juuri lähetetty vahvistuskoodi.";
+
+"verify_user_info" = "Tunnistaudu";
+
+"verify_user_rebind" = "Ennen uudelleenliittämistä sinun tulee tunnistautua.";
+
+"vicoo_policy" = "Käyttöehdot ja Tietosuojakäytäntö";
+
+"video_duration" = "Kesto";
+
+"video_feedback_agree" = "Vahvistan lähettäväni palautteen mukana alkuperäisen videon (sisältäen mahdollisesti henkilökohtaisia tietoja) jotta %@ voi analysoida videodataa. Lisää henkilötietojen käsittelystä löytyy Tietosuojakäytäntö (Privacy Policy).";
+
+"video_feedback_cell_other" = "Muu, klikkaa kirjoittaaksesi kuvauksen virheestä.";
+
+"video_feedback_check" = "Valitse asiaan kuuluvat termit";
+
+"video_hb" = "Tarkka";
+
+"video_max_below_20m" = "Videon tulee olla alle 20 Mt";
+
+"video_over_day" = "Video on vanhentunut";
+
+"video_resolution" = "Tarkkuus";
+
+"video_resolution_1080p" = "Tarkka";
+
+"video_resolution_720p" = "Sulava";
+
+"video_saved_to_ablum" = "Video on tallennettu puhelimen albumiin.";
+
+"video_saving" = "Tallennetaan videota…";
+
+"video_smooth" = "Sujuva";
+
+"video_tag" = "Videon avainsana";
+
+"videolist_error" = "Videolistan haussa tapahtui virhe";
+
+"videolist_timeout" = "Videolistan haku aikakatkaistiin";
+
+"vip_activity_zone_warning" = "%@ Awareness -ominaisuus";
+
+"voice_talk_failed_and_retry" = "Äänen toisto epäonnistui, yritä uudelleen.";
+
+"volume" = "Äänenvoimakkuus";
+
+"wait_for_permission_tips" = "Pyyntösi on välitetty pääkäyttäjälle. Odota että hän käsittelee pyyntösi.";
+
+"wakeup_camera" = "Käynnistä kamera";
+
+"weak" = "Heikko";
+
+"weak_wifi_notation" = "Langattoman verkon voimakkuus on heikko. Vaihda kameran paikkaa tai muuta langatonta verkkoa.";
+
+"wednesday" = "K";
+
+"where_is_qrcode" = "QR-koodi on yleensä kameraan kiinnitetyssä tarrassa, yleensä ulommaisen kuoren sisäpuolella, tai kumisuojan alla. QR-koodissa on kameran sarja- ja tyyppinumerot. Koodin alla on yleensä teksti joka alkaa merkeillä \"S/N\".";
+
+"while_using" = "Käytön aikana";
+
+"white_light" = "Valkosalama";
+
+"white_tips" = "Jos haluat käyttää kuvausvaloa yöllä, mene";
+
+"whitelight_des" = "Valkosalama valaisee ympäristön, yritä ottaa värikuva käyttöön myös yöllä";
+
+"wifi_channel" = "Wi-Fi Kanava";
+
+"wifi_confim" = "Tarkista että langattoman verkon nimi (SSID) ja salasana on oikein (isot ja pienet kirjaimet).";
+
+"wifi_connect" = "Wi-Fi Yhteys";
+
+"wifi_issue" = "Wi-Fi-yhteyden määritysongelma";
+
+"wifi_name" = "Wi-Fi Nimi:";
+
+"wifi_password" = "Salasana:";
+
+"wifi_scanning" = "Etsitään verkkoa";
+
+"wifi_setting" = "Wi-Fi asetukset";
+
+"wifi_state" = "Wi-Fi Voimakkuus: %@";
+
+"wifi_state_ios" = "Wi-Fi Voimakkuus:";
+
+"wifi_tips" = "Vinkkejä";
+
+"wlan_enable_play" = "Haluatko käyttää mobiilidataa kun langatonta verkkoa ei ole saatavissa?";
+
+"wrong_az_tips" = "* Järjestelmä on löytänyt ongelmia seuraavista tarkkailualueista, ja ne voivat aiheuttaa epätarkkuutta tunnistamisessa. Poista ne ja lisää uudelleen.";
+
+"wrong_code" = "QR-koodi ei kelpaa";
+
+"yes" = "Kyllä";
+
+"zone_1" = "Alue 1";
+
+"zone_2" = "Alue 2";
+
+"zone_3" = "Alue 3";
+
+"zone_with_args" = "Alue %@";
+
+"keep_phone_camera_close" = "Kamera on yhteydessä, pidä kamera ja matkapuhelin lähellä.";
+
+"reconnect_wifi" = "Muodosta yhteys uudelleen edelliseen Wi-Fi-verkkoon puhelinjärjestelmän asetuksissa ja palaa tälle sivulle, kun toiminto on suoritettu, tarkistaaksesi kameran sidontatuloksen.";
+
+"reconnect_wifi_button" = "Muodosta yhteys uudelleen Wi-Fi-verkkoon";
+
+"select_camera_add" = "Valitse lisättävä kamera";
+

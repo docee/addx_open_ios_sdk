@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  AddxAi
+
+  Created by zhi kuiyu on 2019/7/24.
+  Copyright © 2019 addx.ai. All rights reserved.
+*/
+
+//CFBundleDisplayName = "Ta";
+NSCameraUsageDescription = "Доступ к камере запрещен, вы не сможете использовать функцию сканирования QR-кода";
+NSMicrophoneUsageDescription = "Доступ к микрофону запрещен, вы не сможете использовать функцию голосового вызова";
+NSPhotoLibraryUsageDescription = "Доступ к фотографиям запрещен, вы не сможете хранить медиафайлы в альбоме телефона";
+NSLocationWhenInUseUsageDescription = "Разрешить разрешению на позиционирование автоматически заполнять Wi-Fi, подключенный к телефону, и полученная информация Wi-Fi будет использоваться для привязки камеры";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Доступ к местоположению запрещен, вы не сможете использовать функцию автоматического определения местоположения";

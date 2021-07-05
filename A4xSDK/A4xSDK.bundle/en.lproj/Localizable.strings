@@ -1,0 +1,2652 @@
+/* 
+Localizable.strings
+
+Created by kzhi on 2020/4/11.
+Copyright © 2020 CocoaPods. All rights reserved.
+*/
+"about" = "About %@";
+
+"about_evaeye" = "About %@";
+
+"about_vicoo" = "About %@";
+
+"accept" = "Accept";
+
+"account_had_been_bind" = "The account is already bound";
+
+"account_no_registered" = "This account is not registered.";
+
+"account_settings" = "Account Settings";
+
+"action_tracing_open" = "When motion is detected, the camera will automatically track the motion.";
+
+"action_tracking" = "Action Tracking";
+
+"activity_zone_tips" = "After adding Activity Zone, the camera will still record all videos, but will only push abnormal activities in the activity zones.";
+
+"activity_zones" = "Activity Zone";
+
+"add_activity_zone" = "Add activity zone";
+
+"add_camera_again" = "Add camera";
+
+"add_camera_now" = "Add Camera Now";
+
+"add_device_long_press" = "Long press the button to turn on";
+
+"add_device_plugin" = "Plugin";
+
+"add_device_power_des_key_point" = "long press";
+
+"add_device_power_double_des" = "When you hear \"Scan QR code\", you can proceed to the next step.";
+
+"add_device_power_title" = "Turn on your camera";
+
+"add_device_push_button" = "Push Button";
+
+"add_new_camera" = "Add a new camera";
+
+"add_new_camera_now" = "Add a New Camera Now!";
+
+"add_new_device" = "Add a new camera";
+
+"add_new_device_b" = "Smart PTZ Camera";
+
+"add_new_device_g" = "Smart Battery Camera";
+
+"add_other_error" = "Other problems / No sound";
+
+"add_preset_scuess" = "Position added successfully.";
+
+"add_sleep" = "add";
+
+"add_sleep_plan" = "Add a sleep plan";
+
+"add_timeout" = "Add camera timeout";
+
+"address" = "Address";
+
+"address1_placeholder" = "Street and number, P.O. box, c/o.";
+
+"address2_placeholder" = "Detailed address, such as apartment, house number, etc.";
+
+"admin" = "Admin";
+
+"admin_info" = "Admin Info";
+
+"admin_sharing_in_same_country" = "The account of the camera admin and the sharing user must be in the same country and cannot be shared across countries.";
+
+"admin_wakeup_camera" = "If necessary, please contact the admin to wake up the camera.";
+
+"advanced_info" = "Advanced Setting";
+
+"agree" = "Agree";
+
+"agree_and_continue" = "Agree and continue";
+
+"ai_car" = "Vehicle";
+
+"ai_filter" = "Classification";
+
+"ai_filter_des" = "After Classification is turned on, the video will analyze the content of the video. At present, the main recognition categories include person, pet, vehicle, and package.";
+
+"ai_filter_des2" = "After Classification is turned on, the video will analyze the content of the video. At present, the main recognition categories include person, pet.";
+
+"ai_pet" = "Pet";
+
+"alarm_no" = "The alarm volume cannot be set below 10.";
+
+"alarm_on" = "Turn on";
+
+"alarm_playing" = "The alarm is ringing.";
+
+"alarm_volume" = "Alarm Volume";
+
+"alerdy_move_location" = "The camera already moved to %@";
+
+"alert" = "Activate Alarm";
+
+"alert_buttom" = "Alarm Siren";
+
+"alignqr" = "Align QR code within the frame to scan.";
+
+"all_alerts" = "All motion";
+
+"all_device" = "All camera";
+
+"all_screen" = "All screen";
+
+"allow" = "Allow";
+
+"allow_bluetooth_permission" = "Allow \"Bluetooth\" permission";
+
+"allow_bluetooth_permission_button" = "Allow bluetooth permission";
+
+"allow_camera_permission" = "Allow mobile phone camera permission, scan the QR code on the camera.";
+
+"allow_libary" = "Please allow photos access in phone settings.";
+
+"allow_location_permission" = "Allow location permission";
+
+"allow_location_permission_for_camera" = "Allow location permission, automatically obtain the current Wi-Fi name and configure it to the camera (recommended) or manually enter the Wi-Fi name (case sensitive).";
+
+"allow_location_permission_get_wifi" = "Allow location permission, automatically obtain the current Wi-Fi name (SSID) of the phone.";
+
+"allow_location_permission_title" = "Allow \"location\" permission";
+
+"allowa_camera_permission" = "Allow camera permission";
+
+"already_ignore" = "Ignored";
+
+"already_long_press" = "I pressed the reset button.";
+
+"already_register" = "This email ID already exists. Try to sign in instead.";
+
+"alter_location" = "Alter location";
+
+"and" = "and";
+
+"anti_flicker" = "Anti-Flicker";
+
+"anti_flicker_setting" = "Anti-Flicker";
+
+"anti_flicker_tips" = "After Anti-Flicker is turned on, the camera will offset the strobe frequency of the alternating current. Solve the flicker of the video screen.";
+
+"apayment_success" = "%@ payment successful";
+
+"apaymntt_fail" = "%@ payment failed";
+
+"app_build_info" = "Build Info";
+
+"app_is_update_to_date" = "You have already updated to the latest version.";
+
+"app_name" = "@string/appName";
+
+"app_transfer_content" = "<![CDATA[ <font>\u3000\u3000In order to cooperate with relevant policies and provide better services to users in China, VicoHome App will be changed to <strong>全橙看家</strong> App on <font color=\"#5AC4A7\">%@</font>. <br /> <font>\u3000\u3000Please download <strong>全橙看家</strong> in time. You can sign in to <strong>全橙看家</strong> directly through your VicoHome account. All your camera info and Awareness service status will be retained and you can continue to use it. </font><br /> <font>\u3000\u3000After the expiration date, VicoHome APP will no longer be usable. <u><font color=\"#007AFF\"> Learn more >></font></u></font><br />]]>";
+
+"app_transfer_content_logout" = "<![CDATA[ <font>\u3000\u3000In order to cooperate with relevant policies and provide better services to users in China, VicoHome App changed to <strong>全橙看家</strong> App on <font color=\"#5AC4A7\">%@</font>.</font><br /> <font>\u3000\u3000VicoHome APP can no longer be usable. Please download <strong>全橙看家</strong> in time. You can sign in to <strong>全橙看家</strong> directly through your VicoHome account. All your camera info and Awareness service status will be retained and you can continue to use it. <u><font color=\"#007AFF\"> Learn more >></font></u></font><br /> ]]>";
+
+"app_update" = "App Update";
+
+"app_version" = "APP Version";
+
+"apple_cancle" = "Payment canceled";
+
+"apple_reject" = "This phone does not support the purchase.";
+
+"audio_setting" = "Audio Setting";
+
+"auto" = "Auto";
+
+"auto_sleep" = "Schedule";
+
+"auto_sleep_prompt" = "After Schedule is turned on, the camera will automatically enter sleep mode within the specified time.";
+
+"available_2_4g_are_follows" = "Available 2.4GHz Wi-Fi networks are as follows.";
+
+"available_fireware" = "Available Fireware";
+
+"awareness_service" = "Awareness Service";
+
+"awarenessbasic" = "%@ Awareness Basic";
+
+"awarenessplus" = "%@ Awareness Plus";
+
+"awarenesspro" = "%@ Awareness Pro";
+
+"back_door" = "Back door";
+
+"batter_low_upgrade" = "Low battery, unable to upgrade. Please charge the battery to at least 20% and retry.";
+
+"battery_camera" = "Battery camera";
+
+"battery_camera_tips" = "Please long press the power button 3s until you hear a sound from the camera.";
+
+"battery_issue" = "Battery issue/hardware issue";
+
+"battery_level" = "Battery Level";
+
+"bed_room" = "Bedroom";
+
+"before_offline" = "(before offline)";
+
+"bind_111" = "When you hear a scanning sound or see the light flashing, you can scan the QR code about  6-12inches in front of the camera. If not, please double-click the power button to enter the scan mode. You will hear a sound when the camera successfully scans the QR code.";
+
+"bind_device_b0_step0_desc" = "After the camera finishes rotating, you can proceed to the next step.";
+
+"bind_device_delete" = "Delete this network";
+
+"bind_device_g_step0_desc" = "When you hear a power-up sound, you can proceed to the next step.";
+
+"bind_device_guide" = "Turn on the camera according to the camera body guide";
+
+"bind_device_guide_confirm" = "Confirm that the camera makes a sound or sees the indicator light flashes";
+
+"bind_device_k0_step0_desc" = "When you hear a power-up sound, you can proceed to the next step.";
+
+"bind_device_save_wifi" = "Remember Wi-Fi name and password after successful connection.";
+
+"bind_device_saved" = "Saved Wi-Fi";
+
+"bind_device_scan" = "Place the QR code on your phone about 6-12 inches in front of the camera to scan, and complete the scan after hearing the sound of successful scanning.";
+
+"bind_device_scan_failed" = "Unsuccessful connection, please click here";
+
+"bind_device_scan_failed_2" = "Contact help service";
+
+"bind_device_skip" = "After the connection is successful, it will automatically jump to the next step.";
+
+"bind_result_scuess" = "%@ (%@) invited you to view the camera.";
+
+"bind_result_scuess_check" = "Check it under the catalog of shared cameras.";
+
+"bind_step_wifi_finish" = "I filled in Wi-Fi information.";
+
+"bluetooth_permission" = "Allow Bluetooth permission, quickly bind the camera";
+
+"bluetooth_system_center" = "Turn on \"Bluetooth\" in the system control center";
+
+"bluetooth_tips1" = "1 Find %@ in the settings";
+
+"bluetooth_tips2" = "2 Allow %@ to access Bluetooth";
+
+"build_env" = "BuildENV";
+
+"buy" = "Buy";
+
+"buy_desc" = "* %@ Awareness only takes effect in the camera admin’s rights, and the shared users will use it with the admin’s rights.";
+
+"camera" = "Camera";
+
+"camera_alarm" = "Alarm";
+
+"camera_alarm_tips" = "When you turn on \"Alarm\", the camera will automatically sound an alarm when it detects motion.";
+
+"camera_alarm_white_tips" = "When you turn on \"Alarm\" or \"Flashlight\", the camera will automatically warn when it detects motion.";
+
+"camera_deleted" = "This camera has been deleted.";
+
+"camera_is_offline" = "Camera is offline";
+
+"camera_line_busy" = "The camera is busy, please retry later.";
+
+"camera_location" = "Where would you like to put this camera?";
+
+"camera_not_activated" = "Unknown camera, please contact the retailer.";
+
+"camera_not_activated_short" = "Unknown camera";
+
+"camera_off" = "The camera is power down, please turn it on.";
+
+"camera_off_low_battery" = "The camera is power down at %@ due to low battery, please charge it.";
+
+"camera_offline_desc" = "Try rebooting your Wi-Fi router. If that does not help, try to reconnect to Wi-Fi.";
+
+"camera_permission" = "Allow camera access";
+
+"camera_permission_tips" = "Allow camera access in the phone system \"Settings\" to scan QR code.";
+
+"camera_poor_network" = "The camera is offline, please check whether the camera is turned on and is connected to Wi-Fi.";
+
+"camera_poor_network_short" = "The camera is offline.";
+
+"camera_serial_number" = "Camera serial number";
+
+"camera_sleep" = "Camera is sleeping";
+
+"camera_sleep_open" = "The camera will turn on tomorrow at %@.";
+
+"camera_wake_up" = "Wake up";
+
+"camera_white_tips" = "After Alarm Flash is turned on, the camera will automatically light up the flash when the motion detection is triggered.";
+
+"camera_will_not_record" = "The camera will not record, alarm, or push notifications.";
+
+"can_move_this_location" = "Move to the following locations";
+
+"can_not_find_camera_qr_code" = "Cannot find the QR code on the camera body?";
+
+"can_not_find_qr_code" = "Cannot find the admin’s QR code?";
+
+"can_not_find_reset" = "Cannot find the reset button?";
+
+"can_not_get_ssid" = "Unable to get the Wi-Fi name (SSID), please change a Wi-Fi for your phone or manually enter a Wi-Fi name (SSID).";
+
+"can_not_get_ssid_short" = "Unable to get the Wi-Fi name (SSID)";
+
+"can_not_power_up" = "Cannot turn on?";
+
+"cancel" = "Cancel";
+
+"cancel_setup" = "Cancel";
+
+"cannot_receive_code" = "Can't receive the verification code?";
+
+"cannot_receive_code_reason_bold1" = "please check it in the trash box of the receiving mailbox.";
+
+"cannot_receive_code_reason_bold2" = "a normal international email address such as Gmail and Yahoo";
+
+"cannot_receive_code_reason1" = "After clicking confirm to send the verification code, your mailbox will receive the verification code email within 60 seconds.";
+
+"cannot_receive_code_reason2" = "If the network condition is unstable, please wait patiently for up to 5 minutes.";
+
+"cannot_receive_code_reason3" = "If you still do not receive the verification code after 5 minutes, <![CDATA[<b>please check it in the trash box of the receiving mailbox.</b>]]>";
+
+"cannot_receive_code_reason4" = "If the verification code email is not found in the trash box, it may be because we cannot send the verification code to your current email address. Please change to <![CDATA[<b>a normal international email address such as Gmail and Yahoo</b>]]> to receive Verification email.";
+
+"cannot_receive_code_reason5" = "If you still do not receive the verification code after 5 minutes, please check it in the trash box of the receiving mailbox.";
+
+"cannot_receive_code_reason6" = "If the verification code email is not found in the trash box, it may be because we cannot send the verification code to your current email address. Please change to a normal international email address such as Gmail and Yahoo to receive Verification email.";
+
+"cannot_switch" = "Cannot change resolution during video recording.";
+
+"cannot_take_screenshot" = "Cannot take pictures during video recording.";
+
+"change" = "Change now";
+
+"change_binding_email" = "This account already exists. Please change another email.";
+
+"change_binding_phone" = "This account already exists. Please change another phone number.";
+
+"change_email" = "Change Email ID";
+
+"change_net_device_power_des" = "Double-click the button on the camera to enter internet connection mode. When the LED light is blinking blue, you’re ready.";
+
+"change_net_device_power_des_key_point" = "double click";
+
+"change_not_save" = "Do you want to save the changes?";
+
+"change_notification" = "%@ will change to %@ after %@ days.";
+
+"change_password" = "Change Password";
+
+"change_password_failed" = "Failed to change the password, please retry.";
+
+"change_password_success" = "Changed password successfully.";
+
+"change_password_tips" = "For your safety, the password must contain at least one uppercase letter, one lowercase letter, one number and has a minimum length of 8 characters.";
+
+"change_phone" = "Change phone number";
+
+"change_statement_1" = "We are glad to tell you that we have released a new app %@, which is an upgraded version of Vicoo. And Vicoo will not be updated any more. Please switch to our new app %@, and we believe it will give you a much better user experience.";
+
+"change_statement_2" = "What you only need to click the \"Go to download\" button below to jump to the Google Play Store or search and install \"%@\" directly in the Google Play Store,  then install the new app and sign in it with your Vicoo account. Please rest assured that everything (your cameras, your data, your settings) will keep the same.";
+
+"change_statement_2_email" = "You only need to click the \"Go to download\" button below to jump to the app store or search and install \"%@\" directly in the app store, and then re-register your account to use it. If you have any questions, please contact support@vicoo.tech .";
+
+"change_statement_5" = "We can't wait to start a new journey with you in the %@ app and you are welcome to tell us any feedbacks!";
+
+"change_wifi" = "Change Wi-Fi";
+
+"change_wifi_network" = "Change Wi-Fi Network";
+
+"changed_not_saved" = "Changes are not saved yet. Do you  want to save now?";
+
+"charging" = "Charging";
+
+"charging_completed" = "Charg completed";
+
+"check_email_sample" = "xx@xx.xx";
+
+"check_for_update_version" = "Check Firmware Updates";
+
+"check_inbox_des" = "We just send a verification code to your email ID %@.";
+
+"check_net_config" = "Please check your network and try again.";
+
+"check_requirements" = "Password is noncompliance.";
+
+"check_update_version" = "Check For Updates";
+
+"check_wifi_0" = "Please place the camera where you need to install the camera and check the strength of the Wi-Fi signal.";
+
+"check_wifi_1" = "Check Wi-Fi signal strength …";
+
+"check_wifi_2" = "Confirm your Wi-Fi signal strength:";
+
+"check_wifi_3" = "The current location is recommended to mount the camera.";
+
+"check_wifi_4" = "The current location is not recommended to mount the camera.";
+
+"check_wifi_no" = "There is no Wi-Fi signal at the current location, please move the camera near the wireless router.";
+
+"check_your_inbox" = "Verification Code";
+
+"choose" = "Choose";
+
+"choose_camera_type" = "Use your mobile phone to scan the QR code of the fuselage to obtain the camera model. The QR code of the fuselage is often found in the casing or under the rubber plug. This QR code contains the serial number and product model information, usually with a string beginning with \"S/N\" next to it.";
+
+"choose_error_msg" = "Please select the error message you hear";
+
+"choose_firmware_update" = "Choose Firmware Update";
+
+"choose_location" = "To manage your cameras better, please choose a location.";
+
+"choose_other_wifi" = "Choose other Wi-Fi";
+
+"choose_question_type" = "Please choose from the following question types";
+
+"city" = "City";
+
+"clear_cache" = "Clear Cache";
+
+"clear_cache_des" = "The cache is temporary data generated during use. Clearing the cache will not affect the normal use of the application.";
+
+"clear_cache_not_affect_download_media" = "Clearing cache does not affect the operation of %@.";
+
+"close" = "Closed";
+
+"close_led" = "Off";
+
+"close_motion_detection_tip" = "After the product function is optimized, the record video switch is removed. In order not to affect your usage habits, the motion detection switch is temporarily turned off. If necessary, please turn it on again.";
+
+"cloud_area" = "Activity Zone";
+
+"cloud_service_buy" = "Subscribe now";
+
+"cloud_size_change" = "The cloud storage space is reduced to %@ (the total capacity is not greater than %@GB)";
+
+"cloud_storage_params" = "<![CDATA[<font color=#333333\">%1$d days</font><br><font color=\"#999999\">(≤%2$dGB)</font>]]>\"";
+
+"cloud_strorage" = "Cloud Recording";
+
+"common_format" = "Format SD card";
+
+"common_service" = "No Plan";
+
+"config_night_mode" = "Night Vision Mode";
+
+"confirm" = "Confirm";
+
+"confirm_camera_on" = "Confirm the camera is turned on";
+
+"confirm_model_number" = "Scan the QR code on the camera with your mobile phone to confirm the model number";
+
+"confirm_new_password" = "Confirm New Password";
+
+"confirm_open" = "Confirm";
+
+"confirm_password" = "Confirm Password";
+
+"confirm_scan_state" = "Confirm that the camera enters the scanning state";
+
+"confirm_scan_state_directions" = "The camera will enter the scanning state automatically, and you will hear the scanning sound or see the flashing light. If the camera has not entered the scanning state, you need to double click the power button to make it enter the scanning state.";
+
+"confirm_scanning_sound" = "Confirm whether the camera is emitting a beeping sound";
+
+"confirm_speaker_1" = "Are you sure to turn off the speakers?";
+
+"confirm_speaker_2" = "The camera will no longer emit sound reminders";
+
+"confirm_speaker_open" = "When you turn on the \"Speaker\" function, the camera will provide sound feedback in time so that you can understand the status of the camera more clearly.";
+
+"congratulation_add_camera" = "Congratulations\nPlease Add a Camera";
+
+"connect_error_ap_1" = "Please check whether you have selected or entered the correct Wi-Fi name (SSID).";
+
+"connect_error_ap_2" = "Please place the camera near the Wi-Fi router and make sure the router is connected to a power source";
+
+"connect_error_ap_3" = "Currently 5GHz Wi-Fi and enterprise Wi-Fi are not supported.";
+
+"connect_error_failed_1" = "Please check if your router is connected to an available network.";
+
+"connect_error_failed_2" = "Please try to restart the router and reconnect.";
+
+"connect_error_failed_3" = "Please try another Wi-Fi.";
+
+"connect_error_ip" = "I heard \"Retrieving IP timeout\"";
+
+"connect_error_ip_1" = "There are too many cameras connected to the router, so you cannot connect more cameras. Please delete some unused cameras to clear out expired unconnected cameras. You may need to contact the router admin.";
+
+"connect_error_ip_2" = "Please try to restart the router and reconnect.";
+
+"connect_error_ip_3" = "Please try another Wi-Fi.";
+
+"connect_error_method" = "Please make sure that your Wi-Fi network is not an enterprise network connection method, and the camera only supports networks with a security level below WPA-2.";
+
+"connect_error_no_voice" = "I heard \"Cloud service connection fail\"";
+
+"connect_error_other" = "I heard \"Authentication error\"";
+
+"connect_error_password_1" = "Please make sure that the Wifi password you entered is correct and it is case sensitive.";
+
+"connect_error_password_2" = "Currently 5GHz Wi-Fi and enterprise Wi-Fi are not supported.";
+
+"connect_error_wifi" = "I heard \"Wi-Fi password error\"";
+
+"connect_error_wifi_net" = "I heard \"Wi-Fi SSID not found\"";
+
+"connect_find_device" = "Camera found";
+
+"connect_heard_failed" = "I heard a failure message.";
+
+"connect_initialize" = "Initialize the camera";
+
+"connect_no_wifi" = "Cannot find Wi-Fi information?";
+
+"connect_register" = "Register to the cloud service";
+
+"connect_server" = "Connecting to server...";
+
+"connect_sever_timeout" = "Connection to server timed out";
+
+"connect_success" = "Connection succeeded";
+
+"connect_to_wifi" = "Connect the camera to Wi-Fi";
+
+"connect_wifi" = "Connect to Wi-Fi";
+
+"connect_wifi_no_voice_error" = "I did not hear anything.";
+
+"connect_wifi_tips" = "Please enter the network name (SSID) and password to be connected to the camera. Currently 5GHz Wi-Fi and enterprise Wi-Fi are not supported. Learn more >>";
+
+"connect_wifi_unkonw_error" = "I heard \"Other error\".";
+
+"connecting" = "Connecting …";
+
+"connection_failed" = "Failed to connect";
+
+"contact_admin_set_az" = "Contact the admin to set the activity zone";
+
+"copyright" = "Copyright © 2021 Photon Sail Tech All rights reserved";
+
+"country" = "Country";
+
+"country_region" = "Country/Region";
+
+"coupon" = "Redeem Code";
+
+"coupon_expire" = "Redeem code has expired.";
+
+"coupon_used" = "Redeem code has been used.";
+
+"create_location" = "Create a new location";
+
+"create_new_password" = "Set New Password";
+
+"create_your_account" = "Set Password";
+
+"crying_detection" = "Crying detection";
+
+"crying_detection_high" = "If the camera is far away from the baby, such as 3 meters or longer, it is recommended to use high sensitivity";
+
+"crying_detection_low" = "If the camera is very close to the baby, for example about 1 meter, it is recommended to use a low sensitivity.";
+
+"crying_detection_mid" = "If the camera is a little far away from the baby (eg 2 or 3 meters), it is recommended to use a medium sensitivity.";
+
+"crying_detection_on" = "When the “Crying Detection\" function is enabled, you will be notified if crying is detected in your baby's room.";
+
+"crying_tag" = "Crying";
+
+"current_location" = "Current Location:%@";
+
+"data_acquisition_failed" = "Data acquisition failed, please restart the APP.";
+
+"day" = "%d days";
+
+"default_common" = "Default";
+
+"delete" = "Delete";
+
+"delete_account" = "Delete Account";
+
+"delete_account_failed" = "Account deletion Failed to, please retry.";
+
+"delete_location_desc" = "Are you sure to delete this location?";
+
+"delete_notice_content_0" = "Because the account will not be restored after the deletion. Before you submit the application, please ensure the security of your account, and confirm the following information:";
+
+"delete_notice_content_1" = "There have been no unusual behaviors such as number theft or remote registration, etc. And the deletion of the account is on yourself operation.";
+
+"delete_notice_content_2" = "If you are the admin of the camera, you will lose the viewing and setting rights of this camera after deletion. If you are the shared person of the camera, you will lose the viewing right of this camera after deletion.";
+
+"delete_notice_content_3" = "All personal data related to this account, including library information, will be permanently deleted and cannot be recovered.";
+
+"delete_notice_content_4_ios" = "Because %@ Awareness uses third-party chargeback, your account cancellation is not related to automatic renewal. To avoid unnecessary deductions, please cancel automatic renewal.";
+
+"delete_notice_content_4_ios_link" = "cancel automatic renewal";
+
+"delete_notice_title_0" = "Account Deletion Notice";
+
+"delete_notice_title_1" = "1. The account is safe";
+
+"delete_notice_title_2" = "2. No longer follow the camera associated with this account";
+
+"delete_notice_title_3" = "3. All personal data will be deleted";
+
+"delete_notice_title_4" = "4. Cancel the automatic renewal of the %@ Awareness";
+
+"delete_one_dialog_message" = "This item will be deleted immediately. You can’t undo this action.";
+
+"delete_sleep_time" = "Are you sure you want to delete the sleep schedule time?";
+
+"delete_success" = "Delete successfully.";
+
+"delete_this_location" = "Delete Location";
+
+"delete_wifi" = "Are you sure you want to delete this network?";
+
+"deselect_all" = "Deselect all";
+
+"detail_location" = "Detailed Address";
+
+"detection_area" = "Area detection";
+
+"detection_parcel" = "Package Detection";
+
+"detection_parcel_desc" = "The camera will send you a notification when the package is detected, and some useless information will be filtered.";
+
+"detection_pedestrian" = "Person Detection";
+
+"detection_person" = "Person Detection";
+
+"detection_sensitivity" = "Detection Sensitivity";
+
+"device" = "Camera";
+
+"device_already_bind_by_other" = "This camera has been bounded to another account. Please contact the admin for help.";
+
+"device_auth_limitation" = "No permission to operate this camera.";
+
+"device_b0_default_name" = "%@ Smart PTZ Camera";
+
+"device_b1_default_name" = "%@ Smart PTZ Camera";
+
+"device_b2_default_name" = "%@ Smart PTZ Camera";
+
+"device_bind_heared_common_voice" = "When you hear the scanning sound, you can proceed to the next step.";
+
+"device_default_name" = "%@ Smart Camera";
+
+"device_g0_default_name" = "%@ Smart Battery Camera";
+
+"device_g1_default_name" = "%@ Smart Battery Camera";
+
+"device_g2_default_name" = "%@ Smart Battery Camera";
+
+"device_has_move_to" = "The camera has been moved to %@";
+
+"device_info" = "Camera Info";
+
+"device_installing" = "Firmware is installing …";
+
+"device_ip" = "Camera IP";
+
+"device_is_updating" = "Firmware is upgrading…";
+
+"device_k0_default_name" = "%@ Smart Card Camera";
+
+"device_language" = "Voice Language";
+
+"device_language_cn" = "汉语(Chinese)";
+
+"device_language_en" = "English(English)";
+
+"device_language_es" = "Español(Spanish)";
+
+"device_language_fr" = "Français(French)";
+
+"device_language_ge" = "Deutsche(German)";
+
+"device_language_it" = "Italiano(Italian)";
+
+"device_language_ja" = "日本語(Japanese)";
+
+"device_language_ru" = "Pусский(Russian)";
+
+"device_language_fi" = "Suomi(Finnish)";
+
+"device_manager" = "Camera Management";
+
+"device_name" = "Camera Name";
+
+"device_name_invalid_tips" = "Please enter a valid camera name.";
+
+"device_no_access" = "Access this camera failed, please retry.";
+
+"device_no_replied" = "Network connection is unstable.";
+
+"device_not_bound" = "The device is not bound.";
+
+"device_offline" = "camera Offline";
+
+"device_other_device" = "Not sure which camera to choose？";
+
+"device_restarted_update" = "During the upgrade process, the camera may restart several times, please do not cut off the power or turn off the camera.";
+
+"device_s0_default_name" = "%@ Smart Box Camera";
+
+"device_settings" = "Camera Setting";
+
+"device_state" = "Status: %@";
+
+"device_state_ios" = "Status:";
+
+"device_unactivated" = "Unknown device, please contact retailer.";
+
+"device_update_scuess" = "Firmware is up to date.";
+
+"dialog_message_cancel_share" = "<b>%@</b> will not receive messages from<b>%@</b> any more.";
+
+"dialog_message_del_multi_with_guest" = "You can't undo this action. %d item from friends' camera cannot be deleted.";
+
+"dialog_message_del_multi_without_guest" = "These items will be deleted immediately. You can’t undo this action.";
+
+"dialog_payment_cloud_content" = "Extended to 30 days of cloud recordings(no more than 5GB) to create the most secure video storage, so you never miss any critical moment.";
+
+"dialog_payment_ling_content" = "Recognition people, pet, and vehicle in the video and analyze their actions to get a smarter notification.";
+
+"dialog_payment_ling_title" = "Intelligent Notification";
+
+"dialog_payment_title" = "%@ Awareness Plus";
+
+"dialog_payment_zone_content" = "Set the activity zone, only push the trigger message at the precise location, and filter out the rest of the information.";
+
+"dialog_title_del_multi" = "Do you confirm to delete %d items from the cloud?";
+
+"dialog_title_del_one" = "Do you confirm to delete this item?";
+
+"did_not_hear_scanning_sound" = "Didn't hear a beeping sound?";
+
+"ding_dong" = "\"Ding Dong Ding Dong\"";
+
+"disable" = "Disable";
+
+"disagree" = "Disagree";
+
+"distance" = "6-12 inches";
+
+"district_country" = "District/County";
+
+"do_alarm_tips" = "Turn on the alarm and the camera will ring.";
+
+"do_not_disturb" = "Do not disturb";
+
+"do_not_disturb_15min" = "Do not disturb within 15 minutes";
+
+"do_not_disturb_15min_describ" = "Within 15 minutes, you will not receive any motion detection messages, but all events will still be recorded.";
+
+"do_not_disturb_describ" = "During this period, you will not receive any motion detection messages, but all events will still be recorded.";
+
+"do_not_update" = "Do not update";
+
+"done" = "Done";
+
+"dont_say_green_light" = "I didn’t saw the blue light.";
+
+"double_click_exit" = "Press again to exit %@";
+
+"double_click_power" = "Double click the power button";
+
+"double_click_power_button" = "Please double click the power button to make the camera enter the scanning state";
+
+"double_click_power_directions" = "Double click the power button after the camera is turned on. Then the camera will enter the scanning state when you hear the scanning sound or see the flashing light,";
+
+"double_click_power_key" = "Double click the button to scan";
+
+"double_click_power_key_2" = "Double click the button and place the QR code on your phone about 6-12inches in front of the camera.";
+
+"double_click_power_key_reset" = "Long press the reset button to scan";
+
+"double_click_power_key_reset_next" = "After long pressing the reset button, you can proceed to the next step.";
+
+"download" = "Download";
+
+"download_done" = "download is complete";
+
+"download_error" = "Download Error";
+
+"download_faild_and_try" = "Failed to download, please retry.";
+
+"download_file_fail_and_try" = "Failed to download, please retry.";
+
+"download_position" = "%d/%d Downloading …";
+
+"downloading_progress" = "%d%%";
+
+"downloading_progress2" = "Downloading …%d%%";
+
+"drop_out" = "Drop out";
+
+"duration_alarm" = "alarm duration";
+
+"edit" = "Edit";
+
+"edit2" = "Edit";
+
+"email" = "Email";
+
+"email_address" = "Email ID";
+
+"email_bind_success" = "Bound email ID successfully.";
+
+"email_change_success" = "Replaced email ID successfully.";
+
+"email_exists" = "This account already exists. Try to sign in instead.";
+
+"email_invalid_tips" = "Please enter a valid email ID.";
+
+"email_or_phone_number" = "Phone Number/Email ID";
+
+"email_phone_address" = "Phone Number/Email ID";
+
+"email_phone_number_invalid_tips" = "Please enter a phone number/email ID in the correct format.";
+
+"email_unregister_tips" = "This account is not registered in your selected country.";
+
+"enabled" = "Enable";
+
+"End" = "End";
+
+"end_do_not_disturb" = "End do not disturb mode?";
+
+"enter_coupon" = "Please enter the redeem code.";
+
+"enter_device_name" = "Please enter the camera name";
+
+"enter_email_name" = "Email ID";
+
+"enter_password" = "Password";
+
+"enter_pwd_tips_for_del_account" = "To keep your account safe before account cancellation. Please enter the password to verify the user's identity.";
+
+"error_2002" = "Failed to access the camera. Please confirm whether this camera is on your list.";
+
+"error_2002_short" = "Failed to access the camera.";
+
+"error_2111" = "This camera has been bound by another account. Please contact the admin for help.";
+
+"error_3011" = "Invalid request";
+
+"error_3012" = "Request is expired. Please retry.";
+
+"error_3013" = "Ignore the error.";
+
+"error_email_format" = "Email ID is noncompliance.";
+
+"error_message" = "Error message";
+
+"error_no_net" = "No available network connection.";
+
+"error_no_register" = "Invalid login credentials, please retry.";
+
+"error_password_input_format" = "Password is noncompliance.";
+
+"error_phone_email_format" = "Phone number/Email ID is noncompliance.";
+
+"error_two_passwork_match" = "The two passwords you typed do not match.";
+
+"error_unknown" = "Unknown request error";
+
+"error_vaild_code" = "Verification code is wrong.";
+
+"expired_code" = "Expired QR code";
+
+"expired_notification" = "%@ will expire after %@ days.";
+
+"explore" = "Explore";
+
+"faied_get_sdvideo" = "Failed to get SD card video";
+
+"failed_get_infomation" = "Failed to get information.(%d)";
+
+"failed_information" = "Failed to get information.";
+
+"failed_restore" = "Failed to restore.";
+
+"failed_to_add_location" = "Failed to set position, please retry.";
+
+"failed_to_delete_and_try" = "Failed to delete, please retry.";
+
+"failed_to_get_information_and_try" = "The phone network is unavailable, please check phone network connection.";
+
+"feedback" = "Feedback";
+
+"feedback_failed" = "Sorry, failed to feedback, please retry.";
+
+"feedback_submit_success" = "Feedback successful. Thank you for your participation!";
+
+"filter" = "Filter";
+
+"find_password_by_email" = "Retrieve by phone number";
+
+"find_password_by_phone" = "Retrieve by email ID";
+
+"find_qrcode_way" = "How to find the QR code on the camera body:";
+
+"fireware_is_downloading" = "The firmware is downloading …";
+
+"fireware_is_installing" = "The firmware is being installed …";
+
+"fireware_is_updating" = "Firmware is upgrading, please wait.";
+
+"fireware_need_force_update_tips" = "For a better experience, please update to the latest version.";
+
+"fireware_need_update_tips" = "Firmware version (%@) is required to be updated for a better experience!";
+
+"fireware_update" = "Firmware Update";
+
+"fireware_update_failed" = "Failed to update, please retry.";
+
+"firmware_info" = "Firmware Info";
+
+"firmware_update_fail" = "Failed to update firmware, please retry.";
+
+"firmware_update_timeout" = "Firmware upgraded timeout, please retry.";
+
+"firmware_upgraded_successfully" = "Firmware upgraded successfully.";
+
+"flash_light_item" = "Alarm Flash";
+
+"flicker_rate" = "Flicker Rate";
+
+"follow_instruction_retry" = "Follow the instruction and retry";
+
+"follow_step_retry" = "Follow the steps and retry";
+
+"for_battery_cameras" = "For battery cameras";
+
+"for_plugin_cameras" = "For plug-in cameras";
+
+"forbidden" = "User is not allowed to proceed";
+
+"forck_update" = "Firmware version (%@) is required to be updated for a better experience!";
+
+"forck_update_share" = "Firmware version (%@) is required to be updated. Please contact this camera's admin.";
+
+"forgot_password_" = "Forgot password?";
+
+"forgot_password_btn" = "Forgot password";
+
+"forgot_password_not_login_account" = "Please enter a phone number you want to bind.";
+
+"forgot_password_tips" = "Please enter the account you want to reset password, and we’ll send a verification code to you.";
+
+"format" = "Format";
+
+"formatting_cannot_use" = "During the formatting process, the SD card cannot be used.";
+
+"found_event1" = "1 event found.";
+
+"found_event2" = "%@ events found.";
+
+"free_30d" = "Free trial for 30 days";
+
+"free_30d_plus" = "%@ Awareness Plus free trial";
+
+"free_info" = "Free 7-day cloud storage";
+
+"friday" = "F";
+
+"from_time" = "From";
+
+"front_door" = "Front door";
+
+"g4_change_wifi" = "The current mobile phone is not connected to Wi-Fi, please connect to Wi-Fi for your phone or manually enter Wi-Fi.";
+
+"g4_change_wifi_tips" = "The current mobile phone is not connected to Wi-Fi, please connect to Wi-Fi for your phone.";
+
+"gallery" = "Library";
+
+"garden" = "Garden";
+
+"get_cloud_size" = "%@Cloud storage";
+
+"get_coupon_bottom" = "Get redeem code";
+
+"get_coupon_sec" = "Congratulations, you have obtained \"%@\"%@ months of access. During this period, you can use the following services:";
+
+"get_live_url_error" = "Failed to get a live stream.";
+
+"get_location_failed" = "Failed to get the location.";
+
+"get_location_static" = "Get location automatically from your phone";
+
+"get_new_pushes" = "Get new pushes as soon as possible";
+
+"get_now" = "Get now";
+
+"get_phone_verify_code" = "Send";
+
+"get_policy_desc" = "In order to protect your rights effectively, we have made the following updates in accordance with the latest legal rules and regulatory requirements:";
+
+"get_started" = "Get Start!";
+
+"get_use_permission" = "Use %@ to scan the code to get permission.";
+
+"Ghz2.4" = "2.4GHz";
+
+"Ghz5" = "5GHz";
+
+"gif_ad_1" = "Extra Cloud Recording Storage";
+
+"gif_ad_2" = "Intelligent Notification";
+
+"gif_ad_3" = "Custom Activity Zone";
+
+"go_buy" = "Buy now";
+
+"go_buy_2" = "Check now";
+
+"go_buy_plus" = "Subscribe %@ Awareness";
+
+"go_live" = "Go live stream";
+
+"mtn_go_momo_or_wait" = "Please go to MoMo to pay for the order. If the payment has been completed, please wait.";
+
+"go_on" = "Continue";
+
+"go_open" = "Open now";
+
+"go_set" = "Set now";
+
+"go_system_settings" = "Go to system settings >>";
+
+"go_to_bind" = "Bind now";
+
+"go_to_buy" = "Buy now";
+
+"go_to_see" = "Check now";
+
+"good" = "Medium";
+
+"got_it" = "Got it";
+
+"grant_location_permission" = "Allow Location Permission";
+
+"guardian_read" = "(If you are under 14 years old, you need to notify your guardian to read it together.)";
+
+"guest" = "Guest";
+
+"guest_request" = "Guest Request";
+
+"guide_content_2" = "Live stream and voice interaction at any time";
+
+"guide_content_3" = "Filter data to get valid information";
+
+"guide_content_4" = "Get rid of unnecessary distractions";
+
+"guide_long_press_power_tips" = "When you hear \"Power up\", you can proceed to the next step.";
+
+"guide_long_press_power_tips_b0" = "When you hear the sound, you can proceed to the next step.";
+
+"guide_long_press_power_tips_g1" = "When you hear the sound, you can proceed to the next step.";
+
+"guide_long_press_power_tips_s0" = "After plugging in the camera, you can proceed to the next step.";
+
+"guide_title_1" = "Camera Management";
+
+"guide_title_2" = "Live Stream";
+
+"guide_title_3" = "Intelligent Notification";
+
+"h1" = "2 hours";
+
+"h12" = "12 hours";
+
+"handler_success" = "Processed successfully.";
+
+"hao_to_invite" = "How to add shared cameras?";
+
+"has_account_and_login" = "Sign in";
+
+"have_no_device" = "you have not added any camera yet.";
+
+"have_problem" = "Having problems?";
+
+"hear_beep" = "I hear a sound or see the light on";
+
+"hear_device_power_on" = "I heard \"Power Up\".";
+
+"hear_device_power_on_b0" = "Camera finished rotating.";
+
+"hear_device_power_on_s0" = "I plugged in the camera.";
+
+"hear_device_voice" = "I heard  the sound.";
+
+"heard_qr_code" = "I heard \"Scan success\"";
+
+"heard_scan_finished" = "I heard \"Scan success/finished\"";
+
+"heard_scan_finished_other" = "I heard \"Scan success\"";
+
+"heard_scan_qr_code" = "I heard \"Scan QR Code\"";
+
+"heard_scaning_sound" = "I hear a beeping sound";
+
+"help" = "Help";
+
+"help_center" = "FAQ";
+
+"help_feedback" = "Help & Feedback";
+
+"help_guide" = "View help >>";
+
+"high" = "High";
+
+"hint_feedback" = "Please fill in a more than 10 words statement so that we can provide better help.";
+
+"hint_feedback_contact" = "Optional, we will contact you.";
+
+"hold_qr_code_in_front" = "Hold the QR Code in front of your camera";
+
+"hold_speak" = "Hold and speak";
+
+"home" = "Home";
+
+"hot" = "Hot";
+
+"hot_country" = "Hot Country";
+
+"how_to_add_friend_camera" = "Go to the APP homepage and click on the \"+\" sign in the upper right corner, and select \"Add Friends' Camera”.";
+
+"how_to_open_nightvision" = "\"Night Vision Setting -> Night Vision Mode\", and select \"White light mode\" >";
+
+"human_tracking" = "Humanoid Tracking";
+
+"human_tracking_2" = "When someone moves, the camera will track the person's movement.";
+
+"i_have_read_above_content" = "I have read and agree with all the above contents.";
+
+"i_know" = "Got it";
+
+"id" = "ID";
+
+"if_storage_not_access" = "If not allowed to access, you will not be able to store and back up camera information.";
+
+"image_and_screen_shot" = "Pictures (optional, upload a screenshot of this problem)";
+
+"image_save_to_ablum" = "The image has been saved to the phone album.";
+
+"indicator" = "Indicator light";
+
+"indicator_des" = "After the Indicator Light is turned on, the camera informs the current working status through the indicator light.";
+
+"Indoor_motion_alarm" = "(For indoor use, this function is not recommended)";
+
+"infrared_des" = "Infrared illuminates the environment, showing a clearer black and white picture";
+
+"input_email" = "Email ID";
+
+"input_email_new" = "New Email ID";
+
+"input_email_send" = "Please enter an email ID you want to bind, We will send the verification code to you.";
+
+"input_email_you_bind" = "Please enter an email ID you want to bind, We will send the verification code to you.";
+
+"input_need_verify_code" = "Verification Code";
+
+"input_new_email" = "Please enter the new email address you want to bind, and we will send a verification code.";
+
+"input_new_phone" = "Please enter the new phone number you want to bind, and we will send a verification code.";
+
+"input_phone_number_new" = "Enter New Phone Number";
+
+"input_phone_number_simple" = "Enter Phone Number";
+
+"input_phone_number_you_bind" = "Please enter the phone number you want to bind, and we will send a verification code.";
+
+"input_phone_send" = "Please enter the phone number you want to bind, and we will send a verification code.";
+
+"install_bracket_1" = "Install the bracket";
+
+"install_bracket_2" = "Fix the camera to the desired location. You can directly place the camera on a flat surface or fix the bracket to the wall or ceiling by screws, and then screw the camera to the fixed base.";
+
+"Install_on_shelf" = "You can place the camera on a shelf or other surfaces to use, or you can install it on a wall to use.";
+
+"install_the_camera" = "Install the camera";
+
+"installation_guide" = "Installation guide";
+
+"installation_settings" = "Installation Setting";
+
+"installation_suggestions" = "Installation suggestions";
+
+"installing" = "Installing…";
+
+"intelligent_recognition" = "Intelligent Recognition";
+
+"invalid_request" = "Invalid request";
+
+"invite" = "Camera sharing";
+
+"invite_info_des" = "The invitee needs to download and install %@.";
+
+"invite_info_des_key_point" = "%@ app";
+
+"invite_title_des" = "Check the Live stream, playback video clips.";
+
+"invited_join_device" = "invited you to view the Camera。";
+
+"ios.answer_bot.cell.text.inactivity_get_in_touch_message" = "Chat with us or leave us a message";
+
+"ios.answer_bot.text.label.ask_a_question" = "Please describe your issue and tell us your camera model first. (You can find your camera model on the label affixed to the camera. Or you can take off the shell of the camera or open the rubber cover of the camera to find your camera model. The camera model is G0, CGXX(for example CG1), CBXX(for example CB1), JXJ-FA01, etc. )";
+
+"ios.answer_bot.text.label.disabled" = "Welcome to Camera Binding Help Center! Online staff service open hours: Singapore time 10AM-10PM (PST 6PM-6AM). Please describe your issue and tell us your camera model first. (You can find your camera model on the label affixed to the camera. Or you can take off the shell of the camera or open the rubber cover of the camera to find your camera model. The camera model is G0, CGXX(for example CG1), CBXX(for example CB1), JXJ-FA01, etc. )";
+
+"ios.answer_bot.text.label.hi" = "Welcome to Camera Binding Help Center! Online staff service open hours: Singapore time 10AM-10PM (PST 6PM-6AM).";
+
+"ios.conversation.ui.chat.handover.message.selection" = "Tansfer to staff service";
+
+"ios.conversation.ui.chat.welcome_message.handover" = "OK. I will find someone who can help with your query.";
+
+"ios.ZDKRequests.createRequest.leaveAMessage.title" = "Leave a message";
+
+"is_heard_scan_qr_code" = "Did you hear\"Scan QR code\"?";
+
+"is_last_location" = "This is the last position.";
+
+"is_listen_qr_code" = "Did you hear\"Scan QR code\"?";
+
+"issue_1" = "Confirm whether the device is in the scanning state (scanning sound).";
+
+"issue_2" = "Keep the camera as close as possible to the router.";
+
+"join_device_timeout" = "Please check your network and try again.";
+
+"join_friend_device" = "Add Friend's Camera";
+
+"join_new_device" = "Get Access to Friend's Camera";
+
+"keep_router" = "Keep your router and camera close";
+
+"language" = "APP Language";
+
+"later" = "Do not update";
+
+"latest_version" = "Up to date";
+
+"learn_how_use" = "Learn how to use";
+
+"learn_more" = "Learn more >>";
+
+"learn_more_2" = "Learn more >>";
+
+"level_sensitivity" = "%@ sensitivity";
+
+"library" = "Library";
+
+"library_feedback_failed" = "Sorry, failed to feedback. Please retry.";
+
+"library_feedback_not_complete" = "Feedback is not complete, do you want to abandon submission?";
+
+"library_feedback_success" = "Feedback successful, thank you.";
+
+"library_no_tag" = "Please select the issues you want to report from the following options (multiple choices are available):";
+
+"library_tag_contains" = "If the video analysis result is wrong, please select the issues you want to report from the following options (multiple choices are available):";
+
+"light_setting" = "Lighting Setting";
+
+"like_device_name" = "How would you like to name this %@ Camera?";
+
+"live" = "Live";
+
+"live_alarm" = "%@ triggered camera alarm.";
+
+"live_feed" = "Live stream";
+
+"live_issue" = "Live view error/offline issue";
+
+"live_network_timeout" = "Failed to connect live stream.";
+
+"live_not_start" = "Live stream hasn't started yet.";
+
+"live_play" = "Live stream";
+
+"live_play_finish" = "SD card video play completed.";
+
+"live_resolution" = "%@ switched resolution.";
+
+"live_stream_error" = "Live stream error";
+
+"live_stream_timeout" = "Live stream timeout";
+
+"live_viewers_limit" = "Live stream viewers have reached the limit, please retry later.";
+
+"live_white_light" = "%@ turned on white light.";
+
+"livingroom" = "Living room";
+
+"load_message_error" = "Failed to load video.";
+
+"load_more_title" = "Release to refresh";
+
+"loading" = "Loading …";
+
+"loading_failed" = "Failed to load";
+
+"locating" = "Locating …";
+
+"location" = "Location";
+
+"location_2" = "Location";
+
+"location_address_des" = "Country/Region\nState/Province\nCity";
+
+"location_create_success" = "Created location successfully.";
+
+"location_error" = "Location info error";
+
+"location_management" = "Location Management";
+
+"location_name" = "Location Name";
+
+"location_name_error" = "location name format error.";
+
+"location_name_exist" = "This location name already exists, please edit and try again.";
+
+"location_name_required" = "Location name required";
+
+"location_not_" = "Location name cannot be empty.";
+
+"location_not_save" = "Save current location information?";
+
+"location_permission" = "Allow location access";
+
+"location_permission_help_adding" = "Allow location access in the phone system \"Settings\" to help camera adding.";
+
+"location_permission_tips" = "Allow location access in the phone system \"Settings\" to get a nearby Wi-Fi list.";
+
+"location_permission_word" = "Please allow location access to help you automatically fill in Wi-Fi info.";
+
+"location_save_success" = "Saved location successfully.";
+
+"location_selection" = "Location Selection";
+
+"location_service" = "Location Services";
+
+"location_setting" = "Location";
+
+"log_in_tips" = "Welcome to %@";
+
+"login_expired" = "Your login has expired, please sign in.";
+
+"login_other_device" = "This account has been signed in on another mobile phone. If you do not operate it, we recommend that you change your password after sign in again.";
+
+"login_verify_code" = "Verification Code";
+
+"login_way_password" = "Account password login";
+
+"login_way_verify_code" = "Verification code login";
+
+"logout" = "Sign out";
+
+"logout_des" = "Are you sure you want to sign out?";
+
+"long_press_reboot" = "Long press the reboot button for 3 seconds and restart the camera";
+
+"long_press_reboot_directions" = "Find the hole of reboot button, long-press it with the tool for 3 seconds to restart the camera. If it does not restart, you need to long-press the power supply for 3 seconds to turn on until you hear the power-up sound or see the light on.";
+
+"long_press_reset_button" = "Please long press the reset button for 3s to make the camera enter the scanning state";
+
+"long_press_the_power_key_b0" = "Connect the supply to turn on";
+
+"loss_aifunction" = "Loss of all AI functions (Activity Zone, Intelligent Notification)";
+
+"low" = "Low";
+
+"low_battery_warning" = "%@ is in low battery level, please charge your camera.";
+
+"mac_address" = "Mac Address";
+
+"mail_phone_register_des" = "Please enter your mobile phone number/email ID, we will send a verification code.";
+
+"mail_registered" = "An account with this email already exists. Try logging in instead.";
+
+"make_sure_cemera_on" = "Please press the power button or connect a power source until you hear a sound or see the light on.";
+
+"manual_f" = "Manual";
+
+"manual_input" = "Manual input";
+
+"mark" = "Mark";
+
+"marked_cancle" = "Canceled mark successfully.";
+
+"marked_f" = "Mark";
+
+"marked_fail" = "Failed to mark, please retry.";
+
+"marked_success" = "Marked successfully.";
+
+"may_be_connection" = "Cannot connect to the camera, please check the network.";
+
+"mcu_version" = "MCU Version";
+
+"medium" = "Medium";
+
+"membership_expire" = "You will get the service of %@ on %@. Please download the videos if necessary.";
+
+"membership_tip" = "%@ has expired, you will lose the AI function and the cloud recording will be changed to the 7-day on %@. Please upgrade a new %@ Awareness If necessary.";
+
+"microphone" = "Microphone";
+
+"microphone_permission" = "Allow microphone access";
+
+"microphone_permission_tips" = "Allow microphone access in the phone system \"Settings\" to make voice calls.";
+
+"migration_statement_1" = "APP Change Statement";
+
+"migration_statement_2_1" = "In order to cooperate with relevant policies and provide better services to users in China, VicoHome App will be changed to 全橙看家 App on %@.";
+
+"migration_statement_2_2" = "Please download 全橙看家 in time. You can sign in to 全橙看家 directly through your VicoHome account. All your camera info and Awareness service status will be retained and you can continue to use it.";
+
+"migration_statement_2_3" = "After the expiration date, VicoHome APP will no longer be usable. Learn more >>";
+
+"migration_statement_3" = "We apologize for the inconvenience, 全橙看家 will guard safety for you!";
+
+"migration_statement_3_android" = "<![CDATA[We apologize for the inconvenience, <strong>全橙看家</strong> will guard safety for you! ]]>";
+
+"migration_statement_5" = "Remind me next time";
+
+"migration_statement_6_1" = "In order to cooperate with relevant policies and provide better services to users in China, VicoHome App changed to 全橙看家 App on %@.";
+
+"migration_statement_6_2" = "VicoHome APP can no longer be usable. Please download 全橙看家 in time. You can sign in to 全橙看家 directly through your VicoHome account. All your camera info and Awareness service status will be retained and you can continue to use it. Learn more >>";
+
+"migration_statement_7" = "In order to cooperate with relevant policies and provide better services to users in China, VicoHome App will be changed to 全橙看家 App on %@. Please download 全橙看家 and sign up for your account. Thank you very much for your cooperation.";
+
+"migration_statement_7_android" = "<![CDATA[In order to cooperate with relevant policies and provide better services to users in China, VicoHome App will be changed to <strong>全橙看家</strong> App on <font color=\"#5AC4A7\">%@</font>. Please download <strong>全橙看家</strong> and sign up your account. Thank you very much for your cooperation.]]>";
+
+"min30" = "30 minutes";
+
+"mine" = "User";
+
+"missed" = "Unread";
+
+"model_number" = "Model Number";
+
+"momo_payment" = "MoMo Pay";
+
+"mtn_momo_payment_title" = "Askari has initiated debit of %@ from your MoMo account. Enter phone number:";
+
+"monday" = "M";
+
+"month_1" = "Jan.";
+
+"month_10" = "Oct.";
+
+"month_11" = "Nov";
+
+"month_12" = "Dec.";
+
+"month_2" = "Feb.";
+
+"month_3" = "Mar.";
+
+"month_4" = "Apr.";
+
+"month_5" = "May";
+
+"month_6" = "Jun.";
+
+"month_7" = "Jul.";
+
+"month_8" = "Aug.";
+
+"month_9" = "Sep.";
+
+"more" = "More";
+
+"more_data" = "Load more data";
+
+"more_event" = "%@ more events";
+
+"more_info" = "More info";
+
+"more_pre_location" = "Only %d positions can be added.";
+
+"more_selection" = "More options";
+
+"motion_alarm" = "When motion is detected, the camera will automatically sound an alarm.";
+
+"motion_detection" = "Motion Detection";
+
+"motion_detection_des" = "After Motion Detection is turned on, the camera can be triggered by the moving objects and record video, helping you to detect environmental changes at all times.";
+
+"motion_issue" = "Motion detection issue";
+
+"motion_sport_auto_is_open" = "The stick is unavailable when motion tracking is on.";
+
+"motion_tracking" = "Motion Tracking";
+
+"motion_tracking_open" = "After Motion Tracking is turned on, the camera will automatically follow the recording after detecting motion.";
+
+"move_app_name" = "全橙看家";
+
+"mtn_mpesa_payment" = "M-PESA Pay";
+
+"my_device" = "My Camera";
+
+"my_house" = "My House";
+
+"n_device_use_this_location" = "%d cameras occupy this location. Please change the location of the occupied camera.";
+
+"name_required" = "Enter a name";
+
+"nest_day" = "Next day";
+
+"network_error" = "Network Error";
+
+"network_error_our_server" = "Server timeout";
+
+"network_low" = "Network connection is unstable, please retry.";
+
+"network_name" = "Wi-Fi name (SSID)";
+
+"network_timeout" = "Network Connection Timed Out.";
+
+"network_unavailable_and_try" = "No available network connection. Please retry.";
+
+"new_bind_device_name" = "Set a camera name and location";
+
+"new_device" = "New camera";
+
+"new_email" = "New Email ID";
+
+"new_feature" = "New Feature：";
+
+"new_location" = "New Location";
+
+"new_password" = "New Password";
+
+"new_phone" = "New Phone Number";
+
+"new_version" = "New Version：";
+
+"next" = "Next Step";
+
+"next_format" = "This formatting task will be performed after the current task.";
+
+"night_mode_red" = "Infrared mode";
+
+"night_mode_white" = "White light mode";
+
+"night_version" = "Night Vision";
+
+"night_version_setting" = "Night Vision Setting";
+
+"night_version_tips" = "After Night Vision is turned on, the camera will support night viewing. Improve camera shooting performance in dark environments.";
+
+"no" = "No";
+
+"no_access" = "No access to this camera, please add it again or apply for permission to use.";
+
+"no_camera" = "No camera";
+
+"no_camera_auth" = "No camera permission, please retry after setting >>";
+
+"no_item_selected" = "No item selected";
+
+"no_locations" = "No location information";
+
+"no_network" = "No Network";
+
+"no_network_cannot_set" = "The camera is offline and cannot be set for now.";
+
+"no_password" = "Password not filled";
+
+"no_plan" = "No Plan";
+
+"no_position" = "There is no position, please contact the admin to add.";
+
+"no_qr_code" = "QR code was not found, please retry.";
+
+"no_response" = "Camera not responding";
+
+"no_resumable_order" = "No resumable orders";
+
+"no_select_timezone" = "No time zone selected.";
+
+"no_supper_5g" = "Your Wi-Fi may be 5GHz Wi-Fi that the camera cannot support. Please reconfirm if you are using 2.4GHz Wi-Fi.";
+
+"no_tip" = "Do not show this again today";
+
+"no_wifi_nearby" = "No Wi-Fi network available nearby.";
+
+"no_wifi_signal" = "No Signal";
+
+"nodata_libary_tip" = "No data recorded for this day.";
+
+"nodata_no_wifi_tip" = "No available network connection.";
+
+"nodata_tip" = "No data";
+
+"noProduct" = "This item has been removed.";
+
+"not_allow" = "Not allowed";
+
+"not_found" = "This page does not exist or has other problems.";
+
+"not_hear_scan_qr_code" = "I didn't hear \"Scan QR code\".";
+
+"not_logged_in" = "Not sign in";
+
+"not_open" = "Off";
+
+"not_open_now" = "Do not open";
+
+"not_show_tips_any_more" = "Don't show again";
+
+"not_support_5g" = "This camera only supports 2.4GHz Wi-Fi. Your current network is 5GHz.";
+
+"not_use" = "0 activity zone";
+
+"notication_no_end" = "The event is not over, please view the full video in library later.";
+
+"notification_des" = "After Notification is turned on, the camera will push the trigger recording of abnormal activities.";
+
+"notification_des_tips" = "Your camera can let you know when it notices activity. Choose the notifications you'd like to get.";
+
+"notification_detection_people" = "Person";
+
+"notification_no_item_choose" = "If no classification object is selected, this function will be invalid. Please select at least one item.";
+
+"notification_push" = "Push Notifications";
+
+"notification_scuess_offline" = "It takes effect when the camera is online.";
+
+"notification_sec" = "After expiration, you will:";
+
+"notification_setting" = "Notification Setting";
+
+"notification_setting_tips" = "Your camera will notify you when detecting motion. Choose the notifications you'd like to get.";
+
+"notification_to_choose_item" = "Choose now";
+
+"notification_warm_des" = "The camera will send you a notification when it detects any movement. In this mode, notifications will be sent to your phone quickly, but the frequency may be too high.";
+
+"notifications" = "Notification";
+
+"notifications_permission" = "Allow notifications access";
+
+"num_new_message" = "New Message";
+
+"number_az" = "%@ activity zones";
+
+"office" = "Office";
+
+"offline" = "Offline";
+
+"offline_reconnect" = "Camera is offline, please reconnect it.";
+
+"ok" = "OK";
+
+"old_password" = "Old Password";
+
+"one_az" = "1 activity zone";
+
+"online" = "Online";
+
+"open_bluetooth" = "Turn on Bluetooth to add the camera faster.";
+
+"open_bluetooth_bonding" = "Turn on Bluetooth to allow \"%@\" to connect, quickly bind the camera";
+
+"open_bluetooth_help_adding" = "The Bluetooth of this phone is turned off. Turn on the Bluetooth to add the camera faster.";
+
+"open_fail_retry" = "Setting failed, please retry.";
+
+"open_led" = "On";
+
+"open_location_Info" = "Turn on \"Location Info\" to help you automatically fill in Wi-Fi info.";
+
+"open_location_service" = "Open Location Services";
+
+"open_location_wifi" = "Obtain the current Wi-Fi name of the phone automatically through location services (recommended) or manually enter the Wi-Fi name (case sensitive).";
+
+"open_location_wifi_link" = "Go system settings >>";
+
+"open_smart" = "Try %@ Awareness";
+
+"open_wifi" = "Open Wi-Fi";
+
+"open_WiFi_word" = "Turn on \"Wi-Fi\" to help you search for available networks nearby.";
+
+"opened" = "On";
+
+"options_include" = "includes";
+
+"or" = "or";
+
+"ota_failed_low_power" = "Low battery, unable to upgrade. Please charge the battery to at least 20% and retry.";
+
+"other" = "Other";
+
+"other_error_with_code" = "System error";
+
+"other_errors" = "System error";
+
+"other_payment_not_detected" = "%@ payment is not detected, please confirm that the payment channel is available before purchasing again.";
+
+"other_plans" = "Other %@ Awareness";
+
+"other_plans_des" = "If you do not continue to purchase after the current %@ Awareness expires, it will automatically change to the next one.";
+
+"others" = "Others";
+
+"p_location" = "Find Location";
+
+"package_detained" = "Package stranded";
+
+"package_down" = "Package delivered";
+
+"package_guide" = "How to make package detection more accurate?";
+
+"package_guide_five" = "Please don’t forget to select the package in Notification Settings / Classification.";
+
+"package_guide_four" = "Select package";
+
+"package_guide_four_tips" = "Please make sure that the package is clearly visible on the camera view and is not obscured by other objects.";
+
+"package_guide_one" = "Camera position and distance";
+
+"package_guide_three" = "Camera view";
+
+"package_guide_two" = "It is recommended to place your camera at a height of about 8 inches and tilt it so that you can clearly see your doorway and the area where the package is located. \nAt the same time, the distance between the camera and the package should not exceed 10 inches.";
+
+"package_scenes" = "The recognition accuracy of the package is not good now, and the function is continuously optimized. It is recommended to be used in a standard scene with an obliquely downward viewing angle from about 2.1m(7 feet) to the ground.";
+
+"package_tag" = "Package (Beta)";
+
+"package_tips" = "When the camera detects that the package has been picked up and put down, it will send you a message.";
+
+"package_up" = "Package picked up";
+
+"page_expired" = "This page has expired, please retry.";
+
+"password" = "Password";
+
+"password_code_error" = "Password or verification code is wrong.";
+
+"password_incorrect" = "The password is incorrect, please confirm the password.";
+
+"password_or_code_invalid" = "Please double-check the format requirements.";
+
+"password_setting_tips" = "For your safety, the password must contain at least one uppercase letter, one lowercase letter, and have a minimum length of 8 characters.";
+
+"pay_attention_data" = "Please pay attention to data in a non-WiFi environment.";
+
+"pay_scuess" = "%@ Awareness payment successful. Please go to the personal center to check the function permission.";
+
+"payment_auto_pay" = "Auto subscribe";
+
+"payment_choose_buy_time" = "Select duration";
+
+"payment_choose_vip_item_first" = "Please choose the item first";
+
+"payment_cloud_save" = "%@ Awareness";
+
+"payment_current_vip" = "%@";
+
+"payment_download_it" = "Download now";
+
+"payment_generate_order" = "Pay";
+
+"payment_know_it" = "OK";
+
+"payment_pay" = "Pay Order";
+
+"payment_pay_cancel" = "Cancel";
+
+"payment_pay_failed" = "Payment failed, please retry.";
+
+"payment_pay_failed_totally" = "Payment failed";
+
+"payment_pay_success" = "Payment successful";
+
+"payment_play_store_fail" = "Payment failed, please go to Play Store to check your login status.";
+
+"payment_please_choose_time" = "choose a usage mode";
+
+"payment_price" = "<![CDATA[<font><small>%@</small></font> <font><big>%.2f</big></font>]]>";
+
+"payment_product_already_paid" = "You have already purchased a %@ Awareness option, please don't order again.";
+
+"payment_product_not_exist" = "This item doesn’t exist.";
+
+"payment_to_buy" = "Pay now";
+
+"payment_user_cancel" = "Canceled";
+
+"payment_verifying" = "%@ is verifying…";
+
+"payment_vip_update" = "Upgrade";
+
+"pem_des" = "Watch the live stream and view the playback";
+
+"permission" = "Permission";
+
+"permission_dialog_message_get_camera" = "If not allowed to access, you will not be able to scan the QR code.";
+
+"permission_dialog_message_get_location" = "If not allowed to access, you will not be able to automatically fill in the Wi-Fi connection to your phone.";
+
+"permission_dialog_message_get_mircrophone" = "If not allowed to access, you will not be able to use VicoHome to make audio calls.";
+
+"permission_dialog_message_get_storage" = "Storage access is required to use the app.";
+
+"permission_dialog_title" = "%@ Would Like to Access the %@.";
+
+"permission_name_camera" = "Camera";
+
+"permission_name_microphone" = "Microphone";
+
+"person" = "Person";
+
+"person_alerts" = "Person";
+
+"person_alter_tips" = "You will receive a “Someone was detected\" notification on person events exclusively. Notification is more specific and less frequent but could be slightly delayed.";
+
+"pet" = "Pet";
+
+"phone_already_register" = "This phone number already exists. Try to sign in instead.";
+
+"phone_no_net" = "Your phone has no network connection.";
+
+"phone_number" = "Phone Number";
+
+"phone_number_bind_success" = "Bound phone number successfully.";
+
+"phone_number_change_success" = "Replaced phone number successfully.";
+
+"phone_number_invalid_tips" = "Please enter the phone number in the correct format.";
+
+"phone_weak_network" = "The phone network is unavailable, please check the phone network connection.";
+
+"phone_weak_network_short" = "The phone network is unavailable.";
+
+"photos" = "Photos";
+
+"photos_permission" = "Allow photos access";
+
+"photos_permission_tips" = "Allow photos access in phone system \"Settings\" to store media files.";
+
+"plan_basic" = "Basic";
+
+"plan_common" = "No Plan";
+
+"plan_expires" = "Expires in %@";
+
+"plan_no" = "No Plan";
+
+"plan_plus" = "Plus";
+
+"plan_pro" = "Pro";
+
+"playback_is_living_now" = "Live stream";
+
+"playback_video" = "Playback video";
+
+"player_error" = "live video play error";
+
+"please_install_playstore" = "It Requires Play Store to complete payment.";
+
+"please_open_location_service" = "Please open  Location Services\" in your phone system settings.\"";
+
+"please_open_permission" = "Please turn on the floating window switch.";
+
+"please_pay_vip_first" = "To use this function, you need to purchase Awareness Service";
+
+"please_pay_vip_first_2" = "Get Awareness Service to use this function";
+
+"please_read_policy_and_agree" = "Please read it carefully and click Agree and Continue\" to indicate that you have read and agreed to all the terms.\"";
+
+"please_reinput_password" = "Confirm password";
+
+"please_retry" = "Retry";
+
+"please_scan_qr_code_first" = "Please scan the QR code first";
+
+"please_select" = "Please Select";
+
+"please_turn_on_motion_detection" = "To use this function, you need to turn on Motion Detection";
+
+"please_turn_on_wifi_setting" = "Please turn on Wi-Fi access in phone settings.";
+
+"plugin_camera" = "Plug-in camera";
+
+"plugin_camera_tips" = "Please plug in a power source until you hear a sound from the camera and complete the rotation.";
+
+"position_deleted" = "Delete successfully. New position can be added.";
+
+"position_tips" = "Set frequently watched positions, you can find frequently watched positions with one key at any time";
+
+"postal_code" = "Postal Code";
+
+"pre_location_max_5" = "Only five positions can be added.";
+
+"pre_position_add" = "New position";
+
+"preset_location" = "Position";
+
+"privacy_policy" = "Privacy Policy";
+
+"privacy_policy_2" = "Privacy Policy";
+
+"problem_and_feedback" = "Questions and Comments";
+
+"prompt" = "Prompt";
+
+"prompt_volume" = "Voice Volume";
+
+"province_region" = "State/Province/Region";
+
+"push_group_tips" = "%u more notifications";
+
+"push_permission" = "Allow notifications access";
+
+"pwd_error" = "Password is wrong.";
+
+"qr_code_not_found" = "QR code was not found, please retry.";
+
+"qr_expire" = "QR code will expire at %@";
+
+"qr_scurss" = "Scanned successfully.";
+
+"qrcode_way1" = "Please rotate the body to check if there is a QR code on the body shell.";
+
+"qrcode_way2" = "If the QR code is not found on the body shell. Please disassemble the rubber plug of the fuselage and check whether there is a QR code under the rubber plug.";
+
+"qrcode_way3" = "If the QR code is not found on the body shell and rubber plug. Please disassemble the movable shell to check whether there is a QR code on the inner body and the movable shell.";
+
+"question_reply" = "Issue feedback";
+
+"question_type" = "Question type";
+
+"questions_contact" = "Contact";
+
+"questions_pictures" = "Pictures (optional, upload a screenshot of this problem)";
+
+"questions_statement_error" = "Please fill in a more than 10 words statement.";
+
+"quick_connect" = "Quick connect";
+
+"quick_connect_tips" = "%@ cameras that can be quickly connected, please click to start connection.";
+
+"ratio_720p" = "SD";
+
+"ratio_auto" = "Auto";
+
+"reach_max_live_num" = "The max number of the live stream has been reached.";
+
+"receive_fail" = "Got failed, please retry.";
+
+"receive_scuess" = "Got successfully, start using now!";
+
+"reconnect" = "Reconnect";
+
+"reconnect_camera" = "Retry connecting camera";
+
+"reconnect_wifi_camera" = "Reconnect Wi-Fi";
+
+"record_failed" = "Failed to record, please retry.";
+
+"record_success" = "Save to phone album.";
+
+"record_video" = "Record Video";
+
+"record_video_tips" = "When you turn on Video Record feature, the camera will record video automatically when it detects motion.";
+
+"reference_instruction_power" = "Reference operation instruction to find the power button";
+
+"reference_instruction_reboot" = "Reference operation instructions to find the reboot buttonhole.";
+
+"refresh" = "Refresh";
+
+"registrationsharing" = "If you want to share the camera, please make sure both the camera admin and shared user are registered in the same country.";
+
+"reject" = "Reject";
+
+"reject_audio" = "Please enable the microphone in phone settings.";
+
+"release_stop" = "Release to stop";
+
+"remember_password" = "Remember password";
+
+"remove_device" = "Remove Camera";
+
+"remove_device_des" = "All the data from this camera will not be received anymore.";
+
+"remove_device_success" = "Removed camera successfully.";
+
+"remove_device_title" = "Are you sure you want to remove this camera?";
+
+"remove_share_device_des" = "%@ will not receive data from %@ anymore.";
+
+"remove_share_device_title" = "Are you sure you want to delete this account?";
+
+"renewal_clause" = "-Payment: confirm your purchase and pay into your iTunes account.\n-Cancel auto-renewal: To cancel the automatic renewal, please manually turn off the automatic renewal function in iTunes / Apple ID settings at least 24 hours prior to the expiration time of your subscription. If you cancel within 24 hours prior to the expiration, the subscription fee for the next subscription period will still be charged and the subscription will end at the end of the next subscription period.\n-Renewal: iTunes account will be charged automatically within 24 hours prior to the expiration time of your subscription. If the renewal is successful, the subscription will be extended by one subscription period.\n-By purchasing the service from %@, you agree to the Privacy Policy, Awareness Service Agreement, and Continuous Subscription Service Agreement.";
+
+"renewal_clause_key_clause" = "Continuous Subscription Service Agreement";
+
+"renewal_clause_key_terms" = "Awareness Service Agreement";
+
+"renewal_download_tips" = "If necessary, please renew Awareness Service or download the video.";
+
+"replace_wifi" = "Replace Wi-Fi";
+
+"replay" = "Replay";
+
+"request_error" = "request error";
+
+"request_expired" = "Request expired, please retry.";
+
+"request_frequent" = "Too many requests, please retry later.";
+
+"request_permission_title" = "Waiting for Permission";
+
+"request_timeout_and_try" = "Request timed out, please retry.";
+
+"resend_after_tip" = "Resend after %ds";
+
+"resend_after_tip_ios" = "Resend after %@%@";
+
+"resent_verification_code" = "Resend";
+
+"reset" = "Reset";
+
+"reset_password_success" = "Reset password successfully.";
+
+"resign_in" = "Sign in";
+
+"restore_purchase_record" = "Restore purchase order";
+
+"restore_successfully" = "Restore successfully.";
+
+"retry" = "Retry";
+
+"retry2" = "Retry";
+
+"root_warning_title" = "There may be security risks on a rooted phone.";
+
+"rotate_image" = "Rotate Image";
+
+"rotate_image_open" = "Turn on the “Rotate Image” function, the sensitivity of motion detection may be affected.";
+
+"same_email" = "Please change another email ID.";
+
+"same_phone" = "Please change another phone number.";
+
+"saturday" = "S";
+
+"save" = "Save";
+
+"save_album" = "Save to phone album";
+
+"save_failed_and_try" = "Failed to save, please retry.";
+
+"save_gb" = "(≤%dGB)";
+
+"save_to_evaeye_album" = "Save to phone album.";
+
+"saved_success" = "Saved successfully";
+
+"say_green_light" = "I Saw the Blue Light";
+
+"scan_camera_qr_code" = "Scan QR code";
+
+"scan_camera_way" = "Use scan code adding";
+
+"scan_info_des" = "Open the admin's APP Camera Setting / Share / Camera Sharing";
+
+"scan_info_title" = "QR code can be found under the path";
+
+"scan_no_qr_button" = "I didn’t hear \"Scan QR code\".";
+
+"scan_QR_code" = "Scan the QR code with the camera";
+
+"scan_qr_code_des" = "Place the QR code on your phone about 6-12inches in front of the camera.";
+
+"scan_qr_code_directions" = "Scan the QR code about 6-12inches in front of the camera after hearing the scanning sound or seeing the flashing light, and complete scanning when you hear another sound.";
+
+"scan_QR_code_directions" = "Scan the QR code about 6-12inches in front of the camera. Complete scanning when you hear another sound.";
+
+"scan_qr_code_failed" = "Cannot finish scanning?";
+
+"scan_qr_code_notice_title1" = "Confirm that the camera is turned on and in the code scanning state";
+
+"scan_qr_code_notice_title2" = "Adjust the distance between the camera and QR code";
+
+"scan_qr_code_notice1" = "The indicator light should be in the blinking blue light state when scanning the code. If it is in the state of other indicator lights, please double-click the power button after powering on, and the camera will enter the scanning state of the blinking blue light.";
+
+"scan_qr_code_notice2" = "Place the camera 6-12inches in front of the QR code. If it has not been scanned for a long time, please move it back and forth. You can refer to the figure on the previous page.";
+
+"scan_qr_code_title" = "Scan QR code with the camera";
+
+"scan_qrcode_by_phone" = "Scan the QR code with your phone";
+
+"scan_the_qr_code" = "Scan QR code to connect";
+
+"scene" = "Scene Settings";
+
+"schedule_time" = "Schedule Setting";
+
+"screenshot_sharing" = "Screenshot sharing";
+
+"screenshots" = "Screen";
+
+"sd_card" = "SD Card";
+
+"sd_card_format_failed" = "Failed to format, please retry.";
+
+"sd_card_format_remind" = "All data on this SD card will be deleted, are you sure to format it?";
+
+"sd_card_format_success" = "Formatted SD card successfully.";
+
+"sd_card_formating" = "SD card is formatting …";
+
+"sd_card_formatting" = "Detected an ongoing formatting task, please retry later.";
+
+"sd_card_not_exist" = "SD card not detected";
+
+"sd_error" = "SD card format is improper, format it.";
+
+"sd_error_format_sure" = "The SD card was detected to be inserted, but the format is incorrect. You need to format it before you can use it.";
+
+"sd_format_error" = "Improper format";
+
+"sd_is_formatting" = "SD card is formatting, please wait.";
+
+"sd_management" = "SD Card";
+
+"sd_no_data_date" = "No video at this time.";
+
+"sd_strorage" = "SD card";
+
+"sd_supper" = "SD card not support";
+
+"sdcard_7_24" = "SD Card Video";
+
+"sdcard_has_no_video" = "No video in SD card";
+
+"sdcard_need_format" = "SD card format is incorrect";
+
+"sdcard_need_format_shared" = "SD card format is incorrect, please contact the admin to format.";
+
+"sdcard_no_more_video" = "No more video in SD card.";
+
+"SDcard_video_viewers_limit" = "SD card video viewers have reached the limit, please retry later.";
+
+"sdvideo_error" = "Play SD card video error";
+
+"sdvideo_timeout" = "Play SD card video timeout";
+
+"search" = "Search";
+
+"search_buletooth" = "Searching for nearby bluetooth devices";
+
+"seconds" = "s";
+
+"selcet_spot_2" = "Select a good spot for your camera, please install the camera in a position where its view is not blocked and ensure that it is within the coverage of the Wi-Fi network.";
+
+"select_all" = "Select all";
+
+"select_camera" = "Select the camera to add";
+
+"select_district" = "City";
+
+"select_items" = "Select Items";
+
+"select_network" = "Select network";
+
+"select_one_ai" = "*Select one AI test object at least.";
+
+"select_spot_1" = "Select a good spot for your camera";
+
+"select_street" = "Street";
+
+"select_terms" = "Please select the User Agreement and Privacy Policy.";
+
+"select_wifi_title" = "Select Wi-Fi for the camera";
+
+"send_log" = "If you encounter a situation where the live stream cannot be played, please upload the player log to help us find the problem.";
+
+"send_log_tips" = "(No data is involved here, please rest assured to use)";
+
+"sendingcode" = "Sending verification code";
+
+"sensitivity_level" = "Light Sensitivity Level";
+
+"sent_alarm_failed" = "Failed to send alarm, please retry.";
+
+"sent_alarm_successfully" = "Alarmed successfully.";
+
+"sepvalue" = "—";
+
+"serial_number" = "S/N";
+
+"server_error" = "Server Error";
+
+"service_ai_notify_desc" = "Recognition people, pet, and vehicle in the video and analyze their actions to get a smarter notification.";
+
+"service_area_desc" = "Set the activity zone, only push the trigger message at the precise location, and filter out the rest of the information.";
+
+"service_center" = "Service Center";
+
+"service_cloud_desc" = "Extended up to 60 days and 10GB cloud recording(3 types of awareness plans) to create the most secure video storage, so you will never miss any critical moment.";
+
+"service_detail" = "Options detail";
+
+"set" = "Set";
+
+"set_az" = "Set activity zone";
+
+"setup_success" = "Set successfully";
+
+"share" = "Share";
+
+"share_error" = "Share failed, please retry.";
+
+"share_scan_qr_content" = "Please scan the QR code of the camera admin";
+
+"share_to" = "Shared to:";
+
+"shared_by" = "Shared By";
+
+"shared_by_" = "Shared by %@";
+
+"shared_devices" = "Shared cameras";
+
+"shared_invalid_qr_code" = "Invalid QR code, please retry.";
+
+"shared_qr_code_expired" = "Invalid QR code, please retry.";
+
+"shared_self_error" = "This camera is already on your list.";
+
+"sharing" = "Sharing";
+
+"shot_fail" = "Failed to shot.";
+
+"shot_success" = "Save to phone album.";
+
+"sign_in" = "Sign in";
+
+"sign_in_little" = "Sign in";
+
+"sign_up" = "Sign up for a New Account";
+
+"sign_up_register" = "Sign up";
+
+"sign_up_tips" = "Please enter your email ID and we will send a verification code.";
+
+"sign_up_tips_phone_email" = "Please enter your mobile phone number/email ID, we will send a verification code.";
+
+"signal_strength" = "Wi-Fi Strength";
+
+"siren_des" = "After Alarm Siren is turned on, the camera will automatically sound the alarm siren when the motion detection is triggered.";
+
+"size" = "Size：";
+
+"skip" = "Skip";
+
+"sleep" = "Power saving";
+
+"sleep_end_time" = "End time";
+
+"sleep_mode" = "Sleep";
+
+"sleep_period" = "Sleep period";
+
+"sleep_period_etting" = "Set the time period to make the camera automatically go to sleep";
+
+"sleep_plan" = "Sleep plan";
+
+"sleep_prompt" = "After camera enters Sleep mode, the surveillance area cannot be viewed in real time, and functions such as motion detection, intercom and alarm will be suspended.";
+
+"sleep_setting" = "Sleep Setting";
+
+"sleep_start" = "Activation date";
+
+"sleep_start_time" = "Start time";
+
+"sleep_time" = "Sleeping time";
+
+"sleep_tips" = "The camera is sleeping, need to wake up before setting";
+
+"sleep_work_time" = "Working time";
+
+"sleeping" = "Sleeping";
+
+"smart_common_contrast" = "No Plan VS %@ Awareness";
+
+"smart_service_desc" = "%@ Awareness Introduction";
+
+"sound" = "Sound";
+
+"sound_setting" = "Sound Setting";
+
+"source" = "Source";
+
+"speaker" = "Speaker";
+
+"speaker_volume" = "Speaker volume";
+
+"split_screen" = "Split Screen";
+
+"sport_auto" = "Motion Tracking";
+
+"status_led" = "Status LED";
+
+"stay_this_page" = "Stay on this page";
+
+"storage" = "Storage";
+
+"storage_space_access" = "Allow storage access";
+
+"street_address_1" = "Street and number, P.O. box, c/o.";
+
+"street_address_1_place_holder" = "Street and number, P.O. box, c/o.";
+
+"street_address_2" = "Detailed address (optional)";
+
+"street_address_2_place_holder" = "Detailed address, such as apartment, house number, etc.";
+
+"strong" = "Strong";
+
+"submit" = "Submit";
+
+"submit_deletion" = "Submit Deletion";
+
+"sunday" = "S";
+
+"supper_net_work" = "This camera only supports 2.4GHz Wi-Fi. Your current connection is 5GHz.";
+
+"sure_to_cancel_share" = "Do you confirm to delete this account?";
+
+"sure_to_clear_cache" = "Do you confirm to clear cache?";
+
+"sure_to_delete_location" = "Do you confirm to delete this address?";
+
+"sure_to_delete_zone" = "Do you confirm to delete this activity zone?";
+
+"sure_to_drop_out" = "Are you sure to drop out adding process?";
+
+"sure_to_log_out" = "Do you confirm to sign out?";
+
+"sure_to_remove_device" = "Do you confirm remove this camera?";
+
+"sure_to_turn_alarm_on" = "Do you confirm to turn  the alarm on?";
+
+"sure_to_turn_off_detection" = "Do you confirm to turn off the  motion detection?";
+
+"system_album_name" = "%@";
+
+"system_error_try_again" = "The system is busy, please retry.";
+
+"system_maintenance" = "Server error";
+
+"system_update" = "System Update";
+
+"system_version" = "System Version";
+
+"terminated_day" = "Until %@";
+
+"terminated_format" = "dd/MM/yyyy";
+
+"thursday" = "T";
+
+"time_zone" = "Time Zone";
+
+"timer_unit" = "open timer unit";
+
+"tip_bind_device_alert_des" = "%d cameras occupy this location. Please change the location of the occupied camera.";
+
+"tips_ssid_empty" = "Please enter a valid Wi-Fi name (SSID).";
+
+"tips_wifi_password_empty" = "Please enter a valid password.";
+
+"to_coninue_please_check_internet" = "Please make sure your phone is connected to a valid network.";
+
+"to_get_phone_wifi" = "Get the current Wi-Fi of your phone";
+
+"to_get_wifi_list_nearby" = "Get a list of nearby Wi-Fi";
+
+"to_time" = "To";
+
+"toast_add_zone_total_3" = "Only three activity zones can be added.";
+
+"toast_change_language" = "Change the language  successfully.";
+
+"toast_del_all_are_guest" = "These items can be deleted by admin only.";
+
+"toast_del_one_is_guest" = "This item can be deleted by admin only.";
+
+"toast_network_unavailable_and_try" = "No network available. Please retry.";
+
+"toast_zone_not_playing" = "Not playing";
+
+"today" = "today";
+
+"total_event1" = "There are 1 event for this day.";
+
+"total_event2" = "There are %@ events for this day.";
+
+"tracking_guide" = "At the same time, we also support humanoid tracking.";
+
+"tracking_guide_2" = "Set up humanoid tracking >>";
+
+"tracking_mode" = "Tracking mode";
+
+"troubleshooting_issue" = "Retry after troubleshooting the following problems or use scan code adding";
+
+"troubleshooting_issue2" = "Try again after troubleshooting the following issues";
+
+"try_later" = "Retry later";
+
+"tuesday" = "T";
+
+"turn_alern" = "Are you sure you want to turn the alarm on?";
+
+"turn_on_camera" = "Turn on the camera";
+
+"turn_on_camera_directions" = "Long press the power button for 3s until you hear the power-up sound or see the light on.";
+
+"turn_on_camera_scanQR" = "Turn on your camera and scan theQR code";
+
+"turn_on_location_services" = "Turn on \"Location Services\" to allow \"VicoHome\" to use your location";
+
+"turn_on_location_services_get_wifi" = "Turn on location service, automatically get the current Wi-Fi name (SSID) of the phone.";
+
+"turn_on_location_services_title" = "Turn on \"Location Services\" in \"Settings-Privacy\"";
+
+"turned_on_donot_disturb" = "Do not disturb messages is turned on";
+
+"udp_awake_failed" = "This camera is offline.";
+
+"unable_to_load_image" = "Unable to load image";
+
+"unauthorized" = "User has to be authenticated to proceed";
+
+"unavailable_before_upgrade" = "The camera is unavailable before the firmware upgrade is complete.";
+
+"understanc_agree" = "I understand and agree with";
+
+"unheard_scan_qr_code" = "I did not hear \"Scan QR code\".";
+
+"unknown_error_ios" = "System error";
+
+"unkonw_error" = "System error";
+
+"update" = "Update";
+
+"update_device_name_scuess" = "Updated camera name successfully.";
+
+"update_location_scuess" = "Update location successfully.";
+
+"update_now" = "Update Now";
+
+"update_the_latest_version" = "Update to the latest version %@";
+
+"update_time_string" = "Last update %@at %@";
+
+"update_timezone_scuess" = "Updated timezone successfully.";
+
+"update_user_name_success" = "Updated user name successfully.";
+
+"updating" = "Updating …";
+
+"upgrage_to_plan" = "%@ update to %@";
+
+"uploaded_fail" = "Upload failed, please retry.";
+
+"uploaded_success" = "Uploaded successfully.";
+
+"use_app_scan" = "Please use %@ APP to scan the QR code below to add a camera";
+
+"user_account_in_protection" = "%@ Awareness has expired, please repurchase.";
+
+"user_agreement" = "User Agreement";
+
+"user_guide_4" = "Activity Zone";
+
+"user_guide_desc_1" = "Manage multiple cameras more easily";
+
+"user_guide_package" = "User guides";
+
+"user_name" = "User Name";
+
+"Username_inuse" = "User name is already in use.";
+
+"username_noncompliance" = "User name is noncompliance.";
+
+"value_added_services" = "%@ Awareness";
+
+"vehicle" = "Vehicle";
+
+"vehicle_approaching" = "Vehicle approaching";
+
+"vehicle_leaving" = "Vehicle leaving";
+
+"vehicle_parked" = "Vehicle parked";
+
+"verificatio_code_require" = "A verification code is required after too many times wrong the password.";
+
+"verification_code_expired" = "Verification code expired.";
+
+"verification_code_not_right" = "Verification code not correct.";
+
+"verification_code_sent_tips" = "We just send a verification code to your email ID %@.";
+
+"verification_error_max_times" = "Too many requests, please retry later.";
+
+"verificting_error" = "The order is verifying, please wait";
+
+"verify_code" = "Verification Code";
+
+"verify_identity_desc_1" = "Before binding, you need to enter the password to verify the user's identity.";
+
+"verify_network" = "Connect to Wi-Fi network";
+
+"verify_network_des" = "Currently only supports 2.4GHz Wi-Fi. You can proceed to the next step after connecting.";
+
+"verify_send_code" = "We just sent a verification code to your  phone number %@.";
+
+"verify_user_info" = "Verify Identity";
+
+"verify_user_rebind" = "Before rebinding, you need to enter the password to verify the user's identity.";
+
+"vicoo_policy" = "User Agreement & Privacy Policy";
+
+"video_duration" = "Duration";
+
+"video_feedback_agree" = "I agree to send feedback issues and the original video (including all personal information) to help %@ perform analysis of the data. Please refer to the Privacy Policy.";
+
+"video_feedback_cell_other" = "Other, click to fill in the error description.";
+
+"video_feedback_check" = "Please select the relevant terms.";
+
+"video_hb" = "HD";
+
+"video_max_below_20m" = "The video should be within 20M.";
+
+"video_over_day" = "This video has expired";
+
+"video_resolution" = "Resolution";
+
+"video_resolution_1080p" = "HD";
+
+"video_resolution_720p" = "SD";
+
+"video_saved_to_ablum" = "The video has been saved to the phone album.";
+
+"video_saving" = "Video is saving …";
+
+"video_smooth" = "SM";
+
+"video_tag" = "Video Tag";
+
+"videolist_error" = "Get video list error";
+
+"videolist_timeout" = "Get video list timeout";
+
+"vip_activity_zone_warning" = "%@ Awareness feature";
+
+"voice_talk_failed_and_retry" = "Failed to voice, please retry.";
+
+"volume" = "Alarm Volume";
+
+"wait_for_permission_tips" = "Your application was sent to the admin successfully. Please wait for permission.";
+
+"wakeup_camera" = "Wake up the camera";
+
+"weak" = "Weak";
+
+"weak_wifi_notation" = "The Wi-Fi strength of the current camera is weak, it is recommended to change the location or change the Wi-Fi.";
+
+"wednesday" = "W";
+
+"where_is_qrcode" = "The QR code on the camera is on a paper sticker, often located inside the outer cases or under the rubber plug. This QR code contains the serial number and type number, usually next to a line of text starting with \"S/N\".";
+
+"while_using" = "While Using";
+
+"white_light" = "White light";
+
+"white_tips" = "If you need the white light illumination function at night, please go to";
+
+"whitelight_des" = "White light illuminates the environment, try to restore the color picture at night";
+
+"wifi_channel" = "Wi-Fi Channel";
+
+"wifi_confim" = "Please reconfirm whether your Wi-Fi name (SSID) and Password are correct (case sensitive).";
+
+"wifi_connect" = "Wi-Fi Connection";
+
+"wifi_issue" = "Wi-Fi set up issue";
+
+"wifi_name" = "Wi-Fi Name:";
+
+"wifi_password" = "Password:";
+
+"wifi_scanning" = "Network searching";
+
+"wifi_setting" = "Wi-Fi settings";
+
+"wifi_state" = "Wi-Fi strength: %@";
+
+"wifi_state_ios" = "Wi-Fi strength:";
+
+"wifi_tips" = "Tips";
+
+"wlan_enable_play" = "Do you want to continue using data in a non-WiFi environment?";
+
+"wrong_az_tips" = "*Sorry, the system has detected problems in the following activity zone, which may cause inaccurate detection. Please delete and add again.";
+
+"wrong_code" = "QR code is wrong";
+
+"yes" = "Yes";
+
+"zone_1" = "Zone 1";
+
+"zone_2" = "Zone 2";
+
+"zone_3" = "Zone 3";
+
+"zone_with_args" = "Zone %@";
+
+"keep_phone_camera_close" = "The camera is connecting, please keep the camera and mobile phone close.";
+
+"reconnect_wifi" = "Please reconnect to the previous Wi-Fi in the phone system settings, and return to this page after the operation is complete to check the camera's binding result.";
+
+"reconnect_wifi_button" = "Reconnect to Wi-Fi";
+
+"select_camera_add" = "Select the camera to be added";
+

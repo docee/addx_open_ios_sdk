@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  AddxAi
+
+  Created by zhi kuiyu on 2019/7/24.
+  Copyright © 2019 addx.ai. All rights reserved.
+*/
+
+//CFBundleDisplayName = "Ta";
+NSCameraUsageDescription = "If not permitted, you will not be able to scan QR code.";
+NSMicrophoneUsageDescription = "If not permitted, you will not be able to use Vicoo to make audio calls.";
+NSPhotoLibraryUsageDescription = "If not permitted, you will not be able to save photos and videos to your phone.";
+NSLocationWhenInUseUsageDescription = "Ermöglichen Sie der Positionierungsberechtigung, das aktuell mit dem Mobiltelefon verbundene Wi-Fi automatisch auszufüllen, und die erhaltenen Wi-Fi Informationen werden für die Kamerabindung verwendet";
+NSLocationAlwaysAndWhenInUseUsageDescription = "If not permitted, you will not be able to get location automatically from your phone.";

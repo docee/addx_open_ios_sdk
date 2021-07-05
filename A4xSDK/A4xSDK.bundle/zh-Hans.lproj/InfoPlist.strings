@@ -1,0 +1,16 @@
+/* 
+  InfoPlist.strings
+  AddxAi
+
+  Created by zhi kuiyu on 2019/7/24.
+  Copyright © 2019 addx.ai. All rights reserved.
+*/
+
+
+
+//CFBundleDisplayName = "Ta";
+"NSCameraUsageDescription" = "不允许访问相机，您将无法使用扫描二维码功能";
+"NSMicrophoneUsageDescription" = "不允许访问麦克风，您将无法使用语音通话功能";
+"NSPhotoLibraryUsageDescription" = "不允许访问照片，您将无法存储媒体文件至手机相册";
+"NSLocationWhenInUseUsageDescription" = "允许定位权限可自动填写当前手机连接的Wi-Fi，所获得的Wi-Fi信息将用于相机绑定";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "不允许访问位置，您将无法使用自动获取位置功能";

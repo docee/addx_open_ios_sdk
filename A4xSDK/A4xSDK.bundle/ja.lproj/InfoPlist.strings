@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  AddxAi
+
+  Created by zhi kuiyu on 2019/7/24.
+  Copyright © 2019 addx.ai. All rights reserved.
+*/
+
+//CFBundleDisplayName = "Ta";
+"NSCameraUsageDescription" = "カメラへのアクセスを許可しない場合、QRコードスキャン機能を使用できなくなります";
+"NSMicrophoneUsageDescription" = "マイクへのアクセスを許可しない場合、音声通話機能を使用できなくなります‘";
+"NSPhotoLibraryUsageDescription" = "写真にアクセスできません。アルバムにメディアファイルを保存できません";
+"NSLocationWhenInUseUsageDescription" = "現在携帯電話に接続されているWi-Fiを自動的に入力するための測位許可を許可し、取得したWi-Fi情報はカメラのバインドに使用されます";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "位置にアクセスできません。自動位置情報取得機能を使用できません";
