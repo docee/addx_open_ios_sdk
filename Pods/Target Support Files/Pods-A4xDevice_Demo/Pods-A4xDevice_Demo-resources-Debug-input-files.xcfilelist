@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-resources.sh
+${PODS_ROOT}/../A4xSDK/A4xSDK.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/A4xSDK/A4xSDK.bundle

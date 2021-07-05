@@ -1,0 +1,6 @@
+framework module Pods_ZKDownload_Tests {
+  umbrella header "Pods-ZKDownload_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

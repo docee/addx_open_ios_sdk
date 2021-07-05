@@ -1,0 +1,22 @@
+{
+  "name": "ZKDownload",
+  "version": "0.1.0",
+  "summary": "A short description of ZKDownload.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kuiyu.zhi/ZKDownload",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kuiyu.zhi": "kzhi@addx.ai"
+  },
+  "source": {
+    "git": "https://github.com/kuiyu.zhi/ZKDownload.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ZKDownload/Classes/**/*"
+}

@@ -1,0 +1,155 @@
+{
+  "name": "ADDXWebRTC",
+  "version": "0.2.2",
+  "summary": "A short description of ADDXWebRTC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ADDXWebRTC/ADDXWebRTC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ADDXWebRTC": "wjin@a4x.ai"
+  },
+  "source": {
+    "git": "http://192.168.31.7:7990/scm/swclien/webrtc-ios-demo.git",
+    "tag": "0.2.2"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "vendored_frameworks": "Frameworks/frameworks/WebRTC.framework",
+  "xcconfig": {
+    "HEADER_SEARCH_PATHS": [
+      "${PODS_ROOT}/../ADDXWebRTC/ADDXWebRTC/Services/ffmpeg/include",
+      "${PODS_ROOT}/../ADDXWebRTC/ADDXWebRTC/Services/openssl/include",
+      "${PODS_ROOT}/../ADDXWebRTC/ADDXWebRTC/Services/IJKMediaPlayer/ijkmedia",
+      "${PODS_ROOT}/../ADDXWebRTC/ADDXWebRTC/Services/ijkmedia"
+    ],
+    "ENABLE_BITCODE": "NO"
+  },
+  "dependencies": {
+    "Starscream": [
+
+    ],
+    "XCGLogger": [
+      "~> 7.0.1"
+    ],
+    "YYWebImage": [
+      "~>1.0.5"
+    ]
+  },
+  "frameworks": "VideoToolBox",
+  "vendored_libraries": [
+    "ADDXWebRTC/Services/TS2MP4/*.{a}",
+    "ADDXWebRTC/Services/GPAC4iOS/*.{a}",
+    "ADDXWebRTC/Services/ffmpeg/lib/*.{a}",
+    "ADDXWebRTC/Services/openssl/lib/*.{a}"
+  ],
+  "libraries": [
+    "iconv",
+    "z"
+  ],
+  "subspecs": [
+    {
+      "name": "ADDXWebRTC",
+      "source_files": "ADDXWebRTC/ADDXWebRTC/*.{swift,h,m,mm}",
+      "public_header_files": "ADDXWebRTC/ADDXWebRTC/ADDXGenerateImage.h"
+    },
+    {
+      "name": "Extensions",
+      "source_files": "ADDXWebRTC/Extensions/*.{swift}"
+    },
+    {
+      "name": "Services",
+      "source_files": "ADDXWebRTC/Services/*.{swift,h,mm}",
+      "public_header_files": [
+        "ADDXWebRTC/Services/ADDXWebRTC-Bridging-Header.h",
+        "ADDXWebRTC/Services/ADFFmpegMuxer.h"
+      ],
+      "subspecs": [
+        {
+          "name": "WebSocketProvider",
+          "source_files": "ADDXWebRTC/Services/WebSocketProvider/*.{swift}"
+        },
+        {
+          "name": "GPAC4iOS",
+          "source_files": "ADDXWebRTC/Services/GPAC4iOS/*.{swift,h,mm,m}",
+          "private_header_files": "ADDXWebRTC/Services/GPAC4iOS/*.{h}"
+        },
+        {
+          "name": "TS2MP4",
+          "source_files": "ADDXWebRTC/Services/TS2MP4/*.{swift,h,mm,m}",
+          "public_header_files": [
+            "ADDXWebRTC/Services/TS2MP4/ADMediaAssetExportSession.h",
+            "ADDXWebRTC/Services/TS2MP4/KMMedia.h",
+            "ADDXWebRTC/Services/TS2MP4/KMMediaAsset.h",
+            "ADDXWebRTC/Services/TS2MP4/KMMediaFormat.h",
+            "ADDXWebRTC/Services/TS2MP4/KMMediaAsset.h",
+            "ADDXWebRTC/Services/TS2MP4/KMMediaAssetExportSession.h"
+          ]
+        },
+        {
+          "name": "ffmpeg",
+          "private_header_files": [
+            "ADDXWebRTC/Services/ffmpeg/include/**/*.{h}"
+          ]
+        },
+        {
+          "name": "openssl",
+          "private_header_files": [
+            "ADDXWebRTC/Services/openssl/include/**/*.{h}"
+          ]
+        },
+        {
+          "name": "IJKMediaPlayer",
+          "source_files": [
+            "ADDXWebRTC/Services/IJKMediaPlayer/*.{h,mm,m}",
+            "ADDXWebRTC/Services/IJKMediaPlayer/**/*.{h,mm,m,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/ijkavformat/*.{h,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/ijkavutil/*.{h,c,cpp}",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/pipeline/*.{h,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/*.{h,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/*.{h,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/dummy/*.{h,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/ffmpeg/**/*.{h,c}",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/gles2/**/*.{h,c,m}"
+          ],
+          "public_header_files": [
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKMediaPlayback.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKMPMoviePlayerController.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKFFOptions.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKFFMoviePlayerController.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKAVMoviePlayerController.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKMediaModule.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKMediaPlayer.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKNotificationManager.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKKVOController.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKSDLGLViewProtocol.h",
+            "ADDXWebRTC/Services/IJKMediaPlayer/IJKFFMonitor.h"
+          ],
+          "exclude_files": [
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/ijkavformat/ijkioandroidio.c",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/ijkavformat/ijkmediadatasource.c",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/ijksdl_extra_log.h",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/ijksdl_extra_log.c"
+          ],
+          "requires_arc": [
+            "ADDXWebRTC/Services/IJKMediaPlayer/*",
+            "ADDXWebRTC/Services/IJKMediaPlayer/ijkmedia/ijkplayer/ios/pipeline/*",
+            "ADDXWebRTC/Services/IJKMediaPlayer/ijkmedia/ijkplayer/ios/*",
+            "ADDXWebRTC/Services/IJKMediaPlayer/ijkmedia/ijksdl/ios/*",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/ijkavformat/*",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/ijkavutil/*",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/pipeline/*",
+            "ADDXWebRTC/Services/ijkmedia/ijkplayer/*",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/*",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/dummy/*",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/ffmpeg/**/*",
+            "ADDXWebRTC/Services/ijkmedia/ijksdl/gles2/**/*"
+          ]
+        }
+      ]
+    }
+  ]
+}

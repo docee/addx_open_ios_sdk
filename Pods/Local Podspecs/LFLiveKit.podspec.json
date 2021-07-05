@@ -1,0 +1,53 @@
+{
+  "name": "LFLiveKit",
+  "version": "2.6.1",
+  "summary": "LaiFeng ios Live. LFLiveKit.",
+  "homepage": "https://github.com/chenliming777",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenliming": "chenliming777@qq.com"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source": {
+    "git": "https://github.com/LaiFengiOS/LFLiveKit.git",
+    "tag": "2.6.1"
+  },
+  "source_files": "LFLiveKit/**/*.{h,m,mm,cpp,c}",
+  "public_header_files": [
+    "LFLiveKit/*.h",
+    "LFLiveKit/objects/*.h",
+    "LFLiveKit/configuration/*.h",
+    "LFLiveKit/capture/*.h"
+  ],
+  "frameworks": [
+    "UIKit",
+    "AVFoundation",
+    "CoreTelephony",
+    "CoreMedia",
+    "Foundation",
+    "AudioToolbox",
+    "Security",
+    "VideoToolbox",
+    "SystemConfiguration",
+    "CoreVideo",
+    "CoreGraphics",
+    "CFNetwork"
+  ],
+  "libraries": [
+    "c++",
+    "iconv",
+    "z",
+    "bz2"
+  ],
+  "vendored_frameworks": "LFLiveKit/lib/*.framework",
+  "vendored_libraries": [
+    "LFLiveKit/EasyPusherLib/*.a",
+    "LFLiveKit/lib/*.a"
+  ],
+  "requires_arc": true
+}

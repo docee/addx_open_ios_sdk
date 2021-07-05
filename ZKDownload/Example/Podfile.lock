@@ -1,0 +1,16 @@
+PODS:
+  - ZKDownload (0.1.0)
+
+DEPENDENCIES:
+  - ZKDownload (from `../`)
+
+EXTERNAL SOURCES:
+  ZKDownload:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZKDownload: 09417c72fb3f7674216da6868281645c24f26e91
+
+PODFILE CHECKSUM: 2e9e84493dc4e2dcb747b431af92639e2cbc9c68
+
+COCOAPODS: 1.6.0.beta.2

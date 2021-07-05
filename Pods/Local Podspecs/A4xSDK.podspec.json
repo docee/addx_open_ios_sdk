@@ -1,0 +1,32 @@
+{
+  "name": "A4xSDK",
+  "version": "0.1.0",
+  "summary": "A short description of A4xSDK.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/A4xSDK/A4xSDK",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "A4xSDK": "wjin@a4x.ai"
+  },
+  "source": {
+    "git": "http://192.168.31.7:7990/scm/swclien/a4xsdk.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "A4xSDK/*.{swift}",
+  "resource_bundles": {
+    "A4xSDK": [
+      "A4xSDK/Assets/*.xcassets"
+    ]
+  },
+  "resources": "A4xSDK.bundle",
+  "vendored_frameworks": "Frameworks/*.framework",
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  }
+}

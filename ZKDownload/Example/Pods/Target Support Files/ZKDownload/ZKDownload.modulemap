@@ -1,0 +1,6 @@
+framework module ZKDownload {
+  umbrella header "ZKDownload-umbrella.h"
+
+  export *
+  module * { export * }
+}

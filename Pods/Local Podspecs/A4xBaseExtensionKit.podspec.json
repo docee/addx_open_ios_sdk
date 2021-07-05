@@ -1,0 +1,27 @@
+{
+  "name": "A4xBaseExtensionKit",
+  "version": "0.1.1",
+  "summary": "A short description of A4xBaseExtensionKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://facebook.github.io/",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wjin": "wjin@a4x.ai"
+  },
+  "source": {
+    "git": "https://github.com/example/example.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "A4xBaseExtensionKit/Classes/**/*",
+  "resource_bundles": {
+    "A4xBaseExtensionKit": [
+      "A4xBaseExtensionKit/Resources/*.*"
+    ]
+  }
+}

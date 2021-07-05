@@ -1,0 +1,36 @@
+{
+  "name": "A4xYogaKit",
+  "version": "1.18.9",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "homepage": "https://facebook.github.io/yoga/",
+  "documentation_url": "https://facebook.github.io/yoga/docs/",
+  "summary": "Yoga is a cross-platform layout engine which implements Flexbox.",
+  "description": "Yoga is a cross-platform layout engine enabling maximum collaboration within your team by implementing an API many designers are familiar with, and opening it up to developers across different platforms.",
+  "authors": "Facebook",
+  "source": {
+    "git": "http://192.168.31.7:7990/scm/ios/yogakit.git",
+    "tag": "1.18.9"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "ios": {
+    "frameworks": "UIKit"
+  },
+  "module_name": "A4xYogaKit",
+  "dependencies": {
+    "Yoga": [
+      "~> 1.14"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "LD_VERIFY_BITCODE": "NO"
+  },
+  "source_files": "Source/*.{h,m,swift}",
+  "public_header_files": "Source/{YGLayout,UIView+Yoga}.h",
+  "private_header_files": "Source/YGLayout+Private.h",
+  "readme": "README.md"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "KYBusKit",
+  "version": "0.1.0",
+  "summary": "A short description of KYBusKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kieran/KYBusKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kieran": "kiearn.zhi@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/kieran/KYBusKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KYBusKit/Classes/**/*",
+  "resource_bundles": {
+    "KYBusKit": [
+      "KYBusKit/Resources/*.*"
+    ]
+  }
+}

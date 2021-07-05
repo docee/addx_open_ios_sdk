@@ -1,0 +1,6 @@
+framework module Pods_A4xDevice_Demo {
+  umbrella header "Pods-A4xDevice_Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
