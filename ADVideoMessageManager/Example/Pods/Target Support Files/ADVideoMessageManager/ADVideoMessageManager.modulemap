@@ -1,0 +1,6 @@
+framework module ADVideoMessageManager {
+  umbrella header "ADVideoMessageManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

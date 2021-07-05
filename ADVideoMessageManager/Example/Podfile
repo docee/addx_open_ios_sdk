@@ -1,0 +1,17 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ADVideoMessageManager_Example' do
+  pod 'ADVideoMessageManager', :path => '../'
+  pod 'SnapKit'
+
+  target 'ADVideoMessageManager_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick', '~> 2.2.0'
+    pod 'Nimble'
+    pod 'FBSnapshotTestCase' 
+    pod 'Nimble-Snapshots' 
+  end
+end

@@ -1,0 +1,64 @@
+PODS:
+  - ADVideoMessageManager (0.1.1):
+    - ADVideoMessageManager/Classes (= 0.1.1)
+    - ADVideoMessageManager/Resources (= 0.1.1)
+    - AutoInch (~> 1.3.1)
+  - ADVideoMessageManager/Classes (0.1.1):
+    - AutoInch (~> 1.3.1)
+  - ADVideoMessageManager/Resources (0.1.1):
+    - AutoInch (~> 1.3.1)
+  - AutoInch (1.3.2)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - iOSSnapshotTestCase (5.0.2):
+    - iOSSnapshotTestCase/SwiftSupport (= 5.0.2)
+  - iOSSnapshotTestCase/Core (5.0.2)
+  - iOSSnapshotTestCase/SwiftSupport (5.0.2):
+    - iOSSnapshotTestCase/Core
+  - Nimble (7.3.4)
+  - Nimble-Snapshots (6.9.1):
+    - Nimble-Snapshots/Core (= 6.9.1)
+  - Nimble-Snapshots/Core (6.9.1):
+    - iOSSnapshotTestCase (~> 5.0)
+    - Nimble (~> 7.0)
+  - Quick (2.2.1)
+  - SnapKit (5.0.1)
+
+DEPENDENCIES:
+  - ADVideoMessageManager (from `../`)
+  - FBSnapshotTestCase
+  - Nimble
+  - Nimble-Snapshots
+  - Quick (~> 2.2.0)
+  - SnapKit
+
+SPEC REPOS:
+  trunk:
+    - AutoInch
+    - FBSnapshotTestCase
+    - iOSSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+    - SnapKit
+
+EXTERNAL SOURCES:
+  ADVideoMessageManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ADVideoMessageManager: b6834c37112c76821729e753792c6f2215b1c905
+  AutoInch: beaafbcef5f075d34b57bddd6b1893cb19d0f0de
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  iOSSnapshotTestCase: 2d51aa06775e95cecb0a1fb9c5c159ccd1dd4596
+  Nimble: 051e3d8912d40138fa5591c78594f95fb172af37
+  Nimble-Snapshots: bbd1ab264bacc24a9ce24a8363bc05aac783aeb0
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+
+PODFILE CHECKSUM: 71c42f6c06f2bcfa7e8326477c79b2a15442cee1
+
+COCOAPODS: 1.10.0
