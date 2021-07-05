@@ -1,0 +1,863 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3528EB89268EE2730070040C /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB85268EE2730070040C /* DeviceViewController.swift */; };
+		3528EB8A268EE2730070040C /* A4xPlayerView_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB86268EE2730070040C /* A4xPlayerView_Demo.swift */; };
+		3528EB8B268EE2730070040C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB87268EE2730070040C /* PlayerViewController.swift */; };
+		3528EB8C268EE2730070040C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB88268EE2730070040C /* MainViewController.swift */; };
+		3578D85B268C51A4004239F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578D85A268C51A4004239F6 /* AppDelegate.swift */; };
+		3578D862268C51A4004239F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578D860268C51A4004239F6 /* Main.storyboard */; };
+		3578D864268C51A6004239F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3578D863268C51A6004239F6 /* Assets.xcassets */; };
+		3578D867268C51A6004239F6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578D865268C51A6004239F6 /* LaunchScreen.storyboard */; };
+		357AF53326923BC20030C199 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF53226923BC20030C199 /* R.generated.swift */; };
+		357AF56626923DA10030C199 /* ADHomeVideoContentLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54126923DA10030C199 /* ADHomeVideoContentLayout.swift */; };
+		357AF56726923DA10030C199 /* ADDialogMenuAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54326923DA10030C199 /* ADDialogMenuAdapter.swift */; };
+		357AF56826923DA10030C199 /* ADDialogTitleAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54426923DA10030C199 /* ADDialogTitleAdapter.swift */; };
+		357AF56926923DA10030C199 /* ADAddPresetLocationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54726923DA10030C199 /* ADAddPresetLocationAlert.swift */; };
+		357AF56A26923DA10030C199 /* ADHomeDeviceMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54826923DA10030C199 /* ADHomeDeviceMenuView.swift */; };
+		357AF56B26923DA10030C199 /* HomeVideoDeviceControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54926923DA10030C199 /* HomeVideoDeviceControlView.swift */; };
+		357AF56C26923DA10030C199 /* ADHomeDeviceOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54A26923DA10030C199 /* ADHomeDeviceOperationView.swift */; };
+		357AF56D26923DA10030C199 /* ADHomeNoWifiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54B26923DA10030C199 /* ADHomeNoWifiView.swift */; };
+		357AF56E26923DA10030C199 /* HomeVideoCellBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54C26923DA10030C199 /* HomeVideoCellBar.swift */; };
+		357AF56F26923DA10030C199 /* ADDisturbAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54D26923DA10030C199 /* ADDisturbAlertView.swift */; };
+		357AF57026923DA10030C199 /* HomeVideoControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54E26923DA10030C199 /* HomeVideoControl.swift */; };
+		357AF57126923DA10030C199 /* ADHomeDeviceVoiceWarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF54F26923DA10030C199 /* ADHomeDeviceVoiceWarView.swift */; };
+		357AF57226923DA10030C199 /* ADHomeDeviceControlSpeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55026923DA10030C199 /* ADHomeDeviceControlSpeak.swift */; };
+		357AF57326923DA10030C199 /* HomeVideoDeviceEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55126923DA10030C199 /* HomeVideoDeviceEditView.swift */; };
+		357AF57426923DA10030C199 /* HomeVideoLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55226923DA10030C199 /* HomeVideoLoadingView.swift */; };
+		357AF57526923DA10030C199 /* HomeVideoReplayBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55326923DA10030C199 /* HomeVideoReplayBtn.swift */; };
+		357AF57626923DA10030C199 /* HomeVideoErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55426923DA10030C199 /* HomeVideoErrorView.swift */; };
+		357AF57726923DA10030C199 /* HomeVideoPresetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55526923DA10030C199 /* HomeVideoPresetCell.swift */; };
+		357AF57826923DA10030C199 /* ADRockerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55626923DA10030C199 /* ADRockerView.swift */; };
+		357AF57926923DA10030C199 /* ADHomeDeviceCommandView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55726923DA10030C199 /* ADHomeDeviceCommandView.swift */; };
+		357AF57A26923DA10030C199 /* AddxCircleControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55826923DA10030C199 /* AddxCircleControl.swift */; };
+		357AF57B26923DA10030C199 /* HomeVideoCollectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55926923DA10030C199 /* HomeVideoCollectCell.swift */; };
+		357AF57C26923DA10030C199 /* HomeVideoCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55B26923DA10030C199 /* HomeVideoCellProtocol.swift */; };
+		357AF57E26923DA10030C199 /* ADHomeEnteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55D26923DA10030C199 /* ADHomeEnteryView.swift */; };
+		357AF57F26923DA10030C199 /* ADDialogTitleInfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF55F26923DA10030C199 /* ADDialogTitleInfoItem.swift */; };
+		357AF58026923DA10030C199 /* ADHomeDisturbActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF56026923DA10030C199 /* ADHomeDisturbActionSheet.swift */; };
+		357AF58126923DA10030C199 /* ADOpenDisturbingAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF56126923DA10030C199 /* ADOpenDisturbingAlert.swift */; };
+		357AF58226923DA10030C199 /* ADDialogMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF56226923DA10030C199 /* ADDialogMenuItem.swift */; };
+		357AF58326923DA10030C199 /* ADPresetDataModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF56426923DA10030C199 /* ADPresetDataModle.swift */; };
+		357AF58426923DA10030C199 /* ADHomeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF56526923DA10030C199 /* ADHomeVideoViewController.swift */; };
+		357AF608269243010030C199 /* ADMenuInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF604269243010030C199 /* ADMenuInfoModel.swift */; };
+		357AF609269243010030C199 /* ADPresetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF605269243010030C199 /* ADPresetModel.swift */; };
+		357AF60A269243010030C199 /* ADUserSettingEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF606269243010030C199 /* ADUserSettingEnum.swift */; };
+		357AF60B269243010030C199 /* ADPresetDataModle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF607269243010030C199 /* ADPresetDataModle.swift */; };
+		357AF60E269243DD0030C199 /* ADDialogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF60D269243DD0030C199 /* ADDialogManager.swift */; };
+		357AF617269243E60030C199 /* ADDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF611269243E60030C199 /* ADDialogView.swift */; };
+		357AF618269243E60030C199 /* ADDialogModelprotocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF613269243E60030C199 /* ADDialogModelprotocol.swift */; };
+		357AF619269243E60030C199 /* ADDialogListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF614269243E60030C199 /* ADDialogListProtocol.swift */; };
+		357AF61A269243E60030C199 /* ADDialogAdapterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF615269243E60030C199 /* ADDialogAdapterProtocol.swift */; };
+		357AF61B269243E60030C199 /* ADDialogCellProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF616269243E60030C199 /* ADDialogCellProtocol.swift */; };
+		357AF6312692454C0030C199 /* ADLiveVideoPresetLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF61F2692454B0030C199 /* ADLiveVideoPresetLocationView.swift */; };
+		357AF6322692454C0030C199 /* ADLiveVideoBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6202692454B0030C199 /* ADLiveVideoBgView.swift */; };
+		357AF6332692454C0030C199 /* ADLiveAudioGraphicsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6212692454B0030C199 /* ADLiveAudioGraphicsView.swift */; };
+		357AF6342692454C0030C199 /* ADLiveVideoMoreMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6222692454B0030C199 /* ADLiveVideoMoreMenuView.swift */; };
+		357AF6352692454C0030C199 /* ADVIdeoClarityButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6232692454C0030C199 /* ADVIdeoClarityButton.swift */; };
+		357AF6362692454C0030C199 /* ADLiveLightButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6242692454C0030C199 /* ADLiveLightButton.swift */; };
+		357AF6372692454C0030C199 /* ADLiveVideoPresetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6252692454C0030C199 /* ADLiveVideoPresetCell.swift */; };
+		357AF6382692454C0030C199 /* ADLiveSpeakImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6262692454C0030C199 /* ADLiveSpeakImageView.swift */; };
+		357AF6392692454C0030C199 /* ADLiveVideoAnimailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6272692454C0030C199 /* ADLiveVideoAnimailView.swift */; };
+		357AF63A2692454C0030C199 /* ADLiveVideoControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6282692454C0030C199 /* ADLiveVideoControlView.swift */; };
+		357AF63B2692454C0030C199 /* ADVideoSharpDialogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF62A2692454C0030C199 /* ADVideoSharpDialogView.swift */; };
+		357AF63C2692454C0030C199 /* ADVideoSharpDialogCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF62B2692454C0030C199 /* ADVideoSharpDialogCell.swift */; };
+		357AF63D2692454C0030C199 /* ADVideoSharpDialogConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF62C2692454C0030C199 /* ADVideoSharpDialogConfig.swift */; };
+		357AF63E2692454C0030C199 /* ADVideoSharpDialog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF62D2692454C0030C199 /* ADVideoSharpDialog.swift */; };
+		357AF63F2692454C0030C199 /* TempiFFT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF62E2692454C0030C199 /* TempiFFT.swift */; };
+		357AF6402692454C0030C199 /* ADLiveVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6302692454C0030C199 /* ADLiveVideoViewController.swift */; };
+		357AF69726924B2C0030C199 /* ADHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF69626924B2C0030C199 /* ADHomeViewController.swift */; };
+		357AF69E26924BAB0030C199 /* ADHomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF69A26924BAB0030C199 /* ADHomeViewModel.swift */; };
+		357AF6D026929F960030C199 /* ADHomeBottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6CE26929F960030C199 /* ADHomeBottomBarView.swift */; };
+		357AF6D126929F960030C199 /* ADHomeBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6CF26929F960030C199 /* ADHomeBarItemView.swift */; };
+		357AF6D826929FB20030C199 /* ADHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6D526929FB20030C199 /* ADHomeHeaderView.swift */; };
+		357AF6D926929FB20030C199 /* ADHomeHeaderInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6D626929FB20030C199 /* ADHomeHeaderInfo.swift */; };
+		357AF6DA26929FB20030C199 /* ADNewHomeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 357AF6D726929FB20030C199 /* ADNewHomeHeaderView.swift */; };
+		41D90A8715A4265FED68B9C5 /* Pods_A4xDevice_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61926E95952775F13363348B /* Pods_A4xDevice_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20D86B704D2180AF65928D53 /* Pods-A4xDevice_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A4xDevice_Demo.debug.xcconfig"; path = "Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		3528EB85268EE2730070040C /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		3528EB86268EE2730070040C /* A4xPlayerView_Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4xPlayerView_Demo.swift; sourceTree = "<group>"; };
+		3528EB87268EE2730070040C /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		3528EB88268EE2730070040C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		3528EBB8268EEF1E0070040C /* A4xDevice_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = A4xDevice_Demo.entitlements; sourceTree = "<group>"; };
+		3528EBBA268EEF330070040C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		3528EBBB268EEF340070040C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		3578D857268C51A4004239F6 /* A4xDevice_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = A4xDevice_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3578D85A268C51A4004239F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3578D861268C51A4004239F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3578D863268C51A6004239F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3578D866268C51A6004239F6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3578D868268C51A6004239F6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357AF53226923BC20030C199 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		357AF54126923DA10030C199 /* ADHomeVideoContentLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeVideoContentLayout.swift; sourceTree = "<group>"; };
+		357AF54326923DA10030C199 /* ADDialogMenuAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogMenuAdapter.swift; sourceTree = "<group>"; };
+		357AF54426923DA10030C199 /* ADDialogTitleAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogTitleAdapter.swift; sourceTree = "<group>"; };
+		357AF54726923DA10030C199 /* ADAddPresetLocationAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADAddPresetLocationAlert.swift; sourceTree = "<group>"; };
+		357AF54826923DA10030C199 /* ADHomeDeviceMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeDeviceMenuView.swift; sourceTree = "<group>"; };
+		357AF54926923DA10030C199 /* HomeVideoDeviceControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoDeviceControlView.swift; sourceTree = "<group>"; };
+		357AF54A26923DA10030C199 /* ADHomeDeviceOperationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeDeviceOperationView.swift; sourceTree = "<group>"; };
+		357AF54B26923DA10030C199 /* ADHomeNoWifiView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeNoWifiView.swift; sourceTree = "<group>"; };
+		357AF54C26923DA10030C199 /* HomeVideoCellBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoCellBar.swift; sourceTree = "<group>"; };
+		357AF54D26923DA10030C199 /* ADDisturbAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDisturbAlertView.swift; sourceTree = "<group>"; };
+		357AF54E26923DA10030C199 /* HomeVideoControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoControl.swift; sourceTree = "<group>"; };
+		357AF54F26923DA10030C199 /* ADHomeDeviceVoiceWarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeDeviceVoiceWarView.swift; sourceTree = "<group>"; };
+		357AF55026923DA10030C199 /* ADHomeDeviceControlSpeak.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeDeviceControlSpeak.swift; sourceTree = "<group>"; };
+		357AF55126923DA10030C199 /* HomeVideoDeviceEditView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoDeviceEditView.swift; sourceTree = "<group>"; };
+		357AF55226923DA10030C199 /* HomeVideoLoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoLoadingView.swift; sourceTree = "<group>"; };
+		357AF55326923DA10030C199 /* HomeVideoReplayBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoReplayBtn.swift; sourceTree = "<group>"; };
+		357AF55426923DA10030C199 /* HomeVideoErrorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoErrorView.swift; sourceTree = "<group>"; };
+		357AF55526923DA10030C199 /* HomeVideoPresetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoPresetCell.swift; sourceTree = "<group>"; };
+		357AF55626923DA10030C199 /* ADRockerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADRockerView.swift; sourceTree = "<group>"; };
+		357AF55726923DA10030C199 /* ADHomeDeviceCommandView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeDeviceCommandView.swift; sourceTree = "<group>"; };
+		357AF55826923DA10030C199 /* AddxCircleControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddxCircleControl.swift; sourceTree = "<group>"; };
+		357AF55926923DA10030C199 /* HomeVideoCollectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoCollectCell.swift; sourceTree = "<group>"; };
+		357AF55B26923DA10030C199 /* HomeVideoCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVideoCellProtocol.swift; sourceTree = "<group>"; };
+		357AF55D26923DA10030C199 /* ADHomeEnteryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeEnteryView.swift; sourceTree = "<group>"; };
+		357AF55F26923DA10030C199 /* ADDialogTitleInfoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogTitleInfoItem.swift; sourceTree = "<group>"; };
+		357AF56026923DA10030C199 /* ADHomeDisturbActionSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeDisturbActionSheet.swift; sourceTree = "<group>"; };
+		357AF56126923DA10030C199 /* ADOpenDisturbingAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADOpenDisturbingAlert.swift; sourceTree = "<group>"; };
+		357AF56226923DA10030C199 /* ADDialogMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogMenuItem.swift; sourceTree = "<group>"; };
+		357AF56426923DA10030C199 /* ADPresetDataModle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADPresetDataModle.swift; sourceTree = "<group>"; };
+		357AF56526923DA10030C199 /* ADHomeVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeVideoViewController.swift; sourceTree = "<group>"; };
+		357AF604269243010030C199 /* ADMenuInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADMenuInfoModel.swift; sourceTree = "<group>"; };
+		357AF605269243010030C199 /* ADPresetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADPresetModel.swift; sourceTree = "<group>"; };
+		357AF606269243010030C199 /* ADUserSettingEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADUserSettingEnum.swift; sourceTree = "<group>"; };
+		357AF607269243010030C199 /* ADPresetDataModle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADPresetDataModle.swift; sourceTree = "<group>"; };
+		357AF60D269243DD0030C199 /* ADDialogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogManager.swift; sourceTree = "<group>"; };
+		357AF611269243E60030C199 /* ADDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogView.swift; sourceTree = "<group>"; };
+		357AF613269243E60030C199 /* ADDialogModelprotocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogModelprotocol.swift; sourceTree = "<group>"; };
+		357AF614269243E60030C199 /* ADDialogListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogListProtocol.swift; sourceTree = "<group>"; };
+		357AF615269243E60030C199 /* ADDialogAdapterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogAdapterProtocol.swift; sourceTree = "<group>"; };
+		357AF616269243E60030C199 /* ADDialogCellProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADDialogCellProtocol.swift; sourceTree = "<group>"; };
+		357AF61F2692454B0030C199 /* ADLiveVideoPresetLocationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoPresetLocationView.swift; sourceTree = "<group>"; };
+		357AF6202692454B0030C199 /* ADLiveVideoBgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoBgView.swift; sourceTree = "<group>"; };
+		357AF6212692454B0030C199 /* ADLiveAudioGraphicsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveAudioGraphicsView.swift; sourceTree = "<group>"; };
+		357AF6222692454B0030C199 /* ADLiveVideoMoreMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoMoreMenuView.swift; sourceTree = "<group>"; };
+		357AF6232692454C0030C199 /* ADVIdeoClarityButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVIdeoClarityButton.swift; sourceTree = "<group>"; };
+		357AF6242692454C0030C199 /* ADLiveLightButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveLightButton.swift; sourceTree = "<group>"; };
+		357AF6252692454C0030C199 /* ADLiveVideoPresetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoPresetCell.swift; sourceTree = "<group>"; };
+		357AF6262692454C0030C199 /* ADLiveSpeakImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveSpeakImageView.swift; sourceTree = "<group>"; };
+		357AF6272692454C0030C199 /* ADLiveVideoAnimailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoAnimailView.swift; sourceTree = "<group>"; };
+		357AF6282692454C0030C199 /* ADLiveVideoControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoControlView.swift; sourceTree = "<group>"; };
+		357AF62A2692454C0030C199 /* ADVideoSharpDialogView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVideoSharpDialogView.swift; sourceTree = "<group>"; };
+		357AF62B2692454C0030C199 /* ADVideoSharpDialogCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVideoSharpDialogCell.swift; sourceTree = "<group>"; };
+		357AF62C2692454C0030C199 /* ADVideoSharpDialogConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVideoSharpDialogConfig.swift; sourceTree = "<group>"; };
+		357AF62D2692454C0030C199 /* ADVideoSharpDialog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADVideoSharpDialog.swift; sourceTree = "<group>"; };
+		357AF62E2692454C0030C199 /* TempiFFT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempiFFT.swift; sourceTree = "<group>"; };
+		357AF6302692454C0030C199 /* ADLiveVideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADLiveVideoViewController.swift; sourceTree = "<group>"; };
+		357AF69626924B2C0030C199 /* ADHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeViewController.swift; sourceTree = "<group>"; };
+		357AF69A26924BAB0030C199 /* ADHomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeViewModel.swift; sourceTree = "<group>"; };
+		357AF6CE26929F960030C199 /* ADHomeBottomBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeBottomBarView.swift; sourceTree = "<group>"; };
+		357AF6CF26929F960030C199 /* ADHomeBarItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeBarItemView.swift; sourceTree = "<group>"; };
+		357AF6D526929FB20030C199 /* ADHomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeHeaderView.swift; sourceTree = "<group>"; };
+		357AF6D626929FB20030C199 /* ADHomeHeaderInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADHomeHeaderInfo.swift; sourceTree = "<group>"; };
+		357AF6D726929FB20030C199 /* ADNewHomeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ADNewHomeHeaderView.swift; sourceTree = "<group>"; };
+		61926E95952775F13363348B /* Pods_A4xDevice_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A4xDevice_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADB7BF215187F7D69B11529B /* Pods-A4xDevice_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A4xDevice_Demo.release.xcconfig"; path = "Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3578D854268C51A4004239F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41D90A8715A4265FED68B9C5 /* Pods_A4xDevice_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3578D84E268C51A4004239F6 = {
+			isa = PBXGroup;
+			children = (
+				3578D859268C51A4004239F6 /* A4xDevice_Demo */,
+				3578D858268C51A4004239F6 /* Products */,
+				CFF9A664D580C3066D428E3A /* Pods */,
+				FF0276827472720A4288F49A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3578D858268C51A4004239F6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3578D857268C51A4004239F6 /* A4xDevice_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3578D859268C51A4004239F6 /* A4xDevice_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				357AF8042692D40C0030C199 /* A4xPlayerViewUI */,
+				357AF6D426929FB20030C199 /* Header */,
+				357AF6CD26929F960030C199 /* Fooder */,
+				357AF69926924BAB0030C199 /* ViewModel */,
+				357AF61D2692454B0030C199 /* LiveVideo */,
+				357AF53F26923DA10030C199 /* HomeVideo */,
+				3528EBB8268EEF1E0070040C /* A4xDevice_Demo.entitlements */,
+				357AF53226923BC20030C199 /* R.generated.swift */,
+				357AF69626924B2C0030C199 /* ADHomeViewController.swift */,
+				3528EB86268EE2730070040C /* A4xPlayerView_Demo.swift */,
+				3528EB85268EE2730070040C /* DeviceViewController.swift */,
+				3528EB88268EE2730070040C /* MainViewController.swift */,
+				3528EB87268EE2730070040C /* PlayerViewController.swift */,
+				3578D85A268C51A4004239F6 /* AppDelegate.swift */,
+				3578D860268C51A4004239F6 /* Main.storyboard */,
+				3578D863268C51A6004239F6 /* Assets.xcassets */,
+				3578D865268C51A6004239F6 /* LaunchScreen.storyboard */,
+				3578D868268C51A6004239F6 /* Info.plist */,
+			);
+			path = A4xDevice_Demo;
+			sourceTree = "<group>";
+		};
+		357AF53F26923DA10030C199 /* HomeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				357AF54026923DA10030C199 /* Layout */,
+				357AF54226923DA10030C199 /* Adapter */,
+				357AF54526923DA10030C199 /* VideoCell */,
+				357AF55E26923DA10030C199 /* Dialog */,
+				357AF56326923DA10030C199 /* Modle */,
+				357AF56526923DA10030C199 /* ADHomeVideoViewController.swift */,
+			);
+			path = HomeVideo;
+			sourceTree = "<group>";
+		};
+		357AF54026923DA10030C199 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				357AF54126923DA10030C199 /* ADHomeVideoContentLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		357AF54226923DA10030C199 /* Adapter */ = {
+			isa = PBXGroup;
+			children = (
+				357AF54326923DA10030C199 /* ADDialogMenuAdapter.swift */,
+				357AF54426923DA10030C199 /* ADDialogTitleAdapter.swift */,
+			);
+			path = Adapter;
+			sourceTree = "<group>";
+		};
+		357AF54526923DA10030C199 /* VideoCell */ = {
+			isa = PBXGroup;
+			children = (
+				357AF54626923DA10030C199 /* ChildView */,
+				357AF55926923DA10030C199 /* HomeVideoCollectCell.swift */,
+				357AF55A26923DA10030C199 /* Protocol */,
+				357AF55D26923DA10030C199 /* ADHomeEnteryView.swift */,
+			);
+			path = VideoCell;
+			sourceTree = "<group>";
+		};
+		357AF54626923DA10030C199 /* ChildView */ = {
+			isa = PBXGroup;
+			children = (
+				357AF54726923DA10030C199 /* ADAddPresetLocationAlert.swift */,
+				357AF54826923DA10030C199 /* ADHomeDeviceMenuView.swift */,
+				357AF54926923DA10030C199 /* HomeVideoDeviceControlView.swift */,
+				357AF54A26923DA10030C199 /* ADHomeDeviceOperationView.swift */,
+				357AF54B26923DA10030C199 /* ADHomeNoWifiView.swift */,
+				357AF54C26923DA10030C199 /* HomeVideoCellBar.swift */,
+				357AF54D26923DA10030C199 /* ADDisturbAlertView.swift */,
+				357AF54E26923DA10030C199 /* HomeVideoControl.swift */,
+				357AF54F26923DA10030C199 /* ADHomeDeviceVoiceWarView.swift */,
+				357AF55026923DA10030C199 /* ADHomeDeviceControlSpeak.swift */,
+				357AF55126923DA10030C199 /* HomeVideoDeviceEditView.swift */,
+				357AF55226923DA10030C199 /* HomeVideoLoadingView.swift */,
+				357AF55326923DA10030C199 /* HomeVideoReplayBtn.swift */,
+				357AF55426923DA10030C199 /* HomeVideoErrorView.swift */,
+				357AF55526923DA10030C199 /* HomeVideoPresetCell.swift */,
+				357AF55626923DA10030C199 /* ADRockerView.swift */,
+				357AF55726923DA10030C199 /* ADHomeDeviceCommandView.swift */,
+				357AF55826923DA10030C199 /* AddxCircleControl.swift */,
+			);
+			path = ChildView;
+			sourceTree = "<group>";
+		};
+		357AF55A26923DA10030C199 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				357AF55B26923DA10030C199 /* HomeVideoCellProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		357AF55E26923DA10030C199 /* Dialog */ = {
+			isa = PBXGroup;
+			children = (
+				357AF612269243E60030C199 /* Interface */,
+				357AF610269243E60030C199 /* View */,
+				357AF55F26923DA10030C199 /* ADDialogTitleInfoItem.swift */,
+				357AF56026923DA10030C199 /* ADHomeDisturbActionSheet.swift */,
+				357AF56126923DA10030C199 /* ADOpenDisturbingAlert.swift */,
+				357AF56226923DA10030C199 /* ADDialogMenuItem.swift */,
+				357AF60D269243DD0030C199 /* ADDialogManager.swift */,
+			);
+			path = Dialog;
+			sourceTree = "<group>";
+		};
+		357AF56326923DA10030C199 /* Modle */ = {
+			isa = PBXGroup;
+			children = (
+				357AF604269243010030C199 /* ADMenuInfoModel.swift */,
+				357AF607269243010030C199 /* ADPresetDataModle.swift */,
+				357AF605269243010030C199 /* ADPresetModel.swift */,
+				357AF606269243010030C199 /* ADUserSettingEnum.swift */,
+				357AF56426923DA10030C199 /* ADPresetDataModle.swift */,
+			);
+			path = Modle;
+			sourceTree = "<group>";
+		};
+		357AF610269243E60030C199 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				357AF611269243E60030C199 /* ADDialogView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		357AF612269243E60030C199 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				357AF613269243E60030C199 /* ADDialogModelprotocol.swift */,
+				357AF614269243E60030C199 /* ADDialogListProtocol.swift */,
+				357AF615269243E60030C199 /* ADDialogAdapterProtocol.swift */,
+				357AF616269243E60030C199 /* ADDialogCellProtocol.swift */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		357AF61D2692454B0030C199 /* LiveVideo */ = {
+			isa = PBXGroup;
+			children = (
+				357AF61E2692454B0030C199 /* View */,
+				357AF62E2692454C0030C199 /* TempiFFT.swift */,
+				357AF62F2692454C0030C199 /* ViewController */,
+			);
+			path = LiveVideo;
+			sourceTree = "<group>";
+		};
+		357AF61E2692454B0030C199 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				357AF61F2692454B0030C199 /* ADLiveVideoPresetLocationView.swift */,
+				357AF6202692454B0030C199 /* ADLiveVideoBgView.swift */,
+				357AF6212692454B0030C199 /* ADLiveAudioGraphicsView.swift */,
+				357AF6222692454B0030C199 /* ADLiveVideoMoreMenuView.swift */,
+				357AF6232692454C0030C199 /* ADVIdeoClarityButton.swift */,
+				357AF6242692454C0030C199 /* ADLiveLightButton.swift */,
+				357AF6252692454C0030C199 /* ADLiveVideoPresetCell.swift */,
+				357AF6262692454C0030C199 /* ADLiveSpeakImageView.swift */,
+				357AF6272692454C0030C199 /* ADLiveVideoAnimailView.swift */,
+				357AF6282692454C0030C199 /* ADLiveVideoControlView.swift */,
+				357AF6292692454C0030C199 /* videoSharp */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		357AF6292692454C0030C199 /* videoSharp */ = {
+			isa = PBXGroup;
+			children = (
+				357AF62A2692454C0030C199 /* ADVideoSharpDialogView.swift */,
+				357AF62B2692454C0030C199 /* ADVideoSharpDialogCell.swift */,
+				357AF62C2692454C0030C199 /* ADVideoSharpDialogConfig.swift */,
+				357AF62D2692454C0030C199 /* ADVideoSharpDialog.swift */,
+			);
+			path = videoSharp;
+			sourceTree = "<group>";
+		};
+		357AF62F2692454C0030C199 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				357AF6302692454C0030C199 /* ADLiveVideoViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		357AF69926924BAB0030C199 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				357AF69A26924BAB0030C199 /* ADHomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		357AF6CD26929F960030C199 /* Fooder */ = {
+			isa = PBXGroup;
+			children = (
+				357AF6CE26929F960030C199 /* ADHomeBottomBarView.swift */,
+				357AF6CF26929F960030C199 /* ADHomeBarItemView.swift */,
+			);
+			path = Fooder;
+			sourceTree = "<group>";
+		};
+		357AF6D426929FB20030C199 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				357AF6D526929FB20030C199 /* ADHomeHeaderView.swift */,
+				357AF6D626929FB20030C199 /* ADHomeHeaderInfo.swift */,
+				357AF6D726929FB20030C199 /* ADNewHomeHeaderView.swift */,
+			);
+			path = Header;
+			sourceTree = "<group>";
+		};
+		357AF8042692D40C0030C199 /* A4xPlayerViewUI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = A4xPlayerViewUI;
+			sourceTree = "<group>";
+		};
+		CFF9A664D580C3066D428E3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D86B704D2180AF65928D53 /* Pods-A4xDevice_Demo.debug.xcconfig */,
+				ADB7BF215187F7D69B11529B /* Pods-A4xDevice_Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF0276827472720A4288F49A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61926E95952775F13363348B /* Pods_A4xDevice_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3578D856268C51A4004239F6 /* A4xDevice_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3578D86B268C51A6004239F6 /* Build configuration list for PBXNativeTarget "A4xDevice_Demo" */;
+			buildPhases = (
+				C8A78AF6DC80EDAF9BE57783 /* [CP] Check Pods Manifest.lock */,
+				3578D853268C51A4004239F6 /* Sources */,
+				3578D854268C51A4004239F6 /* Frameworks */,
+				3578D855268C51A4004239F6 /* Resources */,
+				D6B09A506FC30E718D02C8ED /* [CP] Embed Pods Frameworks */,
+				58BA0680C101ECB89B842888 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = A4xDevice_Demo;
+			productName = A4xDevice_Demo;
+			productReference = 3578D857268C51A4004239F6 /* A4xDevice_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3578D84F268C51A4004239F6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3578D856268C51A4004239F6 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = 3578D852268C51A4004239F6 /* Build configuration list for PBXProject "A4xDevice_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 3578D84E268C51A4004239F6;
+			productRefGroup = 3578D858268C51A4004239F6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3578D856268C51A4004239F6 /* A4xDevice_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3578D855268C51A4004239F6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3578D867268C51A6004239F6 /* LaunchScreen.storyboard in Resources */,
+				3578D864268C51A6004239F6 /* Assets.xcassets in Resources */,
+				3578D862268C51A4004239F6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58BA0680C101ECB89B842888 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8A78AF6DC80EDAF9BE57783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-A4xDevice_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6B09A506FC30E718D02C8ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3578D853268C51A4004239F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357AF63F2692454C0030C199 /* TempiFFT.swift in Sources */,
+				357AF57626923DA10030C199 /* HomeVideoErrorView.swift in Sources */,
+				357AF69726924B2C0030C199 /* ADHomeViewController.swift in Sources */,
+				3528EB8A268EE2730070040C /* A4xPlayerView_Demo.swift in Sources */,
+				357AF57A26923DA10030C199 /* AddxCircleControl.swift in Sources */,
+				357AF57026923DA10030C199 /* HomeVideoControl.swift in Sources */,
+				357AF63B2692454C0030C199 /* ADVideoSharpDialogView.swift in Sources */,
+				357AF56E26923DA10030C199 /* HomeVideoCellBar.swift in Sources */,
+				357AF57426923DA10030C199 /* HomeVideoLoadingView.swift in Sources */,
+				357AF60B269243010030C199 /* ADPresetDataModle.swift in Sources */,
+				357AF6382692454C0030C199 /* ADLiveSpeakImageView.swift in Sources */,
+				357AF63E2692454C0030C199 /* ADVideoSharpDialog.swift in Sources */,
+				3528EB8B268EE2730070040C /* PlayerViewController.swift in Sources */,
+				357AF6392692454C0030C199 /* ADLiveVideoAnimailView.swift in Sources */,
+				357AF57226923DA10030C199 /* ADHomeDeviceControlSpeak.swift in Sources */,
+				357AF57F26923DA10030C199 /* ADDialogTitleInfoItem.swift in Sources */,
+				357AF60E269243DD0030C199 /* ADDialogManager.swift in Sources */,
+				357AF61B269243E60030C199 /* ADDialogCellProtocol.swift in Sources */,
+				357AF60A269243010030C199 /* ADUserSettingEnum.swift in Sources */,
+				357AF6372692454C0030C199 /* ADLiveVideoPresetCell.swift in Sources */,
+				357AF6D126929F960030C199 /* ADHomeBarItemView.swift in Sources */,
+				357AF57726923DA10030C199 /* HomeVideoPresetCell.swift in Sources */,
+				357AF6322692454C0030C199 /* ADLiveVideoBgView.swift in Sources */,
+				357AF58026923DA10030C199 /* ADHomeDisturbActionSheet.swift in Sources */,
+				357AF6DA26929FB20030C199 /* ADNewHomeHeaderView.swift in Sources */,
+				357AF57E26923DA10030C199 /* ADHomeEnteryView.swift in Sources */,
+				357AF57926923DA10030C199 /* ADHomeDeviceCommandView.swift in Sources */,
+				357AF57826923DA10030C199 /* ADRockerView.swift in Sources */,
+				357AF6D926929FB20030C199 /* ADHomeHeaderInfo.swift in Sources */,
+				357AF56C26923DA10030C199 /* ADHomeDeviceOperationView.swift in Sources */,
+				357AF56826923DA10030C199 /* ADDialogTitleAdapter.swift in Sources */,
+				357AF56D26923DA10030C199 /* ADHomeNoWifiView.swift in Sources */,
+				357AF6332692454C0030C199 /* ADLiveAudioGraphicsView.swift in Sources */,
+				357AF617269243E60030C199 /* ADDialogView.swift in Sources */,
+				357AF609269243010030C199 /* ADPresetModel.swift in Sources */,
+				3528EB89268EE2730070040C /* DeviceViewController.swift in Sources */,
+				357AF56626923DA10030C199 /* ADHomeVideoContentLayout.swift in Sources */,
+				357AF57C26923DA10030C199 /* HomeVideoCellProtocol.swift in Sources */,
+				357AF56F26923DA10030C199 /* ADDisturbAlertView.swift in Sources */,
+				357AF56926923DA10030C199 /* ADAddPresetLocationAlert.swift in Sources */,
+				357AF56B26923DA10030C199 /* HomeVideoDeviceControlView.swift in Sources */,
+				357AF63A2692454C0030C199 /* ADLiveVideoControlView.swift in Sources */,
+				357AF58126923DA10030C199 /* ADOpenDisturbingAlert.swift in Sources */,
+				357AF608269243010030C199 /* ADMenuInfoModel.swift in Sources */,
+				357AF58226923DA10030C199 /* ADDialogMenuItem.swift in Sources */,
+				357AF69E26924BAB0030C199 /* ADHomeViewModel.swift in Sources */,
+				357AF6342692454C0030C199 /* ADLiveVideoMoreMenuView.swift in Sources */,
+				3578D85B268C51A4004239F6 /* AppDelegate.swift in Sources */,
+				357AF6D826929FB20030C199 /* ADHomeHeaderView.swift in Sources */,
+				357AF56A26923DA10030C199 /* ADHomeDeviceMenuView.swift in Sources */,
+				357AF618269243E60030C199 /* ADDialogModelprotocol.swift in Sources */,
+				357AF619269243E60030C199 /* ADDialogListProtocol.swift in Sources */,
+				357AF57526923DA10030C199 /* HomeVideoReplayBtn.swift in Sources */,
+				357AF58426923DA10030C199 /* ADHomeVideoViewController.swift in Sources */,
+				357AF58326923DA10030C199 /* ADPresetDataModle.swift in Sources */,
+				357AF6362692454C0030C199 /* ADLiveLightButton.swift in Sources */,
+				357AF63D2692454C0030C199 /* ADVideoSharpDialogConfig.swift in Sources */,
+				357AF6402692454C0030C199 /* ADLiveVideoViewController.swift in Sources */,
+				357AF57126923DA10030C199 /* ADHomeDeviceVoiceWarView.swift in Sources */,
+				357AF63C2692454C0030C199 /* ADVideoSharpDialogCell.swift in Sources */,
+				357AF6D026929F960030C199 /* ADHomeBottomBarView.swift in Sources */,
+				357AF6312692454C0030C199 /* ADLiveVideoPresetLocationView.swift in Sources */,
+				357AF6352692454C0030C199 /* ADVIdeoClarityButton.swift in Sources */,
+				357AF61A269243E60030C199 /* ADDialogAdapterProtocol.swift in Sources */,
+				357AF57B26923DA10030C199 /* HomeVideoCollectCell.swift in Sources */,
+				357AF53326923BC20030C199 /* R.generated.swift in Sources */,
+				357AF57326923DA10030C199 /* HomeVideoDeviceEditView.swift in Sources */,
+				3528EB8C268EE2730070040C /* MainViewController.swift in Sources */,
+				357AF56726923DA10030C199 /* ADDialogMenuAdapter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3578D860268C51A4004239F6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3578D861268C51A4004239F6 /* Base */,
+				3528EBBA268EEF330070040C /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3578D865268C51A6004239F6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3578D866268C51A6004239F6 /* Base */,
+				3528EBBB268EEF340070040C /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3578D869268C51A6004239F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3578D86A268C51A6004239F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3578D86C268C51A6004239F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D86B704D2180AF65928D53 /* Pods-A4xDevice_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = A4xDevice_Demo/A4xDevice_Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRUS6Y6U7C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/A4xDevice_Demo",
+				);
+				INFOPLIST_FILE = A4xDevice_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a4x.ai.A4xDevice-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3578D86D268C51A6004239F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADB7BF215187F7D69B11529B /* Pods-A4xDevice_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = A4xDevice_Demo/A4xDevice_Demo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZRUS6Y6U7C;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/A4xDevice_Demo",
+				);
+				INFOPLIST_FILE = A4xDevice_Demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "a4x.ai.A4xDevice-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3578D852268C51A4004239F6 /* Build configuration list for PBXProject "A4xDevice_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3578D869268C51A6004239F6 /* Debug */,
+				3578D86A268C51A6004239F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3578D86B268C51A6004239F6 /* Build configuration list for PBXNativeTarget "A4xDevice_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3578D86C268C51A6004239F6 /* Debug */,
+				3578D86D268C51A6004239F6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3578D84F268C51A4004239F6 /* Project object */;
+}
