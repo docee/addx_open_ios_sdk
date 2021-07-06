@@ -1,0 +1,467 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3.1 effective-4.2 (swiftlang-1200.0.41 clang-1200.0.32.8)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name A4xBindSDK
+import A4xBaseSDK
+@_exported import A4xBindSDK
+import ADVideoMessageManager
+import AVFoundation
+import AnswerBotProvidersSDK
+import AnswerBotSDK
+import AudioToolbox
+import SystemConfiguration.CaptiveNetwork
+import ChatProvidersSDK
+import ChatSDK
+import CoreLocation
+import Disk
+import Foundation
+import Lottie
+import MessagingSDK
+import Rswift
+import SafariServices
+import SnapKit
+import SupportProvidersSDK
+import SupportSDK
+import Swift
+import SystemConfiguration
+import UIKit
+import WebKit
+import ZendeskCoreSDK
+@objc @_inheritsConvenienceInitializers open class A4xBindUpdateAddressCell : UIKit.UITableViewCell {
+  open var title: Swift.String? {
+    get
+    set(value)
+  }
+  open var checked: Swift.Bool {
+    get
+    set(value)
+  }
+  @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class A4xBindDeviceWaitViewController : A4xBindSDK.A4xBindBaseViewController {
+  @objc override dynamic public func viewDidLoad()
+  override public func defaultNav()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+}
+extension A4xBindDeviceWaitViewController : A4xBindSDK.A4xBindDeviceProtocol {
+  public func bindDeviceSuccess(status: A4xBindSDK.A4xBindDeviceResult)
+  public func bindDeviceError(error: A4xBindSDK.A4xBindStateErrorEnum)
+}
+@_inheritsConvenienceInitializers open class A4xUserFeedbackViewController : A4xBaseSDK.A4xBaseViewController {
+  open var isAddNewFeedBack: Swift.Bool
+  open var isComeFromAddCamera: Swift.Bool
+  open var noticationConfig: [Swift.String : Swift.String]
+  open var bindCode: Swift.String?
+  open var isHomeNav: Swift.Bool?
+  open var viewModel: A4xBindSDK.A4xBindDeviceViewModel?
+  open var userVipModel: A4xBaseSDK.A4xUserVipModel?
+  open var operationIdArr: [Swift.String]?
+  open var problemStr: Swift.String?
+  open var scanStr: Swift.String?
+  open var isFeedbackList: Swift.Bool
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  open var commitButton: UIKit.UIButton {
+    get
+    set(value)
+  }
+  open func updateImage(comple: @escaping ([SupportProvidersSDK.ZDKUploadResponse]) -> Swift.Void)
+  open func selectImage()
+  open func compress(image: UIKit.UIImage, maxLength: Swift.Int = 2000*1024) -> Foundation.Data?
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+extension A4xUserFeedbackViewController {
+  open func getUserInfo() -> Swift.String
+}
+extension A4xUserFeedbackViewController : A4xBindSDK.A4xBindDeviceProtocol {
+  public func bindDeviceSuccess(status: A4xBindSDK.A4xBindDeviceResult)
+  public func bindDeviceError(error: A4xBindSDK.A4xBindStateErrorEnum)
+}
+@objc @_inheritsConvenienceInitializers open class A4xBindAddLocationCell : UIKit.UITableViewCell {
+  open var title: Swift.String?
+  open var placeHolder: Swift.String?
+  open var value: Swift.String?
+  open var type: A4xBindSDK.ADAddLocationEnum?
+  open var maxInput: Swift.Int
+  open var editInfoBlock: ((A4xBindSDK.ADAddLocationEnum, Swift.String?) -> Swift.Void)?
+  @objc deinit
+  @available(iOS 3.0, *)
+  @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+@objc @_inheritsConvenienceInitializers open class A4xBindRemoveLocation : A4xBindSDK.A4xBindAddLocationCell {
+  override open var title: Swift.String? {
+    get
+    set(value)
+  }
+  open var selectBackgroundColor: UIKit.UIColor? {
+    get
+    set(value)
+  }
+  @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class A4xBindAddLocationInputCell : A4xBindSDK.A4xBindAddLocationCell {
+  override open var placeHolder: Swift.String? {
+    get
+    set(value)
+  }
+  override open var title: Swift.String? {
+    get
+    set(value)
+  }
+  override open var value: Swift.String? {
+    get
+    set(value)
+  }
+  override open var maxInput: Swift.Int {
+    get
+    set(value)
+  }
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class A4xBindAddLocationAddressCell : A4xBindSDK.A4xBindAddLocationCell {
+  open var locationBlock: (() -> Swift.Void)?
+  open var isLocationing: Swift.Bool {
+    get
+    set(value)
+  }
+  override open var placeHolder: Swift.String? {
+    get
+    set(value)
+  }
+  override open var value: Swift.String? {
+    get
+    set(value)
+  }
+  @objc override dynamic public init(style: UIKit.UITableViewCell.CellStyle, reuseIdentifier: Swift.String?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  open var infoView: UIKit.UILabel {
+    get
+    set(value)
+  }
+  open var postionV: UIKit.UIButton {
+    get
+    set(value)
+  }
+  @objc override dynamic open func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class A4xBindConfig : ObjectiveC.NSObject {
+  open var a4xBindJumpVCName: Swift.String?
+  open var features: [Swift.String : Swift.String]?
+  @objc deinit
+  @objc override dynamic public init()
+}
+@objc @_inheritsConvenienceInitializers open class A4xFeedBackSelectImageAddCell : UIKit.UICollectionViewCell {
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class A4xBindUpdateAddressDeviceState : UIKit.UIView {
+  open var status: A4xBaseSDK.ADDeviceState {
+    get
+    set(value)
+  }
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public var a4xJumpToVCName: Swift.String?
+open class A4xBindRootViewController : A4xBaseSDK.A4xBaseViewController {
+  open var addressId: Swift.Int?
+  open var isHomeNav: Swift.Bool
+  open var viewModel: A4xBindSDK.A4xBindDeviceViewModel
+  open var fromArticleBindViewVC: Swift.Bool
+  open var fromAddDeviceGetQrCodeVC: Swift.Bool
+  open var isDingDong: Swift.Bool
+  open var alreadyHeadVoiceCheck: Swift.Bool
+  public var isChangeWifi: Swift.Bool
+  @objc dynamic public init()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+  override open func defaultNav()
+  @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic open func viewDidDisappear(_ animated: Swift.Bool)
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @objc public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc public func textFieldShouldReturn(_ textField: UIKit.UITextField) -> Swift.Bool
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+}
+extension A4xBindRootViewController : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource, CoreLocation.CLLocationManagerDelegate, UIKit.UITextFieldDelegate {
+}
+@_inheritsConvenienceInitializers open class A4xZendeskSupportViewController : A4xBaseSDK.A4xBaseViewController {
+  open var articleId: Swift.String?
+  open var errorHelpOther: Swift.Bool
+  open var operationIdArr: [Swift.String]?
+  open var viewModel: A4xBindSDK.A4xBindDeviceViewModel?
+  open var bindCode: Swift.String?
+  open var isHomeNav: Swift.Bool?
+  @objc override dynamic open func viewDidLoad()
+  @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension A4xZendeskSupportViewController : A4xBindSDK.A4xBindDeviceProtocol {
+  public func bindDeviceSuccess(status: A4xBindSDK.A4xBindDeviceResult)
+  public func bindDeviceError(error: A4xBindSDK.A4xBindStateErrorEnum)
+}
+@_inheritsConvenienceInitializers public class A4xBindSelectWifiController : A4xBindSDK.A4xBindBaseViewController, CoreLocation.CLLocationManagerDelegate {
+  @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic open func viewDidLoad()
+  @objc deinit
+  override open func defaultNav()
+  @objc public func locationManager(_ manager: CoreLocation.CLLocationManager, didChangeAuthorization status: CoreLocation.CLAuthorizationStatus)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+@_inheritsConvenienceInitializers open class A4xFeedBackCommitView : A4xBaseSDK.A4xBaseFeedbackScrollView {
+  open var selectImages: [UIKit.UIImage] {
+    get
+  }
+  open var contontString: Swift.String? {
+    get
+  }
+  open var contantString: Swift.String? {
+    get
+    set(newValue)
+  }
+  open var addNewImageBlock: (() -> Swift.Void)?
+  open var vaildSubmitBlock: ((Swift.Bool) -> Swift.Void)?
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  open func addNewImage(image: UIKit.UIImage)
+  @objc deinit
+}
+public enum A4xBindFeedbackProblemType : Swift.String {
+  case wifi
+  case live
+  case motion
+  case battery
+  case other
+  public static func allProblemCaseas() -> [A4xBindSDK.A4xBindFeedbackProblemType]
+  public func questionValue() -> Swift.String
+  public typealias RawValue = Swift.String
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum A4xBindOperationIdResultParam {
+  case success(_: Swift.String?, _: UIKit.UIImage?)
+  case fail(_: Swift.String?)
+}
+public struct A4xBindQRCodeImageResult : Swift.Codable {
+  public var operationId: Swift.String?
+  public var image: Swift.String?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct A4xBindDeviceResult : Swift.Codable {
+  public var opretionId: Swift.String?
+  public var serialNumber: Swift.String?
+  public var deviceBindStep: Swift.Int?
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public protocol A4xBindDeviceProtocol : AnyObject {
+  func bindDeviceSuccess(status: A4xBindSDK.A4xBindDeviceResult)
+  func bindDeviceError(error: A4xBindSDK.A4xBindStateErrorEnum)
+}
+public enum A4xBindStateErrorEnum {
+  case expired
+  case nonet
+  case timeout
+  case other(_: Swift.String)
+  public var rawValue: Swift.String? {
+    get
+  }
+  public static func getBindState(errorCode: Swift.Int? = nil) -> A4xBindSDK.A4xBindStateErrorEnum?
+}
+open class A4xBindDeviceViewModel {
+  weak open var resultProtocol: A4xBindSDK.A4xBindDeviceProtocol?
+  open var isConfigNet: Swift.Bool
+  open var handleId: Swift.String?
+  open var error5GCount: Swift.Int
+  open var autoGetWifi: Swift.Bool
+  open var operationId: Swift.String?
+  open var operationIdArr: [Swift.String]
+  public init()
+  open func getBindCode()
+  open func getQrNewValue(wifiName: Swift.String, wifiPwd: Swift.String, isOldStyle: Swift.Bool, comple: @escaping (UIKit.UIImage?, Swift.String?) -> Swift.Void)
+  open func getQrValue(wifiName: Swift.String, wifiPwd: Swift.String, comple: @escaping (UIKit.UIImage?, Swift.String?) -> Swift.Void)
+  open func loadChatSupper(comple: @escaping (Swift.Bool) -> Swift.Void)
+  open func cancleRequest()
+  open func beginRequest(operationIdArr: [Swift.String])
+  open func loadOperationInfo(wifiName: Swift.String, wifiPwd: Swift.String, isOldStyle: Swift.Bool, comple: @escaping (A4xBindSDK.A4xBindOperationIdResultParam) -> Swift.Void)
+  open func loadOperationId(comple: @escaping (A4xBindSDK.A4xBindOperationIdResultParam) -> Swift.Void)
+  open func joinDeviceRequest(result: Swift.String, comple: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
+  open func otherEnvironmentAlert(comple: @escaping (Swift.Bool, Swift.String?) -> Swift.Void)
+  open func toZendChat(viewController: A4xBaseSDK.A4xBaseViewController)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class A4xFeedBackAllCommitView : UIKit.UIView {
+  open var reloadDataBlock: ((@escaping () -> Swift.Void) -> Swift.Void)?
+  open var addNewCommitAction: (() -> Swift.Void)?
+  open var systemId: Foundation.NSNumber?
+  open var selectRequestBlock: ((SupportProvidersSDK.ZDKRequest) -> Swift.Void)?
+  open var dataSources: [SupportProvidersSDK.ZDKRequest]? {
+    get
+    set(value)
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect = .zero)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  open var addDeviceButton: UIKit.UIButton {
+    get
+    set(value)
+  }
+  open var tableView: UIKit.UITableView {
+    get
+    set(value)
+  }
+  @objc deinit
+}
+extension A4xFeedBackAllCommitView : UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc dynamic public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc dynamic public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+}
+extension UIViewController : SafariServices.SFSafariViewControllerDelegate {
+  @objc dynamic public func safariViewControllerDidFinish(_ controller: SafariServices.SFSafariViewController)
+}
+public struct A4xBindHistoryWifiModel : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_inheritsConvenienceInitializers public class A4xBindBaseViewController : A4xBaseSDK.A4xBaseViewController {
+  public var addressId: Swift.Int?
+  public var configNet: Swift.Bool
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic public func viewDidLoad()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers open class A4xFeedBackTextView : UIKit.UIView {
+  open var placeHolder: Swift.String?
+  open var maxLength: Swift.Int
+  open var currentLength: Swift.Int {
+    get
+  }
+  open var text: Swift.String? {
+    get
+    set(newValue)
+  }
+  open var inputChangeBlock: ((Swift.Int, Swift.Int) -> Swift.Void)?
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc override dynamic open func layoutSubviews()
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension A4xFeedBackTextView : UIKit.UITextViewDelegate, UIKit.NSLayoutManagerDelegate {
+  @objc dynamic public func textView(_ textView: UIKit.UITextView, shouldChangeTextIn range: Foundation.NSRange, replacementText text: Swift.String) -> Swift.Bool
+  @objc dynamic public func textViewDidChange(_ textView: UIKit.UITextView)
+}
+@objc @_inheritsConvenienceInitializers open class A4xBindUpdateAddressHeaderView : UIKit.UIView {
+  open var deviceName: Swift.String? {
+    get
+    set(value)
+  }
+  open var deviceInfo: Foundation.NSAttributedString? {
+    get
+    set(value)
+  }
+  open var deviceModle: A4xBaseSDK.A4xDeviceModel? {
+    get
+    set(value)
+  }
+  open var stateInfo: A4xBaseSDK.ADDeviceState {
+    get
+    set(value)
+  }
+  @objc override dynamic public init(frame: CoreGraphics.CGRect = .zero)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  open var maskLayer: QuartzCore.CAShapeLayer {
+    get
+    set(value)
+  }
+  @objc override dynamic open func layoutSubviews()
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class A4xBindManager : ObjectiveC.NSObject {
+  public static var shared: A4xBindSDK.A4xBindManager
+  @objc override dynamic open func copy() -> Any
+  @objc override dynamic open func mutableCopy() -> Any
+  open func setBindConfig(by config: A4xBindSDK.A4xBindConfig)
+  open func getBindVC() -> UIKit.UIViewController?
+  open func addFriendDeviceVC() -> UIKit.UIViewController?
+  open func getDeviceList(comple: @escaping (Swift.Int?, [A4xBaseSDK.A4xDeviceModel]?) -> Swift.Void)
+  open func getDeviceInfo(by deviceId: Swift.String, comple: @escaping (Swift.Int?, A4xBaseSDK.A4xDeviceModel?) -> Swift.Void)
+  open func removeDevice(by deviceId: Swift.String, comple: @escaping (Swift.Int?, Swift.String?) -> Swift.Void)
+  @objc deinit
+}
+public enum ADAddLocationEnum {
+  case name
+  case location
+  case address
+  case delete
+  public func string() -> (placeHoder: Swift.String?, title: Swift.String?)
+  public func identifier() -> Swift.String
+  public func maxInput() -> Swift.Int
+  public func value(of modle: A4xBaseSDK.A4xLocationModel?) -> Swift.String?
+  public static func allCases(showDelete: Swift.Bool) -> [[A4xBindSDK.ADAddLocationEnum]]
+  public static func == (a: A4xBindSDK.ADAddLocationEnum, b: A4xBindSDK.ADAddLocationEnum) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public class A4xBindAddLocationViewController : A4xBindSDK.A4xBindBaseViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  open var newLocationBlock: ((Swift.Int) -> Swift.Void)?
+  open var autoNext: Swift.Bool
+  public init(locationModle: A4xBaseSDK.A4xLocationModel?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  open var viewModel: A4xBaseSDK.A4xBaseAddressViewModel
+  open var dataLists: [[A4xBindSDK.ADAddLocationEnum]]
+  open var tempAddressModle: A4xBaseSDK.A4xLocationModel
+  open var currentModel: A4xBaseSDK.A4xLocationModel {
+    get
+    set(value)
+  }
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc override dynamic open func viewDidLoad()
+  override open func defaultNav()
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @objc public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @objc public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc deinit
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+}
+extension A4xBindAddLocationViewController : UIKit.UIScrollViewDelegate, A4xBaseSDK.A4xBaseAddressViewModelDelegate {
+  open func getLocation(state: A4xBaseSDK.ADRequestState, model: A4xBaseSDK.A4xLocationModel?)
+  open func getPermissError(error: A4xBaseSDK.ADermissState)
+}

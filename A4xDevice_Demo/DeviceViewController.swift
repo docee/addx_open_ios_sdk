@@ -10,7 +10,7 @@ import A4xBaseSDK
 import A4xBindSDK
 import A4xWebRTCSDK
 
-class DeviceViewController: A4xBaseViewController {
+class DeviceViewController: A4xBaseViewController, UITableViewDataSource, UITableViewDelegate  {
     
     var dataSource: [A4xDeviceModel]? {
         didSet {
@@ -77,10 +77,6 @@ class DeviceViewController: A4xBaseViewController {
             }
         }
     }
-}
-
-// MARK: - UITableViewDataSource,UITableViewDelegate
-extension DeviceViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 60.auto()
@@ -149,4 +145,10 @@ extension DeviceViewController: UITableViewDataSource, UITableViewDelegate {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }
     }
+}
+
+// MARK: - UITableViewDataSource,UITableViewDelegate
+extension DeviceViewController{
+    
+    
 }

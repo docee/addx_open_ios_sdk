@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/A4xBindSDK-Swift.h</key>
 		<data>
-		x9k/AeYreFcApQAhLgk0sCR6mkM=
+		fA36yJdpJqY6I/qkHggjPso4PqM=
 		</data>
 		<key>Headers/A4xBindSDK.h</key>
 		<data>
@@ -18,27 +18,35 @@
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		dcj3ZUTAljKqn3+B2Tv83pvLHhs=
+		ai04Iwk7J7VoomM932agYkQ1dmE=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		dcj3ZUTAljKqn3+B2Tv83pvLHhs=
+		ai04Iwk7J7VoomM932agYkQ1dmE=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		zmwt/yhmKk2ODYd/pFGDWFfYXQc=
+		Jb95gOUOmfK3KMUHA/NG9n7jm9Q=
+		</data>
+		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		bjohX/jYtPPqsTtYmA2ysw1bZNw=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		fxC+q8drVtOgvnJQujBri080WNo=
+		4S0FCE6487tziJyDYYrzM3xF3GA=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		zmwt/yhmKk2ODYd/pFGDWFfYXQc=
+		Jb95gOUOmfK3KMUHA/NG9n7jm9Q=
+		</data>
+		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		bjohX/jYtPPqsTtYmA2ysw1bZNw=
 		</data>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		fxC+q8drVtOgvnJQujBri080WNo=
+		4S0FCE6487tziJyDYYrzM3xF3GA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x9k/AeYreFcApQAhLgk0sCR6mkM=
+			fA36yJdpJqY6I/qkHggjPso4PqM=
 			</data>
 			<key>hash2</key>
 			<data>
-			0zjlJt2R+i53OlQls3+oJxLARtsFIM4sD/jp2cVNzTY=
+			7+jOB6LSwK4vDIocK5ODyivjfQtJCYL0jv01tL/gWBk=
 			</data>
 		</dict>
 		<key>Headers/A4xBindSDK.h</key>
@@ -73,66 +81,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dcj3ZUTAljKqn3+B2Tv83pvLHhs=
+			ai04Iwk7J7VoomM932agYkQ1dmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiMuoY7BjY8dB8Wcd8PozZP44GeOKBdRNHsiUFPYudA=
+			aUqdqoyyWi4h6cIRaRNFKw2qn6perW8C92fV1EpRJ5c=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dcj3ZUTAljKqn3+B2Tv83pvLHhs=
+			ai04Iwk7J7VoomM932agYkQ1dmE=
 			</data>
 			<key>hash2</key>
 			<data>
-			uiMuoY7BjY8dB8Wcd8PozZP44GeOKBdRNHsiUFPYudA=
+			aUqdqoyyWi4h6cIRaRNFKw2qn6perW8C92fV1EpRJ5c=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zmwt/yhmKk2ODYd/pFGDWFfYXQc=
+			Jb95gOUOmfK3KMUHA/NG9n7jm9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			QkV5s6GSF461TIcDpUKUxPV59DuufVTCvp6KSWsgpHQ=
+			aVf6n9y4ivHNgPXh3LH/CipvUvLxR1knZj6ewxAI7Zw=
+			</data>
+		</dict>
+		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bjohX/jYtPPqsTtYmA2ysw1bZNw=
+			</data>
+			<key>hash2</key>
+			<data>
+			N1nagQI+5BhH8oGLN5ZUHMI5XSLiBnlo4no6kYQf138=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fxC+q8drVtOgvnJQujBri080WNo=
+			4S0FCE6487tziJyDYYrzM3xF3GA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bCODs6tRtC0g3q/IDPTBqThPNzjIbtj3/9Eb56NxhE8=
+			nPUc6yAV1zIzw1UIoNDL+2KfgI+5M/YYmNyLeyKhLOs=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zmwt/yhmKk2ODYd/pFGDWFfYXQc=
+			Jb95gOUOmfK3KMUHA/NG9n7jm9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			QkV5s6GSF461TIcDpUKUxPV59DuufVTCvp6KSWsgpHQ=
+			aVf6n9y4ivHNgPXh3LH/CipvUvLxR1knZj6ewxAI7Zw=
+			</data>
+		</dict>
+		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bjohX/jYtPPqsTtYmA2ysw1bZNw=
+			</data>
+			<key>hash2</key>
+			<data>
+			N1nagQI+5BhH8oGLN5ZUHMI5XSLiBnlo4no6kYQf138=
 			</data>
 		</dict>
 		<key>Modules/A4xBindSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fxC+q8drVtOgvnJQujBri080WNo=
+			4S0FCE6487tziJyDYYrzM3xF3GA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bCODs6tRtC0g3q/IDPTBqThPNzjIbtj3/9Eb56NxhE8=
+			nPUc6yAV1zIzw1UIoNDL+2KfgI+5M/YYmNyLeyKhLOs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

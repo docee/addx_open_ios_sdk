@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/A4xWebRTCSDK-Swift.h</key>
 		<data>
-		qZnWH01u9DJB4kaOW1teLW0Mpi4=
+		FK/j1HL5QmC1FJAuYqzI9yIwZVA=
 		</data>
 		<key>Headers/A4xWebRTCSDK.h</key>
 		<data>
@@ -14,31 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		PhhhNKvgzzfXmUqKiaM+E/CINeE=
+		DaDXp6BQRjeOSTds1jBLhVDUppk=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		nzt8QDTp2p/SEK8KN/SbZBMs3cY=
+		NvgnIv/xtwI6Fpk7jnNyuYMTa0I=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		nzt8QDTp2p/SEK8KN/SbZBMs3cY=
+		NvgnIv/xtwI6Fpk7jnNyuYMTa0I=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		gJgoMsi2sXk2i+qTCIKdAFcuxh4=
+		kYG1RmPRIYJuPd06XXh1fiZlKo4=
+		</data>
+		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		yPZwCw6QS3TI34e1c4PIHhugdfY=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		6H6zABHnb254HxvBZULyIYMjQjE=
+		l/clRX6WLq1qNj2Hsvlihy6GLF8=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		gJgoMsi2sXk2i+qTCIKdAFcuxh4=
+		kYG1RmPRIYJuPd06XXh1fiZlKo4=
+		</data>
+		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftinterface</key>
+		<data>
+		yPZwCw6QS3TI34e1c4PIHhugdfY=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		6H6zABHnb254HxvBZULyIYMjQjE=
+		l/clRX6WLq1qNj2Hsvlihy6GLF8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,11 +59,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qZnWH01u9DJB4kaOW1teLW0Mpi4=
+			FK/j1HL5QmC1FJAuYqzI9yIwZVA=
 			</data>
 			<key>hash2</key>
 			<data>
-			26T4bCTvsoeXcCivc5ZgJy75C2sZuHZTSheCLhzzcbE=
+			77Wv6YHY0+Q5uLDSmZ7yFmXqwo7mY4PamfqOm7/kAi8=
 			</data>
 		</dict>
 		<key>Headers/A4xWebRTCSDK.h</key>
@@ -73,66 +81,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nzt8QDTp2p/SEK8KN/SbZBMs3cY=
+			NvgnIv/xtwI6Fpk7jnNyuYMTa0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			O33q7IgUW+jQgDEZS+yjc7cpsp1WhKFYA5Mg+7/72Ik=
+			KkfD/3O06Y3/kt3xLOXSpiVEwyHx4ht66ZQeyHhW/vs=
 			</data>
 		</dict>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nzt8QDTp2p/SEK8KN/SbZBMs3cY=
+			NvgnIv/xtwI6Fpk7jnNyuYMTa0I=
 			</data>
 			<key>hash2</key>
 			<data>
-			O33q7IgUW+jQgDEZS+yjc7cpsp1WhKFYA5Mg+7/72Ik=
+			KkfD/3O06Y3/kt3xLOXSpiVEwyHx4ht66ZQeyHhW/vs=
 			</data>
 		</dict>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gJgoMsi2sXk2i+qTCIKdAFcuxh4=
+			kYG1RmPRIYJuPd06XXh1fiZlKo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1QFu6FInebacnI3a01cMK0K4A7+irdmnpd94cfBtZ1c=
+			we8zCA/RdDst7wbCfzw83UK/6lZhfJrE0t3dGnRvpwI=
+			</data>
+		</dict>
+		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yPZwCw6QS3TI34e1c4PIHhugdfY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hZpdNMVzLF404+lOZ/sixJ0hhpqeb3IEEDC7WADk8K0=
 			</data>
 		</dict>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6H6zABHnb254HxvBZULyIYMjQjE=
+			l/clRX6WLq1qNj2Hsvlihy6GLF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			smCufFrWhwOJRLCQxRLtCQUQKrrAdIFPD/kHaBo6XPg=
+			4ilzz+BMo/Ef66kysKZ8GjytBEqABLWgRiX+uiR/Zaw=
 			</data>
 		</dict>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gJgoMsi2sXk2i+qTCIKdAFcuxh4=
+			kYG1RmPRIYJuPd06XXh1fiZlKo4=
 			</data>
 			<key>hash2</key>
 			<data>
-			1QFu6FInebacnI3a01cMK0K4A7+irdmnpd94cfBtZ1c=
+			we8zCA/RdDst7wbCfzw83UK/6lZhfJrE0t3dGnRvpwI=
+			</data>
+		</dict>
+		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftinterface</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yPZwCw6QS3TI34e1c4PIHhugdfY=
+			</data>
+			<key>hash2</key>
+			<data>
+			hZpdNMVzLF404+lOZ/sixJ0hhpqeb3IEEDC7WADk8K0=
 			</data>
 		</dict>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6H6zABHnb254HxvBZULyIYMjQjE=
+			l/clRX6WLq1qNj2Hsvlihy6GLF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			smCufFrWhwOJRLCQxRLtCQUQKrrAdIFPD/kHaBo6XPg=
+			4ilzz+BMo/Ef66kysKZ8GjytBEqABLWgRiX+uiR/Zaw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

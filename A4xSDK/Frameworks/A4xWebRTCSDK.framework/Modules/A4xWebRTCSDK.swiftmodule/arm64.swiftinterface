@@ -1,0 +1,453 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 effective-4.2 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 4.2 -enforce-exclusivity=checked -Onone -module-name A4xWebRTCSDK
+import A4xBaseSDK
+@_exported import A4xWebRTCSDK
+import ADDXWebRTC
+import Foundation
+import LFLiveKit
+import Rswift
+import Swift
+import UIKit
+import XCGLogger
+import YYWebImage
+public struct KYAiUrlModel : Swift.Codable {
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum A4xPlayerStateType {
+  case none(thumb: UIKit.UIImage?)
+  case loading(thumb: UIKit.UIImage?)
+  case playing
+  case paused(thumb: UIKit.UIImage?)
+  case pausedp2p(thumb: UIKit.UIImage?)
+  case finish
+  case error(error: Swift.String, sdError: A4xWebRTCSDK.A4xSDVideoError?, thumb: UIKit.UIImage?, action: A4xWebRTCSDK.A4xVideoAction?, tipIcon: UIKit.UIImage?, code: Swift.Int?)
+  case unuse(thumb: UIKit.UIImage?, isFock: Swift.Bool)
+  case updating(error: Swift.String, thumb: UIKit.UIImage?, reconnect: Swift.String?, tipIcon: UIKit.UIImage?)
+  public func errInfo() -> Swift.String
+}
+public enum A4xPlayerRecordState {
+  case start
+  case end
+  case startError
+  case endError
+  public static func == (a: A4xWebRTCSDK.A4xPlayerRecordState, b: A4xWebRTCSDK.A4xPlayerRecordState) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum A4xSDVideoError : Swift.Int {
+  case sdNoExist
+  case sDNoVideo
+  case sdNeedFormat
+  case videoLimit
+  case unKnow
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension A4xPlayerStateType : Swift.Equatable {
+  public static func == (lhs: A4xWebRTCSDK.A4xPlayerStateType, rhs: A4xWebRTCSDK.A4xPlayerStateType) -> Swift.Bool
+  public static func != (lhs: A4xWebRTCSDK.A4xPlayerStateType, rhs: A4xWebRTCSDK.A4xPlayerStateType) -> Swift.Bool
+}
+public struct ReplaySeekParamModel : Swift.Codable {
+  public var seekTime: Swift.Int64?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct ReplaySeekModel : Swift.Codable {
+  public var action: Swift.String?
+  public var timeStamp: Swift.Int64?
+  public var parameters: A4xWebRTCSDK.ReplaySeekParamModel?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct A4xReplayDevReportParamModel : Swift.Codable {
+  public var value: Swift.Int?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public struct A4xReplayDevReport : Swift.Codable {
+  public var action: Swift.String?
+  public var timeStamp: Swift.Int64?
+  public var parameters: A4xWebRTCSDK.A4xReplayDevReportParamModel?
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public enum A4xWebRtcPlayerStopReason : Swift.Int {
+  case none
+  case click
+  case connectTimeOut
+  case disconnect
+  case peerOut
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers open class A4xPlayerView : UIKit.UIScrollView, UIKit.UIScrollViewDelegate {
+  @objc override dynamic open func removeFromSuperview()
+  open var videoView: UIKit.UIView? {
+    get
+    set(value)
+  }
+  open var videoSize: CoreGraphics.CGSize? {
+    get
+    set(value)
+  }
+  open var zoomEnable: Swift.Bool {
+    get
+    set(value)
+  }
+  open func zoomChange()
+  open var viewScale: A4xWebRTCSDK.A4xPlayerViewScale {
+    get
+    set(value)
+  }
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+  open var shoudUpdateFrame: Swift.Bool
+  @objc override dynamic open func updateConstraints()
+  @objc override dynamic open var frame: CoreGraphics.CGRect {
+    @objc get
+    @objc set(value)
+  }
+  @objc deinit
+  @objc override dynamic open func layoutSubviews()
+  @objc open func scrollViewDidZoom(_ scrollView: UIKit.UIScrollView)
+  @objc open func viewForZooming(in scrollView: UIKit.UIScrollView) -> UIKit.UIView?
+}
+public enum A4xPlayerConnectError : Swift.Int {
+  case finish
+  case errorStop
+  case errorPause
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum A4xPlayerLogAPI {
+  case logStartPlay(type: Swift.String?, startTime: Foundation.TimeInterval)
+  case logGetLiveUrl(state: Swift.Bool)
+  case logPrepareLive
+  case logLiveSuccess
+  case logLiveFail(state: A4xWebRTCSDK.A4xPlayerConnectError, msg: Swift.String?)
+  case logLiveTimeout
+  case logEndLive(state: Swift.String?, msg: Swift.String?)
+  case logKeepaliveFail(msg: Swift.String?)
+  case logGetWebRtcTicket(status: Swift.String?)
+  case logWebSocketSuccess
+  case logWebSocketFail(errorState: Swift.String?, errorMsg: Swift.String?)
+  case logP2PLiveSuccess(liveWay: Swift.String?, msg: Swift.String?)
+  case logP2PLiveFail(errorState: Swift.String?, errorCode: Swift.Int?, errorMsg: Swift.String?, stopWay: Swift.String?)
+  case logP2PLiveEnd(endWay: Swift.String?)
+  case logP2PInfo(p2pInfo: Swift.String?)
+}
+open class A4xBasePlayerLog {
+  public init(deviceModle: A4xBaseSDK.A4xDeviceModel)
+  open var liveID: Swift.String? {
+    get
+    set(value)
+  }
+  open var deviceModle: A4xBaseSDK.A4xDeviceModel
+  open var playType: A4xWebRTCSDK.A4xPlayerDisplayType?
+  open var videoPause: Swift.Bool
+  open var viceoConnectLog: Swift.String
+  open var viceoisConnecting: Swift.Bool
+  open var startTime: Swift.Double
+  open var isReplay: Swift.Bool
+  open var isRetry: Swift.Bool
+  open var p2pinfoStr: Swift.String?
+  open var downloadSpeed: Swift.String
+  open var peerInTimerStart: [Swift.String : Foundation.TimeInterval]
+  open var peerInTimer: [Swift.String : Foundation.TimeInterval]
+  open var liveIdTimer: [Swift.String : Foundation.TimeInterval]
+  open func updateDownloadSpeed(str: Swift.String)
+  open func logEvent(_ state: A4xWebRTCSDK.A4xPlayerLogAPI)
+  open func formatLog(string: Swift.String) -> Swift.String
+  open func logLiveClick(btnType: Swift.String?)
+  open func logLiveReConnectClick(error_code: Swift.String?, error_msg: Swift.String?)
+  open func logStartVideo()
+  open func logConnectVideo()
+  open func logVideoEnd(isConnect: Swift.Bool, error_code: Swift.Int?, error_msg: Swift.String?, stop_way: Swift.String? = nil)
+  open func videoUserEvent(type: A4xWebRTCSDK.A4xPlayerStopReason)
+  open func videoEvent(event: ADDXWebRTC.ADDXWebRtcLogState)
+  open func saveLiveIdTimer()
+  open func getLiveIdTimer() -> Swift.String?
+  open func startPeerTimer()
+  open func savePeerTimer()
+  open func getPeerTimer() -> Swift.String?
+  open func serverLogSend(_ eventName: Swift.String?, params: Swift.Dictionary<Swift.String?, Any?>)
+  @objc deinit
+}
+public enum A4xVideoButtonStyle : Swift.Int {
+  case theme
+  case line
+  case none
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum A4xVideoAction {
+  case video(title: Swift.String?, style: A4xWebRTCSDK.A4xVideoButtonStyle?)
+  case upgrade(title: Swift.String?, style: A4xWebRTCSDK.A4xVideoButtonStyle?)
+  case setting(title: Swift.String?, style: A4xWebRTCSDK.A4xVideoButtonStyle?)
+  case refresh(title: Swift.String?, style: A4xWebRTCSDK.A4xVideoButtonStyle?)
+  case sleepPlan(title: Swift.String?, style: A4xWebRTCSDK.A4xVideoButtonStyle?)
+  public func title() -> Swift.String?
+  public func style() -> A4xWebRTCSDK.A4xVideoButtonStyle?
+}
+public struct A4xSDSlices : Swift.Codable {
+  public var startTime: Swift.Int
+  public var endTime: Swift.Int
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+public protocol A4xPlayerStateChangeProtocol : AnyObject {
+  func playerDeviceId() -> Swift.String
+  func playerConnectState(state: A4xWebRTCSDK.A4xPlayerStateType, videoV: UIKit.UIView?, videoSize: CoreGraphics.CGSize)
+  func playerRecoredState(state: A4xWebRTCSDK.A4xPlayerRecordState, error errorCode: Swift.Int, videoPath: Swift.String)
+  func playerSpackVoice(data: [Swift.Float])
+  func playerSnapImage(image: UIKit.UIImage?)
+  func videoSpeed(speed: Swift.String)
+  func videoCurrentTimer(date: Foundation.TimeInterval)
+  func videoWhiteLight(enable: Swift.Bool, error: Swift.String?)
+  func deviceEnableRotating(enable: Swift.Bool)
+  func alertMessage(message: Swift.String?)
+}
+public protocol A4xUIViewPlayerStateChangeProtocol : AnyObject {
+  func helperStateChange(state: A4xWebRTCSDK.A4xPlayerStateType, deviceId: Swift.String)
+}
+public enum A4xPlayerViewScale : Swift.Int {
+  case none
+  case aspectFit
+  case aspectFill
+  case center
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum A4xPlayerParamKey : Swift.String {
+  case ai
+  case aiId
+  case videoScale
+  case lookWhite
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum A4xPlayerStopReason : Swift.Int {
+  case none
+  case click
+  case pull
+  case changePage
+  case enterbackground
+  case changeModle
+  case logout
+  public func keyString() -> Swift.String
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum A4xPlayerDisplayType {
+  case split
+  case vertical
+  case landscape
+  case azone
+  case azoneFull
+  case rectbox
+  case box
+  case peopleBox
+  case install
+  case sd(time: Foundation.TimeInterval, end: Foundation.TimeInterval, hasData: Swift.Bool, audio: Swift.Bool)
+  case sdFull(time: Foundation.TimeInterval, end: Foundation.TimeInterval, hasData: Swift.Bool, audio: Swift.Bool)
+  public func stringValue() -> Swift.String
+  public func keyString() -> Swift.String
+  public func islandscape() -> Swift.Bool
+}
+public protocol A4xPlayerMamagerInterface {
+  func removeHelperStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xUIViewPlayerStateChangeProtocol
+  func addHelperStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xUIViewPlayerStateChangeProtocol
+  func removeStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xPlayerStateChangeProtocol
+  func addStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xPlayerStateChangeProtocol
+  func updateParam(device: A4xBaseSDK.A4xDeviceModel, Params param: [A4xWebRTCSDK.A4xPlayerParamKey : Any]?)
+  func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, voiceEnable vEnable: Swift.Bool?, shouldSpeak loadSpeak: Swift.Bool, playNumber: Swift.Int?, Params param: [A4xWebRTCSDK.A4xPlayerParamKey : Any]?)
+  func playAll(playNumber: Swift.Int?)
+  func stop(device: A4xBaseSDK.A4xDeviceModel, playNumber: Swift.Int?, reason: A4xWebRTCSDK.A4xPlayerStopReason)
+  func clearSDVideo(device: A4xBaseSDK.A4xDeviceModel)
+  func getSDVideoList(device: A4xBaseSDK.A4xDeviceModel, startTime: Foundation.TimeInterval, stopTime: Foundation.TimeInterval, _ completionCallback: @escaping (A4xBaseSDK.A4xVideoTimeModelResponse, A4xWebRTCSDK.A4xSDVideoError?) -> Swift.Void)
+  func stopAll(troubleDevice: A4xBaseSDK.A4xDeviceModel?, reason: A4xWebRTCSDK.A4xPlayerStopReason)
+  func playinfo(device: A4xBaseSDK.A4xDeviceModel) -> (A4xWebRTCSDK.A4xPlayerStateType, UIKit.UIView?)?
+  func updateAll()
+  func update(device: A4xBaseSDK.A4xDeviceModel)
+  func audioEnable(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func setAudioEnable(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  func setVideoZoomEnable(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  func setZoomChange(device: A4xBaseSDK.A4xDeviceModel)
+  func canSpeak(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func speakEnable(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func setSpeakEnable(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  func isRecored(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func startRecored(device: A4xBaseSDK.A4xDeviceModel)
+  func stopRecored(device: A4xBaseSDK.A4xDeviceModel)
+  func snapImage(device: A4xBaseSDK.A4xDeviceModel, comple: @escaping (UIKit.UIImage?) -> Swift.Void)
+  func currentImage(device: A4xBaseSDK.A4xDeviceModel, comple: @escaping (UIKit.UIImage?) -> Swift.Void)
+  func setPlayNumber(playNumber: Swift.Int)
+  func isPlaying(device: A4xBaseSDK.A4xDeviceModel?) -> Swift.Bool
+  func speakLoad(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func isLivePlay(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func setWhiteLight(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  func getCanRotating(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func getWhiteLight(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  func warning(device: A4xBaseSDK.A4xDeviceModel)
+  func videoDetailChange(device: A4xBaseSDK.A4xDeviceModel, type: A4xBaseSDK.A4xVideoSharpType, comple: @escaping (Swift.Bool) -> Swift.Void)
+  func getVideoDetail(device: A4xBaseSDK.A4xDeviceModel) -> A4xBaseSDK.A4xVideoSharpType
+  func sendCmd<Param, Result>(device: A4xBaseSDK.A4xDeviceModel, action: Swift.String, param: Param?, resultType: Result.Type, comple: @escaping (Result?, Swift.String?) -> Swift.Void) where Param : Swift.Decodable, Param : Swift.Encodable, Result : Swift.Decodable, Result : Swift.Encodable
+  func updateAllSnapImage(comple: @escaping (Swift.String) -> Swift.Void)
+  func getPlayer(device: A4xBaseSDK.A4xDeviceModel) -> A4xWebRTCSDK.A4xPlayerMamagerProtocol?
+}
+extension A4xPlayerMamagerInterface {
+  public func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, voiceEnable vEnable: Swift.Bool, shouldSpeak loadSpeak: Swift.Bool, playNumber: Swift.Int?)
+  public func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, voiceEnable vEnable: Swift.Bool, shouldSpeak loadSpeak: Swift.Bool)
+  public func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, voiceEnable vEnable: Swift.Bool, shouldSpeak loadSpeak: Swift.Bool, Params param: [A4xWebRTCSDK.A4xPlayerParamKey : Any]?)
+  public func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, voiceEnable vEnable: Swift.Bool)
+  public func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, shouldSpeak loadSpeak: Swift.Bool)
+  public func setZoomChange(device: A4xBaseSDK.A4xDeviceModel)
+}
+@_hasMissingDesignatedInitializers open class A4xPlayerManager {
+  open var playerDevices: [A4xBaseSDK.A4xDeviceModel] {
+    get
+    set(newValue)
+  }
+  open class var handle: A4xWebRTCSDK.A4xPlayerManager {
+    get
+  }
+  open func reloadAllPlayer()
+  open func addStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xPlayerStateChangeProtocol
+  open func removeStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xPlayerStateChangeProtocol
+  open func removeHelperStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xUIViewPlayerStateChangeProtocol
+  open func addHelperStateProtocol<Target>(target: Target) where Target : A4xWebRTCSDK.A4xUIViewPlayerStateChangeProtocol
+  @objc deinit
+}
+extension A4xPlayerManager {
+  public func getPlayer(device: A4xBaseSDK.A4xDeviceModel) -> A4xWebRTCSDK.A4xPlayerMamagerProtocol?
+}
+extension A4xPlayerManager : A4xWebRTCSDK.A4xPlayerMamagerInterface {
+  public func updateAllSnapImage(comple: @escaping (Swift.String) -> Swift.Void)
+  public func getVideoDetail(device: A4xBaseSDK.A4xDeviceModel) -> A4xBaseSDK.A4xVideoSharpType
+  public func getWhiteLight(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func currentImage(device: A4xBaseSDK.A4xDeviceModel, comple: @escaping (UIKit.UIImage?) -> Swift.Void)
+  public func sendCmd<Param, Result>(device: A4xBaseSDK.A4xDeviceModel, action: Swift.String, param: Param?, resultType: Result.Type, comple: @escaping (Result?, Swift.String?) -> Swift.Void) where Param : Swift.Decodable, Param : Swift.Encodable, Result : Swift.Decodable, Result : Swift.Encodable
+  public func isRecored(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func getSDVideoList(device: A4xBaseSDK.A4xDeviceModel, startTime: Foundation.TimeInterval, stopTime: Foundation.TimeInterval, _ completionCallback: @escaping (A4xBaseSDK.A4xVideoTimeModelResponse, A4xWebRTCSDK.A4xSDVideoError?) -> Swift.Void)
+  public func videoDetailChange(device: A4xBaseSDK.A4xDeviceModel, type: A4xBaseSDK.A4xVideoSharpType, comple: @escaping (Swift.Bool) -> Swift.Void)
+  public func warning(device: A4xBaseSDK.A4xDeviceModel)
+  public func getCanRotating(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func setWhiteLight(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  public func isLivePlay(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func speakLoad(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func updateParam(device: A4xBaseSDK.A4xDeviceModel, Params param: [A4xWebRTCSDK.A4xPlayerParamKey : Any]?)
+  public func playinfo(device: A4xBaseSDK.A4xDeviceModel) -> (A4xWebRTCSDK.A4xPlayerStateType, UIKit.UIView?)?
+  public func setPlayNumber(playNumber: Swift.Int)
+  public func setSpeakEnable(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  public func speakEnable(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func startRecored(device: A4xBaseSDK.A4xDeviceModel)
+  public func stopRecored(device: A4xBaseSDK.A4xDeviceModel)
+  public func snapImage(device: A4xBaseSDK.A4xDeviceModel, comple: @escaping (UIKit.UIImage?) -> Swift.Void)
+  public func canSpeak(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func setVideoZoomEnable(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  public func setZoomChange(device: A4xBaseSDK.A4xDeviceModel)
+  public func update(device: A4xBaseSDK.A4xDeviceModel)
+  public func audioEnable(device: A4xBaseSDK.A4xDeviceModel) -> Swift.Bool
+  public func setAudioEnable(device: A4xBaseSDK.A4xDeviceModel, enable: Swift.Bool)
+  public func playAll(playNumber: Swift.Int?)
+  public func play(playType: A4xWebRTCSDK.A4xPlayerDisplayType, device: A4xBaseSDK.A4xDeviceModel, voiceEnable vEnable: Swift.Bool?, shouldSpeak loadSpeak: Swift.Bool, playNumber: Swift.Int?, Params param: [A4xWebRTCSDK.A4xPlayerParamKey : Any]?)
+  public func stop(device: A4xBaseSDK.A4xDeviceModel, playNumber: Swift.Int? = nil, reason: A4xWebRTCSDK.A4xPlayerStopReason)
+  public func clearSDVideo(device: A4xBaseSDK.A4xDeviceModel)
+  public func stopAll(troubleDevice: A4xBaseSDK.A4xDeviceModel?, reason: A4xWebRTCSDK.A4xPlayerStopReason)
+  public func updateAll()
+  public func isPlaying(device: A4xBaseSDK.A4xDeviceModel?) -> Swift.Bool
+}
+extension A4xPlayerManager : A4xWebRTCSDK.A4xWebRtcAndIJKPlayerProtocol {
+  public func alertMessage(deviceID: Swift.String, message: Swift.String?)
+  public func deviceCanRotating(state: A4xWebRTCSDK.A4xPlayerStateType, deviceID: Swift.String, enable: Swift.Bool)
+  public func videoWhiteLight(deviceID: Swift.String, enable: Swift.Bool, error: Swift.String?)
+  public func videoPlayTime(time: Foundation.TimeInterval, deviceID: Swift.String)
+  public func videoPlaySpeed(speed: Swift.String, deviceID: Swift.String)
+  public func screenshotImage(image: UIKit.UIImage?, deviceID: Swift.String)
+  public func playerSpeakVoice(datas: [Swift.Float], deviceID: Swift.String)
+  public func connectState(state: A4xWebRTCSDK.A4xPlayerStateType, deviceID: Swift.String, videoView: UIKit.UIView?, videoSize: CoreGraphics.CGSize)
+  public func recoredState(state: A4xWebRTCSDK.A4xPlayerRecordState, deviceID: Swift.String, error errorCode: Swift.Int, videoPath: Swift.String)
+  public func deviceUpdate(deviceId: Swift.String, comple: @escaping (A4xBaseSDK.A4xDeviceModel?, Swift.Int?) -> Swift.Void)
+}
+extension A4xPlayerManager {
+  open func checkShow4GAlert(device: A4xBaseSDK.A4xDeviceModel?, comple: @escaping (Swift.Bool) -> Swift.Void)
+}
+public protocol A4xPlayerMamagerProtocol : AnyObject {
+  var playView: A4xWebRTCSDK.A4xPlayerView { get }
+  var state: A4xWebRTCSDK.A4xPlayerStateType { get }
+  var deviceModle: A4xBaseSDK.A4xDeviceModel { get set }
+  var isLoadSpeak: Swift.Bool { get set }
+  var audioEnable: Swift.Bool { get set }
+  var speakEnable: Swift.Bool { get set }
+  var isPlaying: Swift.Bool { get }
+  var zoomEnable: Swift.Bool { get set }
+  var canSpeak: Swift.Bool { get set }
+  var lookWhiteLight: Swift.Bool { get }
+  var isLivePlay: Swift.Bool { get set }
+  var playerProtocol: A4xWebRTCSDK.A4xWebRtcAndIJKPlayerProtocol? { get set }
+  var deviceId: Swift.String { get set }
+  var isRecored: Swift.Bool { get set }
+  var canRotating: Swift.Bool { get set }
+  var videoSize: CoreGraphics.CGSize { get }
+  var playParams: [A4xWebRTCSDK.A4xPlayerParamKey : Any]? { get set }
+  var whiteLight: Swift.Bool? { get }
+  var videoDetail: A4xBaseSDK.A4xVideoSharpType? { get }
+  func videoDetailChange(type: A4xBaseSDK.A4xVideoSharpType, comple: @escaping (Swift.Bool) -> Swift.Void)
+  func setZoomChange()
+  func start(playType: A4xWebRTCSDK.A4xPlayerDisplayType, voiceEnable vEnable: Swift.Bool?, loadSpeak: Swift.Bool, Params param: [A4xWebRTCSDK.A4xPlayerParamKey : Any]?)
+  func setWhiteLight(enable: Swift.Bool)
+  func stop(reason: A4xWebRTCSDK.A4xPlayerStopReason)
+  func clearSDVideo()
+  func startRecored()
+  func stopRecored()
+  func snapImage(comple: @escaping (UIKit.UIImage?) -> Swift.Void)
+  func currentImage(comple: @escaping (UIKit.UIImage?) -> Swift.Void)
+  func hasLoadSpeak() -> Swift.Bool
+  func warnning()
+  func updateState()
+  func getSDVideoList(device: A4xBaseSDK.A4xDeviceModel, startTime: Foundation.TimeInterval, stopTime: Foundation.TimeInterval, _ completionCallback: @escaping ((A4xBaseSDK.A4xVideoTimeModelResponse, A4xWebRTCSDK.A4xSDVideoError?) -> Swift.Void))
+  func sendCmd<Param, Result>(action: Swift.String, param: Param?, resultType: Result.Type, comple: @escaping (Result?, Swift.String?) -> Swift.Void) where Param : Swift.Decodable, Param : Swift.Encodable, Result : Swift.Decodable, Result : Swift.Encodable
+}
+public protocol A4xWebRtcAndIJKPlayerProtocol : AnyObject {
+  func connectState(state: A4xWebRTCSDK.A4xPlayerStateType, deviceID: Swift.String, videoView: UIKit.UIView?, videoSize: CoreGraphics.CGSize)
+  func recoredState(state: A4xWebRTCSDK.A4xPlayerRecordState, deviceID: Swift.String, error errorCode: Swift.Int, videoPath: Swift.String)
+  func playerSpeakVoice(datas: [Swift.Float], deviceID: Swift.String)
+  func screenshotImage(image: UIKit.UIImage?, deviceID: Swift.String)
+  func videoPlaySpeed(speed: Swift.String, deviceID: Swift.String)
+  func videoPlayTime(time: Foundation.TimeInterval, deviceID: Swift.String)
+  func videoWhiteLight(deviceID: Swift.String, enable: Swift.Bool, error: Swift.String?)
+  func deviceCanRotating(state: A4xWebRTCSDK.A4xPlayerStateType, deviceID: Swift.String, enable: Swift.Bool)
+  func alertMessage(deviceID: Swift.String, message: Swift.String?)
+  func deviceUpdate(deviceId: Swift.String, comple: @escaping (A4xBaseSDK.A4xDeviceModel?, Swift.Int?) -> Swift.Void)
+}
+public func thumbUrl(deviceID: Swift.String?) -> Foundation.URL?
+public func removeTimes(deviceID: Swift.String?)
+public func thumbTimes(deviceID: Swift.String?) -> Foundation.TimeInterval
+public func thumbTimeUpdate(deviceID: Swift.String?, times: Foundation.TimeInterval? = nil)
+public func updateThumbImage(deviceID: Swift.String?, image: UIKit.UIImage, times: Foundation.TimeInterval? = nil, comple: ((Swift.Bool) -> Swift.Void)? = {_ in})
+public func thumbImage(deviceID: Swift.String?) -> UIKit.UIImage?
+public func removeThumb(deviceID: Swift.String?)
