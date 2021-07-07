@@ -85,6 +85,7 @@ PODS:
     - R.swift.Library (~> 5.3.0)
   - R.swift.Library (5.3.0)
   - Result (4.1.0)
+  - SCPageControl (0.4.0)
   - SDCAlertView (12.0.1)
   - SnapKit (5.0.1)
   - Starscream (4.0.4)
@@ -140,6 +141,7 @@ DEPENDENCIES:
   - Moya (~> 13.0)
   - R.swift
   - Result (~> 4.1)
+  - SCPageControl (from `SCPageControl`)
   - SDCAlertView
   - SnapKit (~> 5.0.0)
   - ZendeskAnswerBotSDK
@@ -195,6 +197,8 @@ EXTERNAL SOURCES:
     :path: LFLiveKit
   lottie-ios:
     :path: lottie-ios
+  SCPageControl:
+    :path: SCPageControl
   ZKDownload:
     :path: ZKDownload
 
@@ -217,6 +221,7 @@ SPEC CHECKSUMS:
   R.swift: c533450b0f7dc494e0993f5f1a1db925d84c3006
   R.swift.Library: 0fc583cb55a99e28901299cc451614cad1161962
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  SCPageControl: 8a8dfbba7d7d8c66487a317cb4c4578a7e4af27a
   SDCAlertView: d6070733e6ce72360dde3f84a2f9eafcda25ed49
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
   Starscream: 5178aed56b316f13fa3bc55694e583d35dd414d9
@@ -238,6 +243,6 @@ SPEC CHECKSUMS:
   ZendeskSupportSDK: e100a7a0a1bb5d7d43abbde3338727d985a4986d
   ZKDownload: 09417c72fb3f7674216da6868281645c24f26e91
 
-PODFILE CHECKSUM: 2d448ef1f4cbedbbe51f007e9456560ad0a4eede
+PODFILE CHECKSUM: f2751cad9d864b4c8edd4ca8c68581465856c635
 
 COCOAPODS: 1.10.1

@@ -8,6 +8,7 @@
 import UIKit
 import A4xBaseSDK
 import A4xBindSDK
+import A4xDeviceSetSDK
 
 class MainViewController: UIViewController {
     
@@ -28,6 +29,13 @@ class MainViewController: UIViewController {
     lazy var btn3: UIButton = {
         let btn = UIButton()
         btn.setTitle("查看设备", for: .normal)
+        btn.setTitleColor(UIColor.red, for: .normal)
+        return btn
+    }()
+    
+    lazy var btn4: UIButton = {
+        let btn = UIButton()
+        btn.setTitle("相机管理", for: .normal)
         btn.setTitleColor(UIColor.red, for: .normal)
         return btn
     }()
@@ -53,6 +61,10 @@ class MainViewController: UIViewController {
             self?.a4xDeviceList_Demo()
         }
         
+        btn4.addAction { [weak self] (btn) in
+            self?.a4xCameraList_Demo()
+        }
+        
         // 图片、mp3相关资源包
         let bundlePath = Bundle.main.path(forResource: "A4xSDK", ofType: "bundle")
         let hostingBundle = Bundle.init(path: bundlePath!)
@@ -64,6 +76,7 @@ class MainViewController: UIViewController {
         self.view.addSubview(btn1)
         self.view.addSubview(btn2)
         self.view.addSubview(btn3)
+        self.view.addSubview(btn4)
         
         btn1.snp.makeConstraints { (make) in
             make.centerX.equalToSuperview()
@@ -80,6 +93,12 @@ class MainViewController: UIViewController {
         btn3.snp.makeConstraints { (make) in
             make.centerX.equalToSuperview()
             make.top.equalTo(btn2.snp.bottom).offset(16.auto())
+            make.size.equalTo(CGSize.init(width: 200.auto(), height: 50.auto()))
+        }
+        
+        btn4.snp.makeConstraints { (make) in
+            make.centerX.equalToSuperview()
+            make.top.equalTo(btn3.snp.bottom).offset(16.auto())
             make.size.equalTo(CGSize.init(width: 200.auto(), height: 50.auto()))
         }
         
@@ -121,7 +140,18 @@ class MainViewController: UIViewController {
     
     // 查看已绑定设备
     func a4xDeviceList_Demo() {
-        let vc = DeviceViewController()
+        let vc = A4xDeviceViewController_Demo()
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    /**
+     * 修改相机设置
+     * 1.需要 import A4xDeviceSetSDK
+     * 2.获取到所有的相机设备 A4xBindManager.shared.getDeviceList
+     * 3.进去设置页面 push to A4xDeviceSetSettingViewController().deviceId
+     */
+    func a4xCameraList_Demo() {
+        let vc = A4xDeviceSetViewController_Demo()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }

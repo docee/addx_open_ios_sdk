@@ -1,0 +1,11 @@
+framework module A4xDeviceSetSDK {
+  umbrella header "A4xDeviceSetSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module A4xDeviceSetSDK.Swift {
+    header "A4xDeviceSetSDK-Swift.h"
+    requires objc
+}

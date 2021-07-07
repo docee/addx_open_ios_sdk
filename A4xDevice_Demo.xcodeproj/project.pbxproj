@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3528EB89268EE2730070040C /* DeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB85268EE2730070040C /* DeviceViewController.swift */; };
+		35131A53269566E6008DD6D8 /* A4xDeviceSetViewController_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35131A52269566E6008DD6D8 /* A4xDeviceSetViewController_Demo.swift */; };
+		3528EB89268EE2730070040C /* A4xDeviceViewController_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB85268EE2730070040C /* A4xDeviceViewController_Demo.swift */; };
 		3528EB8A268EE2730070040C /* A4xPlayerView_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB86268EE2730070040C /* A4xPlayerView_Demo.swift */; };
-		3528EB8B268EE2730070040C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB87268EE2730070040C /* PlayerViewController.swift */; };
+		3528EB8B268EE2730070040C /* A4xPlayerViewController_Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB87268EE2730070040C /* A4xPlayerViewController_Demo.swift */; };
 		3528EB8C268EE2730070040C /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3528EB88268EE2730070040C /* MainViewController.swift */; };
 		3578D85B268C51A4004239F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3578D85A268C51A4004239F6 /* AppDelegate.swift */; };
 		3578D862268C51A4004239F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3578D860268C51A4004239F6 /* Main.storyboard */; };
@@ -21,9 +22,10 @@
 
 /* Begin PBXFileReference section */
 		20D86B704D2180AF65928D53 /* Pods-A4xDevice_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A4xDevice_Demo.debug.xcconfig"; path = "Target Support Files/Pods-A4xDevice_Demo/Pods-A4xDevice_Demo.debug.xcconfig"; sourceTree = "<group>"; };
-		3528EB85268EE2730070040C /* DeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceViewController.swift; sourceTree = "<group>"; };
+		35131A52269566E6008DD6D8 /* A4xDeviceSetViewController_Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4xDeviceSetViewController_Demo.swift; sourceTree = "<group>"; };
+		3528EB85268EE2730070040C /* A4xDeviceViewController_Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4xDeviceViewController_Demo.swift; sourceTree = "<group>"; };
 		3528EB86268EE2730070040C /* A4xPlayerView_Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4xPlayerView_Demo.swift; sourceTree = "<group>"; };
-		3528EB87268EE2730070040C /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		3528EB87268EE2730070040C /* A4xPlayerViewController_Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = A4xPlayerViewController_Demo.swift; sourceTree = "<group>"; };
 		3528EB88268EE2730070040C /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		3528EBB8268EEF1E0070040C /* A4xDevice_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = A4xDevice_Demo.entitlements; sourceTree = "<group>"; };
 		3528EBBA268EEF330070040C /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
@@ -75,9 +77,10 @@
 				3528EBB8268EEF1E0070040C /* A4xDevice_Demo.entitlements */,
 				357AF53226923BC20030C199 /* R.generated.swift */,
 				3528EB86268EE2730070040C /* A4xPlayerView_Demo.swift */,
-				3528EB85268EE2730070040C /* DeviceViewController.swift */,
+				3528EB85268EE2730070040C /* A4xDeviceViewController_Demo.swift */,
+				35131A52269566E6008DD6D8 /* A4xDeviceSetViewController_Demo.swift */,
 				3528EB88268EE2730070040C /* MainViewController.swift */,
-				3528EB87268EE2730070040C /* PlayerViewController.swift */,
+				3528EB87268EE2730070040C /* A4xPlayerViewController_Demo.swift */,
 				3578D85A268C51A4004239F6 /* AppDelegate.swift */,
 				3578D860268C51A4004239F6 /* Main.storyboard */,
 				3578D863268C51A6004239F6 /* Assets.xcassets */,
@@ -238,11 +241,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3528EB8A268EE2730070040C /* A4xPlayerView_Demo.swift in Sources */,
-				3528EB8B268EE2730070040C /* PlayerViewController.swift in Sources */,
-				3528EB89268EE2730070040C /* DeviceViewController.swift in Sources */,
+				3528EB8B268EE2730070040C /* A4xPlayerViewController_Demo.swift in Sources */,
+				3528EB89268EE2730070040C /* A4xDeviceViewController_Demo.swift in Sources */,
 				3578D85B268C51A4004239F6 /* AppDelegate.swift in Sources */,
 				357AF53326923BC20030C199 /* R.generated.swift in Sources */,
 				3528EB8C268EE2730070040C /* MainViewController.swift in Sources */,
+				35131A53269566E6008DD6D8 /* A4xDeviceSetViewController_Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

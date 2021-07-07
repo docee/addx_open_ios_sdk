@@ -1,0 +1,1063 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.4 (swiftlang-1205.0.26.9 clang-1205.0.19.55)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name A4xDeviceSetSDK
+import A4xBaseSDK
+import A4xBindSDK
+@_exported import A4xDeviceSetSDK
+import A4xWebRTCSDK
+import AVFoundation
+import CommonCrypto
+import Countly
+import Disk
+import Foundation
+import ImageIO
+import MJRefresh
+import ObjectiveC
+import Rswift
+import SCPageControl
+import Swift
+import UIKit
+import YYWebImage
+public enum A4xDeviceSetHeaderPostion {
+  case Left
+  case Center
+  case Right
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetHeaderPostion, b: A4xDeviceSetSDK.A4xDeviceSetHeaderPostion) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum A4xDeviceSetHeaderCenterType {
+  case Arrow
+  case Normail
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetHeaderCenterType, b: A4xDeviceSetSDK.A4xDeviceSetHeaderCenterType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDevicesShareSessionInfoEnum {
+  case admin
+  case shared
+  case rold
+  public static func == (a: A4xDeviceSetSDK.ADDevicesShareSessionInfoEnum, b: A4xDeviceSetSDK.ADDevicesShareSessionInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum A4xDeviceSetShareinfoEnum : Swift.Equatable, Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: A4xDeviceSetSDK.A4xDeviceSetShareinfoEnum, rhs: A4xDeviceSetSDK.A4xDeviceSetShareinfoEnum) -> Swift.Bool
+  case admin(_: A4xBaseSDK.A4xUserDataModel)
+  case share(_: A4xBaseSDK.A4xUserDataModel)
+  case invite
+  case rold(A4xBaseSDK.ADDeviceRole, Swift.Bool)
+  public static func shareCase(admin: A4xBaseSDK.A4xUserDataModel, shareUsers: [A4xBaseSDK.A4xUserDataModel]) -> ([A4xDeviceSetSDK.ADDevicesShareSessionInfoEnum : [A4xDeviceSetSDK.A4xDeviceSetShareinfoEnum]], [A4xDeviceSetSDK.ADDevicesShareSessionInfoEnum])
+  public static func shareByCase(admin: A4xBaseSDK.A4xUserDataModel, shareByRoles: [[A4xBaseSDK.ADDeviceRole : Swift.Bool]]) -> ([A4xDeviceSetSDK.ADDevicesShareSessionInfoEnum : [A4xDeviceSetSDK.A4xDeviceSetShareinfoEnum]], [A4xDeviceSetSDK.ADDevicesShareSessionInfoEnum])
+}
+public enum A4xDeviceSetSettingInfoEnum {
+  public typealias AllCases = Swift.String
+  case header
+  case shareby(Swift.String?)
+  case boxArr(([A4xDeviceSetSDK.ADDeviceSettingSubInfoEnum]?, [Swift.String]?, [A4xDeviceSetSDK.A4xDeviceSetNotificationSettingEnum]?))
+  case backvideo
+  case firmwareInfo
+  case sd
+  case lightSet
+  case soundSet
+  case advanced_info
+  case share
+  case remove
+  case wifi
+  case location_setting
+  case timeZone
+  case motion_tracking
+  case night
+  case voice_language
+  case flicker
+  case install
+  case parcel
+  case area
+  case pedestrian
+  public static func == (lhs: A4xDeviceSetSDK.A4xDeviceSetSettingInfoEnum, rhs: A4xDeviceSetSDK.A4xDeviceSetSettingInfoEnum) -> Swift.Bool
+  public var rawValue: Swift.String? {
+    get
+  }
+  public var imgValue: UIKit.UIImage? {
+    get
+  }
+  public static func managerCases(vip: Swift.Bool, offline: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?, hiddenRemove: Swift.Bool) -> [[A4xDeviceSetSDK.A4xDeviceSetSettingInfoEnum]]
+  public static func userCases(share ShareStr: Swift.String?, offline: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?, hiddenRemove: Swift.Bool) -> [[A4xDeviceSetSDK.A4xDeviceSetSettingInfoEnum]]
+}
+public enum ADDeviceSettingSubInfoEnum {
+  case motion
+  case cryDetection
+  case notifi
+  case activity_zones(vip: Swift.Bool)
+  case backvideo
+  case sleepPlan
+  public var rawValue: Swift.String? {
+    get
+  }
+  public var imgValue: UIKit.UIImage? {
+    get
+  }
+}
+extension Data {
+  public var deviceBytes: Swift.Array<Swift.UInt8> {
+    get
+  }
+}
+@objc @_hasMissingDesignatedInitializers public class A4xDeviceSetCheckBoxButton : UIKit.UIButton {
+  @objc override dynamic public var isSelected: Swift.Bool {
+    @objc get
+    @objc set(value)
+  }
+  open func addx_expandSize(size: CoreGraphics.CGFloat)
+  @objc override dynamic open func point(inside point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}
+@objc @_hasMissingDesignatedInitializers public class A4xDeviceSetAlertView : UIKit.UIView, A4xDeviceSetSDK.A4xDeviceSetAlertViewProtocol {
+  public var onHiddenBlock: ((@escaping () -> Swift.Void) -> Swift.Void)?
+  public var identifier: Swift.String
+  public var config: A4xDeviceSetSDK.A4xDeviceSetAlertConfigs
+  public var title: Swift.String? {
+    get
+    set(value)
+  }
+  public var titleAttr: Foundation.NSAttributedString? {
+    get
+    set(value)
+  }
+  public var showClose: Swift.Bool {
+    get
+    set(value)
+  }
+  public var message: Swift.String? {
+    get
+    set(value)
+  }
+  public var messageAttr: Foundation.NSAttributedString? {
+    get
+    set(value)
+  }
+  public var specialMsg: (Swift.String?, Swift.String?) {
+    get
+    set(value)
+  }
+  public var leftButtonTitle: Swift.String? {
+    get
+    set(value)
+  }
+  public var rightButtonTitle: Swift.String? {
+    get
+    set(value)
+  }
+  public var rightButtonBlock: (() -> Swift.Void)?
+  public var leftButtonBlock: (() -> Swift.Void)?
+  public var closeButtonBlock: (() -> Swift.Void)?
+  public var alertParam: A4xDeviceSetSDK.A4xDeviceSetAlertAnimailConfig {
+    get
+    set(value)
+  }
+  public init(frame: CoreGraphics.CGRect = CGRect.zero, config: A4xDeviceSetSDK.A4xDeviceSetAlertConfigs = A4xDeviceSetAlertConfigs(), param: A4xDeviceSetSDK.A4xDeviceSetAlertAnimailConfig = A4xDeviceSetAlertAnimailConfig(), identifier: Swift.String)
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+}
+extension String {
+  public func md5() -> Swift.String
+  public func sha1() -> Swift.String
+  public func sha256() -> Swift.String
+  public func sha512() -> Swift.String
+  public func deviceTextHeightFromTextString(text: Swift.String, textWidth: CoreGraphics.CGFloat, fontSize: CoreGraphics.CGFloat, isBold: Swift.Bool) -> CoreGraphics.CGFloat
+  public var deviceCLength: Swift.Int {
+    get
+  }
+  public func deviceSubCLength(length: Swift.Int) -> Swift.String
+}
+extension NSString {
+  @objc dynamic public func deviceObjcValue() -> Swift.AnyObject?
+  public func deviceIsCompare(_ string: Foundation.NSString) -> Swift.Bool
+}
+public enum A4xDeviceSetSoundEnum {
+  case alarm
+  case alarm_d
+  case speaker
+  case deviceLanguage
+  case voiceVolume
+  case alarmVolume
+  public static func cases(speakerEnable: Swift.Bool, recordEnable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetSoundEnum]]
+  public static func alertTimeList() -> [Swift.Int]
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetSoundEnum, b: A4xDeviceSetSDK.A4xDeviceSetSoundEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers public class A4xDeviceSetSettingViewController : A4xBaseSDK.A4xBaseViewController, UIKit.UITableViewDelegate, UIKit.UITableViewDataSource {
+  public var completeControllerName: Swift.String
+  public var deviceId: Swift.String?
+  @objc deinit
+  @objc override dynamic public func viewDidLoad()
+  @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForRowAt indexPath: Foundation.IndexPath) -> CoreGraphics.CGFloat
+  @objc public func tableView(_ tableView: UIKit.UITableView, numberOfRowsInSection section: Swift.Int) -> Swift.Int
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForHeaderInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc public func tableView(_ tableView: UIKit.UITableView, viewForFooterInSection section: Swift.Int) -> UIKit.UIView?
+  @objc public func tableView(_ tableView: UIKit.UITableView, viewForHeaderInSection section: Swift.Int) -> UIKit.UIView?
+  @objc public func tableView(_ tableView: UIKit.UITableView, heightForFooterInSection section: Swift.Int) -> CoreGraphics.CGFloat
+  @objc public func numberOfSections(in tableView: UIKit.UITableView) -> Swift.Int
+  @objc public func tableView(_ tableView: UIKit.UITableView, cellForRowAt indexPath: Foundation.IndexPath) -> UIKit.UITableViewCell
+  @objc public func tableView(_ tableView: UIKit.UITableView, willDisplay cell: UIKit.UITableViewCell, forRowAt indexPath: Foundation.IndexPath)
+  @objc public func tableView(_ tableView: UIKit.UITableView, didSelectRowAt indexPath: Foundation.IndexPath)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+}
+extension A4xDeviceSetSettingViewController : A4xBaseSDK.UserDevicesChangeProtocol {
+  public func userDevicesChange(status: A4xBaseSDK.ADDeviceChange)
+}
+extension UIColor {
+  public static func colorFromHex(hex: Swift.String, alpha: Swift.Float) -> UIKit.UIColor
+  public static func colorFromHex(hex: Swift.String) -> UIKit.UIColor
+  public static var deviceRandom: UIKit.UIColor {
+    get
+  }
+  public static var deviceTheme: UIKit.UIColor {
+    get
+    set(newValue)
+  }
+  public static func deviceHex(_ rgbValue: Swift.Int, alpha: Swift.Float = 1.0) -> UIKit.UIColor
+  public static func deviceRandomColor() -> UIKit.UIColor
+}
+public struct ADTimeZone : Swift.Codable {
+  public var identifier: Swift.String? {
+    get
+    set(value)
+  }
+  public var name: Swift.String?
+  public var offset: Swift.Int
+  public var firstChar: Swift.String?
+  public var short: Swift.String {
+    get
+  }
+  public init()
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class A4xDeviceSetSelectTimeViewModel {
+  public func reloadData()
+  public func timeZone(session: Swift.Int) -> [A4xDeviceSetSDK.ADTimeZone]?
+  public func sessionTitle(session: Swift.Int) -> Swift.String?
+  public func sessionNumber() -> Swift.Int
+  @objc deinit
+}
+open class A4xDeviceSetSwiftyGifManager {
+  public static var defaultManager: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifManager
+  open var haveCache: Swift.Bool
+  public init(memoryLimit: Swift.Int)
+  open func addImageView(_ imageView: UIKit.UIImageView) -> Swift.Bool
+  open func clear()
+  open func deleteImageView(_ imageView: UIKit.UIImageView)
+  open func containsImageView(_ imageView: UIKit.UIImageView) -> Swift.Bool
+  open func hasCache(_ imageView: UIKit.UIImageView) -> Swift.Bool
+  @objc deinit
+}
+extension DispatchQueue {
+  public class func deviceOnce(token: Swift.String, block: () -> ())
+  public func deviceAfter(_ delay: Foundation.TimeInterval, execute closure: @escaping () -> Swift.Void)
+}
+public enum A4xDeviceSetMotionTrackingEnum {
+  case motion_tracking
+  case allMove
+  case human
+  public enum ADMoveTrackModle : Swift.Int {
+    case allMove
+    case human
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotionTrackingEnum.ADMoveTrackModle]
+    public static func allCaseDes() -> [Swift.String]
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotionTrackingEnum.ADMoveTrackModle
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static func cases(moveTracking mvEnable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetMotionTrackingEnum]]
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetMotionTrackingEnum, b: A4xDeviceSetSDK.A4xDeviceSetMotionTrackingEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum A4xDeviceSetAlertType {
+  case alert(_: A4xDeviceSetSDK.A4xDeviceSetAlertAnimailType)
+  case sheet
+}
+public enum A4xDeviceSetAlertAnimailType {
+  case top
+  case bottom
+  case scale
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetAlertAnimailType, b: A4xDeviceSetSDK.A4xDeviceSetAlertAnimailType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct A4xDeviceSetAlertConfigs {
+  public var type: A4xDeviceSetSDK.A4xDeviceSetAlertType
+  public var initialSpringVelocity: Swift.Float {
+    get
+    set(value)
+  }
+  public var damping: Swift.Float {
+    get
+    set(value)
+  }
+  public var duration: Swift.Float
+  public var outBoundsHidden: Swift.Bool
+  public var backgroundAlpha: Swift.Float
+  public init()
+}
+public struct A4xDeviceSetCryDetectionModel {
+  public init(_ type: A4xDeviceSetSDK.ADDevicesCryDetectionEnum, _ title: Swift.String? = nil)
+}
+public enum ADDevicesCryDetectionEnum {
+  case cryDetectionSwitch
+  case cryDetectionLevel
+  public static func cases(isOpen: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetCryDetectionModel]]
+  public static func == (a: A4xDeviceSetSDK.ADDevicesCryDetectionEnum, b: A4xDeviceSetSDK.ADDevicesCryDetectionEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension Int {
+  public static func kRandom(min: Swift.Int = 0, max: Swift.Int = 1000) -> Swift.Int
+}
+public struct A4xDeviceSetVideoTimeModel : Swift.Codable, Swift.Equatable, Swift.Hashable {
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: A4xDeviceSetSDK.A4xDeviceSetVideoTimeModel, rhs: A4xDeviceSetSDK.A4xDeviceSetVideoTimeModel) -> Swift.Bool
+  public static func testData() -> [A4xDeviceSetSDK.A4xDeviceSetVideoTimeModel]
+  public func log() -> Swift.String
+  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+}
+extension UIView {
+  public func deviceMakeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: A4xDeviceSetSDK.ToastPosition = ToastPosition.center, title: Swift.String? = nil, image: UIKit.UIImage? = nil, style: A4xDeviceSetSDK.ToastStyle = ToastManager.shared.style, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public func deviceMakeToast(_ message: Swift.String?, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, title: Swift.String?, image: UIKit.UIImage?, style: A4xDeviceSetSDK.ToastStyle = ToastManager.shared.style, completion: ((Swift.Bool) -> Swift.Void)?)
+  public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, position: A4xDeviceSetSDK.ToastPosition = ToastManager.shared.position, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public func showToast(_ toast: UIKit.UIView, duration: Foundation.TimeInterval = ToastManager.shared.duration, point: CoreGraphics.CGPoint, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  public func hideToast()
+  public func hideToast(_ toast: UIKit.UIView)
+  public func hideAllToasts(includeActivity: Swift.Bool = false, clearQueue: Swift.Bool = true)
+  public func clearToastQueue()
+  public func deviceMakeToastActivity(_ position: A4xDeviceSetSDK.ToastPosition = .center, title: Swift.String, showColse: Swift.Bool = true, bgEnable: Swift.Bool = true, bgColor: UIKit.UIColor = UIColor(white: 0, alpha: 0.2), completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func deviceMakeToastActivity(_ point: CoreGraphics.CGPoint, showColse: Swift.Bool = true, bgEnable: Swift.Bool = false, bgColor: UIKit.UIColor = UIColor(white: 0, alpha: 0.3), completion: @escaping (Swift.Bool) -> Swift.Void)
+  public func deviceHideToastActivity(block: @escaping () -> Swift.Void = {})
+  public func deviceMakeToastActivity(_ toast: UIKit.UIView, point: CoreGraphics.CGPoint, showColse: Swift.Bool = false, closeActin: ObjectiveC.Selector? = nil, bgEnable: Swift.Bool = false, bgColor: UIKit.UIColor = UIColor(white: 0, alpha: 0.0))
+  public func toastViewForMessage(_ message: Swift.String?, title: Swift.String?, image: UIKit.UIImage?, style: A4xDeviceSetSDK.ToastStyle) throws -> UIKit.UIView
+}
+public struct ToastStyle {
+  public init()
+  public var backgroundColor: UIKit.UIColor
+  public var titleColor: UIKit.UIColor
+  public var messageColor: UIKit.UIColor
+  public var maxWidthPercentage: CoreGraphics.CGFloat {
+    get
+    set(value)
+  }
+  public var maxHeightPercentage: CoreGraphics.CGFloat {
+    get
+    set(value)
+  }
+  public var horizontalPadding: CoreGraphics.CGFloat
+  public var verticalPadding: CoreGraphics.CGFloat
+  public var cornerRadius: CoreGraphics.CGFloat
+  public var titleFont: UIKit.UIFont
+  public var messageFont: UIKit.UIFont
+  public var titleAlignment: UIKit.NSTextAlignment
+  public var messageAlignment: UIKit.NSTextAlignment
+  public var titleNumberOfLines: Swift.Int
+  public var messageNumberOfLines: Swift.Int
+  public var displayShadow: Swift.Bool
+  public var shadowColor: UIKit.UIColor
+  public var shadowOpacity: Swift.Float {
+    get
+    set(value)
+  }
+  public var shadowRadius: CoreGraphics.CGFloat
+  public var shadowOffset: CoreGraphics.CGSize
+  public var imageSize: CoreGraphics.CGSize
+  public var activitySize: CoreGraphics.CGSize
+  public var activityInset: UIKit.UIEdgeInsets
+  public var activityCloseSize: CoreGraphics.CGSize
+  public var fadeDuration: Swift.Double
+  public var activityIndicatorColor: UIKit.UIColor
+  public var activityBackgroundColor: UIKit.UIColor
+}
+@_hasMissingDesignatedInitializers public class ToastManager {
+  public static var shared: A4xDeviceSetSDK.ToastManager
+  public var style: A4xDeviceSetSDK.ToastStyle
+  public var isTapToDismissEnabled: Swift.Bool
+  public var isQueueEnabled: Swift.Bool
+  public var duration: Swift.Double
+  public var position: A4xDeviceSetSDK.ToastPosition
+  @objc deinit
+}
+public enum ToastPosition {
+  case top(offset: CoreGraphics.CGFloat)
+  case center
+  case bottom(offset: CoreGraphics.CGFloat)
+}
+extension Array {
+  public func deviceGetIndex(_ index: Swift.Array<Element>.Index) -> Element?
+}
+extension UIView {
+  public var deviceX: CoreGraphics.CGFloat {
+    get
+    set(newValue)
+  }
+  public var deviceY: CoreGraphics.CGFloat {
+    get
+    set(newValue)
+  }
+  public var deviceWidth: CoreGraphics.CGFloat {
+    get
+    set(newValue)
+  }
+  public var deviceHeight: CoreGraphics.CGFloat {
+    get
+    set(newValue)
+  }
+  public var deviceSize: CoreGraphics.CGSize {
+    get
+    set(newValue)
+  }
+  public var deviceOrigin: CoreGraphics.CGPoint {
+    get
+    set(newValue)
+  }
+  @objc dynamic public var deviceMinX: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc dynamic public var deviceMinY: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc dynamic public var deviceMidX: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc dynamic public var deviceMidY: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc dynamic public var deviceMaxX: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc dynamic public var deviceMaxY: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc dynamic public var deviceCornerRadius: CoreGraphics.CGFloat {
+    @objc get
+    @objc set(newValue)
+  }
+  public func deviceAddOnClickListener(target: Swift.AnyObject, action: ObjectiveC.Selector)
+  public func devicetakeScreenshot() -> UIKit.UIImage
+  public static var noDataTag: Swift.Int
+  public var deviceIsShareAdmin: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public func deviceShowNoDataView(value: A4xDeviceSetSDK.A4xDeviceSetNoDataValue, deviceIsShareAdmin: Swift.Bool) -> A4xDeviceSetSDK.A4xDeviceSetNoDataView?
+  public func updateAlertViewInfo()
+  public func deviceShowNoDataView(value: A4xDeviceSetSDK.A4xDeviceSetNoDataValue) -> A4xDeviceSetSDK.A4xDeviceSetNoDataView?
+  public func deviceHiddNoDataView()
+  public func deviceAdReloadData(error: Swift.String?, noDataTip: Swift.String?, noDataImage: UIKit.UIImage?, noDataType: A4xDeviceSetSDK.A4xDeviceSetNoDataType?, comple: @escaping () -> Swift.Void)
+}
+public typealias DeviceSwiftClosure = (Swift.AnyObject, Swift.AnyObject, Swift.Int) -> Swift.Void
+public typealias DeviceObjClosure = ((Swift.AnyObject) -> Swift.Void)
+public typealias DeviceViewClosure = ((UIKit.UITapGestureRecognizer?, UIKit.UIView, ObjectiveC.NSInteger) -> Swift.Void)
+public typealias DeviceControlClosure = (UIKit.UIControl) -> Swift.Void
+public typealias DeviceRecognizerClosure = (UIKit.UIGestureRecognizer) -> Swift.Void
+public typealias DeviceCellForRowClosure = ((UIKit.UITableView, Foundation.IndexPath) -> UIKit.UITableViewCell)
+public typealias DeviceDidSelectRowClosure = ((UIKit.UITableView, Foundation.IndexPath) -> Swift.Void)
+public struct DeviceRuntimeKey {
+  public static var tap: Swift.UnsafeRawPointer
+  public static var item: Swift.UnsafeRawPointer
+}
+public func DeviceRuntimeKeyFromParams(_ obj: ObjectiveC.NSObject!, funcAbount: Swift.String!) -> Swift.UnsafeRawPointer!
+public func DeviceRuntimeKeyFromString(_ obj: Swift.String) -> Swift.UnsafeRawPointer!
+public func DeviceRuntimeKeyFromSelector(_ aSelector: ObjectiveC.Selector) -> Swift.UnsafeRawPointer!
+extension NSObject {
+  public func jsonValue() -> Swift.String!
+}
+public enum A4xDeviceSetNoDataType {
+  case normal
+  case retry
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetNoDataType, b: A4xDeviceSetSDK.A4xDeviceSetNoDataType) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum A4xDeviceSetNoDataSpecial {
+  case none
+  case sd
+  case explore
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetNoDataSpecial, b: A4xDeviceSetSDK.A4xDeviceSetNoDataSpecial) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct A4xDeviceSetNoDataValue {
+  public init()
+  public static func error(error: Swift.String?, comple: @escaping () -> Swift.Void) -> A4xDeviceSetSDK.A4xDeviceSetNoDataValue
+  public static func noData(error: Swift.String?, image: UIKit.UIImage?, retry: Swift.Bool, retryTitle: Swift.String? = nil, noDataType: A4xDeviceSetSDK.A4xDeviceSetNoDataType?, specialState: A4xDeviceSetSDK.A4xDeviceSetNoDataSpecial?, comple: @escaping () -> Swift.Void) -> A4xDeviceSetSDK.A4xDeviceSetNoDataValue
+}
+@objc @_hasMissingDesignatedInitializers public class A4xDeviceSetNoDataView : UIKit.UIView {
+  public init(frame: CoreGraphics.CGRect = .zero, value: A4xDeviceSetSDK.A4xDeviceSetNoDataValue = A4xDeviceSetNoDataValue(), maxSize: Swift.Float = 189.auto(), isShreSD: Swift.Bool)
+  @objc override dynamic public func layoutSubviews()
+  @objc override dynamic public func point(inside point: CoreGraphics.CGPoint, with event: UIKit.UIEvent?) -> Swift.Bool
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc deinit
+}
+public struct A4xDeviceSetAssociatedKeys {
+}
+public protocol A4xDeviceSetAlertViewProtocol : AnyObject {
+  var identifier: Swift.String { get set }
+  var config: A4xDeviceSetSDK.A4xDeviceSetAlertConfigs { get set }
+  var onHiddenBlock: ((@escaping () -> Swift.Void) -> Swift.Void)? { get set }
+}
+extension A4xDeviceSetAlertViewProtocol {
+  public func show(isNext: Swift.Bool = false, updateBlock: (((UIKit.UIView & A4xDeviceSetSDK.A4xDeviceSetAlertViewProtocol)?) -> Swift.Void)? = nil)
+  public func hidden(comple: @escaping () -> Swift.Void)
+}
+extension UIViewController {
+  public func showAlert(view: (UIKit.UIView & A4xDeviceSetSDK.A4xDeviceSetAlertViewProtocol), isClearAll: Swift.Bool)
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class A4xDeviceSetAlertController : UIKit.UIViewController {
+  public static var alertC: A4xDeviceSetSDK.A4xDeviceSetAlertController?
+  public static func alert() -> A4xDeviceSetSDK.A4xDeviceSetAlertController?
+  @objc deinit
+  @objc override dynamic public func loadView()
+  public func clear()
+  public static func appendAlert(view: UIKit.UIView & A4xDeviceSetSDK.A4xDeviceSetAlertViewProtocol, isNext: Swift.Bool = false, updateBlock: (((UIKit.UIView & A4xDeviceSetSDK.A4xDeviceSetAlertViewProtocol)?) -> Swift.Void)?)
+}
+@_inheritsConvenienceInitializers public class A4xDeviceSetManagerViewController : A4xBaseSDK.A4xBaseViewController, UIKit.UIScrollViewDelegate {
+  @objc override dynamic public func viewDidLoad()
+  @objc public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  public func pushDeviceSetting(model: A4xBaseSDK.A4xDeviceModel?)
+  @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc deinit
+}
+extension A4xDeviceSetManagerViewController : A4xBaseSDK.UserDevicesChangeProtocol {
+  public func userDevicesChange(status: A4xBaseSDK.ADDeviceChange)
+}
+public enum A4xDeviceSetMotioninfoEnum {
+  case motion
+  case motion_d
+  case record
+  case record_d
+  case record_r
+  case alarm
+  case alarm_d
+  case recLamp
+  case alarm_light
+  case night
+  case night_d
+  case night_modle
+  case filcker
+  case filcker_rate
+  case install
+  case motion_tracking
+  case move_tracking
+  public enum ADMoveTrackModle : Swift.Int {
+    case allMove
+    case human
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADMoveTrackModle]
+    public static func allCaseDes() -> [Swift.String]
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADMoveTrackModle
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum ADNightLightModle : Swift.Int {
+    case red
+    case white
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightLightModle]
+    public static func allCaseDes() -> [Swift.String]
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightLightModle
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum ADMotionInfo : Swift.Int {
+    case high
+    case medium
+    case low
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADMotionInfo]
+    public static func allCaseDes() -> [Swift.String]
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADMotionInfo
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum ADNightInfo : Swift.CaseIterable {
+    case high
+    case medium
+    case low
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightInfo]
+    public static func allCaseDes() -> [Swift.String]
+    public func value() -> Swift.Int
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightInfo
+    public static func == (a: A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightInfo, b: A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightInfo) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public typealias AllCases = [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightInfo]
+    public static var allCases: [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADNightInfo] {
+      get
+    }
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public static func alertTimeList() -> [Swift.Int]
+  public enum ADRecordInfo {
+    case auto
+    case value(Swift.Int)
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADRecordInfo]
+    public static func allCaseDes() -> [Swift.String]
+    public func value() -> Swift.Int
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADRecordInfo
+  }
+  public enum ADFlickerRate : Swift.Int {
+    case rate_50hz
+    case rate_60hz
+    public func stringValue() -> Swift.String
+    public func value() -> Swift.Int
+    public static func value(of: Swift.Int) -> A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADFlickerRate
+    public static func allcase() -> [A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum.ADFlickerRate]
+    public static func allCaseDes() -> [Swift.String]
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static func cases(motionEnable mEnable: Swift.Bool, recordEnable rEnable: Swift.Bool, cameraEnable cEnable: Swift.Bool, moveTracking mvEnable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum]]
+  public static func nightCase(nightEnable enable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum]]
+  public static func flickerCase(flickerEnable enable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum]]
+  public static func lightCase(nightEnable enable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum]]
+  public static func advanceCase(flickerEnable enable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum]]
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum, b: A4xDeviceSetSDK.A4xDeviceSetMotioninfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public var kDeviceSetDate_minute: Swift.Double
+public var kDeviceSetDate_hour: Swift.Double
+public var kDeviceSetDate_day: Swift.Double
+public var kDeviceSetDate_week: Swift.Double
+public var kDeviceSetDate_year: Swift.Double
+public var kDeviceSetDateFormat: Swift.String
+public var kDeviceSetDateFormat_one: Swift.String
+public var kDeviceSetDateFormat_two: Swift.String
+public var kDeviceSetDateFormat_year_month: Swift.String
+public var kDeviceSetDateFormat_three: Swift.String
+public var kDeviceSetDateFormat_12: Swift.String
+public var kDeviceSetDateFormat_24: Swift.String
+public var kDeviceSetDateFormat_month_DES: Swift.String
+public var kDeviceSetDateFormat_month: Swift.String
+extension DateFormatter {
+  public static var kDeviceDatalocal: Foundation.Locale
+  public static func deviceFormat(_ formatStr: Swift.String) -> Foundation.DateFormatter
+  public static func deviceFormat(_ date: Foundation.Date, fmt: Swift.String) -> Swift.String
+  public static func deviceFormat(dateStr: Swift.String, fmt: Swift.String) -> Foundation.Date?
+  public static func deviceFormat(_ interval: Foundation.TimeInterval, fmt: Swift.String) -> Swift.String?
+  public static func format(_ interval: Swift.String, fmt: Swift.String) -> Swift.String?
+}
+extension Date {
+  public func deviceGetTimes() -> [Swift.String]
+}
+extension UITextField {
+  public var deviceOffDoubleByteInput: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public var deviceCanEmoji: Swift.Bool {
+    get
+    set(newValue)
+  }
+  public func deviceSetMaxTextsCount(maxChar: Swift.Int)
+}
+public struct A4xDeviceSetSleepPlanModel {
+  public init(_ type: A4xDeviceSetSDK.ADDevicesSleepPlanEnum, _ title: Swift.String? = nil)
+}
+public enum ADDevicesSleepPlanEnum {
+  case sleepPlanOpen
+  case sleepPlan
+  case setPlan
+  public static func cases(setPlanEnable: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.A4xDeviceSetSleepPlanModel]]
+  public static func == (a: A4xDeviceSetSDK.ADDevicesSleepPlanEnum, b: A4xDeviceSetSDK.ADDevicesSleepPlanEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct ADDevicesSetSleepPlanModel {
+  public init(_ type: A4xDeviceSetSDK.A4xDeviceSetSleepPlanEnum, _ title: Swift.String? = nil)
+}
+public enum A4xDeviceSetSleepPlanEnum {
+  case editPlan
+  case showPlan
+  public static func cases(showPlan: Swift.Bool, deviceModle: A4xBaseSDK.A4xDeviceModel?) -> [[A4xDeviceSetSDK.ADDevicesSetSleepPlanModel]]
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetSleepPlanEnum, b: A4xDeviceSetSDK.A4xDeviceSetSleepPlanEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum A4xDeviceSetAlertBottomAligment {
+  case horizontal
+  case vertical
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetAlertBottomAligment, b: A4xDeviceSetSDK.A4xDeviceSetAlertBottomAligment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct A4xDeviceSetAlertAnimailConfig {
+  public var bottomAlignment: A4xDeviceSetSDK.A4xDeviceSetAlertBottomAligment
+  public var padding: Swift.Float
+  public var innerPadding: Swift.Float
+  public var cornerRadius: Swift.Float
+  public var buttonHeight: Swift.Float
+  public var buttonSectionExtraGap: Swift.Float
+  public var topSectionExtraGap: Swift.Float
+  public var alertWidth: Swift.Float
+  public var messageLinespace: Swift.Int
+  public var messageAlignment: UIKit.NSTextAlignment
+  public var titleAlignment: UIKit.NSTextAlignment
+  public var messageImg: UIKit.UIImage?
+  public var alertTitleFont: UIKit.UIFont
+  public var messageFont: UIKit.UIFont
+  public var buttonFont: UIKit.UIFont
+  public var rightbtnBgColor: UIKit.UIColor
+  public var leftbtnBgColor: UIKit.UIColor
+  public var titleColor: UIKit.UIColor
+  public var messageColor: UIKit.UIColor
+  public var leftTitleColor: UIKit.UIColor
+  public var rightTextColor: UIKit.UIColor
+  public var textFieldBackgroundColor: UIKit.UIColor
+  public var buttonBorderColor: UIKit.UIColor
+  public init()
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class A4xDeviceSetMotionTrackingCell : UIKit.UITableViewCell {
+  @objc override dynamic public func setSelected(_ selected: Swift.Bool, animated: Swift.Bool)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class ADDevicesMoveTrackingCell : UIKit.UITableViewCell {
+  public var moveTypeCheckBtn: A4xDeviceSetSDK.A4xDeviceSetCheckBoxButton {
+    get
+    set(value)
+  }
+  @objc deinit
+}
+extension Bundle {
+  public static func deviceBundleImageFromImageName(imageName: Swift.String) -> UIKit.UIImage?
+}
+public struct ADDeviceBaseInfoItem {
+  public var type: A4xDeviceSetSDK.A4xDeviceSetInfoEnum
+  public var title: Swift.String?
+  public var value: Swift.String?
+  public var showArrow: Swift.Bool
+  public var showUpdate: Swift.Bool
+  public init(_ type: A4xDeviceSetSDK.A4xDeviceSetInfoEnum, title: Swift.String? = nil, value: Swift.String? = nil, showArrow: Swift.Bool = false, showUpdate: Swift.Bool = false)
+}
+public enum A4xDeviceSetInfoEnum {
+  case name
+  case location
+  case batter
+  case networkName
+  case wifiLevel
+  case timeZone
+  case moreInfo
+  case recLamp
+  case version
+  case buildInfo
+  case deviceUpdate
+  case language
+  case sound
+  case sderror
+  case sdno
+  case sdMemberUse
+  case sdClear
+  case modelNo
+  case serialNo
+  case macAddress
+  case mcu
+  case channel
+  case ip
+  case otaVersion
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.A4xDeviceSetInfoEnum, b: A4xDeviceSetSDK.A4xDeviceSetInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDeviceDetailInfoSetInfoEnum {
+  case name
+  case location
+  case batter
+  case networkName
+  case wifiLevel
+  case timeZone
+  case moreInfo
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.ADDeviceDetailInfoSetInfoEnum, b: A4xDeviceSetSDK.ADDeviceDetailInfoSetInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDeviceMoreInfoSetInfoEnum {
+  case modelNo
+  case buildInfo
+  case serialNo
+  case macAddress
+  case mcu
+  case channel
+  case ip
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.ADDeviceMoreInfoSetInfoEnum, b: A4xDeviceSetSDK.ADDeviceMoreInfoSetInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDeviceFirmwareInfoSetInfoEnum {
+  case version
+  case deviceUpdate
+  case otaVersion
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.ADDeviceFirmwareInfoSetInfoEnum, b: A4xDeviceSetSDK.ADDeviceFirmwareInfoSetInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDeviceSDInfoSetInfoEnum {
+  case sderror
+  case sdno
+  case sdMemberUse
+  case sdClear
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.ADDeviceSDInfoSetInfoEnum, b: A4xDeviceSetSDK.ADDeviceSDInfoSetInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDeviceLightInfoSetInfoEnum {
+  case recLamp
+  case alarm_light
+  case night
+  case night_modle
+  case night_d
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.ADDeviceLightInfoSetInfoEnum, b: A4xDeviceSetSDK.ADDeviceLightInfoSetInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ADDeviceAdvancedInfoEnum {
+  case name
+  case batter
+  case wifiLevel
+  case recLamp
+  case networkName
+  case timeZone
+  case location
+  case version
+  case buildInfo
+  case deviceUpdate
+  case language
+  case sound
+  case sderror
+  case sdno
+  case sdMemberUse
+  case sdClear
+  case modelNo
+  case serialNo
+  case macAddress
+  case mcu
+  case channel
+  case ip
+  case otaVersion
+  public static func allSessions(deviceModle: A4xBaseSDK.A4xDeviceModel) -> [[A4xDeviceSetSDK.ADDeviceBaseInfoItem]]
+  public static func == (a: A4xDeviceSetSDK.ADDeviceAdvancedInfoEnum, b: A4xDeviceSetSDK.ADDeviceAdvancedInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct A4xDeviceSetInviteInfoModel {
+  public init(_ type: A4xDeviceSetSDK.ADDevicesInviteInfoEnum, _ title: Swift.String? = nil)
+}
+public enum ADDevicesInviteInfoEnum {
+  case qrcodeShow
+  case qrcodeGuide
+  public static func cases() -> [[A4xDeviceSetSDK.A4xDeviceSetInviteInfoModel]]
+  public static func == (a: A4xDeviceSetSDK.ADDevicesInviteInfoEnum, b: A4xDeviceSetSDK.ADDevicesInviteInfoEnum) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public var defaultLevelOfIntegrity: Swift.Float
+extension UIImage {
+  public convenience init(gifData: Foundation.Data, levelOfIntegrity: Swift.Float = defaultLevelOfIntegrity)
+  public convenience init(gifName: Swift.String, levelOfIntegrity: Swift.Float = defaultLevelOfIntegrity)
+  public func setGifFromData(_ data: Foundation.Data, levelOfIntegrity: Swift.Float)
+  public func setGif(_ name: Swift.String)
+  public func framesCount() -> Swift.Int
+  public func setGif(_ name: Swift.String, levelOfIntegrity: Swift.Float)
+  public func clear()
+  public var imageSource: ImageIO.CGImageSource? {
+    get
+    set(newValue)
+  }
+  public var displayRefreshFactor: Swift.Int? {
+    get
+    set(newValue)
+  }
+  public var imageSize: Swift.Int? {
+    get
+    set(newValue)
+  }
+  public var imageCount: Swift.Int? {
+    get
+    set(newValue)
+  }
+  public var displayOrder: [Swift.Int]? {
+    get
+    set(newValue)
+  }
+  public var imageData: Foundation.Data? {
+    get
+    set(newValue)
+  }
+}
+public enum A4xDeviceSetNotificationSettingEnum : Swift.String {
+  case person
+  case cat
+  case car
+  case package
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc public protocol A4xDeviceSetSwiftyGifDelegate {
+  @objc optional func gifDidStart(sender: UIKit.UIImageView)
+  @objc optional func gifDidLoop(sender: UIKit.UIImageView)
+  @objc optional func gifDidStop(sender: UIKit.UIImageView)
+  @objc optional func gifURLDidFinish(sender: UIKit.UIImageView)
+  @objc optional func gifURLDidFail(sender: UIKit.UIImageView)
+}
+extension UIImageView {
+  public convenience init(gifImage: UIKit.UIImage, manager: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifManager = A4xDeviceSetSwiftyGifManager.defaultManager, loopCount: Swift.Int = -1)
+  public convenience init(gifURL: Foundation.URL?, manager: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifManager = A4xDeviceSetSwiftyGifManager.defaultManager, loopCount: Swift.Int = -1)
+  public func setGifImage(_ gifImage: UIKit.UIImage, manager: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifManager = A4xDeviceSetSwiftyGifManager.defaultManager, loopCount: Swift.Int = -1)
+  public func setGifFromURL(_ url: Foundation.URL?, manager: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifManager = A4xDeviceSetSwiftyGifManager.defaultManager, loopCount: Swift.Int = -1, showLoader: Swift.Bool = true)
+  public func startAnimatingGif()
+  public func stopAnimatingGif()
+  public func isAnimatingGif() -> Swift.Bool
+  public func showFrameForIndexDelta(_ delta: Swift.Int)
+  public func showFrameAtIndex(_ index: Swift.Int)
+  public func updateCache()
+  public func updateCurrentImage()
+  public func currentFrameIndex() -> Swift.Int
+  public func frameAtIndex(index: Swift.Int) -> UIKit.UIImage
+  public func isDiscarded(_ imageView: UIKit.UIView?) -> Swift.Bool
+  public func isDisplayedInScreen(_ imageView: UIKit.UIView?) -> Swift.Bool
+  public func clear()
+  public var gifImage: UIKit.UIImage? {
+    get
+    set(newValue)
+  }
+  public var currentImage: UIKit.UIImage? {
+    get
+    set(newValue)
+  }
+  public var loopCount: Swift.Int {
+    get
+    set(newValue)
+  }
+  public var animationManager: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifManager? {
+    get
+    set(newValue)
+  }
+  public var delegate: A4xDeviceSetSDK.A4xDeviceSetSwiftyGifDelegate? {
+    get
+    set(newValue)
+  }
+  public var displaying: Swift.Bool {
+    get
+    set(newValue)
+  }
+}
+extension UIImage {
+  public static func initImage(color: UIKit.UIColor, size: CoreGraphics.CGSize = CGSize(width: 1, height: 1)) -> UIKit.UIImage
+  public static var buttonNormallImage: UIKit.UIImage {
+    get
+  }
+  public static var buttonPressImage: UIKit.UIImage {
+    get
+  }
+}
+public enum A4xDeviceSetActionSheetType {
+  case cancle(_: Swift.String?, _: (() -> Swift.Void)?)
+  case done(_: Swift.String?, _: ((Swift.Int) -> Swift.Void)?)
+  case close(_: (() -> Swift.Void)?)
+  case dataSouce(_: [Swift.String], _: Swift.Int)
+  case title(_: Swift.String?)
+  case ok(_: Swift.String?, _: (((Swift.Int, Swift.Int)) -> Swift.Void)?)
+  case dataTimeSouce(_: ([Swift.String], [Swift.String]), _: (Swift.Int, Swift.Int))
+}
+public struct A4xDeviceSetActionsheetConfig {
+  public var cornerRadius: CoreGraphics.CGFloat
+  public var buttonHeight: CoreGraphics.CGFloat
+  public var buttonWidth: CoreGraphics.CGFloat
+  public var backgroundAlpha: CoreGraphics.CGFloat
+  public var sheetHeight: CoreGraphics.CGFloat
+  public var duration: CoreGraphics.CGFloat
+  public var rowHeight: CoreGraphics.CGFloat
+  public var initialSpringVelocity: CoreGraphics.CGFloat
+  public var damping: CoreGraphics.CGFloat
+  public var buttonFont: UIKit.UIFont
+  public var rowTextFont: UIKit.UIFont
+  public var cancelTextColor: UIKit.UIColor
+  public var doneTitleColor: UIKit.UIColor
+  public var rowTextColor: UIKit.UIColor
+  public init()
+}

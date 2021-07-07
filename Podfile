@@ -33,6 +33,7 @@ target 'A4xDevice_Demo' do
   pod 'A4xBaseExtensionKit', :path => 'A4xBaseExtensionKit'
   pod 'A4xYogaKit', :path => 'A4xYogaKit'
   pod 'ZKDownload', :path => 'ZKDownload'
+  pod 'SCPageControl', :path => 'SCPageControl'
   
 
 end
