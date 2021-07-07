@@ -105,18 +105,14 @@ class MainViewController: UIViewController {
     }
     
     func initA4xBaseSDK_Demo() {
-        
-        //{"countryNo":"CN","email":"12345djfsk@163.com","language":"zh","phone":"13812345678","tenantId":"netvue","userId":"zyj_test_1624962274"}
-        //{"code":0,"message":"Success","data":{"token":"Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0aGlyZFVzZXJJZCI6Inp5al90ZXN0XzE2MjQ5NjIyNzQiLCJhY2NvdW50SWQiOiJ0ZXN0QWNjb3VudF8xODYxMyIsInNlZWQiOiJmYjhhYTEyZDI3OTg0YTFkOWE1YzM5Mzg2MGNkN2FkZiIsImV4cCI6MjYyNDk2MjI3NCwidXNlcklkIjo4NjR9.qPsQkNQg0bxq6wOKffyt1YKRAM1FhMYSE7v227njitNXCU5RwnmKNSIxk140csi_zqOAUkFHML8TQ8i3ggj-IA"}}
-        
         let a4xBaseConfig = A4xBaseConfig()
-        a4xBaseConfig.appToken = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0aGlyZFVzZXJJZCI6Inp5al90ZXN0XzE2MjQ5NjIyNzQiLCJhY2NvdW50SWQiOiJ0ZXN0QWNjb3VudF8xODYxMyIsInNlZWQiOiJmYjhhYTEyZDI3OTg0YTFkOWE1YzM5Mzg2MGNkN2FkZiIsImV4cCI6MjYyNDk2MjI3NCwidXNlcklkIjo4NjR9.qPsQkNQg0bxq6wOKffyt1YKRAM1FhMYSE7v227njitNXCU5RwnmKNSIxk140csi_zqOAUkFHML8TQ8i3ggj-IA"
+        a4xBaseConfig.appToken = "Bearer eyJhbGciOiJIUzUxMiJ9.eyJ0aGlyZFVzZXJJZCI6Inp5al90ZXN0XzE2MjU2MzY0NTMiLCJhY2NvdW50SWQiOiJ0ZXN0QWNjb3VudF8xODYxMyIsInNlZWQiOiJlNjY5YTRmNzFmMzA0NGQ4ODQ1MzM0ZDc5MmNjZGUwMyIsImV4cCI6MjYyNTYzNjQ1MywidXNlcklkIjo4NzB9.8_qmDXUhf0jqKSv_HbYk34ACjTVMUU16Lx68mbQJGub_cKyZ59g1BPBy2U_lqyxq2K8_O6M4fxclE-xNAX2sHA"
         a4xBaseConfig.countryNo = "CN"
         a4xBaseConfig.tenantId = "netvue"
         a4xBaseConfig.netEnvironment = .DEV
         a4xBaseConfig.enableDebug = true
         a4xBaseConfig.language = "zh"
-        a4xBaseConfig.userId = "zyj_test_1624962274"
+        a4xBaseConfig.userId = "zyj_test_1625636453"
 
         A4xBaseManager.shared.startWithConfig(config: a4xBaseConfig, comple: { (code, msg) in
             debugPrint("---------> code: \(code) msg: \(msg)")
