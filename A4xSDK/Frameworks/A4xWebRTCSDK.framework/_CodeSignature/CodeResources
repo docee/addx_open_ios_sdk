@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		l/clRX6WLq1qNj2Hsvlihy6GLF8=
+		inAVLNUIzw4dQ77f4fFS+B8AYCI=
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		l/clRX6WLq1qNj2Hsvlihy6GLF8=
+		inAVLNUIzw4dQ77f4fFS+B8AYCI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -125,11 +125,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l/clRX6WLq1qNj2Hsvlihy6GLF8=
+			inAVLNUIzw4dQ77f4fFS+B8AYCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ilzz+BMo/Ef66kysKZ8GjytBEqABLWgRiX+uiR/Zaw=
+			pUn6A2iz4n3mpkAFDZIFKr3lb1Fho551rmKQaJOg6Uw=
 			</data>
 		</dict>
 		<key>Modules/A4xWebRTCSDK.swiftmodule/arm64.swiftdoc</key>
@@ -158,11 +158,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			l/clRX6WLq1qNj2Hsvlihy6GLF8=
+			inAVLNUIzw4dQ77f4fFS+B8AYCI=
 			</data>
 			<key>hash2</key>
 			<data>
-			4ilzz+BMo/Ef66kysKZ8GjytBEqABLWgRiX+uiR/Zaw=
+			pUn6A2iz4n3mpkAFDZIFKr3lb1Fho551rmKQaJOg6Uw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
