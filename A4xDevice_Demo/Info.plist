@@ -20,22 +20,22 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-    <key>NSAppTransportSecurity</key>
-    <dict>
-        <key>NSAllowsArbitraryLoads</key>
-        <true/>
-    </dict>
-    <key>NSCameraUsageDescription</key>
-    <string>If not permitted, you will not be able to scan QR code.</string>
-    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-    <string>If not permitted, you will not be able to get location automatically from your phone.</string>
-    <key>NSLocationWhenInUseUsageDescription</key>
-    <string>If not permitted, you will not be able to get location automatically from your phone.</string>
-    <key>NSMicrophoneUsageDescription</key>
-    <string>If not permitted, you will not be able to use Vicoo to make audio calls.
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>If not permitted, you will not be able to scan QR code.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>If not permitted, you will not be able to get location automatically from your phone.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>If not permitted, you will not be able to get location automatically from your phone.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>If not permitted, you will not be able to use Vicoo to make audio calls.
 </string>
-    <key>NSPhotoLibraryUsageDescription</key>
-    <string>If not permitted, you will not be able to save photos and videos to your phone.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>If not permitted, you will not be able to save photos and videos to your phone.</string>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
 	<key>UILaunchStoryboardName</key>

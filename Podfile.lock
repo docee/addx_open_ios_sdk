@@ -150,7 +150,7 @@ DEPENDENCIES:
   - ZKDownload (from `ZKDownload`)
 
 SPEC REPOS:
-  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+  https://github.com/CocoaPods/Specs:
     - Alamofire
     - AutoInch
     - Countly
@@ -243,6 +243,6 @@ SPEC CHECKSUMS:
   ZendeskSupportSDK: e100a7a0a1bb5d7d43abbde3338727d985a4986d
   ZKDownload: 09417c72fb3f7674216da6868281645c24f26e91
 
-PODFILE CHECKSUM: f2751cad9d864b4c8edd4ca8c68581465856c635
+PODFILE CHECKSUM: bef5e51c53c47e33af669364b21f5fe97bfcfa02
 
 COCOAPODS: 1.10.1
